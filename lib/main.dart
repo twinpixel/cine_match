@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
 import 'package:cine_match/firebase_options.dart';
-import 'package:flutter_stable_diffusion/flutter_stable_diffusion.dart';
 import 'package:image/image.dart' as img;
 import 'package:cached_network_image/cached_network_image.dart'; // Importa il package
 import 'package:flutter/foundation.dart';
@@ -14,13 +13,10 @@ import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart'; // Import path_provider
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:universal_html/html.dart' as html;
-import 'package:universal_html/js_util.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_vertexai/firebase_vertexai.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 
-import 'package:flutter_markdown/flutter_markdown.dart';
 
 var critico = '01';
 var model;
@@ -44,7 +40,7 @@ Future<void> initFirebase() async {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -89,7 +85,7 @@ class MyApp extends StatelessWidget {
 }
 
 class ImageSelectionScreen extends StatefulWidget {
-  const ImageSelectionScreen({Key? key}) : super(key: key);
+  const ImageSelectionScreen({super.key});
 
   @override
   State<ImageSelectionScreen> createState() => _ImageSelectionScreenState();
@@ -296,7 +292,7 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
 
 class QuizPage extends StatefulWidget {
   final String selectedImage; // Ora contiene solo '01', '02'...
-  const QuizPage({Key? key, required this.selectedImage}) : super(key: key);
+  const QuizPage({super.key, required this.selectedImage});
 
   @override
   State createState() => _QuizPageState();
@@ -535,7 +531,7 @@ class _QuizPageState extends State<QuizPage> {
 
   Future<List<dynamic>> askGemini(String prompt) async {
     try {
-      final promptG = [Content.text('$prompt')];
+      final promptG = [Content.text(prompt)];
       final responseAI = await model.generateContent(promptG);
       final List<dynamic> movieList =
           processResponseText(responseAI.text.toString());
@@ -1090,8 +1086,7 @@ class MovieListPage extends StatelessWidget {
   final String selectedImage;
 
   const MovieListPage(
-      {Key? key, required this.movies, required this.selectedImage})
-      : super(key: key);
+      {super.key, required this.movies, required this.selectedImage});
 
   @override
   Widget build(BuildContext context) {
@@ -1664,8 +1659,9 @@ Future<Widget?> loadCheap(String movieTitle, String posterPrompt) async {
 
 Future<Widget> generateImage(
     String movieTitle, String posterPrompt, String genre) async {
-  if (_failedImageTitles.contains(movieTitle))
+  if (_failedImageTitles.contains(movieTitle)) {
     return placeHolderImage(movieTitle, genre);
+  }
   try {
     final cachedImage = await loadFromCache(movieTitle);
     if (cachedImage != null) {
@@ -1692,7 +1688,7 @@ Image placeHolderImage(String movieTitle, [String? genre]) {
       fit: BoxFit.cover,
     );
   } else {
-    return Image.asset('assets/genres/genre.png', fit: BoxFit.cover);
+    return Image.asset('assets/genres/genre.jpg', fit: BoxFit.cover);
   }
 }
 
