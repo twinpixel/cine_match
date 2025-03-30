@@ -2,6 +2,8 @@
 
 CineMatch is a Flutter application that leverages the power of Artificial Intelligence to recommend movies tailored to your individual tastes. This app utilizes extensive interaction with Large Language Models (LLMs) to understand your preferences and suggest films you'll love.
 
+**⚠️ Disclaimer: This software was created for experimental purposes only and should not be considered an example of best practices in software development.**
+
 This project was developed with significant assistance from LLMs, demonstrating the potential of AI in code generation and application development. The author has a foundational understanding of Flutter and Dart.
 
 **You can try a live demo of the application here: [https://twinpixel.github.io/cinematch/](https://twinpixel.github.io/cinematch/)**
