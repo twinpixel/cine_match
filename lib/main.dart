@@ -1577,9 +1577,9 @@ class _CachedImageLoader extends StatelessWidget {
   }
 }
 
-Future<String> _getWikipediaImageUrl(String wikipediaUrl) async {
+Future<String> _getWikipediaImageUrl(String? wikipediaUrl) async {
   try {
-    final response = await http.get(Uri.parse(wikipediaUrl));
+    final response = await http.get(Uri.parse(wikipediaUrl!));
     if (response.statusCode == 200) {
       dom.Document document = html_parser.parse(response.body);
       dom.Element? imageElement = document.querySelector('.infobox img');
@@ -1604,7 +1604,7 @@ Future<String> _getMoviePosterUrl(String? wikipediaUrl) async {
   try {
     // Fallback a Wikipedia
     if (wikipediaUrl != null && wikipediaUrl.isNotEmpty && !(kIsWeb)) {
-      final wikipediaImage = await _getWikipediaImageUrl(wikipediaUrl);
+      final String wikipediaImage = await _getWikipediaImageUrl(wikipediaUrl);
       if (wikipediaImage.isNotEmpty) {
         return wikipediaImage;
       }
@@ -1724,8 +1724,9 @@ Widget buildPosterWeb(int index, dynamic movie) {
         } else {
           // L'immagine non esiste negli assets, procedi con il tentativo di scraping
           return FutureBuilder<Widget>(
-            future: _getMoviePosterUrl(wikipediaUrl).then((imageUrl) {
+            future: _getWikipediaImageUrl(wikipediaUrl).then((imageUrl) {
               if (imageUrl.isNotEmpty) {
+                print('Loading $imageUrl');
                 return _CachedImageLoader(
                   imageUrl: imageUrl,
                   placeholderIndex: index,
