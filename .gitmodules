@@ -1,0 +1,3 @@
+[submodule "build/web"]
+	path = build/web
+	url = https://github.com/twinpixel/cinematch
