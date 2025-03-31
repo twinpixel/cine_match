@@ -317,6 +317,7 @@ class _QuizPageState extends State<QuizPage> {
   static Future<void> loadReceivedTitles() async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
     _receivedTitles = prefs.getStringList('receivedTitles') ?? [];
+    print('Loaded from cache: $_receivedTitles');
   }
 
   static Future<void> saveReceivedTitles() async {
@@ -342,7 +343,7 @@ class _QuizPageState extends State<QuizPage> {
       final List<dynamic> questionsJson = personaData['questions'] ?? [];
 
       // Debug: stampa il numero di domande caricate
-      print('Caricate ${questionsJson.length} domande dal JSON del persona');
+      //print('Caricate ${questionsJson.length} domande dal JSON del persona');
 
       final List<Question> allQuestions = questionsJson
           .map((json) => Question.fromJson(json as Map<String, dynamic>))
@@ -350,10 +351,10 @@ class _QuizPageState extends State<QuizPage> {
 
       setState(() {
         _questions = _getRandomQuestions(allQuestions, 5);
-        print('Selezionate ${_questions.length} domande casuali');
+        //print('Selezionate ${_questions.length} domande casuali');
       });
     } catch (error) {
-      print('ERRORE CRITICO: $error');
+      print('Errore CRITICO: $error');
       setState(() {
         _questions = _createFallbackQuestions();
       });
@@ -406,22 +407,22 @@ class _QuizPageState extends State<QuizPage> {
       final String role = await _buildRecommendationRole();
       List<dynamic> movieList = [];
       if (movieList.isEmpty || movieList.length < 4) {
-        print('Asking gemini:...');
+        //print('Asking gemini:...');
         List<dynamic> movieList2 = await askGemini(role + prompt);
         movieList.addAll(movieList2);
       }
 
       if (movieList.isEmpty || movieList.length < 4) {
-        print('Asking mistral:...');
+        //print('Asking mistral:...');
         List<dynamic> movieList2 = await askMistral(role, prompt);
         movieList.addAll(movieList2);
       }
       if (movieList.isEmpty || movieList.length < 4) {
-        print('Asking pollination:...');
+        //print('Asking pollination:...');
         List<dynamic> movieList2 = await askPollination(role, prompt);
         movieList.addAll(movieList2);
       }
-      print('$movieList');
+      //print('$movieList');
 
       _navigateToMovieList(context, movieList);
     } catch (e) {
@@ -501,7 +502,7 @@ class _QuizPageState extends State<QuizPage> {
         final responseJson = jsonDecode(response.body);
         final content =
             responseJson['choices'][0]['message']['content'] as String;
-        print('content: $content');
+        //print('content: $content');
         final cleanedContent = content
             .replaceAll('```json', '')
             .replaceAll('```', '')
@@ -680,7 +681,7 @@ class _QuizPageState extends State<QuizPage> {
 
     final res =
         "\n$summary\n$jsonDesc\n$postContent$exampleContent\n\n$special";
-    print('Prompt:\n $res');
+    //print('Prompt:\n $res');
     return res;
   }
 
@@ -749,7 +750,7 @@ class _QuizPageState extends State<QuizPage> {
     }
     _QuizPageState.saveReceivedTitles(); // Salva dopo l'aggiornamento
 
-    print('Titoli memorizzati: $_receivedTitles'); // Debug
+    //print('Titoli memorizzati: $_receivedTitles'); // Debug
 
     return movieList;
   }
@@ -1645,7 +1646,7 @@ Future<Widget?> loadCheap(String movieTitle, String posterPrompt) async {
     ).timeout(const Duration(seconds: 5));
 
     if (response.statusCode == 200 && response.bodyBytes.isNotEmpty) {
-      print('LoadCheap per $movieTitle');
+      //print('LoadCheap per $movieTitle');
       final bytes = response.bodyBytes;
       await saveImageToCache(movieTitle, bytes);
       return Image.memory(bytes, fit: BoxFit.cover);
@@ -1665,18 +1666,18 @@ Future<Widget> generateImage(
   try {
     final cachedImage = await loadFromCache(movieTitle);
     if (cachedImage != null) {
-      print('Immagine ottenuta dalla cache per: $movieTitle');
+      //print('Immagine ottenuta dalla cache per: $movieTitle');
       return cachedImage;
     }
     final cheapImage = await loadCheap(movieTitle, posterPrompt);
     if (cheapImage != null) {
-      print('Immagine ottenuta tramite loadCheap per: $movieTitle');
+      //print('Immagine ottenuta tramite loadCheap per: $movieTitle');
       return cheapImage;
     }
     return placeHolderImage(movieTitle, genre);
   } catch (e) {
     _failedImageTitles.add(movieTitle);
-    print('Exception generando immagine per: $movieTitle - $e');
+    //print('Exception generando immagine per: $movieTitle - $e');
     return placeHolderImage(movieTitle, genre);
   }
 }
@@ -1712,7 +1713,7 @@ Widget buildPosterWeb(int index, dynamic movie) {
     builder: (context, snapshot) {
       if (snapshot.connectionState == ConnectionState.done) {
         if (snapshot.data == true) {
-          print('Found in assets : $movieTitle - $imagePath');
+          //print('Found in assets : $movieTitle - $imagePath');
           // L'immagine esiste negli assets, usala
           return Image.asset(
             imagePath,
@@ -1726,7 +1727,7 @@ Widget buildPosterWeb(int index, dynamic movie) {
           return FutureBuilder<Widget>(
             future: _getWikipediaImageUrl(wikipediaUrl).then((imageUrl) {
               if (imageUrl.isNotEmpty) {
-                print('Loading $imageUrl');
+                //print('Loading $imageUrl');
                 return _CachedImageLoader(
                   imageUrl: imageUrl,
                   placeholderIndex: index,
@@ -1818,7 +1819,7 @@ Future<bool> saveImageToCacheMobile(
         '${movieTitle.replaceAll(RegExp(r'[^a-zA-Z0-9]'), '_')}.png';
     final file = File('$cacheDir/$filename');
     await file.writeAsBytes(imageBytes);
-    print('Immagine salvata in cache mobile per: $movieTitle');
+    //print('Immagine salvata in cache mobile per: $movieTitle');
     return true;
   } catch (e) {
     print('Errore salvataggio mobile: $e');
@@ -1848,7 +1849,7 @@ Future<Widget?> loadFromCache(String movieTitle) async {
   try {
     // Check in-memory cache first
     if (_inMemoryCache.containsKey(movieTitle)) {
-      print('Restituisco immagine dalla cache in memoria per: $movieTitle');
+      //print('Restituisco immagine dalla cache in memoria per: $movieTitle');
       return Image.memory(_inMemoryCache[movieTitle]!, fit: BoxFit.cover);
     }
 
@@ -1880,7 +1881,7 @@ Future<bool> saveImageToCacheWeb(
     // 2. Controllo dimensione singola immagine
     if (compressedBytes.lengthInBytes > 5 * 1024 * 1024) {
       // 5MB
-      print('Immagine troppo grande, salto il caching');
+      //print('Immagine troppo grande, salto il caching');
       return false;
     }
 
@@ -1896,7 +1897,7 @@ Future<bool> saveImageToCacheWeb(
     };
 
     html.window.localStorage[cacheKey] = jsonEncode(cacheData);
-    print('Salvato in cache: $cacheKey');
+    //print('Salvato in cache: $cacheKey');
     return true;
   } catch (e) {
     print('Errore salvataggio web: $e');
@@ -1952,7 +1953,7 @@ Future<void> _cleanWebCache() async {
       final oldest = items.removeAt(0);
       html.window.localStorage.remove(oldest['key']);
       totalSize += (oldest['size'] as int).toInt();
-      print('Rimosso dalla cache: ${oldest['key']}');
+      //print('Rimosso dalla cache: ${oldest['key']}');
     }
   } catch (e) {
     print('Errore pulizia cache: $e');
@@ -1970,7 +1971,7 @@ Future<Uint8List?> _loadGeneratedImageWeb(String movieTitle) async {
       // Aggiorna timestamp per LRU
       data['timestamp'] = DateTime.now().millisecondsSinceEpoch;
       html.window.localStorage[cacheKey] = jsonEncode(data);
-      print('Letto da  cache: $cacheKey');
+      //print('Letto da  cache: $cacheKey');
       return base64Decode(data['data']);
     } catch (e) {
       html.window.localStorage.remove(cacheKey);
