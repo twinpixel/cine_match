@@ -163,7 +163,8 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: FutureBuilder<List<String>>(
+        body: BackgroundWidget(
+        child: FutureBuilder<List<String>>(
         future: _imageDescriptionsFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
@@ -177,7 +178,7 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
           final descriptions = snapshot.data!;
           return _buildMainContent(descriptions);
         },
-      ),
+      ),),
     );
   }
 
@@ -946,12 +947,13 @@ class _QuizPageState extends State<QuizPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: _buildAppBar(),
-      body: Stack(
+    body: BackgroundWidget(
+    child:Stack(
         children: [
           _buildBackground(),
           _buildMainContent(),
         ],
-      ),
+      ),),
     );
   }
 
@@ -1231,30 +1233,6 @@ class _QuizPageState extends State<QuizPage> {
     );
   }
 
-  Widget _buildLoadingOverlay() {
-    return Container(
-      color: Colors.black,
-      child: Column(
-        children: [
-          Expanded(child: _buildFullScreenLoader()),
-          _buildBottomLoadingMessage(),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildFullScreenLoader() {
-    return SizedBox(
-      width: double.infinity,
-      height: double.infinity,
-      child: Image.asset(
-        'assets/videos/wait3.gif',
-        fit: BoxFit.fitHeight,
-        filterQuality: FilterQuality.high,
-      ),
-    );
-  }
-
   Widget _buildBottomLoadingMessage() {
     return Padding(
       padding: const EdgeInsets.only(bottom: 40.0),
@@ -1347,11 +1325,12 @@ class MovieListPage extends StatelessWidget {
             ),
           ),
         ),
-        body: ListView.builder(
+        body: BackgroundWidget(
+          child: ListView.builder(
           padding: const EdgeInsets.all(16.0),
           itemCount: movies.length,
           itemBuilder: (context, index) => _buildMovieItem(context, index),
-        ),
+        ),),
       ),
     );
   }
@@ -1662,20 +1641,6 @@ class MovieListPage extends StatelessWidget {
     );
   }
 
-  Widget _buildDivider() {
-    return Container(
-      height: 2,
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [
-            Colors.transparent,
-            Colors.amber.shade600.withOpacity(0.5),
-            Colors.transparent,
-          ],
-        ),
-      ),
-    );
-  }
 
   void _handleMovieTap(BuildContext context, dynamic movie) async {
     final String movieLink =
@@ -1708,111 +1673,9 @@ class MovieListPage extends StatelessWidget {
   }
 }
 
-class _CachedImageLoader extends StatelessWidget {
-  final String imageUrl;
-  final int? placeholderIndex;
 
-  const _CachedImageLoader({
-    required this.imageUrl,
-    this.placeholderIndex,
-  });
 
-  @override
-  Widget build(BuildContext context) {
-    if (_shouldUseWebPlaceholder) {
-      return _buildWebPlaceholder();
-    }
-    return _buildNetworkImage();
-  }
 
-  // Controllo condizione per placeholder web
-  bool get _shouldUseWebPlaceholder => kIsWeb && placeholderIndex != null;
-
-  // Costruzione placeholder per web
-  Widget _buildWebPlaceholder() {
-    final calculatedIndex = (placeholderIndex! % 5) + 1;
-    return placeHolderImage("X");
-  }
-
-  // Costruzione immagine con caching
-  Widget _buildNetworkImage() {
-    return CachedNetworkImage(
-      imageUrl: imageUrl,
-      imageBuilder: _imageBuilder,
-      placeholder: _loadingPlaceholder,
-      errorWidget: _errorPlaceholder,
-      fadeInDuration: const Duration(milliseconds: 10),
-      fadeOutDuration: Duration.zero,
-    );
-  }
-
-  // Builder per l'immagine caricata
-  Widget _imageBuilder(BuildContext context, ImageProvider imageProvider) {
-    return Container(
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: imageProvider,
-          fit: BoxFit.cover,
-        ),
-      ),
-    );
-  }
-
-  // Placeholder durante il loading
-  Widget _loadingPlaceholder(BuildContext context, String url) {
-    return _defaultPlaceholder();
-  }
-
-  // Placeholder per errori
-  Widget _errorPlaceholder(BuildContext context, String url, dynamic error) {
-    return _defaultPlaceholder();
-  }
-
-  // Placeholder generico di default
-  Widget _defaultPlaceholder() {
-    return placeHolderImage("X");
-  }
-}
-
-Future<String> _getWikipediaImageUrl(String? wikipediaUrl) async {
-  try {
-    final response = await http.get(Uri.parse(wikipediaUrl!));
-    if (response.statusCode == 200) {
-      dom.Document document = html_parser.parse(response.body);
-      dom.Element? imageElement = document.querySelector('.infobox img');
-
-      if (imageElement != null) {
-        String? imageUrl = imageElement.attributes['src'];
-        if (imageUrl != null) {
-          if (imageUrl.startsWith('//')) {
-            return 'https:$imageUrl';
-          }
-          return imageUrl;
-        }
-      }
-    }
-  } catch (e) {
-    print('Errore scraping Wikipedia: $e');
-  }
-  return '';
-}
-
-Future<String> _getMoviePosterUrl(String? wikipediaUrl) async {
-  try {
-    // Fallback a Wikipedia
-    if (wikipediaUrl != null && wikipediaUrl.isNotEmpty && !(kIsWeb)) {
-      final String wikipediaImage = await _getWikipediaImageUrl(wikipediaUrl);
-      if (wikipediaImage.isNotEmpty) {
-        return wikipediaImage;
-      }
-    }
-
-    return "";
-  } catch (e) {
-    print('Errore durante lo scraping combinato: $e');
-    return "";
-  }
-}
 
 class Question {
   final String question;
@@ -1828,68 +1691,30 @@ class Question {
   }
 }
 
-final Set<String> _failedImageTitles = {};
-Future<Widget?> loadCheap(String movieTitle, String posterPrompt) async {
-  try {
-    final encodedPrompt = Uri.encodeComponent(posterPrompt);
-    final url = "https://image.pollinations.ai/prompt/$encodedPrompt"
-        "?width=240&height=400&seed=628256599"
-        "&model=flux&negative_prompt=worst%20quality,%20blurry";
 
-    final response = await http.get(
-      Uri.parse(url),
-      headers: {'Accept': 'image/jpeg'},
-    ).timeout(const Duration(seconds: 5));
-
-    if (response.statusCode == 200 && response.bodyBytes.isNotEmpty) {
-      //print('LoadCheap per $movieTitle');
-      final bytes = response.bodyBytes;
-      await saveImageToCache(movieTitle, bytes);
-      return Image.memory(bytes, fit: BoxFit.cover);
-    }
-  } catch (e) {
-    _failedImageTitles.add(movieTitle);
-    print('Errore loadCheap per $movieTitle: $e');
-  }
-  return null;
-}
-
-Future<Widget> generateImage(
-    String movieTitle, String posterPrompt, String genre) async {
-  if (_failedImageTitles.contains(movieTitle)) {
-    return placeHolderImage(movieTitle, genre);
-  }
-  try {
-    final cachedImage = await loadFromCache(movieTitle);
-    if (cachedImage != null) {
-      //print('Immagine ottenuta dalla cache per: $movieTitle');
-      return cachedImage;
-    }
-    final cheapImage = await loadCheap(movieTitle, posterPrompt);
-    if (cheapImage != null) {
-      //print('Immagine ottenuta tramite loadCheap per: $movieTitle');
-      return cheapImage;
-    }
-    return placeHolderImage(movieTitle, genre);
-  } catch (e) {
-    _failedImageTitles.add(movieTitle);
-    //print('Exception generando immagine per: $movieTitle - $e');
-    return placeHolderImage(movieTitle, genre);
-  }
-}
 
 Image placeHolderImage(String movieTitle, [String? genre]) {
-  if (genre != null && genre.isNotEmpty) {
-    return Image.asset(
-      'assets/genres/${genre.toLowerCase()}.jpg',
-      fit: BoxFit.cover,
-    );
-  } else {
-    return Image.asset('assets/genres/genre.jpg', fit: BoxFit.cover);
-  }
-}
+  // Se non c'è un genere specificato o il file non esiste, usa l'immagine generica
+  final String assetPath;
 
-final Map<String, Widget> _imageCache = {}; // Stores Widget directly
+  if (genre != null && genre.isNotEmpty) {
+    assetPath = 'assets/genres/${genre.toLowerCase()}.jpg';
+  } else {
+    assetPath = 'assets/genres/genre.jpg';
+  }
+
+  return Image.asset(
+    assetPath,
+    fit: BoxFit.cover,
+    errorBuilder: (context, error, stackTrace) {
+      // Se l'immagine specifica non esiste, usa quella generica
+      return Image.asset(
+        'assets/genres/genre.jpg',
+        fit: BoxFit.cover,
+      );
+    },
+  );
+}
 
 
 
@@ -1904,24 +1729,6 @@ Future<bool> _checkAssetExists(String assetPath) async {
   }
 }
 
-Widget _buildPosterFallback(int index, dynamic movie, String? wikipediaUrl) {
-  return FutureBuilder<Widget>(
-    future: generateImage(
-        movie['title'] as String? ?? 'film',
-        movie['poster_prompt'] as String? ??
-            'Generica locandina cinematografica',
-        movie['genre'] as String? ?? 'genre'),
-    builder: (context, snapshot) {
-      if (snapshot.hasData) {
-        return snapshot.data!;
-      } else if (snapshot.hasError) {
-        return placeHolderImage(movie['title']);
-      } else {
-        return const Center(child: CircularProgressIndicator());
-      }
-    },
-  );
-}
 
 // Funzione per ottenere la directory di cache persistente
 Future<String> _getCacheDirectory() async {
@@ -1950,7 +1757,6 @@ Future<bool> saveImageToCache(String movieTitle, Uint8List imageBytes) async {
   }
 }
 
-// Implementazione mobile
 Future<bool> saveImageToCacheMobile(
     String movieTitle, Uint8List imageBytes) async {
   try {
@@ -1967,48 +1773,11 @@ Future<bool> saveImageToCacheMobile(
   }
 }
 
-// Funzione per caricare l'immagine generata dal disco (solo per mobile)
-Future<File?> _loadGeneratedImageMobile(String movieTitle) async {
-  final cacheDir = await _getCacheDirectory();
-  try {
-    final filename =
-        '${movieTitle.replaceAll(RegExp(r'[^a-zA-Z0-9]'), '_')}.png';
-    final file = File('$cacheDir/$filename');
-    if (await file.exists()) {
-      return file;
-    }
-    return null;
-  } catch (e) {
-    print(
-        'Errore durante il caricamento dell\'immagine generata su mobile: $e');
-    return null;
-  }
-}
 
-Future<Widget?> loadFromCache(String movieTitle) async {
-  try {
-    // Check in-memory cache first
-    if (_inMemoryCache.containsKey(movieTitle)) {
-      //print('Restituisco immagine dalla cache in memoria per: $movieTitle');
-      return Image.memory(_inMemoryCache[movieTitle]!, fit: BoxFit.cover);
-    }
 
-    // If not found in memory, check storage
-    if (kIsWeb) {
-      final bytes = await _loadGeneratedImageWeb(movieTitle);
-      return bytes != null ? Image.memory(bytes, fit: BoxFit.cover) : null;
-    } else {
-      final file = await _loadGeneratedImageMobile(movieTitle);
-      return file != null ? Image.file(file, fit: BoxFit.cover) : null;
-    }
-  } catch (e) {
-    print('Errore nel caricamento dalla cache: $e');
-    return null;
-  }
-}
 
 final Map<String, Uint8List> _inMemoryCache = {}; // In-memory cache for images
-// Aggiungi queste costanti in cima al file
+
 const int _maxWebCacheItems = 20;
 const int _maxWebCacheSizeMB = 50;
 
@@ -2100,25 +1869,6 @@ Future<void> _cleanWebCache() async {
   }
 }
 
-// Modifica il metodo di caricamento
-Future<Uint8List?> _loadGeneratedImageWeb(String movieTitle) async {
-  final cacheKey = 'generated_image_$movieTitle';
-  final cachedData = html.window.localStorage[cacheKey];
-
-  if (cachedData != null) {
-    try {
-      final data = jsonDecode(cachedData);
-      // Aggiorna timestamp per LRU
-      data['timestamp'] = DateTime.now().millisecondsSinceEpoch;
-      html.window.localStorage[cacheKey] = jsonEncode(data);
-      //print('Letto da  cache: $cacheKey');
-      return base64Decode(data['data']);
-    } catch (e) {
-      html.window.localStorage.remove(cacheKey);
-    }
-  }
-  return null;
-}
 
 final Map<String, Map<String, dynamic>> _personaDataCache = {};
 
@@ -2223,18 +1973,13 @@ Future<String> getWikipediaThumbnailUrl(String movieTitle) async {
 }
 
 
-class PosterCache {
-  static final Map<String, Widget> _cache = {};
-  static final Set<String> _failedDownloads = {};
-
+class loadPosterCached {
   static Widget getPoster(String movieTitle, String genre) {
-    return _cache.putIfAbsent(
-      movieTitle,
-          () => _buildPosterWithFallback(movieTitle, genre),
-    );
+    return _buildPosterWithFallback(movieTitle, genre);
   }
 
   static Widget _buildPosterWithFallback(String movieTitle, String genre) {
+    // 1. Cerca prima negli asset locali
     final imageName = _generateImageName(movieTitle);
     final imagePath = 'assets/posters/$imageName';
 
@@ -2248,19 +1993,41 @@ class PosterCache {
               fit: BoxFit.cover,
             );
           } else {
-            return _buildDownloadedPoster(movieTitle, genre);
+            // 2. Se non trovato negli asset, cerca su Wikipedia (solo per app mobile)
+            if (!kIsWeb) {
+              return _buildWikipediaPoster(movieTitle, genre);
+            }
+            // 3. Per web o se Wikipedia fallisce, genera l'immagine
+            return _buildGeneratedPoster(movieTitle, genre);
           }
+        }
+        // Mostra placeholder durante il caricamento
+        return placeHolderImage(movieTitle, genre);
+      },
+    );
+  }
+
+  static Widget _buildWikipediaPoster(String movieTitle, String genre) {
+    return FutureBuilder<String>(
+      future: getWikipediaThumbnailUrl(movieTitle),
+      builder: (context, snapshot) {
+        if (snapshot.hasData && snapshot.data!.isNotEmpty) {
+          return CachedNetworkImage(
+            imageUrl: snapshot.data!,
+            fit: BoxFit.cover,
+            placeholder: (context, url) => placeHolderImage(movieTitle, genre),
+            errorWidget: (context, url, error) =>
+                _buildGeneratedPoster(movieTitle, genre),
+          );
+        } else if (snapshot.hasError) {
+          return _buildGeneratedPoster(movieTitle, genre);
         }
         return placeHolderImage(movieTitle, genre);
       },
     );
   }
 
-  static Widget _buildDownloadedPoster(String movieTitle, String genre) {
-    if (_failedDownloads.contains(movieTitle)) {
-      return placeHolderImage(movieTitle, genre);
-    }
-
+  static Widget _buildGeneratedPoster(String movieTitle, String genre) {
     final prompt = 'Poster for the movie: $movieTitle of genre $genre';
     final encodedPrompt = Uri.encodeComponent(prompt);
     final imageUrl = 'https://image.pollinations.ai/prompt/$encodedPrompt'
@@ -2271,17 +2038,13 @@ class PosterCache {
       future: _downloadImage(imageUrl),
       builder: (context, snapshot) {
         if (snapshot.hasData) {
-
           return Image.memory(
             snapshot.data!,
             fit: BoxFit.cover,
-            errorBuilder: (context, error, stackTrace) {
-              _failedDownloads.add(movieTitle);
-              return placeHolderImage(movieTitle, genre);
-            },
+            errorBuilder: (context, error, stackTrace) =>
+                placeHolderImage(movieTitle, genre),
           );
         } else if (snapshot.hasError) {
-          _failedDownloads.add(movieTitle);
           return placeHolderImage(movieTitle, genre);
         }
         return Center(
@@ -2316,26 +2079,33 @@ class PosterCache {
     }
   }
 }
-// Utilizzo nella tua buildPosterWeb
+
+// Cache in memoria per i poster
+final Map<String, Widget> _posterCache = {};
+const int _maxCacheSize = 50;
+
 Widget buildPosterWeb(int index, dynamic movie) {
   final movieTitle = movie['title'] as String? ?? 'film';
   final genre = movie['genre'] as String? ?? 'genre';
 
-  return PosterCache.getPoster(movieTitle, genre);
-}
+  // Creiamo una chiave unica combinando titolo e genere
+  final cacheKey = '${movieTitle}_$genre';
 
-Future<Uint8List> _downloadImage(String url) async {
-  try {
-    final response = await http.get(Uri.parse(url))
-        .timeout(const Duration(seconds: 10));
-
-    if (response.statusCode == 200) {
-      return response.bodyBytes;
-    }
-    throw Exception('Failed to load image');
-  } catch (e) {
-    throw Exception('Download error: $e');
+  // Se presente in cache, restituiamo il widget memorizzato
+  if (_posterCache.containsKey(cacheKey)) {
+    return _posterCache[cacheKey]!;
   }
+
+  // Se la cache è piena, rimuoviamo l'elemento più vecchio
+  if (_posterCache.length >= _maxCacheSize) {
+    _posterCache.remove(_posterCache.keys.first);
+  }
+
+  // Generiamo il nuovo poster e lo memorizziamo in cache
+  final poster = loadPosterCached.getPoster(movieTitle, genre);
+  _posterCache[cacheKey] = poster;
+
+  return poster;
 }
 
 void _showCriticDescription(BuildContext context) async {
@@ -2390,3 +2160,25 @@ void _showCriticDescription(BuildContext context) async {
   }
 }
 
+class BackgroundWidget extends StatelessWidget {
+  final Widget child;
+
+  const BackgroundWidget({super.key, required this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          image: const AssetImage('assets/images/background.png'),
+          fit: BoxFit.cover,
+          colorFilter: ColorFilter.mode(
+            Colors.black.withOpacity(0.7),
+            BlendMode.darken,
+          ),
+        ),
+      ),
+      child: child,
+    );
+  }
+}

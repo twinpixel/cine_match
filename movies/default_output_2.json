@@ -1,0 +1,277 @@
+[
+  {
+    "title": "2001: A Space Odyssey",
+    "poster": "A sleek, minimalist design featuring a monolith against a starry background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "poster": "A striking poster with a close-up of a man wearing a bowler hat and false eyelash, surrounded by a colorful backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Clockwork_Orange_(film)"
+  },
+  {
+    "title": "The Shining",
+    "poster": "A haunting image of a red door with a ghostly figure peeking through, set against a snow-covered hotel.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Shining_(film)"
+  },
+  {
+    "title": "Full Metal Jacket",
+    "poster": "A stark, powerful image of a soldier's helmet with the words 'Born to Kill' etched on it.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Full_Metal_Jacket"
+  },
+  {
+    "title": "Paths of Glory",
+    "poster": "A dramatic composition showing a soldier in a trench, with dark skies looming above.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paths_of_Glory"
+  },
+  {
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "poster": "A satirical collage featuring a nuclear bomb and absurd characters in a war room.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dr._Strangelove"
+  },
+  {
+    "title": "Spartacus",
+    "poster": "An epic poster featuring Kirk Douglas in gladiator attire, with a backdrop of a massive arena.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spartacus_(film)"
+  },
+  {
+    "title": "Barry Lyndon",
+    "poster": "A lush, painted scene resembling a classic portrait, with a man in period costume.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Barry_Lyndon"
+  },
+  {
+    "title": "Eyes Wide Shut",
+    "poster": "An enigmatic poster depicting a couple in masks, surrounded by a dreamlike atmosphere.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eyes_Wide_Shut"
+  },
+  {
+    "title": "Interstellar",
+    "poster": "A visually stunning image of a spaceship traveling through a wormhole in the cosmos.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Interstellar_(film)"
+  },
+  {
+    "title": "Inception",
+    "poster": "A surreal design featuring a cityscape bending in on itself, signifying dreams within dreams.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inception"
+  },
+  {
+    "title": "The Dark Knight",
+    "poster": "A dark, moody poster highlighting the Joker's face with his haunting smile.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Dark_Knight"
+  },
+  {
+    "title": "Dunkirk",
+    "poster": "A tense, aerial view of soldiers on the beach surrounded by warplanes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dunkirk_(film)"
+  },
+  {
+    "title": "Memento",
+    "poster": "A fragmented design with images of a man looking confused, symbolizing memory loss.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Memento"
+  },
+  {
+    "title": "The Prestige",
+    "poster": "A mysterious poster featuring two silhouetted magicians with a dark backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Prestige"
+  },
+  {
+    "title": "Tenet",
+    "poster": "An abstract design with a spiraling infinity symbol and elements of time manipulation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tenet"
+  },
+  {
+    "title": "The Fountain",
+    "poster": "A visually rich image of a tree with roots, symbolizing life and eternity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fountain"
+  },
+  {
+    "title": "Black Swan",
+    "poster": "A striking image of a ballerina with half of her face in darkness, symbolizing duality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Swan_(film)"
+  },
+  {
+    "title": "The Social Network",
+    "poster": "A moody poster featuring a close-up of a young man against a dark background, symbolizing ambition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Social_Network"
+  },
+  {
+    "title": "The Truman Show",
+    "poster": "A bright, idyllic image of a man looking towards a perfect sky, with hints of underlying artificiality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Truman_Show"
+  },
+  {
+    "title": "Blade Runner 2049",
+    "poster": "A futuristic cityscape shrouded in neon lights and mist, featuring a lone figure in the foreground.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blade_Runner_2049"
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "poster": "A vibrant, action-packed poster featuring armored cars in a desert chase scene.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road"
+  },
+  {
+    "title": "Arrival",
+    "poster": "A minimalist poster featuring a giant alien spacecraft against a cloudy sky.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arrival_(film)"
+  },
+  {
+    "title": "The Master",
+    "poster": "A contemplative image of a man in deep thought, against a blurred background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Master_(2012_film)"
+  },
+  {
+    "title": "Her",
+    "poster": "A colorful and soft image of a man with a headset, set against a dreamy urban backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Her_(film)"
+  },
+  {
+    "title": "Sicario",
+    "poster": "A gritty image showing a silhouette of a soldier with a blurred desert landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sicario"
+  },
+  {
+    "title": "The Imitation Game",
+    "poster": "A tense image featuring a man deep in thought, with a typewriter in the foreground.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Imitation_Game"
+  },
+  {
+    "title": "Nightcrawler",
+    "poster": "A dark, atmospheric image with a solitary figure holding a camera amidst a city backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nightcrawler_(film)"
+  },
+  {
+    "title": "Donnie Darko",
+    "poster": "A surreal poster with a teenage boy and a large rabbit figure haunting him.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Donnie_Darko"
+  },
+  {
+    "title": "Fight Club",
+    "poster": "An iconic design featuring a bar of soap against a stark background, hinting at the film's themes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fight_Club_(film)"
+  },
+  {
+    "title": "Gone Girl",
+    "poster": "A haunting image of a woman's face reflected in a dark surface, evoking mystery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gone_Girl_(film)"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "poster": "A gritty, dark image of a woman with a piercing gaze, suggesting intrigue.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Girl_with_the_Dragon_Tattoo_(2011_film)"
+  },
+  {
+    "title": "Se7en",
+    "poster": "A dark, moody design featuring the five senses, with a gritty urban backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Se7en"
+  },
+  {
+    "title": "The Sixth Sense",
+    "poster": "A chilling image of a child in a dark setting, with the tagline hinting at his supernatural perceptions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Sixth_Sense"
+  },
+  {
+    "title": "The Revenant",
+    "poster": "A striking poster of a man in the wilderness, reflecting cold and survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Revenant"
+  },
+  {
+    "title": "The Lighthouse",
+    "poster": "A stark, black-and-white image of a lighthouse surrounded by turbulent waves.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lighthouse_(2019_film)"
+  },
+  {
+    "title": "Shutter Island",
+    "poster": "A mysterious and ominous image of an island engulfed in fog, with a lone figure in the foreground.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shutter_Island"
+  },
+  {
+    "title": "Sin City",
+    "poster": "A contrasting black-and-white design with splashes of red, depicting a gritty urban landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sin_City_(film)"
+  },
+  {
+    "title": "Air",
+    "poster": "A dynamic image of sneakers launching into the sky, representing culture and innovation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Air_(film)"
+  },
+  {
+    "title": "Twelve Monkeys",
+    "poster": "A fragmented collage of images highlighting time travel and chaos.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Twelve_Monkeys"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "poster": "A dreamy, colorful design showing a couple’s faces blended into a surreal landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind"
+  },
+  {
+    "title": "Annihilation",
+    "poster": "A surreal, ethereal image depicting a forest filled with mysterious, radiant colors.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Annihilation_(film)"
+  },
+  {
+    "title": "Requiem for a Dream",
+    "poster": "A stark, dramatic image representing the struggles of addiction with intense colors.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Requiem_for_a_Dream_(film)"
+  },
+  {
+    "title": "The Witch",
+    "poster": "A haunting, dark poster showing a family silhouetted against a foreboding forest.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Witch_(film)"
+  },
+  {
+    "title": "Get Out",
+    "poster": "A disturbing image of a young man with a blank look, set against a bright suburban backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Get_Out"
+  },
+  {
+    "title": "Parasite",
+    "poster": "A striking image depicting a house on a hill against a dark, layered city background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Parasite_(2019_film)"
+  },
+  {
+    "title": "Ocean's Eleven",
+    "poster": "A slick design featuring an ensemble cast of stylish robbers with Las Vegas in the backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ocean's_Eleven"
+  },
+  {
+    "title": "The Departed",
+    "poster": "An intense image featuring the silhouettes of two men against a backdrop of Boston.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Departed"
+  },
+  {
+    "title": "No Country for Old Men",
+    "poster": "A bleak landscape of desolation featuring a man with a briefcase, embodying tension.",
+    "wikipedia": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men_(film)"
+  },
+  {
+    "title": "Prisoners",
+    "poster": "A dark and atmospheric image of a father searching in a foggy landscape, reflecting desperation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Prisoners_(film)"
+  },
+  {
+    "title": "The Machinist",
+    "poster": "A haunting image of a gaunt man in a dimly lit room, conveying paranoia and insomnia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Machinist"
+  },
+  {
+    "title": "Mulholland Drive",
+    "poster": "A mysterious poster with a city skyline at night and abstract elements suggesting dreams.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mulholland_Drive"
+  },
+  {
+    "title": "American Psycho",
+    "poster": "A striking minimalist design featuring a man in a suit with blood on his hands, symbolizing duality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Psycho_(film)"
+  },
+  {
+    "title": "The Others",
+    "poster": "A dark, eerie image of a woman in a haunting mansion surrounded by fog.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Others"
+  },
+  {
+    "title": "The Invisible Man",
+    "poster": "A tense poster depicting a man in bandages and shadows, hinting at horror and suspense.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Invisible_Man_(2020_film)"
+  }
+]
