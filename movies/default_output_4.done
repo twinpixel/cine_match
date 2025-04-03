@@ -1,232 +1,277 @@
 [
   {
-    "title": "Aguirre, the Wrath of God",
-    "poster": "dark and moody poster featuring Klaus Kinski as Aguirre, surrounded by jungle and mist",
-    "wikipedia": "https://en.wikipedia.org/wiki/Aguirre,_the_Wrath_of_God"
+    "title": "Alien",
+    "poster": "A haunting image of a dark, claustrophobic spaceship interior with a glowing, menacing alien silhouette.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alien_(film)"
   },
   {
-    "title": "Fitzcarraldo",
-    "poster": "vibrant poster depicting a man in a white suit standing on a riverboat with a steamship in the background",
-    "wikipedia": "https://en.wikipedia.org/wiki/Fitzcarraldo"
+    "title": "Blade Runner",
+    "poster": "A neon-drenched cityscape with a lone figure in a trench coat against a backdrop of rain and towering skyscrapers.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blade_Runner"
   },
   {
-    "title": "Nosferatu the Vampyre",
-    "poster": "gothic poster featuring a shadowy figure of Nosferatu with a full moon in the background",
-    "wikipedia": "https://en.wikipedia.org/wiki/Nosferatu_the_Vampyre"
+    "title": "Gladiator",
+    "poster": "A dramatic depiction of a gladiator in armor, raising his sword amidst a cheering crowd in the Colosseum.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
   },
   {
-    "title": "Cave of Forgotten Dreams",
-    "poster": "serene poster showcasing the stunning cave paintings with light illuminating the rock formations",
-    "wikipedia": "https://en.wikipedia.org/wiki/Cave_of_Forgotten_Dreams"
+    "title": "The Martian",
+    "poster": "A bold and colorful poster featuring an astronaut against a stark Martian landscape with the tagline 'Bring Him Home'.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Martian_(film)"
   },
   {
-    "title": "The Enigma of Kaspar Hauser",
-    "poster": "artistic poster featuring a solitary figure wandering in a desolate landscape",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Enigma_of_Kaspar_Hauser"
+    "title": "Prometheus",
+    "poster": "A mysterious and atmospheric image of a space ship entering a dark, foreboding planet's atmosphere.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Prometheus_(film)"
   },
   {
-    "title": "Aguirre, der Zorn Gottes",
-    "poster": "intense poster with Aguirre posed dramatically against the backdrop of tumultuous waters",
-    "wikipedia": "https://en.wikipedia.org/wiki/Aguirre,_the_Wrath_of_God"
+    "title": "Black Hawk Down",
+    "poster": "A gritty, war-themed poster with soldiers in action amidst a chaotic urban battle scene.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Hawk_Down_(film)"
   },
   {
-    "title": "Grizzly Man",
-    "poster": "wildlife poster of Timothy Treadwell with a bear in a natural setting",
-    "wikipedia": "https://en.wikipedia.org/wiki/Grizzly_Man"
+    "title": "Kingdom of Heaven",
+    "poster": "An epic landscape featuring a castle against a sunset, with a knight holding a sword in the foreground.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kingdom_of_Heaven"
   },
   {
-    "title": "The Herzog Collection",
-    "poster": "collage poster featuring various prominent scenes from Herzog's films",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Herzog_Collection"
+    "title": "Thelma & Louise",
+    "poster": "A striking image of two women driving a convertible with a vast desert landscape behind them.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thelma_%26_Louise"
   },
   {
-    "title": "Stroszek",
-    "poster": "quirky poster with a central figure in a small town with vibrant colors and whimsical elements",
-    "wikipedia": "https://en.wikipedia.org/wiki/Stroszek"
+    "title": "Hannibal",
+    "poster": "A chilling close-up of a face obscured by shadows, with symbolic imagery hinting at the horror within.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hannibal_(film)"
   },
   {
-    "title": "Heart of Glass",
-    "poster": "dreamlike poster showcasing a foggy landscape with glassworks in the foreground",
-    "wikipedia": "https://en.wikipedia.org/wiki/Heart_of_Glass"
+    "title": "American Gangster",
+    "poster": "A sleek, stylish image of a gangster in a fedora, with a city skyline in the background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Gangster"
   },
   {
-    "title": "Wings of Hope",
-    "poster": "uplifting poster featuring a plane flying over a beautiful landscape",
-    "wikipedia": "https://en.wikipedia.org/wiki/Wings_of_Hope"
+    "title": "Body of Lies",
+    "poster": "A tense and dramatic image of a man in a suit holding a gun, with a Middle Eastern background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Body_of_Lies_(film)"
   },
   {
-    "title": "Lessons of Darkness",
-    "poster": "dramatic poster with fiery landscapes after the Gulf War, highlighting destruction and debris",
-    "wikipedia": "https://en.wikipedia.org/wiki/Lessons_of_Darkness"
+    "title": "The Counselor",
+    "poster": "A stark, minimalist poster showing a lone figure in a desert landscape, embodying existential themes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Counselor"
   },
   {
-    "title": "The Wild Blue Yonder",
-    "poster": "abstract poster depicting a surreal underwater scene with floating objects and colors",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Wild_Blue_Yonder"
+    "title": "Matchstick Men",
+    "poster": "A whimsical image of a man with a suitcase standing in a bright city environment, hinting at deception.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Matchstick_Men"
   },
   {
-    "title": "Invincible",
-    "poster": "inspirational poster featuring a strong figure standing tall in a rugged landscape",
-    "wikipedia": "https://en.wikipedia.org/wiki/Invincible_(2001_film)"
+    "title": "A Good Year",
+    "poster": "A serene image of a vineyard in Provence with a romantic sunset, suggesting themes of love and nostalgia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Good_Year"
   },
   {
-    "title": "Queen of the Desert",
-    "poster": "colorful poster featuring Nicole Kidman in a desert setting, with a camel and vast sand dunes",
-    "wikipedia": "https://en.wikipedia.org/wiki/Queen_of_the_Desert"
+    "title": "Tears of the Sun",
+    "poster": "A powerful image of a soldier in combat gear, gazing into a vast, intense jungle backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tears_of_the_Sun"
   },
   {
-    "title": "Bad Lieutenant: Port of Call New Orleans",
-    "poster": "gritty poster of Nicolas Cage as an intense police officer in a vibrant New Orleans setting",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bad_Lieutenant:_Port_of_Call_New_Orleans"
+    "title": "Exodus: Gods and Kings",
+    "poster": "A grand and sweeping image of a biblical landscape with epic battles and majestic figures.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Exodus:_Gods_and_Kings"
   },
   {
-    "title": "My Best Fiend",
-    "poster": "nostalgic poster showcasing Klaus Kinski with a intense expression in a cinematic setting",
-    "wikipedia": "https://en.wikipedia.org/wiki/My_Best_Fiend"
+    "title": "Alien: Covenant",
+    "poster": "A striking alien landscape with a crew exploring, combined with ominous dark shadows hinting at danger.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alien:_Covenant"
   },
   {
-    "title": "The Great Ecstasy of Robert Carmichael",
-    "poster": "dark poster with a focus on a young man in a contemplative pose against a gritty background",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Ecstasy_of_Robert_Carmichael"
+    "title": "House of Gucci",
+    "poster": "A stylish poster featuring glamorous fashion models and dramatic expressions, set against an opulent backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/House_of_Gucci"
   },
   {
-    "title": "Cobra Verde",
-    "poster": "richly colored poster showing Klaus Kinski as a rugged man in a lush tropical environment",
-    "wikipedia": "https://en.wikipedia.org/wiki/Cobra_Verde"
+    "title": "1492: Conquest of Paradise",
+    "poster": "A vivid image depicting explorers on a ship against a backdrop of the New World, hinting at adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/1492:_Conquest_of_Paradise"
   },
   {
-    "title": "Wings of Hope",
-    "poster": "inspiring poster depicting a plane soaring through the sky with a stunning sunset backdrop",
-    "wikipedia": "https://en.wikipedia.org/wiki/Wings_of_Hope"
+    "title": "The Duellists",
+    "poster": "An artful depiction of two soldiers facing off, set in a historical background filled with tension.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Duellists"
   },
   {
-    "title": "Seven Days in May",
-    "poster": "political thriller poster featuring a tense meeting room scene with authoritative figures",
-    "wikipedia": "https://en.wikipedia.org/wiki/Seven_Days_in_May"
+    "title": "Legend",
+    "poster": "A captivating fantasy image featuring a mystical forest and a dark figure, evoking a sense of magic.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Legend_(film)"
   },
   {
-    "title": "The White Diamond",
-    "poster": "lush poster depicting the rainforest with a beautiful aerial view of the landscape",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_White_Diamond"
+    "title": "Someone to Watch Over Me",
+    "poster": "An intimate image of a couple entwined, surrounded by urban city lights, reflecting themes of love and danger.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Someone_to_Watch_Over_Me"
   },
   {
-    "title": "The Land of Silence",
-    "poster": "mysterious poster with a vast desert landscape featuring a solitary figure",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Land_of_Silence"
+    "title": "The Good Year",
+    "poster": "A picturesque scene of a sun-drenched vineyard, evoking warmth, relaxation, and a rustic lifestyle.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Good_Year"
   },
   {
-    "title": "Invincible",
-    "poster": "strong visual of a determined figure against the backdrop of an ancient arena",
-    "wikipedia": "https://en.wikipedia.org/wiki/Invincible_(2001_film)"
+    "title": "The Last Duel",
+    "poster": "An intense image featuring two knights preparing for battle, set against a medieval backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Duel_(film)"
   },
   {
-    "title": "Fitzcarraldo",
-    "poster": "epic poster showing a grand steamship on a river flanked by dense tropical rainforest",
-    "wikipedia": "https://en.wikipedia.org/wiki/Fitzcarraldo"
+    "title": "Raised by Wolves",
+    "poster": "A thought-provoking sci-fi image of a desolate landscape with futuristic elements hinting at survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Raised_by_Wolves_(TV_series)"
   },
   {
-    "title": "The Bad Lieutenant",
-    "poster": "intense poster showcasing a troubled cop in an urban setting, drenched in red light",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bad_Lieutenant:_Port_of_Call_New_Orleans"
+    "title": "G.I. Jane",
+    "poster": "A strong image of a woman in military attire, showcasing strength and resilience within a tough environment.",
+    "wikipedia": "https://en.wikipedia.org/wiki/G.I._Jane"
   },
   {
-    "title": "Land of Silence",
-    "poster": "abstract poster depicting a vast, serene desert with a hint of mystery",
-    "wikipedia": "https://en.wikipedia.org/wiki/Land_of_Silence"
+    "title": "The Martian",
+    "poster": "A bright, colorful poster showcasing an astronaut on Mars with the tagline 'Help is Only 140 Million Miles Away'.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Martian_(film)"
   },
   {
-    "title": "The Wild Goose Lake",
-    "poster": "stylish poster showcasing a stylized urban landscape with neon lights",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Wild_Goose_Lake"
+    "title": "Gladiator",
+    "poster": "A powerful and epic poster with a gladiator raising his sword amidst a backdrop of ancient Rome.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
   },
   {
-    "title": "The Isle",
-    "poster": "romantic yet eerie poster featuring a lone woman surrounded by water and nature",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Isle"
+    "title": "Alien: Resurrection",
+    "poster": "A dark and eerie image featuring a menacing alien lurking among shadows in a high-tech setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alien:_Resurrection"
   },
   {
-    "title": "Cave of Forgotten Dreams",
-    "poster": "serene poster showcasing the stunning cave paintings with light illuminating the rock formations",
-    "wikipedia": "https://en.wikipedia.org/wiki/Cave_of_Forgotten_Dreams"
+    "title": "The Counselor",
+    "poster": "A stark minimalist design featuring a man in a suit, surrounded by abstract shapes indicative of danger.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Counselor"
   },
   {
-    "title": "Wings of Hope",
-    "poster": "uplifting poster featuring a plane flying over a beautiful landscape",
-    "wikipedia": "https://en.wikipedia.org/wiki/Wings_of_Hope"
+    "title": "All the Money in the World",
+    "poster": "A tense and gripping image featuring a man in a suit, against a backdrop of wealth and mystery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/All_the_Money_in_the_World"
   },
   {
-    "title": "Wings of Hope",
-    "poster": "uplifting poster depicting a plane soaring over breathtaking landscapes with brilliant colors",
-    "wikipedia": "https://en.wikipedia.org/wiki/Wings_of_Hope"
+    "title": "Napoleon",
+    "poster": "A grand and sweeping image depicting the iconic figure of Napoleon amidst a dramatic battlefield.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Napoleon_(upcoming_film)"
   },
   {
-    "title": "Stroszek",
-    "poster": "playful poster showcasing characters in whimsical poses against a colorful background",
-    "wikipedia": "https://en.wikipedia.org/wiki/Stroszek"
+    "title": "The Last Duel",
+    "poster": "A medieval-themed poster depicting the intense confrontation between two knights in armor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Duel_(film)"
   },
   {
-    "title": "The Invention of Morel",
-    "poster": "mysterious poster featuring an island with surreal, dreamlike imagery",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Invention_of_Morel"
+    "title": "Robin Hood",
+    "poster": "A dynamic image of Robin Hood with his bow drawn, set against a lush green forest landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robin_Hood_(2010_film)"
   },
   {
-    "title": "The Ballad of the Little Soldier",
-    "poster": "poignant poster showing a young child with a solemn expression against a backdrop of war",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Ballad_of_the_Little_Soldier"
+    "title": "The Good Year",
+    "poster": "A visually warm and inviting poster showcasing the beauty of vineyards and countryside life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Good_Year"
   },
   {
-    "title": "The Call of the Wild",
-    "poster": "adventurous poster featuring a dog in a snowy wilderness, surrounded by mountains",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Call_of_the_Wild_(2020_film)"
+    "title": "Before Night Falls",
+    "poster": "A poignant and artistic poster depicting the life of a writer against a backdrop of Cuba.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Before_Night_Falls_(film)"
   },
   {
-    "title": "Burden of Dreams",
-    "poster": "documentary poster focusing on the challenges faced during the making of 'Fitzcarraldo'",
-    "wikipedia": "https://en.wikipedia.org/wiki/Burden_of_Dreams"
+    "title": "Thelma & Louise",
+    "poster": "A powerful image of two women driving into the sunset, symbolizing freedom and rebellion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thelma_%26_Louise"
   },
   {
-    "title": "Wings of Hope",
-    "poster": "inspiring poster depicting a plane flying through the sky with a beautiful landscape below",
-    "wikipedia": "https://en.wikipedia.org/wiki/Wings_of_Hope"
+    "title": "Gladiator",
+    "poster": "An epic poster featuring a lone gladiator standing in an arena, looking ready to fight.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
   },
   {
-    "title": "Grizzly Man",
-    "poster": "nature poster featuring a bear in a majestic wilderness setting with a man observing from afar",
-    "wikipedia": "https://en.wikipedia.org/wiki/Grizzly_Man"
+    "title": "American Gangster",
+    "poster": "A stylish poster featuring Denzel Washington dressed as a gangster amongst city lights.",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Gangster"
   },
   {
-    "title": "The Enigma of Kaspar Hauser",
-    "poster": "artistic poster showcasing a solitary figure wandering in a desolate landscape",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Enigma_of_Kaspar_Hauser"
+    "title": "Blade Runner 2049",
+    "poster": "A visually stunning image of a dystopian city with a lone figure walking through the rain.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blade_Runner_2049"
   },
   {
-    "title": "The Wild Blue Yonder",
-    "poster": " surreal poster depicting an otherworldly underwater scene filled with imaginative visuals",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Wild_Blue_Yonder"
+    "title": "Body of Lies",
+    "poster": "A dramatic depiction of espionage with a backdrop of Middle Eastern conflict and tension.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Body_of_Lies_(film)"
   },
   {
-    "title": "Lessons of Darkness",
-    "poster": "powerful poster depicting the aftermath of war with fiery landscapes and destruction",
-    "wikipedia": "https://en.wikipedia.org/wiki/Lessons_of_Darkness"
+    "title": "Exodus: Gods and Kings",
+    "poster": "A biblical epic scene showing vast armies clashing against a backdrop of desert landscapes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Exodus:_Gods_and_Kings"
   },
   {
-    "title": "Wings of Hope",
-    "poster": "uplifting poster featuring a soaring plane in a clear blue sky with vast landscapes",
-    "wikipedia": "https://en.wikipedia.org/wiki/Wings_of_Hope"
+    "title": "Kingdom of Heaven",
+    "poster": "An epic medieval landscape featuring a knight on a hill overlooking a beautiful castle.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kingdom_of_Heaven"
   },
   {
-    "title": "My Best Fiend",
-    "poster": "nostalgic poster showcasing Klaus Kinski in a cinematic setting with vivid colors",
-    "wikipedia": "https://en.wikipedia.org/wiki/My_Best_Fiend"
+    "title": "Gladiator",
+    "poster": "A powerful poster with a gladiator, sword raised, against a backdrop of Roman grandeur.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
   },
   {
-    "title": "Cave of Forgotten Dreams",
-    "poster": "captivating poster showcasing ancient cave paintings illuminated by gentle lighting",
-    "wikipedia": "https://en.wikipedia.org/wiki/Cave_of_Forgotten_Dreams"
+    "title": "The Martian",
+    "poster": "A vibrant and visually striking poster showcasing an astronaut amidst a desolate Martian landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Martian_(film)"
   },
   {
-    "title": "The White Diamond",
-    "poster": "lush poster showcasing a breathtaking aerial view of a tropical rainforest",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_White_Diamond"
+    "title": "Prometheus",
+    "poster": "A mysterious and chilling poster depicting a vast alien world with a ship arriving in the background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Prometheus_(film)"
+  },
+  {
+    "title": "Legend",
+    "poster": "A fantasy-themed poster featuring striking visuals of mythical creatures in a dark, enchanted forest.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Legend_(film)"
+  },
+  {
+    "title": "The Counselor",
+    "poster": "A stark, tension-filled poster showcasing a man facing dilemmas in a world fraught with danger.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Counselor"
+  },
+  {
+    "title": "American Gangster",
+    "poster": "An atmospheric image featuring a gangster with a fedora, set against a gritty urban backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Gangster"
+  },
+  {
+    "title": "The Duelists",
+    "poster": "A historical drama themed image of two men fighting with swords in an elegant backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Duellists"
+  },
+  {
+    "title": "G.I. Jane",
+    "poster": "An empowering poster featuring a woman in military regalia set against a backdrop of intense training.",
+    "wikipedia": "https://en.wikipedia.org/wiki/G.I._Jane"
+  },
+  {
+    "title": "Black Hawk Down",
+    "poster": "A gripping, action-oriented image depicting soldiers in a high-stakes urban conflict.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Hawk_Down_(film)"
+  },
+  {
+    "title": "The Last Duel",
+    "poster": "A medieval-themed image depicting knights preparing for an epic battle in a grand setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Duel_(film)"
+  },
+  {
+    "title": "House of Gucci",
+    "poster": "A glamorous, high-fashion image featuring models and designers against a luxurious backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/House_of_Gucci"
+  },
+  {
+    "title": "Raised by Wolves",
+    "poster": "A striking sci-fi image of a futuristic landscape with themes of survival and exploration.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Raised_by_Wolves_(TV_series)"
   }
 ]

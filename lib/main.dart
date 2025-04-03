@@ -198,7 +198,7 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
                     crossAxisCount: 2,
                     crossAxisSpacing: 12,
                     mainAxisSpacing: 12,
-                    childAspectRatio: 0.8,
+                    childAspectRatio: 0.7, // Modificato per meglio adattarsi ai ritratti
                   ),
                   itemCount: numeroCritici,
                   itemBuilder: (context, index) {
@@ -206,7 +206,7 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
                     final imagePath = 'assets/images/$imageNumber.png';
                     return _buildCriticoCard(imagePath, index, descriptions);
                   },
-                ),
+                )
               ),
               // Pulsante per il critico personalizzato
               Padding(
@@ -258,7 +258,7 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
       ],
     );
   }
-// Nuovo metodo per costruire la card di ogni critico
+
   Widget _buildCriticoCard(String imagePath, int index, List<String> descriptions) {
     return Container(
       decoration: BoxDecoration(
@@ -277,16 +277,16 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
           setState(() => _selectedImageNumber = critico);
           _navigateToQuiz();
         },
-        child: Padding(
-          padding: const EdgeInsets.all(8), // Ridotto il padding
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              // Nome del critico
-              Text(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            // Nome del critico
+            Padding(
+              padding: const EdgeInsets.only(top: 8.0),
+              child: Text(
                 descriptions[index],
                 style: TextStyle(
-                  fontSize: 16, // Ridotta la dimensione del font
+                  fontSize: 16,
                   fontWeight: FontWeight.bold,
                   color: Colors.amber.shade600,
                 ),
@@ -294,9 +294,12 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
               ),
-              const SizedBox(height: 4), // Ridotto lo spazio
-              // Immagine
-              Expanded(
+            ),
+            const SizedBox(height: 4),
+            // Immagine con crop centrato
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
                 child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
@@ -310,17 +313,22 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
                   ),
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(10),
-                    child: Image.asset(imagePath, fit: BoxFit.cover),
+                    child: AspectRatio(
+                      aspectRatio: 0.75, // Proporzioni tipiche di un ritratto
+                      child: Image.asset(
+                        imagePath,
+                        fit: BoxFit.cover, // Crop centrato che riempie lo spazio
+                      ),
+                    ),
                   ),
                 ),
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );
   }
-// Elimina i metodi _buildVerticalLayout e _buildHorizontalLayout poiché non sono più necessari
 
   // Modifica nel metodo _buildVerticalLayout
   Widget _buildVerticalLayout(String imagePath, int index, List<String> descriptions) {
