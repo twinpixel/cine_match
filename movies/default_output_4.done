@@ -1,0 +1,322 @@
+[
+  {
+    "title": "The Shawshank Redemption",
+    "poster": "A striking image of a solitary figure silhouetted against a large, imposing prison wall",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Shawshank_Redemption"
+  },
+  {
+    "title": "The Godfather",
+    "poster": "A dark, moody poster featuring a puppet hand holding a marionette string",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Godfather"
+  },
+  {
+    "title": "Inception",
+    "poster": "A visually stunning poster of a city bending and folding in on itself",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inception"
+  },
+  {
+    "title": "Pulp Fiction",
+    "poster": "An iconic poster with a bold color scheme featuring a gun and a briefcase",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pulp_Fiction"
+  },
+  {
+    "title": "The Dark Knight",
+    "poster": "A brooding poster featuring Batman's silhouette against a smoky skyline",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Dark_Knight"
+  },
+  {
+    "title": "Schindler's List",
+    "poster": "A haunting black and white image with a little girl in a red coat",
+    "wikipedia": "https://en.wikipedia.org/wiki/Schindler%27s_List"
+  },
+  {
+    "title": "Forrest Gump",
+    "poster": "A whimsical poster featuring Forrest sitting on a bench holding a box of chocolates",
+    "wikipedia": "https://en.wikipedia.org/wiki/Forrest_Gump"
+  },
+  {
+    "title": "Fight Club",
+    "poster": "A gritty poster with a soap bar and a shadowy figure in the background",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fight_Club"
+  },
+  {
+    "title": "The Matrix",
+    "poster": "A green-tinted poster featuring characters in long coats against a digital rain backdrop",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Matrix"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "poster": "An epic poster showing the fellowship standing heroically with mountains in the background",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring"
+  },
+  {
+    "title": "The Empire Strikes Back",
+    "poster": "A classic poster featuring iconic characters in a galactic battle",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Empire_Strikes_Back"
+  },
+  {
+    "title": "Goodfellas",
+    "poster": "A stylish poster showcasing three main characters in a dimly lit bar",
+    "wikipedia": "https://en.wikipedia.org/wiki/Goodfellas"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "poster": "A chilling poster with an image of Hannibal Lecter with a muzzle",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs"
+  },
+  {
+    "title": "The Social Network",
+    "poster": "A modern poster with a blue color scheme and floating text about social media",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Social_Network"
+  },
+  {
+    "title": "Jurassic Park",
+    "poster": "A dynamic poster with a T-Rex roaring under a sunset sky",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jurassic_Park"
+  },
+  {
+    "title": "Titanic",
+    "poster": "A romantic poster featuring a couple embraced on the bow of a ship",
+    "wikipedia": "https://en.wikipedia.org/wiki/Titanic_(1997_film)"
+  },
+  {
+    "title": "Saving Private Ryan",
+    "poster": "An intense poster depicting soldiers storming a beach under gunfire",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saving_Private_Ryan"
+  },
+  {
+    "title": "Gladiator",
+    "poster": "A powerful poster showcasing a gladiator with armor in an arena",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
+  },
+  {
+    "title": "The Usual Suspects",
+    "poster": "A mysterious poster with silhouettes of characters against a dark background",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Usual_Suspects"
+  },
+  {
+    "title": "Avatar",
+    "poster": "A vibrant poster featuring the blue-skinned Na'vi against a lush alien landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Avatar_(2009_film)"
+  },
+  {
+    "title": "Spirited Away",
+    "poster": "A whimsical and colorful poster depicting a young girl in a magical world",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spirited_Away"
+  },
+  {
+    "title": "Back to the Future",
+    "poster": "A fun poster featuring a DeLorean car with a time-traveling flux capacitor",
+    "wikipedia": "https://en.wikipedia.org/wiki/Back_to_the_Future"
+  },
+  {
+    "title": "The Lion King",
+    "poster": "A vibrant poster with Simba on Pride Rock against a golden sunset",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lion_King"
+  },
+  {
+    "title": "The Green Mile",
+    "poster": "A somber poster featuring a prison block with a mysterious light",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Green_Mile"
+  },
+  {
+    "title": "Once Upon a Time in the West",
+    "poster": "A dramatic poster showing a lone cowboy in a desolate landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_the_West"
+  },
+  {
+    "title": "The Departed",
+    "poster": "A tense poster featuring a split image of characters on opposite sides",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Departed"
+  },
+  {
+    "title": "Whiplash",
+    "poster": "An intense poster showcasing a drummer in a passionate performance",
+    "wikipedia": "https://en.wikipedia.org/wiki/Whiplash_(2014_film)"
+  },
+  {
+    "title": "Blade Runner 2049",
+    "poster": "A futuristic poster featuring neon lights and a bleak, dystopian cityscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blade_Runner_2049"
+  },
+  {
+    "title": "Memento",
+    "poster": "A thought-provoking poster with fragmented images and a Polaroid theme",
+    "wikipedia": "https://en.wikipedia.org/wiki/Memento_(film)"
+  },
+  {
+    "title": "The Prestige",
+    "poster": "A sinister poster featuring two magicians in shadowy silhouettes",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Prestige"
+  },
+  {
+    "title": "Django Unchained",
+    "poster": "A bold poster featuring Django with a gun and a dramatic western backdrop",
+    "wikipedia": "https://en.wikipedia.org/wiki/Django_Unchained"
+  },
+  {
+    "title": "The Sixth Sense",
+    "poster": "A mysterious poster featuring a boy and a hint of a ghostly figure",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Sixth_Sense"
+  },
+  {
+    "title": "Arrival",
+    "poster": "A thought-provoking poster featuring alien ships over a tranquil landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arrival_(film)"
+  },
+  {
+    "title": "Coco",
+    "poster": "A colorful poster showcasing vibrant characters set against a Day of the Dead backdrop",
+    "wikipedia": "https://en.wikipedia.org/wiki/Coco_(film)"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "poster": "An elaborate and whimsical poster featuring a pink hotel set in a snowy landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel"
+  },
+  {
+    "title": "Moonlight",
+    "poster": "A poetic poster featuring three different phases of a man's life against a blue background",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moonlight_(film)"
+  },
+  {
+    "title": "Black Panther",
+    "poster": "A powerful poster featuring the Black Panther in a striking pose against an African landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Panther_(film)"
+  },
+  {
+    "title": "Roma",
+    "poster": "A sepia-toned poster depicting a woman in a domestic setting with a vintage feel",
+    "wikipedia": "https://en.wikipedia.org/wiki/Roma_(film)"
+  },
+  {
+    "title": "Lady Bird",
+    "poster": "A heartwarming poster featuring a young woman in a car looking pensive",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lady_Bird_(film)"
+  },
+  {
+    "title": "Get Out",
+    "poster": "A chilling poster showing a man with a terrified expression surrounded by dark imagery",
+    "wikipedia": "https://en.wikipedia.org/wiki/Get_Out"
+  },
+  {
+    "title": "Her",
+    "poster": "A dreamy poster depicting a man talking to an AI, with a warm color palette",
+    "wikipedia": "https://en.wikipedia.org/wiki/Her_(film)"
+  },
+  {
+    "title": "Parasite",
+    "poster": "A satirical poster featuring a house split in two with contrasting lifestyles",
+    "wikipedia": "https://en.wikipedia.org/wiki/Parasite_(2019_film)"
+  },
+  {
+    "title": "The Shape of Water",
+    "poster": "A romantic and surreal poster featuring a mermaid-like creature and a woman in love",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Shape_of_Water"
+  },
+  {
+    "title": "Inside Out",
+    "poster": "A colorful and imaginative poster depicting emotions as characters inside a girl's mind",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inside_Out_(film)"
+  },
+  {
+    "title": "The Florida Project",
+    "poster": "A vibrant poster depicting children playing in front of pastel-colored motels",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Florida_Project"
+  },
+  {
+    "title": "A Star Is Born",
+    "poster": "A romantic poster featuring a couple on stage with a spotlight shining down",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Star_Is_Born_(2018_film)"
+  },
+  {
+    "title": "No Country for Old Men",
+    "poster": "A stark and unsettling poster featuring a lone figure against a vast desert landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men"
+  },
+  {
+    "title": "Lady Vengeance",
+    "poster": "A striking poster featuring a woman with an intense gaze against a dark background",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lady_Vengeance"
+  },
+  {
+    "title": "The Hunt",
+    "poster": "A thought-provoking poster featuring a man with a worried expression set in a snowy landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Hunt_(2012_film)"
+  },
+  {
+    "title": "The Intouchables",
+    "poster": "A vibrant and uplifting poster featuring two men sharing a joyful moment",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Intouchables"
+  },
+  {
+    "title": "The Lobster",
+    "poster": "A surreal and quirky poster featuring a man with a lobster suit in a strange room",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lobster"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "poster": "A dreamy poster featuring a couple in a surreal, colorful environment",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind"
+  },
+  {
+    "title": "The Artist",
+    "poster": "A charming black-and-white poster reminiscent of classic silent films",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Artist"
+  },
+  {
+    "title": "Trainspotting",
+    "poster": "A gritty poster featuring a group of friends in a vibrant urban landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trainspotting_(film)"
+  },
+  {
+    "title": "Silver Linings Playbook",
+    "poster": "A hopeful poster featuring a couple sharing a moment at a dance competition",
+    "wikipedia": "https://en.wikipedia.org/wiki/Silver_Linings_Playbook"
+  },
+  {
+    "title": "Moonrise Kingdom",
+    "poster": "A whimsical poster depicting two children in love against a colorful backdrop of nature",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moonrise_Kingdom"
+  },
+  {
+    "title": "Zodiac",
+    "poster": "A haunting poster featuring a detective surrounded by newspaper clippings",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zodiac_(film)"
+  },
+  {
+    "title": "12 Years a Slave",
+    "poster": "A powerful poster portraying a man with a resilient expression amidst a beautiful landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/12_Years_a_Slave"
+  },
+  {
+    "title": "The King's Speech",
+    "poster": "An inspirational poster featuring a king in a regal setting, looking determined",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_King%27s_Speech"
+  },
+  {
+    "title": "Spotlight",
+    "poster": "A serious poster featuring journalists investigating a significant story in a dark office",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spotlight_(film)"
+  },
+  {
+    "title": "The Favourite",
+    "poster": "A vibrant and colorful poster featuring three women in extravagant dresses",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Favourite"
+  },
+  {
+    "title": "Shutter Island",
+    "poster": "A dark and mysterious poster featuring a solitary figure in a foggy landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shutter_Island"
+  },
+  {
+    "title": "The Shape of Water",
+    "poster": "A whimsical poster featuring a woman and a creature in a romantic embrace",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Shape_of_Water"
+  },
+  {
+    "title": "Little Women",
+    "poster": "A warm and inviting poster featuring four sisters in a vintage home setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/Little_Women_(2019_film)"
+  }
+]

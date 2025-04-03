@@ -1,0 +1,267 @@
+{
+  "name": "Monsieur cinema",
+  "description": "Ah, il cinema! Per me, non è certo quel passatempo da plebei che molti credono. Io ricerco l'originalità, l'audacia, la visione di un vero autore. Il cinema che mi appassiona è quello che osa, che sfida le convenzioni, che non si piega ai gusti dozzinali del mercato. Prediligo le opere che richiedono un certo acume intellettuale, quelle che provengono dalle menti più illuminate del cinema europeo degli anni '60 e '70, dalle avanguardie russe e dalle sperimentazioni americane. Il resto? Fuffa per le masse",
+  "questions": [
+    {
+      "question": "Quale tra le seguenti definizioni di 'cinema' ritieni sia la più pertinente: intrattenimento popolare, espressione artistica elitaria, riflesso socioculturale o merce di consumo?",
+      "answers": [
+        "Intrattenimento popolare, ovviamente.",
+        "Espressione artistica, ma solo per pochi eletti.",
+        "Un interessante specchio della società.",
+        "Purtroppo, sempre più una mera merce."
+      ]
+    },
+    {
+      "question": "Di fronte all'offerta cinematografica contemporanea, ti senti più attratto da narrazioni lineari e rassicuranti o da opere che deliberatamente frantumano le convenzioni narrative?",
+      "answers": [
+        "Amo le storie chiare e ben raccontate.",
+        "Sono aperto a tutto, purché ci sia un senso.",
+        "Le narrazioni frammentate possono essere stimolanti.",
+        "La linearità è sintomo di pigrizia intellettuale."
+      ]
+    },
+    {
+      "question": "Qual è la tua opinione sul cinema muto? Un reperto archeologico di interesse storico o una forma d'arte ancora capace di comunicare emozioni pure?",
+      "answers": [
+        "Interessante per capire le origini, ma superato.",
+        "Qualche titolo è ancora godibile, ma con le dovute riserve.",
+        "Un linguaggio espressivo potentissimo.",
+        "Chi non apprezza il muto non ha compreso l'essenza del cinema."
+      ]
+    },
+    {
+      "question": "Tra i seguenti registi, quale suscita in te il più vivo interesse (anche se magari non li conosci tutti): Andrej Tarkovskij, Michael Bay, Agnès Varda o Christopher Nolan?",
+      "answers": [
+        "Christopher Nolan, i suoi film sono sempre spettacolari.",
+        "Michael Bay, per l'azione e il ritmo incalzante.",
+        "Non conosco questi nomi, mi affido ai consigli.",
+        "Tarkovskij e Varda, maestri di un cinema pensoso e profondo."
+      ]
+    },
+    {
+      "question": "Cosa pensi del ruolo della critica cinematografica? Una guida necessaria per orientarsi nel mare magnum delle uscite, un inutile esercizio di sterile intellettualizzazione o un'opportunità per elevarsi al di sopra del gusto popolare?",
+      "answers": [
+        "Utile per capire cosa andare a vedere.",
+        "Spesso troppo snob e distante dal pubblico.",
+        "Un'occasione per distinguersi dalla massa.",
+        "Fondamentale per la sopravvivenza del vero cinema."
+      ]
+    },
+    {
+      "question": "Qual è il genere cinematografico che ti suscita il più profondo sospetto intellettuale?",
+      "answers": [
+        "La commedia romantica, è sempre così prevedibile.",
+        "Il film d'azione fracassone e senza cervello.",
+        "L'horror, troppo spesso basato su facili spaventi.",
+        "Il cinema di supereroi, un'infantilizzazione del gusto."
+      ]
+    },
+    {
+      "question": "Ritieni che la fruizione di un film in lingua originale con sottotitoli sia un sacrificio necessario per apprezzarne appieno la qualità artistica o una fastidiosa distrazione?",
+      "answers": [
+        "Preferisco il doppiaggio per non perdermi nulla.",
+        "Non mi dispiace, ma dipende dal film.",
+        "È essenziale per cogliere le sfumature.",
+        "Il doppiaggio è un abominio che deturpa l'opera."
+      ]
+    },
+    {
+      "question": "Cosa pensi dei cosiddetti 'film evento'? Opere imperdibili che segnano la storia del cinema o operazioni di marketing gonfiate ad arte?",
+      "answers": [
+        "Spesso sono effettivamente dei grandi film.",
+        "Dipende molto dalle aspettative.",
+        "Quasi sempre sopravvalutati.",
+        "Un'abile manipolazione delle masse."
+      ]
+    },
+    {
+      "question": "Quale importanza attribuisci alla colonna sonora di un film? Un mero accompagnamento sonoro o un elemento narrativo fondamentale?",
+      "answers": [
+        "Un piacevole sottofondo.",
+        "Può aiutare a creare l'atmosfera.",
+        "Spesso è ciò che eleva un film.",
+        "È parte integrante della sinfonia cinematografica."
+      ]
+    },
+    {
+      "question": "Se dovessi scegliere un solo film da portare su un'isola deserta, quale, tra questi, sacrificheresti per primo: 'L'Atalante' di Jean Vigo, 'Transformers' di Michael Bay, 'Roma' di Alfonso Cuarón o 'Grease' di Randal Kleiser?",
+      "answers": [
+        "Sacrificherei 'L'Atalante', non mi sembra molto pratico per la sopravvivenza.",
+        "Eliminerei 'Roma', è un po' troppo lento per un'isola deserta.",
+        "Direi 'Grease', preferisco qualcosa di più impegnativo.",
+        "Non esiterei a gettare 'Transformers' in mare aperto."
+      ]
+    },
+    {
+      "question": "Cosa pensi dei remake e dei reboot? Un'occasione per reinterpretare storie classiche per un nuovo pubblico o una mancanza di idee e di originalità?",
+      "answers": [
+        "A volte possono essere interessanti.",
+        "Spesso rovinano i film originali.",
+        "Dipende molto dal progetto.",
+        "Un sintomo della decadenza dell'industria."
+      ]
+    },
+    {
+      "question": "Quale ruolo ritieni che debba avere la politica nel cinema? Un motore di riflessione e di cambiamento sociale o un elemento di disturbo che sottrae spazio alla narrazione?",
+      "answers": [
+        "Può essere interessante se ben integrata nella storia.",
+        "Preferisco il cinema che mi faccia staccare dalla realtà.",
+        "È importante che il cinema affronti temi politici e sociali.",
+        "Il cinema è arte, non propaganda."
+      ]
+    },
+    {
+      "question": "Cosa ti attrae maggiormente in un film: la performance degli attori, la regia visionaria, la sceneggiatura brillante o la spettacolarità degli effetti speciali?",
+      "answers": [
+        "Le grandi interpretazioni degli attori.",
+        "Uno stile di regia che mi sorprenda.",
+        "Una storia ben scritta e coinvolgente.",
+        "Effetti speciali che mi lascino a bocca aperta."
+      ]
+    },
+    {
+      "question": "Hai familiarità con il concetto di 'mise-en-scène'? Ti sembra un aspetto fondamentale dell'arte cinematografica o un dettaglio tecnico irrilevante per lo spettatore medio?",
+      "answers": [
+        "Non so cosa sia.",
+        "Non ci faccio molto caso.",
+        "Mi sembra importante per l'atmosfera.",
+        "È l'essenza stessa del linguaggio cinematografico."
+      ]
+    },
+    {
+      "question": "Qual è la tua opinione sul cinema d'animazione per adulti? Un genere sottovalutato capace di affrontare temi complessi o una bizzarria per un pubblico di nicchia?",
+      "answers": [
+        "Non mi interessa particolarmente l'animazione.",
+        "Può essere interessante se la storia è buona.",
+        "Un mezzo espressivo potentissimo.",
+        "Spesso è più stimolante del cinema 'dal vivo'."
+      ]
+    },
+    {
+      "question": "Cosa pensi dei finali aperti o ambigui? Un invito alla riflessione o una frustrante incompiutezza?",
+      "answers": [
+        "Preferisco che la storia abbia una conclusione chiara.",
+        "A volte possono essere intriganti.",
+        "Dipende da come sono gestiti.",
+        "Sono un segno di intelligenza e di rispetto per lo spettatore."
+      ]
+    },
+    {
+      "question": "Quale importanza attribuisci alla fedeltà di un adattamento cinematografico rispetto all'opera letteraria originale?",
+      "answers": [
+        "È fondamentale che il film sia fedele al libro.",
+        "Non mi importa molto, purché il film sia bello.",
+        "Un adattamento può anche prendere le sue libertà.",
+        "Il cinema è un linguaggio diverso dalla letteratura, quindi la fedeltà è irrilevante."
+      ]
+    },
+    {
+      "question": "Cosa pensi delle lunghe sequenze senza stacchi di montaggio (i cosiddetti 'piani sequenza')? Un virtuosismo tecnico fine a sé stesso o uno strumento narrativo efficace per immergere lo spettatore nella scena?",
+      "answers": [
+        "Spesso mi annoiano.",
+        "Possono essere impressionanti.",
+        "Se ben utilizzati, sono molto efficaci.",
+        "Sono la dimostrazione di una vera maestria registica."
+      ]
+    },
+    {
+      "question": "Qual è il tuo approccio alla visione di un film? Ti lasci semplicemente trasportare dalla storia o cerchi attivamente di decifrare i significati più profondi e le intenzioni del regista?",
+      "answers": [
+        "Voglio solo rilassarmi e godermi lo spettacolo.",
+        "Dipende dal tipo di film.",
+        "Mi piace analizzare ciò che vedo.",
+        "Ogni film è un enigma da risolvere."
+      ]
+    },
+    {
+      "question": "Cosa pensi dei film sperimentali o d'avanguardia? Manifestazioni di autentica ricerca artistica o pretenziose provocazioni?",
+      "answers": [
+        "Spesso non li capisco.",
+        "Alcuni possono essere interessanti, altri no.",
+        "Sono fondamentali per l'evoluzione del linguaggio cinematografico.",
+        "Nella maggior parte dei casi, sono solo fumo negli occhi."
+      ]
+    },
+    {
+      "question": "Quale importanza attribuisci al consenso della critica nel determinare la qualità di un film?",
+      "answers": [
+        "Seguo molto i pareri dei critici.",
+        "Li considero, ma mi faccio la mia opinione.",
+        "Spesso i critici hanno gusti diversi dai miei.",
+        "Il consenso della critica è spesso sospetto."
+      ]
+    },
+    {
+      "question": "Cosa pensi dei film che trattano temi filosofici o esistenziali in modo esplicito? Stimolanti spunti di riflessione o inutili esercizi di intellettualismo?",
+      "answers": [
+        "A volte possono essere un po' pesanti.",
+        "Se ben fatti, possono essere molto interessanti.",
+        "Il cinema dovrebbe far riflettere.",
+        "L'intrattenimento fine a sé stesso è sterile."
+      ]
+    },
+    {
+      "question": "Qual è la tua opinione sull'uso della violenza e del gore nel cinema? Un elemento necessario per raccontare certe storie o un'esibizione gratuita e di cattivo gusto?",
+      "answers": [
+        "Se la storia lo richiede, può essere accettabile.",
+        "Preferisco evitarlo, mi disturba.",
+        "A volte è necessario per mostrare la realtà.",
+        "Spesso è solo sensazionalismo."
+      ]
+    },
+    {
+      "question": "Hai una particolare predilezione per un certo periodo storico del cinema (ad esempio la Nouvelle Vague francese, il Neorealismo italiano, il Nuovo Cinema tedesco)?",
+      "answers": [
+        "Non ho una conoscenza specifica di questi periodi.",
+        "Qualcosa conosco, ma non ho una vera preferenza.",
+        "Sì, alcuni di questi movimenti mi interessano molto.",
+        "Questi sono i periodi in cui il cinema era veramente arte."
+      ]
+    },
+    {
+      "question": "Cosa pensi dei documentari? Un'importante forma di giornalismo e di indagine o un genere spesso noioso e didascalico?",
+      "answers": [
+        "Possono essere interessanti se l'argomento mi appassiona.",
+        "A volte li trovo un po' pesanti.",
+        "Sono fondamentali per capire il mondo.",
+        "Spesso sono faziosi e poco obiettivi."
+      ]
+    },
+    {
+      "question": "Qual è la tua opinione sull'improvvisazione degli attori sul set? Un elemento che può aggiungere spontaneità e realismo o un segno di mancanza di preparazione e di disciplina?",
+      "answers": [
+        "Non ci avevo mai pensato.",
+        "Se ben fatta, può essere efficace.",
+        "Dipende molto dagli attori e dal regista.",
+        "Dovrebbe essere bandita, il cinema è controllo."
+      ]
+    },
+    {
+      "question": "Cosa pensi dei film che utilizzano metacinema o che riflettono sulla natura stessa del cinema?",
+      "answers": [
+        "Non mi piacciono molto i giochi di specchi.",
+        "Possono essere originali e stimolanti.",
+        "Dipende da come sono realizzati.",
+        "Sono la forma più alta di espressione cinematografica."
+      ]
+    },
+    {
+      "question": "Quale importanza attribuisci al messaggio o al significato 'profondo' di un film?",
+      "answers": [
+        "Non cerco significati profondi, voglio solo divertirmi.",
+        "Se c'è, tanto meglio, ma non è fondamentale.",
+        "Un buon film dovrebbe lasciare qualcosa allo spettatore.",
+        "Senza un significato profondo, un film è solo intrattenimento effimero."
+      ]
+    },
+    {
+      "question": "Se potessi resuscitare un regista del passato per fargli dirigere un film oggi, chi sceglieresti tra i seguenti: Federico Fellini, Steven Spielberg, Maya Deren o Quentin Tarantino?",
+      "answers": [
+        "Steven Spielberg, farebbe sicuramente un grande successo.",
+        "Quentin Tarantino, sono curioso di vedere cosa farebbe oggi.",
+        "Non conosco questi registi, non saprei scegliere.",
+        "Federico Fellini, il suo sguardo sul mondo manca terribilmente."
+      ]
+    }
+  ]
+}

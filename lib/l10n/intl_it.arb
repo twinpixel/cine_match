@@ -1,7 +1,6 @@
 {
   "@@locale": "it",
-  "appTitle": "CineMatch",
-  "recommendedMovies": "Recommended Movies",
-  "loadingMovies": "Loading movies...",
-  "errorMessage": "Connection error"
+  "appName": "Harry squatter",
+  "homePageTitle": "Benvenuto in Cine Match!",
+  "suggestionsTitle": "Film consigliati"
 }

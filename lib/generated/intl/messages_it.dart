@@ -22,11 +22,12 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-    "appTitle": MessageLookupByLibrary.simpleMessage("CineMatch"),
-    "errorMessage": MessageLookupByLibrary.simpleMessage("Connection error"),
-    "loadingMovies": MessageLookupByLibrary.simpleMessage("Loading movies..."),
-    "recommendedMovies": MessageLookupByLibrary.simpleMessage(
-      "Recommended Movies",
+    "appName": MessageLookupByLibrary.simpleMessage("Harry squatter"),
+    "homePageTitle": MessageLookupByLibrary.simpleMessage(
+      "Benvenuto in Cine Match!",
+    ),
+    "suggestionsTitle": MessageLookupByLibrary.simpleMessage(
+      "Film consigliati",
     ),
   };
 }

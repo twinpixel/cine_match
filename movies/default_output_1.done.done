@@ -1,0 +1,2419 @@
+[
+  {
+    "title": "Le Mépris",
+    "poster": "A stark image of Brigitte Bardot lying on a bed, her gaze directed away, against a backdrop of modernist architecture and the azure Mediterranean.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Le_M%C3%A9pris"
+  },
+  {
+    "title": "Persona",
+    "poster": "A fragmented close-up of the faces of Bibi Andersson and Liv Ullmann, seemingly merging into one, creating a profound sense of psychological unease.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Persona_(1966_film)"
+  },
+  {
+    "title": "L'Avventura",
+    "poster": "A minimalist composition featuring a solitary figure against a vast, desolate landscape, hinting at themes of alienation and existential wandering.",
+    "wikipedia": "https://en.wikipedia.org/wiki/L%27Avventura"
+  },
+  {
+    "title": "Solaris",
+    "poster": "A dreamlike depiction of the Solaris ocean, swirling with ethereal colors, with the faces of the cosmonauts Andrei Tarkovsky and Natalya Bondarchuk subtly embedded within.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Solaris_(1972_film)"
+  },
+  {
+    "title": "La Jetée",
+    "poster": "A series of black and white still photographs arranged sequentially, suggesting a narrative of memory, time travel, and impending doom.",
+    "wikipedia": "https://en.wikipedia.org/wiki/La_Jet%C3%A9e"
+  },
+  {
+    "title": "Eraserhead",
+    "poster": "A disturbing close-up of Henry Spencer's face, his hair standing on end, with a small, grotesque creature emerging from his mouth, evoking a sense of industrial decay and psychological horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eraserhead"
+  },
+  {
+    "title": "Stalker",
+    "poster": "A hazy, almost painterly image of the Zone, with three figures silhouetted against a mysterious, overgrown landscape, suggesting a journey into the unknown depths of human desire.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stalker_(1979_film)"
+  },
+  {
+    "title": "8½",
+    "poster": "A chaotic yet elegant composition featuring Marcello Mastroianni surrounded by a multitude of figures, representing the director's inner turmoil and creative frenzy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/8%C2%BD"
+  },
+  {
+    "title": "Andrei Rublev",
+    "poster": "A stark, almost iconographic image of the monk-painter Andrei Rublev, his face conveying both spiritual devotion and artistic struggle against a backdrop of medieval Russia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Andrei_Rublev_(film)"
+  },
+  {
+    "title": "Last Year at Marienbad",
+    "poster": "A geometrically precise and enigmatic image of the Marienbad chateau and its gardens, populated by elegant, detached figures, blurring the lines between memory and reality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Last_Year_at_Marienbad"
+  },
+  {
+    "title": "The Seventh Seal",
+    "poster": "A dramatic black and white image of Death, cloaked and skeletal, playing chess with a knight on a desolate beach, symbolizing humanity's confrontation with mortality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Seventh_Seal"
+  },
+  {
+    "title": "Tokyo Story",
+    "poster": "A serene yet melancholic image of an aging couple sitting in quiet contemplation, suggesting the passage of time and the changing dynamics of family relationships in post-war Japan.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tokyo_Story"
+  },
+  {
+    "title": "Seven Samurai",
+    "poster": "A dynamic and powerful image of seven samurai warriors standing defiantly against a stormy backdrop, embodying courage, loyalty, and the clash between tradition and change.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seven_Samurai"
+  },
+  {
+    "title": "Rashomon",
+    "poster": "A stylized and enigmatic image of the four key witnesses silhouetted against a bamboo forest, highlighting the subjectivity of truth and perception.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rashomon"
+  },
+  {
+    "title": "Ugetsu",
+    "poster": "A hauntingly beautiful image of a boat drifting through a misty lake, with ethereal figures suggesting the allure and dangers of the supernatural world in feudal Japan.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ugetsu"
+  },
+  {
+    "title": "Sansho the Bailiff",
+    "poster": "A poignant image of a family torn apart by injustice and oppression in medieval Japan, emphasizing themes of resilience and the enduring power of human connection.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sansho_the_Bailiff"
+  },
+  {
+    "title": "The Passion of Joan of Arc",
+    "poster": "A series of intense close-ups of Renée Falconetti's face, capturing the raw emotion and spiritual torment of Joan of Arc during her trial and execution.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Passion_of_Joan_of_Arc"
+  },
+  {
+    "title": "Metropolis (1927)",
+    "poster": "A towering, futuristic cityscape dominated by art deco skyscrapers and flying machines, with a striking image of the Maschinenmensch, symbolizing the anxieties of industrialization and social division.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Metropolis_(1927_film)"
+  },
+  {
+    "title": "Sunrise: A Song of Two Humans",
+    "poster": "A visually poetic image of a farmer and his wife silhouetted against a vibrant sunrise, representing the purity of rural life contrasted with the temptations of the city.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sunrise:_A_Song_of_Two_Humans"
+  },
+  {
+    "title": "L'Atalante",
+    "poster": "A romantic and lyrical image of a barge sailing along a canal, with its crew and the newlywed couple, capturing the beauty of the French waterways and the complexities of love.",
+    "wikipedia": "https://en.wikipedia.org/wiki/L%27Atalante"
+  },
+  {
+    "title": "Zero de conduite",
+    "poster": "A mischievous and anarchic image of schoolboys rebelling against the rigid authority of their teachers, celebrating the spirit of youthful defiance and imagination.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Z%C3%A9ro_de_conduite"
+  },
+  {
+    "title": "The Rules of the Game",
+    "poster": "A complex and satirical image of a weekend gathering at a French château, highlighting the intricate social dynamics, romantic entanglements, and underlying tensions of the upper class on the eve of war.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Rules_of_the_Game"
+  },
+  {
+    "title": "Rome, Open City",
+    "poster": "A gritty and emotionally resonant image of the Italian Resistance fighting against Nazi occupation in Rome, capturing the courage and resilience of ordinary people in extraordinary circumstances.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rome,_Open_City"
+  },
+  {
+    "title": "Bicycle Thieves",
+    "poster": "A poignant and heartbreaking image of a father and son searching desperately for a stolen bicycle in post-war Rome, symbolizing the struggle for dignity and survival in poverty.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bicycle_Thieves"
+  },
+  {
+    "title": "Germany Year Zero",
+    "poster": "A stark and devastating image of a young boy navigating the ruins of post-war Berlin, reflecting the physical and moral devastation of the war and the loss of innocence.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Germany_Year_Zero"
+  },
+  {
+    "title": "The Umbrellas of Cherbourg",
+    "poster": "A visually stunning and emotionally vibrant image of Catherine Deneuve and Nino Castelnuovo in a stylized, color-saturated world, conveying the bittersweet romance and the passage of time through song.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Umbrellas_of_Cherbourg"
+  },
+  {
+    "title": "The Young Girls of Rochefort",
+    "poster": "A playful and energetic image of Catherine Deneuve and Françoise Dorléac as twin sisters dreaming of love and adventure in the colorful seaside town of Rochefort, celebrating the joy of musical cinema.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Young_Girls_of_Rochefort"
+  },
+  {
+    "title": "Playtime",
+    "poster": "A meticulously designed and humorous image of Jacques Tati navigating the absurdities of modern architecture and technology in a futuristic Paris, offering a gentle satire on contemporary life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Playtime"
+  },
+  {
+    "title": "Mon Oncle",
+    "poster": "A charming and whimsical image of Monsieur Hulot comically interacting with the ultra-modern, yet impractical, home of his sister and brother-in-law, highlighting the clash between tradition and modernity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mon_Oncle"
+  },
+  {
+    "title": "The Discreet Charm of the Bourgeoisie",
+    "poster": "A surreal and satirical image of a group of bourgeois friends repeatedly interrupted in their attempts to have dinner, exposing the absurdity and hypocrisy of the upper class.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Discreet_Charm_of_the_Bourgeoisie"
+  },
+  {
+    "title": "Belle de Jour",
+    "poster": "An alluring and enigmatic image of Catherine Deneuve as a bourgeois housewife who secretly works as a prostitute during the day, exploring themes of desire, repression, and fantasy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Belle_de_Jour"
+  },
+  {
+    "title": "The Exterminating Angel",
+    "poster": "A bizarre and unsettling image of a group of wealthy guests inexplicably unable to leave a dinner party, creating a claustrophobic and allegorical commentary on social constraints.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Exterminating_Angel"
+  },
+  {
+    "title": "Viridiana",
+    "poster": "A provocative and controversial image of a young novice nun surrounded by beggars at a dinner table, challenging conventional morality and religious dogma.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Viridiana"
+  },
+  {
+    "title": "The Conformist",
+    "poster": "A visually striking and politically charged image of Jean-Louis Trintignant as a man who joins the Italian Fascist Party, exploring themes of conformity, identity, and the rise of totalitarianism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Conformist_(film)"
+  },
+  {
+    "title": "Death in Venice",
+    "poster": "A hauntingly beautiful and melancholic image of Dirk Bogarde as an aging composer who becomes obsessed with a young boy during a cholera epidemic in Venice, exploring themes of beauty, decay, and forbidden desire.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Death_in_Venice_(film)"
+  },
+  {
+    "title": "Amarcord",
+    "poster": "A nostalgic and dreamlike image of life in a small Italian town during the Fascist era, filled with eccentric characters and surreal events, celebrating the power of memory and imagination.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amarcord"
+  },
+  {
+    "title": "Fellini Satyricon",
+    "poster": "A visually extravagant and grotesque image of ancient Rome, depicting a world of decadence, perversion, and moral decay, inspired by Petronius's work.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fellini_Satyricon"
+  },
+  {
+    "title": "Salò, or the 120 Days of Sodom",
+    "poster": "A disturbing and controversial image depicting scenes of torture and degradation, based on the Marquis de Sade's novel, offering a brutal allegory of power and fascism (viewer discretion strongly advised).",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sal%C3%B2,_or_the_120_Days_of_Sodom"
+  },
+  {
+    "title": "The Mirror",
+    "poster": "A poetic and fragmented image incorporating dreamlike sequences and childhood memories, reflecting on the director's personal history and the nature of time and memory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Mirror_(1975_film)"
+  },
+  {
+    "title": "Nostalghia",
+    "poster": "A visually stunning and melancholic image of a Russian writer visiting Italy, grappling with feelings of alienation, cultural displacement, and spiritual longing.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nostalghia"
+  },
+  {
+    "title": "The Sacrifice",
+    "poster": "A visually arresting and allegorical image of a man who makes a desperate pact with God to prevent a nuclear holocaust, exploring themes of faith, sacrifice, and the fate of humanity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Sacrifice_(1986_film)"
+  },
+  {
+    "title": "Wild Strawberries",
+    "poster": "A reflective and poignant image of an elderly professor taking a car journey to receive an honorary degree, encountering figures from his past and confronting his own mortality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wild_Strawberries"
+  },
+
+  {
+    "title": "Cries and Whispers",
+    "poster": "A visually striking and emotionally raw image dominated by the color red, depicting the final days of three sisters in a secluded mansion, exploring themes of sisterhood, isolation, and death.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cries_and_Whispers"
+  },
+  {
+    "title": "Scenes from a Marriage",
+    "poster": "An intimate and emotionally charged image of Liv Ullmann and Erland Josephson as a married couple navigating the complexities of love, infidelity, and divorce.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scenes_from_a_Marriage"
+  },
+  {
+    "title": "The Magic Flute",
+    "poster": "A visually imaginative and theatrical image of Mozart's opera brought to life on screen, blending the worlds of theater and cinema.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Magic_Flute_(1975_film)"
+  },
+  {
+    "title": "Hour of the Wolf",
+    "poster": "A dark and unsettling image of an artist retreating to a remote island, confronting his inner demons and the blurring lines between reality and hallucination.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hour_of_the_Wolf"
+  },
+  {
+    "title": "Shame (1968)",
+    "poster": "A stark and disturbing image of Liv Ullmann and Max von Sydow as a couple caught in the midst of a civil war, exploring the breakdown of society and the erosion of human dignity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shame_(1968_film)"
+  },
+  {
+    "title": "The Virgin Spring",
+    "poster": "A stark and powerful image set in medieval Sweden, depicting the aftermath of a brutal crime and a father's vengeful response, exploring themes of violence, faith, and redemption.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Virgin_Spring"
+  },
+  {
+    "title": "The Silence (1963)",
+    "poster": "An enigmatic and unsettling image of two sisters with contrasting personalities confined to a hotel room in a foreign city during wartime, exploring themes of isolation and the breakdown of communication.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Silence_(1963_film)"
+  },
+  {
+    "title": "Knife in the Water",
+    "poster": "A tense and claustrophobic image of three individuals on a small sailboat, where power dynamics and unspoken desires lead to psychological conflict.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Knife_in_the_Water"
+  },
+  {
+    "title": "Blind Chance",
+    "poster": "A thought-provoking image depicting three possible scenarios in the life of a medical student, each determined by a seemingly insignificant event, exploring themes of fate and free will.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blind_Chance"
+  },
+  {
+    "title": "The Double Life of Véronique",
+    "poster": "A visually poetic and mysterious image of two identical women, one in Poland and one in France, who share an inexplicable connection, exploring themes of identity, destiny, and the human soul.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Double_Life_of_V%C3%A9ronique"
+  },
+  {
+    "title": "Three Colors: Blue",
+    "poster": "A striking image dominated by the color blue, featuring Juliette Binoche as a woman grappling with grief and seeking freedom after the death of her husband and daughter, exploring themes of liberty and emotional release.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Three_Colors:_Blue"
+  },
+  {
+    "title": "Three Colors: White",
+    "poster": "An image dominated by the color white, featuring Zbigniew Zamachowski as a Polish immigrant in Paris seeking revenge and rediscovering his identity, exploring themes of equality and resilience.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Three_Colors:_White"
+  },
+  {
+    "title": "Three Colors: Red",
+    "poster": "A visually rich image dominated by the color red, featuring Irène Jacob and Jean-Louis Trintignant in a story exploring themes of fraternity and chance encounters in Geneva.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Three_Colors:_Red"
+  },
+  {
+    "title": "Dekalog",
+    "poster": "A series of minimalist posters, each representing one of the Ten Commandments, visually interpreting the moral and ethical dilemmas explored in each episode of this profound television series.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dekalog"
+  },
+  {
+    "title": "A Short Film About Killing",
+    "poster": "A stark and disturbing image reflecting the brutal and senseless nature of violence, exploring the psychological impact of murder and the complexities of capital punishment.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Short_Film_About_Killing"
+  },
+
+  {
+    "title": "Europa Europa",
+    "poster": "A dramatic image of a young Jewish boy who survives World War II by posing as a Nazi, highlighting the absurdities and moral compromises of wartime survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Europa_Europa"
+  },
+  {
+    "title": "Aguirre, the Wrath of God",
+    "poster": "A visually stunning and epic image of Klaus Kinski as the conquistador Aguirre, leading a doomed expedition down the Amazon River in search of El Dorado, embodying ambition, madness, and the destructive power of obsession.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aguirre,_the_Wrath_of_God"
+  },
+  {
+    "title": "Nosferatu the Vampyre",
+    "poster": "A haunting and atmospheric image of Klaus Kinski as the ancient vampire Nosferatu, evoking a sense of dread, decay, and the primal fear of the unknown.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nosferatu_the_Vampyre"
+  },
+  {
+    "title": "Fitzcarraldo",
+    "poster": "An extraordinary and surreal image of a steamboat being hauled over a mountain in the Amazon rainforest, symbolizing the obsessive dream of an opera lover to bring Enrico Caruso to perform in the jungle.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fitzcarraldo"
+  },
+  {
+    "title": "Even Dwarfs Started Small",
+    "poster": "A bizarre and provocative image featuring a cast entirely composed of little people engaged in acts of rebellion and chaotic behavior, challenging societal norms and perceptions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Even_Dwarfs_Started_Small"
+  },
+  {
+    "title": "The Enigma of Kaspar Hauser",
+    "poster": "A mysterious and melancholic image of a young man who suddenly appears in a town, having lived his entire life in isolation, exploring themes of nature versus nurture and the cruelty of society.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Enigma_of_Kaspar_Hauser"
+  },
+  {
+    "title": "Wings of Desire",
+    "poster": "A visually poetic and philosophical image of angels observing the lives of ordinary people in Berlin, contemplating themes of love, loss, and the human condition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wings_of_Desire"
+  },
+  {
+    "title": "Paris, Texas",
+    "poster": "A stark and evocative image of Harry Dean Stanton as a man who mysteriously reappears after years of absence, wandering through the American Southwest and grappling with his past.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paris,_Texas"
+  },
+  {
+    "title": "The American Friend",
+    "poster": "A stylish and suspenseful image featuring Dennis Hopper and Bruno Ganz in a neo-noir thriller about an art forger who gets drawn into the world of contract killing.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_American_Friend"
+  },
+  {
+    "title": "The Tin Drum",
+    "poster": "A surreal and allegorical image of a boy who decides to stop growing at the age of three and uses his tin drum to comment on the absurdities of the adult world and the rise of Nazism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Tin_Drum_(film)"
+  },
+  {
+    "title": "The Marriage of Maria Braun",
+    "poster": "A dramatic image of Hanna Schygulla as a woman who will do anything to survive and prosper in post-war Germany, exploring themes of ambition, resilience, and the economic miracle.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Marriage_of_Maria_Braun"
+  },
+  {
+    "title": "Ali: Fear Eats the Soul",
+    "poster": "An emotionally resonant image of an older white woman and a younger Arab man who fall in love, confronting racial prejudice and social stigma in Germany.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ali:_Fear_Eats_the_Soul"
+  },
+  {
+    "title": "Fox and His Friends",
+    "poster": "A poignant and tragic image of a working-class gay man who wins the lottery and is exploited by his wealthy acquaintances, offering a critique of social inequality and the corrupting influence of money.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fox_and_His_Friends"
+  },
+  {
+    "title": "The Bitter Tears of Petra von Kant",
+    "poster": "A visually stylized and theatrical image of a successful fashion designer who mistreats her lovers and employees, exploring themes of power, manipulation, and the complexities of female relationships.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Bitter_Tears_of_Petra_von_Kant"
+  },
+  {
+    "title": "Effi Briest",
+    "poster": "A visually lush and melancholic image of a young woman trapped in a loveless marriage in 19th-century Prussia, exploring themes of societal expectations, adultery, and the constraints on women.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Effi_Briest_(1974_film)"
+  },
+  {
+    "title": "The Third Generation",
+    "poster": "A satirical and unsettling image of a group of middle-class German terrorists who are unknowingly being manipulated by the police, offering a cynical commentary on the radical left in the 1970s.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Third_Generation_(film)"
+  },
+  {
+    "title": "Knife in the Head",
+    "poster": "A politically charged and suspenseful image of a scientist who becomes the target of a right-wing conspiracy after witnessing a political assassination.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Knife_in_the_Head"
+  },
+  {
+    "title": "The Lost Honor of Katharina Blum",
+    "poster": "A gripping and controversial image of a woman whose life is destroyed by sensationalist media reporting after she spends a night with a suspected terrorist.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lost_Honor_of_Katharina_Blum_(film)"
+  },
+  {
+    "title": "Eraserhead",
+    "poster": "A disturbing close-up of Henry Spencer's face, his hair standing on end, with a small, grotesque creature emerging from his mouth, evoking a sense of industrial decay and psychological horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eraserhead"
+  },
+  {
+    "title": "Blue Velvet",
+    "poster": "A surreal and unsettling image featuring Kyle MacLachlan peering into a dark and disturbing underworld hidden beneath the surface of a seemingly idyllic American town.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blue_Velvet_(film)"
+  },
+  {
+    "title": "Mulholland Drive",
+    "poster": "A dreamlike and enigmatic image of Naomi Watts and Laura Harring in a complex and non-linear narrative exploring themes of ambition, desire, and the dark side of Hollywood.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mulholland_Drive"
+  },
+  {
+    "title": "Lost Highway",
+    "poster": "A disorienting and nightmarish image featuring Bill Pullman and Patricia Arquette in a film that blurs the lines between reality and illusion, identity and paranoia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lost_Highway_(film)"
+  },
+  {
+    "title": "Wild at Heart",
+    "poster": "A vibrant and violent image of Nicolas Cage and Laura Dern as a young couple on the run, pursued by a cast of eccentric and dangerous characters in a surreal and hyper-stylized road movie.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wild_at_Heart_(film)"
+  },
+  {
+    "title": "The Elephant Man",
+    "poster": "A poignant and haunting black and white image of John Merrick, the 'Elephant Man', highlighting the physical deformities that led to his exploitation and the inner humanity that was often overlooked.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Elephant_Man_(film)"
+  },
+  {
+    "title": "Eraserhead",
+    "poster": "A disturbing close-up of Henry Spencer's face, his hair standing on end, with a small, grotesque creature emerging from his mouth, evoking a sense of industrial decay and psychological horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eraserhead"
+  },
+  {
+    "title": "Pi",
+    "poster": "A stark and intense image of a mathematician who becomes obsessed with finding a pattern in the stock market and the universe, leading him down a path of paranoia and discovery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pi_(film)"
+  },
+  {
+    "title": "Requiem for a Dream",
+    "poster": "A harrowing and visually striking image depicting the devastating effects of addiction on four individuals as their lives spiral out of control.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Requiem_for_a_Dream"
+  },
+  {
+    "title": "Black Swan",
+    "poster": "A visually stunning and psychologically intense image of Natalie Portman as a ballerina who descends into madness as she prepares for a performance of Swan Lake, blurring the lines between reality and illusion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Swan_(film)"
+  },
+  {
+    "title": "The Fountain",
+    "poster": "A visually breathtaking and philosophical image exploring themes of love, death, and rebirth across three interconnected storylines spanning centuries.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fountain"
+  },
+  {
+    "title": "Primer",
+    "poster": "A minimalist and mind-bending image reflecting the complex and paradoxical nature of time travel as discovered by two engineers in their garage.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Primer_(film)"
+  },
+  {
+    "title": "Upstream Color",
+    "poster": "An ethereal and enigmatic image hinting at the film's complex narrative involving parasites, identity, and the interconnectedness of human lives.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Upstream_Color"
+  },
+  {
+    "title": "Synecdoche, New York",
+    "poster": "A complex and melancholic image reflecting the ambitious and ultimately overwhelming theatrical project of a playwright who creates a life-sized replica of New York City inside a warehouse.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Synecdoche,_New_York"
+  },
+  {
+    "title": "Being John Malkovich",
+    "poster": "A surreal and humorous image featuring John Cusack who discovers a portal that allows him to enter the mind of actor John Malkovich.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Being_John_Malkovich"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "poster": "A whimsical and poignant image of Jim Carrey and Kate Winslet as a former couple who undergo a procedure to erase each other from their memories.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind"
+  },
+  {
+    "title": "Adaptation.",
+    "poster": "A meta-narrative image reflecting the film's complex and self-referential story about a screenwriter struggling to adapt a non-fiction book into a screenplay.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adaptation."
+  },
+  {
+    "title": "Her",
+    "poster": "A subtly melancholic and futuristic image of Joaquin Phoenix as a lonely writer who develops a relationship with an artificially intelligent virtual assistant.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Her_(film)"
+  },
+  {
+    "title": "Under the Skin",
+    "poster": "An unsettling and enigmatic image of Scarlett Johansson as an alien disguised as a human woman who preys on men in Scotland.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Under_the_Skin_(2013_film)"
+  },
+  {
+    "title": "Holy Motors",
+    "poster": "A surreal and captivating image of Denis Lavant in various guises, reflecting the film's episodic and dreamlike exploration of identity and performance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Holy_Motors"
+  },
+  {
+    "title": "The Lobster",
+    "poster": "A darkly comedic and absurdist image featuring Colin Farrell in a dystopian world where single people are forced to find a mate within 45 days or be turned into animals.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lobster"
+  },
+  {
+    "title": "Anomalisa",
+    "poster": "A subtly unsettling and poignant image of stop-motion animated characters exploring themes of loneliness, connection, and the search for individuality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anomalisa"
+  },
+  {
+    "title": "A Ghost Story",
+    "poster": "A minimalist and melancholic image of a ghost draped in a white sheet observing the life he left behind, contemplating themes of grief, memory, and the passage of time.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Ghost_Story_(film)"
+  },
+  {
+    "title": "mother!",
+    "poster": "A visually arresting and disturbing image featuring Jennifer Lawrence in a surreal and allegorical horror film about a couple whose tranquil life is disrupted by uninvited guests.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mother!_(film)"
+  },
+  {
+    "title": "Mandy",
+    "poster": "A visually stunning and psychedelic image featuring Nicolas Cage in a violent and surreal revenge film set in a hallucinatory landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mandy_(2018_film)"
+  },
+  {
+    "title": "The Lighthouse",
+    "poster": "A stark and atmospheric black and white image of Robert Pattinson and Willem Dafoe as two lighthouse keepers descending into madness on a remote island in the 1890s.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lighthouse_(2019_film)"
+  },
+  {
+    "title": "Titane",
+    "poster": "A shocking and provocative image featuring a woman with a titanium plate in her head who develops a sexual attraction to cars.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Titane"
+  },
+  {
+    "title": "Annette",
+    "poster": "A surreal and operatic image featuring Adam Driver and Marion Cotillard in a musical film about a stand-up comedian and his opera singer wife, and their mysterious daughter.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Annette_(film)"
+  },
+  {
+    "title": "The French Dispatch",
+    "poster": "A whimsical and intricately detailed image reminiscent of a magazine cover, showcasing the various stories and characters within Wes Anderson's tribute to journalism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_French_Dispatch"
+  },
+  {
+    "title": "Beau Travail",
+    "poster": "A visually stunning and homoerotic image of French Foreign Legionnaires training in Djibouti, exploring themes of desire, masculinity, and discipline.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beau_Travail"
+  },
+  {
+    "title": "Trouble Every Day",
+    "poster": "A disturbing and visceral image hinting at the film's graphic depiction of a honeymooning couple with a dark and cannibalistic secret.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trouble_Every_Day"
+  },
+  {
+    "title": "The Intruder (2004)",
+    "poster": "An enigmatic and fragmented image reflecting the film's complex narrative about an amnesiac who may be a former mercenary.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Intruder_(2004_film)"
+  },
+  {
+    "title": "White Material",
+    "poster": "A stark and politically charged image of Isabelle Huppert as a coffee plantation owner refusing to leave her land amidst a civil war in an unnamed African country.",
+    "wikipedia": "https://en.wikipedia.org/wiki/White_Material"
+  },
+  {
+    "title": "High Life (2018)",
+    "poster": "A visually striking and unsettling image of Robert Pattinson and Juliette Binoche aboard a spaceship carrying criminals on a mission to extract energy from a black hole.",
+    "wikipedia": "https://en.wikipedia.org/wiki/High_Life_(2018_film)"
+  },
+  {
+    "title": "The Idiots",
+    "poster": "A provocative and controversial image of a group of adults pretending to be mentally disabled in order to break free from societal norms.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Idiots_(film)"
+  },
+  {
+    "title": "Breaking the Waves",
+    "poster": "An emotionally intense and visually raw image of Emily Watson as a devout woman who believes her paralyzed husband will recover if she sleeps with other men.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Breaking_the_Waves"
+  },
+  {
+    "title": "The Kingdom (TV series)",
+    "poster": "A surreal and unsettling image representing the eerie atmosphere of a haunted hospital built on an ancient burial ground.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Kingdom_(TV_series)"
+  },
+  {
+    "title": "Dancer in the Dark",
+    "poster": "A poignant and visually stylized image of Björk as a factory worker with a degenerative eye condition who dreams of saving enough money for her son's operation through her love of musicals.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dancer_in_the_Dark"
+  },
+  {
+    "title": "Dogville",
+    "poster": "A minimalist and theatrical image depicting the outline of a town on a stage floor, where a woman on the run from gangsters seeks refuge but is ultimately exploited by the inhabitants.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dogville"
+  },
+  {
+    "title": "Antichrist",
+    "poster": "A disturbing and controversial image hinting at the film's exploration of grief, nature, and the dark side of human sexuality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antichrist_(film)"
+  },
+  {
+    "title": "Melancholia",
+    "poster": "A visually stunning and apocalyptic image of Kirsten Dunst as a bride overwhelmed by depression as a rogue planet hurtles towards Earth.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Melancholia_(2011_film)"
+  },
+  {
+    "title": "Nymphomaniac",
+    "poster": "A provocative and explicit image hinting at the film's exploration of a woman's erotic life from birth to the age of 50.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nymphomaniac_(film)"
+  },
+  {
+    "title": "The House That Jack Built",
+    "poster": "A disturbing and unsettling image reflecting the film's portrayal of a serial killer's 'art' and his descent into madness.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_House_That_Jack_Built"
+  },
+  {
+    "title": "Force Majeure (2014)",
+    "poster": "A visually striking and emotionally ambiguous image of a family on a ski trip whose dynamics are shaken after the father's cowardly reaction to an avalanche.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Force_Majeure_(2014_film)"
+  },
+  {
+    "title": "The Square (2017)",
+    "poster": "A satirical and thought-provoking image reflecting the film's exploration of the art world, social responsibility, and the boundaries of acceptable behavior.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Square_(2017_film)"
+  },
+  {
+    "title": "Triangle of Sadness",
+    "poster": "A darkly comedic and provocative image of wealthy passengers and a working-class crew on a luxury cruise that takes a disastrous turn.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Triangle_of_Sadness"
+  },
+  {
+    "title": "A Pigeon Sat on a Branch Reflecting on Existence",
+    "poster": "A series of deadpan and absurd vignettes featuring recurring characters in mundane and surreal situations, reflecting on the human condition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Pigeon_Sat_on_a_Branch_Reflecting_on_Existence"
+  },
+  {
+    "title": "Songs from the Second Floor",
+    "poster": "A series of surreal and darkly humorous scenes depicting the anxieties and absurdities of modern Swedish life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Songs_from_the_Second_Floor"
+  },
+  {
+    "title": "You, the Living",
+    "poster": "A collection of bizarre and often humorous short stories about the everyday lives and inner thoughts of various individuals.",
+    "wikipedia": "https://en.wikipedia.org/wiki/You,_the_Living"
+  },
+  {
+    "title": "The White Ribbon",
+    "poster": "A stark and enigmatic black and white image hinting at the dark secrets and repressive atmosphere of a Northern German village on the eve of World War I.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_White_Ribbon"
+  },
+  {
+    "title": "Amour",
+    "poster": "An intimate and heartbreaking image of an elderly couple facing the realities of aging and illness.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amour_(2012_film)"
+  },
+  {
+    "title": "Hidden (Caché)",
+    "poster": "A subtly unsettling image featuring Daniel Auteuil and Juliette Binoche as a Parisian couple who start receiving anonymous surveillance tapes of their home.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cach%C3%A9_(2005_film)"
+  },
+  {
+    "title": "The Piano Teacher",
+    "poster": "An intense and disturbing image of Isabelle Huppert as a repressed piano teacher with a complex and often destructive inner life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Piano_Teacher_(film)"
+  },
+  {
+    "title": "Funny Games (1997)",
+    "poster": "A chilling and provocative image featuring two polite young men who terrorize a vacationing family.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Funny_Games_(1997_film)"
+  },
+  {
+    "title": "Benny's Video",
+    "poster": "A disturbing and thought-provoking image exploring the desensitizing effects of media violence on a teenager.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Benny%27s_Video"
+  },
+  {
+    "title": "71 Fragments of a Chronology of Chance",
+    "poster": "A fragmented and unsettling image reflecting the film's structure of seemingly unrelated vignettes leading up to a school shooting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/71_Fragments_of_a_Chronology_of_Chance"
+  },
+  {
+    "title": "Code Unknown",
+    "poster": "A series of interconnected vignettes exploring themes of communication, misunderstanding, and racial tension in contemporary Paris.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Code_Unknown"
+  },
+  {
+    "title": "Time of the Wolf",
+    "poster": "A stark and unsettling image depicting a family struggling to survive in a world that has been struck by an unexplained disaster.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Time_of_the_Wolf"
+  },
+  {
+    "title": "Happy End (2017)",
+    "poster": "A darkly comedic and cynical image of a wealthy European family grappling with old age, death, and the refugee crisis.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Happy_End_(2017_film)"
+  },
+  {
+    "title": "The Son's Room",
+    "poster": "A poignant and emotionally resonant image of a family struggling to cope with the sudden death of their son.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Son%27s_Room"
+  },
+  {
+    "title": "The Best of Youth",
+    "poster": "An epic and moving image spanning several decades in the lives of two Italian brothers and their intertwined destinies against the backdrop of Italian history.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Best_of_Youth"
+  },
+  {
+    "title": "I'm Not Scared",
+    "poster": "A suspenseful and atmospheric image seen through the eyes of a young boy who discovers a shocking secret in the fields of Southern Italy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/I%27m_Not_Scared"
+  },
+  {
+    "title": "The Consequences of Love",
+    "poster": "A stylish and enigmatic image of a solitary man with a mysterious past living in a Swiss hotel.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Consequences_of_Love"
+  },
+  {
+    "title": "The Great Beauty",
+    "poster": "A visually stunning and melancholic image of an aging writer reflecting on his life amidst the beauty and decadence of contemporary Rome.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Beauty"
+  },
+  {
+    "title": "Dogman (2018)",
+    "poster": "A gritty and unsettling image of a gentle dog groomer who gets caught up in a violent criminal underworld.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dogman_(2018_film)"
+  },
+  {
+    "title": "Pinocchio (2019)",
+    "poster": "A visually imaginative and often unsettling image bringing Carlo Collodi's classic tale to life with a unique and dark aesthetic.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pinocchio_(2019_film)"
+  },
+  {
+    "title": "Martin Eden",
+    "poster": "A passionate and intense image of a self-taught working-class man striving to become a writer in early 20th-century Italy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Martin_Eden_(2019_film)"
+  },
+  {
+    "title": "The Traitor (2019)",
+    "poster": "A dramatic and historical image depicting the true story of Tommaso Buscetta, the first high-ranking member of the Sicilian Mafia to become an informant.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Traitor_(2019_film)"
+  },
+  {
+    "title": "Vincere",
+    "poster": "A powerful and dramatic image depicting the tumultuous relationship between Benito Mussolini and his secret mistress Ida Dalser.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vincere"
+  },
+  {
+    "title": "Certified Copy",
+    "poster": "A thought-provoking and ambiguous image featuring Juliette Binoche and William Shimell as they explore the nature of originality and authenticity during a day trip in Tuscany.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Certified_Copy"
+  },
+  {
+    "title": "Shame (2011)",
+    "poster": "A stark and emotionally raw image of Michael Fassbender as a man struggling with sex addiction in New York City.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shame_(2011_film)"
+  },
+  {
+    "title": "The Hunt (2012)",
+    "poster": "A tense and unsettling image of Mads Mikkelsen as a kindergarten teacher falsely accused of child abuse, showing the devastating impact of rumor and social ostracization.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Hunt_(2012_film)"
+  },
+  {
+    "title": "Another Round",
+    "poster": "A lively and bittersweet image of four middle-aged teachers who decide to experiment with maintaining a constant blood alcohol level throughout the day.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Another_Round_(film)"
+  },
+  {
+    "title": "The Worst Person in the World",
+    "poster": "A charming and insightful image of Renate Reinsve as a young woman navigating the complexities of love, career, and identity in contemporary Oslo.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Worst_Person_in_the_World"
+  },
+  {
+    "title": "Oslo, August 31st",
+    "poster": "A melancholic and intimate image of Anders Danielsen Lie as a man on a temporary leave from rehab, reflecting on his past and uncertain future in Oslo.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oslo,_August_31st"
+  },
+  {
+    "title": "Blind (2014)",
+    "poster": "A visually intriguing and psychological image of a recently blinded woman who retreats into her imagination, where the lines between reality and fantasy blur.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blind_(2014_film)"
+  },
+  {
+    "title": "Thelma (2017)",
+    "poster": "A suspenseful and supernatural image of a young woman who discovers she has dangerous and inexplicable powers.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thelma_(2017_film)"
+  },
+  {
+    "title": "Burning (2018)",
+    "poster": "An enigmatic and atmospheric image hinting at the film's slow-burn mystery involving a young man, a wealthy and mysterious acquaintance, and a missing woman.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Burning_(2018_film)"
+  },
+  {
+    "title": "Parasite",
+    "poster": "A darkly comedic and socially relevant image of two families from vastly different social classes whose lives become intertwined with unexpected and tragic consequences.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Parasite_(2019_film)"
+  },
+  {
+    "title": "Memories of Murder",
+    "poster": "A suspenseful and atmospheric image of two detectives struggling to catch a serial killer in rural South Korea.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Memories_of_Murder"
+  },
+  {
+    "title": "The Host (2006)",
+    "poster": "A visually striking and satirical image of a giant mutant creature terrorizing Seoul, blending monster movie tropes with social commentary.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Host_(2006_film)"
+  },
+  {
+    "title": "Mother (2009)",
+    "poster": "A suspenseful and emotionally charged image of a devoted mother desperately trying to protect her mentally challenged son from a murder accusation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mother_(2009_South_Korean_film)"
+  },
+  {
+    "title": "Snowpiercer",
+    "poster": "A visually dynamic and dystopian image of a train carrying the last remnants of humanity after a climate apocalypse, with a rigid class system enforced within its carriages.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Snowpiercer"
+  },
+  {
+    "title": "Okja",
+    "poster": "A heartwarming and adventurous image of a young girl who befriends a giant genetically engineered 'super-pig' and fights to protect it from a powerful corporation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Okja"
+  },
+  {
+    "title": "Train to Busan",
+    "poster": "A high-energy and terrifying image of passengers trapped on a speeding train during a zombie apocalypse.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Train_to_Busan"
+  },
+  {
+    "title": "The Handmaiden",
+    "poster": "A visually stunning and erotically charged image of two women who become entangled in a complex web of deceit and desire in 1930s Korea under Japanese rule.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Handmaiden"
+  },
+  {
+    "title": "Thirst (2009)",
+    "poster": "A darkly comedic and unconventional vampire film about a Catholic priest who is transformed into a vampire through a blood transfusion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thirst_(2009_film)"
+  },
+  {
+    "title": "I Saw the Devil",
+    "poster": "A brutal and intense image of a secret agent who embarks on a vengeful pursuit of the serial killer who murdered his fiancée.",
+    "wikipedia": "https://en.wikipedia.org/wiki/I_Saw_the_Devil"
+  },
+  {
+    "title": "A Tale of Two Sisters",
+    "poster": "A chilling and atmospheric image of two sisters returning home after a stay in a mental institution, where they encounter unsettling events and family secrets.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Tale_of_Two_Sisters"
+  },
+  {
+    "title": "Spring, Summer, Fall, Winter... and Spring",
+    "poster": "A visually stunning and meditative image depicting the cycle of life and Buddhist philosophy through the experiences of a monk at a secluded mountain temple.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spring,_Summer,_Fall,_Winter..._and_Spring"
+  },
+  {
+    "title": "3-Iron",
+    "poster": "A surreal and romantic image of a young drifter who breaks into empty houses and lives there temporarily, forming an unusual connection with an abused wife.",
+    "wikipedia": "https://en.wikipedia.org/wiki/3-Iron"
+  },
+  {
+    "title": "The Isle",
+    "poster": "A visually striking and enigmatic image of a remote island inhabited by a solitary monk with extraordinary healing powers.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Isle_(2000_film)"
+  },
+  {
+    "title": "Pieta (film)",
+    "poster": "A disturbing and emotionally charged image of a loan shark who brutally cripples debtors and a mysterious woman who appears claiming to be his long-lost mother.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pieta_(film)"
+  },
+  {
+    "title": "Breathless (1960)",
+    "poster": "A stylish and iconic image of Jean-Paul Belmondo and Jean Seberg in Jean-Luc Godard's groundbreaking New Wave film about a young man on the run after killing a policeman.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Breathless_(1960_film)"
+  },
+  {
+    "title": "The 400 Blows",
+    "poster": "A poignant and iconic image of Jean-Pierre Léaud as a young boy facing the challenges of adolescence and societal pressures in François Truffaut's semi-autobiographical film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_400_Blows"
+  },
+  {
+    "title": "Jules and Jim",
+    "poster": "A charming and free-spirited image of a love triangle between two friends and an enigmatic woman in François Truffaut's celebrated film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jules_and_Jim"
+  },
+  {
+    "title": "Hiroshima Mon Amour",
+    "poster": "A visually poetic and emotionally resonant image exploring the complex relationship between a French actress and a Japanese architect in post-war Hiroshima, grappling with themes of memory and trauma.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hiroshima_Mon_Amour"
+  },
+  {
+    "title": "The Battle of Algiers",
+    "poster": "A raw and powerful black and white image depicting the Algerian War of Independence, focusing on the urban guerrilla warfare in Algiers.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Battle_of_Algiers"
+  },
+  {
+    "title": "Z (film)",
+    "poster": "A politically charged and suspenseful image based on the real-life assassination of a Greek politician, exploring themes of political corruption and the fight for justice.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Z_(film)"
+  },
+  {
+    "title": "The Conformist",
+    "poster": "A visually striking and politically charged image of Jean-Louis Trintignant as a man who joins the Italian Fascist Party, exploring themes of conformity, identity, and the rise of totalitarianism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Conformist_(film)"
+  },
+  {
+    "title": "Claire's Knee",
+    "poster": "A charming and intellectual image centered around a diplomat who becomes fixated on the knee of a young woman he meets during a summer vacation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Claire%27s_Knee"
+  },
+  {
+    "title": "The Discreet Charm of the Bourgeoisie",
+    "poster": "A surreal and satirical image of a group of bourgeois friends repeatedly interrupted in their attempts to have dinner, exposing the absurdity and hypocrisy of the upper class.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Discreet_Charm_of_the_Bourgeoisie"
+  },
+  {
+    "title": "Day for Night",
+    "poster": "A meta-cinematic image depicting the joys and challenges of filmmaking, focusing on a director struggling to complete his movie.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Day_for_Night_(film)"
+  },
+  {
+    "title": "Stavisky",
+    "poster": "A stylish and historical image depicting the life and financial scandals of the charismatic swindler Serge Alexandre Stavisky in 1930s France.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stavisky_(film)"
+  },
+  {
+    "title": "Providence (1977 film)",
+    "poster": "A surreal and introspective image focusing on an aging and ailing writer who spends a sleepless night crafting his final novel.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Providence_(1977_film)"
+  },
+  {
+    "title": "My Dinner with André",
+    "poster": "A simple yet captivating image of two men engaged in an extended and philosophical conversation over dinner.",
+    "wikipedia": "https://en.wikipedia.org/wiki/My_Dinner_with_Andr%C3%A9"
+  },
+  {
+    "title": "Au revoir les enfants",
+    "poster": "A poignant and evocative image of two boys who form a close friendship in a Catholic boarding school during the Nazi occupation of France, unaware of the tragic fate that awaits one of them.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Au_revoir_les_enfants"
+  },
+  {
+    "title": "The Double Life of Véronique",
+    "poster": "A visually poetic and mysterious image of two identical women, one in Poland and one in France, who share an inexplicable connection, exploring themes of identity, destiny, and the human soul.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Double_Life_of_V%C3%A9ronique"
+  },
+  {
+    "title": "Blue (1993 film)",
+    "poster": "A striking image dominated by the color blue, featuring Juliette Binoche as a woman grappling with grief and seeking freedom after the death of her husband and daughter, exploring themes of liberty and emotional release.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Three_Colors:_Blue"
+  },
+  {
+    "title": "White (1994 film)",
+    "poster": "An image dominated by the color white, featuring Zbigniew Zamachowski as a Polish immigrant in Paris seeking revenge and rediscovering his identity, exploring themes of equality and resilience.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Three_Colors:_White"
+  },
+  {
+    "title": "Red (1994 film)",
+    "poster": "A visually rich image dominated by the color red, featuring Irène Jacob and Jean-Louis Trintignant in a story exploring themes of fraternity and chance encounters in Geneva.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Three_Colors:_Red"
+  },
+  {
+    "title": "La Haine",
+    "poster": "A stark and powerful black and white image of three young men from diverse ethnic backgrounds in the banlieues of Paris, exploring themes of police brutality, social unrest, and racial tension.",
+    "wikipedia": "https://en.wikipedia.org/wiki/La_Haine"
+  },
+  {
+    "title": "The Fifth Element",
+    "poster": "A visually extravagant and futuristic image featuring Bruce Willis and Milla Jovovich in Luc Besson's colorful and action-packed sci-fi adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fifth_Element"
+  },
+  {
+    "title": "Amélie",
+    "poster": "A whimsical and charming image of Audrey Tautou as a young woman in Montmartre who decides to dedicate her life to bringing joy to others.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Am%C3%A9lie"
+  },
+  {
+    "title": "Irreversible",
+    "poster": "A visually jarring and disturbing image hinting at the film's controversial and non-linear narrative depicting a brutal act of violence and its aftermath.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Irreversible"
+  },
+  {
+    "title": "Cache (Hidden)",
+    "poster": "A subtly unsettling image featuring Daniel Auteuil and Juliette Binoche as a Parisian couple who start receiving anonymous surveillance tapes of their home.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cach%C3%A9_(2005_film)"
+  },
+  {
+    "title": "The Class (Entre les murs)",
+    "poster": "A realistic and engaging image of a teacher interacting with his diverse group of students in a Parisian inner-city school, exploring the challenges and rewards of education.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Class_(2008_film)"
+  },
+  {
+    "title": "A Prophet",
+    "poster": "A gripping and intense image of Tahar Rahim as a young delinquent who rises through the ranks of a Corsican gang in prison.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Prophet"
+  },
+  {
+    "title": "Holy Motors",
+    "poster": "A surreal and captivating image of Denis Lavant in various guises, reflecting the film's episodic and dreamlike exploration of identity and performance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Holy_Motors"
+  },
+  {
+    "title": "Blue Is the Warmest Color",
+    "poster": "An intimate and emotionally charged image of two young women exploring their evolving relationship, based on the graphic novel 'Blue Angel'.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blue_Is_the_Warmest_Color"
+  },
+  {
+    "title": "Portrait of a Lady on Fire",
+    "poster": "A visually stunning and emotionally resonant image of two women in 18th-century France who develop a deep connection while one is commissioned to paint the other's portrait.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Portrait_of_a_Lady_on_Fire"
+  },
+  {
+    "title": "Titane",
+    "poster": "A shocking and provocative image featuring a woman with a titanium plate in her head who develops a sexual attraction to cars.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Titane"
+  },
+  {
+    "title": "Crouching Tiger, Hidden Dragon",
+    "poster": "A visually breathtaking and action-packed image of martial arts masters soaring through the air in Ang Lee's acclaimed wuxia film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Crouching_Tiger,_Hidden_Dragon"
+  },
+  {
+    "title": "In the Mood for Love",
+    "poster": "A visually stunning and melancholic image capturing the unspoken desires and restrained emotions of two neighbors who form a close bond in 1960s Hong Kong.",
+    "wikipedia": "https://en.wikipedia.org/wiki/In_the_Mood_for_Love"
+  },
+  {
+    "title": "Chungking Express",
+    "poster": "A vibrant and energetic image capturing the intersecting stories of two lovesick policemen in the bustling streets of Hong Kong.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chungking_Express"
+  },
+  {
+    "title": "2046",
+    "poster": "A visually opulent and dreamlike image continuing the themes of love, memory, and longing from 'In the Mood for Love' in a futuristic setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/2046_(film)"
+  },
+  {
+    "title": "Happy Together",
+    "poster": "A visually striking and emotionally raw image of a turbulent love affair between two men in Buenos Aires.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Happy_Together_(1997_film)"
+  },
+  {
+    "title": "Days of Being Wild",
+    "poster": "A stylish and nostalgic image capturing the aimless lives and romantic entanglements of a group of young people in 1960s Hong Kong.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Days_of_Being_Wild"
+  },
+  {
+    "title": "The Hand",
+    "poster": "A visually sensual and melancholic image focusing on a tailor's obsessive love for a beautiful but demanding woman in Wong Kar-wai's contribution to the anthology film 'Eros'.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eros_(2004_film)"
+  },
+  {
+    "title": "Yi Yi",
+    "poster": "A sprawling and insightful image capturing the interconnected lives of a Taiwanese family over the course of a year, exploring themes of love, loss, and the complexities of modern life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yi_Yi"
+  },
+  {
+    "title": "A Brighter Summer Day",
+    "poster": "A poignant and epic image set in 1960s Taiwan, depicting the struggles and disillusionment of a group of teenagers against the backdrop of political tension.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Brighter_Summer_Day"
+  },
+  {
+    "title": "The Puppetmaster",
+    "poster": "A visually rich and historically significant image exploring the life and art of the renowned Taiwanese puppeteer Li Tian-lu.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Puppetmaster_(film)"
+  },
+  {
+    "title": "Goodbye, Dragon Inn",
+    "poster": "A minimalist and atmospheric image capturing the final screening at a grand but dilapidated movie theater, evoking a sense of nostalgia for cinema's past.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Goodbye,_Dragon_Inn"
+  },
+  {
+    "title": "Taste of Cherry",
+    "poster": "A contemplative and minimalist image featuring an Iranian man driving through the desert in search of someone to bury him after he commits suicide.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Taste_of_Cherry"
+  },
+  {
+    "title": "The Wind Will Carry Us",
+    "poster": "A poetic and visually stunning image of a group of filmmakers who travel to a remote Kurdish village to document a funeral ritual, reflecting on life, death, and cultural differences.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Wind_Will_Carry_Us"
+  },
+  {
+    "title": "Close-Up",
+    "poster": "A thought-provoking and docu-fiction image blurring the lines between reality and performance, based on the true story of a man who impersonated the filmmaker Mohsen Makhmalbaf.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Close-Up_(film)"
+  },
+  {
+    "title": "A Separation",
+    "poster": "An emotionally resonant and complex image of an Iranian couple facing difficult choices about their marriage and their responsibilities to their family.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Separation"
+  },
+  {
+    "title": "The Salesman",
+    "poster": "A tense and morally complex image of an Iranian couple forced to confront issues of honor and revenge after the wife is assaulted.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Salesman_(2016_film)"
+  },
+  {
+    "title": "About Elly",
+    "poster": "A suspenseful and emotionally charged image of a group of Iranian friends on a seaside vacation where a mysterious disappearance occurs.",
+    "wikipedia": "https://en.wikipedia.org/wiki/About_Elly"
+  },
+  {
+    "title": "Children of Heaven",
+    "poster": "A heartwarming and simple image of two siblings who share a pair of shoes after one of them loses their own.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Children_of_Heaven"
+  },
+  {
+    "title": "The Cow (film)",
+    "poster": "A symbolic and poignant image depicting the deep bond between a villager and his beloved cow, and the villagers' attempts to hide its death from him.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Cow_(film)"
+  },
+  {
+    "title": "Where Is the Friend's House?",
+    "poster": "A charming and humanist image of a young boy on a quest to find his classmate's notebook so he won't be punished by their teacher.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Where_Is_the_Friend%27s_House%3F"
+  },
+  {
+    "title": "The Mirror (1997 film)",
+    "poster": "A visually striking and enigmatic image exploring themes of memory, childhood, and the passage of time in Iranian Kurdistan.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Mirror_(1997_film)"
+  },
+  {
+    "title": "Gabbeh",
+    "poster": "A visually stunning and dreamlike image inspired by the colorful and symbolic patterns of Gabbeh rugs, exploring the lives and traditions of nomadic tribes in Iran.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gabbeh_(film)"
+  },
+  {
+    "title": "The Day I Became a Woman",
+    "poster": "Three visually distinct vignettes exploring the challenges and societal expectations faced by women in different stages of life in Iran.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Day_I_Became_a_Woman"
+  },
+  {
+    "title": "Turtles Can Fly",
+    "poster": "A poignant and heartbreaking image seen through the eyes of refugee children living in a Kurdish camp on the border of Iraq and Turkey, awaiting news of the impending war.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Turtles_Can_Fly"
+  },
+  {
+    "title": "The Silence (1998 film)",
+    "poster": "A visually poetic and melancholic image set in a remote Tajik village, depicting the lives of two children struggling to survive.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Silence_(1998_film)"
+  },
+  {
+    "title": "Platform (film)",
+    "poster": "A visually stunning and allegorical image of porters carrying passengers on a traditional Chinese platform, reflecting on themes of tradition and change.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Platform_(film)"
+  },
+  {
+    "title": "Still Life (2006 film)",
+    "poster": "A minimalist and poignant image depicting the quiet and routine life of a ferryman on the Yangtze River before it is submerged by the Three Gorges Dam.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Still_Life_(2006_film)"
+  },
+  {
+    "title": "A Touch of Zen",
+    "poster": "A visually stunning and epic wuxia film featuring breathtaking martial arts sequences and a story of a woman on the run from corrupt officials.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Touch_of_Zen"
+  },
+  {
+    "title": "The Terrorizers (1986 film)",
+    "poster": "A stylish and enigmatic image reflecting the film's complex and non-linear narrative involving a group of young people who stage a fake murder.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Terrorizers_(1986_film)"
+  },
+  {
+    "title": "Rebels of the Neon God",
+    "poster": "A raw and intense image depicting the rebellious lives of disaffected youth in urban Taiwan.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rebels_of_the_Neon_God"
+  },
+  {
+    "title": "Vive L'Amour",
+    "poster": "A minimalist and melancholic image capturing the loneliness and alienation of three individuals who briefly intersect in an empty apartment in Taipei.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vive_L%27Amour"
+  },
+  {
+    "title": "What Time Is It There?",
+    "poster": "A quirky and melancholic image of a man in Taipei obsessed with adjusting clocks to Paris time and a woman in Paris searching for connection.",
+    "wikipedia": "https://en.wikipedia.org/wiki/What_Time_Is_It_There%3F"
+  },
+  {
+    "title": "I Don't Want to Sleep Alone",
+    "poster": "A visually striking and enigmatic image exploring themes of loneliness, connection, and caregiving in Kuala Lumpur.",
+    "wikipedia": "https://en.wikipedia.org/wiki/I_Don%27t_Want_to_Sleep_Alone"
+  },
+  {
+    "title": "Stray Dogs",
+    "poster": "A visually stunning and emotionally raw image depicting the harsh realities of poverty and survival for a father and his two children living on the streets of Taipei.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stray_Dogs_(2013_film)"
+  },
+  {
+    "title": "Days",
+    "poster": "A minimalist and contemplative image capturing the quiet and often unspoken moments in the relationship of a man and a woman.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Days_(2020_film)"
+  },
+  {
+    "title": "The Hole (1960 film)",
+    "poster": "A tense and claustrophobic image of five inmates planning their escape from a French prison.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Hole_(1960_film)"
+  },
+  {
+    "title": "Le Samouraï",
+    "poster": "A stylish and minimalist image of Alain Delon as a cool and detached hitman in Jean-Pierre Melville's classic crime thriller.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Le_Samoura%C3%AF"
+  },
+  {
+    "title": "Army of Shadows",
+    "poster": "A somber and suspenseful image depicting the dangerous lives of French Resistance fighters during World War II.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Army_of_Shadows"
+  },
+  {
+    "title": "Bob le flambeur",
+    "poster": "A charming and stylish image of an aging gambler planning one last heist in Jean-Pierre Melville's early crime film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bob_le_flambeur"
+  },
+  {
+    "title": "Pierrot le Fou",
+    "poster": "A vibrant and anarchic image of Jean-Paul Belmondo and Anna Karina on the run in Jean-Luc Godard's visually inventive and unconventional film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pierrot_le_Fou"
+  },
+  {
+    "title": "Weekend (1967 film)",
+    "poster": "A chaotic and satirical image depicting a bourgeois couple's descent into anarchy and violence during a weekend traffic jam in Jean-Luc Godard's provocative film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Weekend_(1967_film)"
+  },
+  {
+    "title": "Masculin Féminin",
+    "poster": "A stylish and observational image capturing the lives and attitudes of young people in 1960s Paris, exploring themes of love, politics, and social change in Jean-Luc Godard's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Masculin_F%C3%A9minin"
+  },
+  {
+    "title": "Contempt (Le Mépris)",
+    "poster": "A stark image of Brigitte Bardot lying on a bed, her gaze directed away, against a backdrop of modernist architecture and the azure Mediterranean in Jean-Luc Godard's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Le_M%C3%A9pris"
+  },
+  {
+    "title": "Vivre Sa Vie",
+    "poster": "A poignant and iconic image of Anna Karina as a young woman in Paris who drifts into prostitution, exploring themes of freedom and fate in Jean-Luc Godard's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vivre_Sa_Vie"
+  },
+  {
+    "title": "Alphaville",
+    "poster": "A visually striking and dystopian image of a futuristic city controlled by a sentient computer in Jean-Luc Godard's science fiction noir film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alphaville_(film)"
+  },
+  {
+    "title": "Band of Outsiders",
+    "poster": "A charming and energetic image of three young people who decide to commit a robbery in Jean-Luc Godard's stylish and playful film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Band_of_Outsiders"
+  },
+  {
+    "title": "The Mother and the Whore",
+    "poster": "An intimate and talkative image of a ménage à trois in post-May '68 Paris, exploring themes of love, relationships, and societal disillusionment in Jean Eustache's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Mother_and_the_Whore"
+  },
+  {
+    "title": "The Aviator's Wife",
+    "poster": "A charming and observational image capturing the evolving relationship between a young man and two different women in Éric Rohmer's early film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Aviator%27s_Wife"
+  },
+  {
+    "title": "Le Rayon Vert",
+    "poster": "A subtle and insightful image centered around a young woman searching for meaning and connection during her summer vacation in Éric Rohmer's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Le_Rayon_Vert"
+  },
+  {
+    "title": "My Night at Maud's",
+    "poster": "An intellectual and engaging image focusing on a devout Catholic man who spends a night talking with a divorced Marxist woman in Éric Rohmer's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/My_Night_at_Maud%27s"
+  },
+  {
+    "title": "A Tale of Winter",
+    "poster": "A romantic and hopeful image centered around a woman who believes she will one day reunite with a lost love in Éric Rohmer's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Tale_of_Winter"
+  },
+  {
+    "title": "A Summer's Tale",
+    "poster": "A charming and relatable image capturing the summer adventures and romantic indecisions of a shy young man on vacation in Brittany in Éric Rohmer's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Summer%27s_Tale"
+  },
+  {
+    "title": "The Marquise of O...",
+    "poster": "A visually elegant and historically set image based on Heinrich von Kleist's novella, exploring themes of mystery, honor, and societal expectations in Éric Rohmer's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Marquise_of_O..."
+  },
+  {
+    "title": "Persepolis",
+    "poster": "A visually striking and poignant animated image telling the autobiographical story of a young girl growing up during the Iranian Revolution.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Persepolis_(film)"
+  },
+  {
+    "title": "Waltz with Bashir",
+    "poster": "A visually unique and powerful animated documentary exploring a filmmaker's fragmented memories of the 1982 Lebanon War and the Sabra and Shatila massacre.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Waltz_with_Bashir"
+  },
+  {
+    "title": "The Red Shoes",
+    "poster": "A visually stunning and passionate image of a ballerina torn between her love for a composer and her dedication to her art in Michael Powell and Emeric Pressburger's classic film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Red_Shoes_(1948_film)"
+  },
+  {
+    "title": "Black Narcissus",
+    "poster": "A visually lush and atmospheric image of a group of Anglican nuns struggling with their desires and faith while establishing a convent in the Himalayas in Michael Powell and Emeric Pressburger's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Narcissus_(film)"
+  },
+  {
+    "title": "A Matter of Life and Death",
+    "poster": "A visually imaginative and romantic image exploring the story of a World War II pilot who falls in love while his fate hangs in the balance between life and death in Michael Powell and Emeric Pressburger's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Matter_of_Life_and_Death"
+  },
+  {
+    "title": "I Know Where I'm Going!",
+    "poster": "A charming and romantic image of a headstrong woman who travels to a remote Scottish island to marry a wealthy industrialist but finds herself drawn to a local laird in Michael Powell and Emeric Pressburger's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/I_Know_Where_I%27m_Going!"
+  },
+  {
+    "title": "Peeping Tom",
+    "poster": "A chilling and controversial image of a cameraman who murders women while filming their dying expressions in Michael Powell's psychological horror film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peeping_Tom_(film)"
+  },
+  {
+    "title": "The Life and Death of Colonel Blimp",
+    "poster": "An epic and visually rich image spanning several decades in the life of a British Army officer, reflecting on themes of patriotism, tradition, and the changing face of war in Michael Powell and Emeric Pressburger's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Life_and_Death_of_Colonel_Blimp"
+  },
+  {
+    "title": "The Tales of Hoffmann (film)",
+    "poster": "A visually extravagant and theatrical image bringing Jacques Offenbach's opera to the screen with stunning sets and costumes in Michael Powell and Emeric Pressburger's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Tales_of_Hoffmann_(film)"
+  },
+  {
+    "title": "The Innocents (1961 film)",
+    "poster": "An atmospheric and suspenseful image of Deborah Kerr as a governess who believes the children in her care are being haunted by ghosts in Jack Clayton's adaptation of Henry James's novella 'The Turn of the Screw'.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Innocents_(1961_film)"
+  },
+  {
+    "title": "Room at the Top",
+    "poster": "A gritty and socially conscious image of a working-class man who climbs the social ladder through ambition and ruthlessness in Jack Clayton's British New Wave film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Room_at_the_Top"
+  },
+  {
+    "title": "The Servant (1963 film)",
+    "poster": "A psychologically charged and unsettling image of a wealthy man whose life is gradually taken over by his manipulative and sinister servant in Joseph Losey's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Servant_(1963_film)"
+  },
+  {
+    "title": "Accident (1967 film)",
+    "poster": "A subtle and intellectually engaging image exploring the complexities of love, desire, and infidelity among academics at Oxford University in Joseph Losey's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Accident_(1967_film)"
+  },
+  {
+    "title": "The Go-Between",
+    "poster": "A visually lush and nostalgic image set in the English countryside at the turn of the 20th century, depicting the story of a young boy who acts as a messenger between a wealthy woman and a tenant farmer with whom she is having an affair in Joseph Losey's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Go-Between_(film)"
+  },
+  {
+    "title": "Performance (1970 film)",
+    "poster": "A psychedelic and controversial image featuring Mick Jagger as a reclusive rock star who takes in a gangster on the run in Nicolas Roeg and Donald Cammell's film that blurs the lines between reality and illusion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Performance_(1970_film)"
+  },
+  {
+    "title": "Don't Look Now",
+    "poster": "An atmospheric and suspenseful image of Donald Sutherland and Julie Christie as a married couple grieving the death of their daughter while visiting Venice, where they encounter a pair of psychic sisters in Nicolas Roeg's haunting film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Don%27t_Look_Now"
+  },
+  {
+    "title": "The Man Who Fell to Earth",
+    "poster": "A visually striking and enigmatic image of David Bowie as an alien who comes to Earth on a mission to save his dying planet in Nicolas Roeg's science fiction film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Man_Who_Fell_to_Earth"
+  },
+  {
+    "title": "Walkabout",
+    "poster": "A visually stunning and symbolic image of two siblings who are stranded in the Australian Outback and are helped by an Aboriginal boy on his 'walkabout' in Nicolas Roeg's film exploring themes of culture clash and survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Walkabout_(film)"
+  },
+  {
+    "title": "Withnail and I",
+    "poster": "A darkly comedic and quotable image of two unemployed actors who decide to take a disastrous holiday in the English countryside in Bruce Robinson's cult classic.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Withnail_and_I"
+  },
+  {
+    "title": "Brazil (1985 film)",
+    "poster": "A visually imaginative and darkly satirical image of a dystopian bureaucracy in Terry Gilliam's cult classic film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brazil_(1985_film)"
+  },
+  {
+    "title": "Time Bandits",
+    "poster": "A whimsical and adventurous image of a young boy who joins a group of time-traveling dwarves in Terry Gilliam's fantasy film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Time_Bandits"
+  },
+  {
+    "title": "The Meaning of Life",
+    "poster": "A surreal and hilarious image representing the Monty Python team's satirical take on the various stages of human life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Monty_Python%27s_The_Meaning_of_Life"
+  },
+  {
+    "title": "Monty Python and the Holy Grail",
+    "poster": "A comedic and iconic image featuring the Monty Python team's absurd and hilarious retelling of the legend of King Arthur and the Knights of the Round Table.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail"
+  },
+  {
+    "title": "Life of Brian",
+    "poster": "A controversial and satirical image featuring the Monty Python team's comedic take on the life of Brian Cohen, who is mistaken for the Messiah.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Life_of_Brian"
+  },
+  {
+    "title": "Jabberwocky (film)",
+    "poster": "A whimsical and grotesque image inspired by Lewis Carroll's poem, featuring a young cooper who is forced to confront a terrifying monster in Terry Gilliam's early film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jabberwocky_(film)"
+  },
+  {
+    "title": "Fear and Loathing in Las Vegas",
+    "poster": "A psychedelic and chaotic image featuring Johnny Depp and Benicio del Toro in Terry Gilliam's adaptation of Hunter S. Thompson's gonzo journalism novel.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fear_and_Loathing_in_Las_Vegas_(film)"
+  },
+  {
+    "title": "12 Monkeys",
+    "poster": "A mind-bending and dystopian image featuring Bruce Willis as a time traveler sent back to prevent a deadly plague in Terry Gilliam's science fiction thriller.",
+    "wikipedia": "https://en.wikipedia.org/wiki/12_Monkeys"
+  },
+  {
+    "title": "The Fisher King",
+    "poster": "A whimsical and poignant image featuring Robin Williams and Jeff Bridges in Terry Gilliam's film about a disillusioned radio DJ who seeks redemption by helping a homeless man find the Holy Grail.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fisher_King"
+  },
+  {
+    "title": "Tideland",
+    "poster": "A surreal and unsettling image seen through the eyes of a young girl who retreats into a fantasy world after the death of her mother in Terry Gilliam's controversial film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tideland_(film)"
+  },
+  {
+    "title": "The Imaginarium of Doctor Parnassus",
+    "poster": "A visually extravagant and fantastical image featuring Heath Ledger in his final role as part of a traveling theater troupe that allows audience members to step through a magical mirror into their imaginations in Terry Gilliam's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Imaginarium_of_Doctor_Parnassus"
+  },
+  {
+    "title": "Zero Theorem",
+    "poster": "A visually striking and thought-provoking image featuring Christoph Waltz as an eccentric computer programmer tasked with proving that life is meaningless in Terry Gilliam's dystopian science fiction film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Zero_Theorem"
+  },
+  {
+    "title": "The Adventures of Baron Munchausen",
+    "poster": "A visually spectacular and imaginative image based on the tall tales of Baron Munchausen in Terry Gilliam's fantastical adventure film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Adventures_of_Baron_Munchausen"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "poster": "A striking and controversial image featuring Malcolm McDowell as the charismatic but violent Alex DeLarge in Stanley Kubrick's dystopian film exploring themes of free will and social control.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Clockwork_Orange"
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "poster": "An iconic and visually stunning image representing humanity's journey through space and evolution in Stanley Kubrick's groundbreaking science fiction masterpiece.",
+    "wikipedia": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey"
+  },
+  {
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "poster": "A darkly comedic and satirical image featuring Peter Sellers in multiple roles in Stanley Kubrick's Cold War classic about a rogue general who triggers a nuclear crisis.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dr._Strangelove"
+  },
+  {
+    "title": "The Shining",
+    "poster": "An iconic and chilling image featuring Jack Nicholson in Stanley Kubrick's psychological horror masterpiece about a writer who descends into madness while isolated with his family at a remote hotel.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Shining_(film)"
+  },
+  {
+    "title": "Barry Lyndon",
+    "poster": "A visually opulent and historically detailed image set in 18th-century Europe, following the rise and fall of an Irish adventurer in Stanley Kubrick's period drama.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Barry_Lyndon"
+  },
+  {
+    "title": "Full Metal Jacket",
+    "poster": "A stark and powerful image depicting the brutal realities of the Vietnam War, focusing on the psychological toll it takes on young soldiers in Stanley Kubrick's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Full_Metal_Jacket"
+  },
+  {
+    "title": "Eyes Wide Shut",
+    "poster": "An enigmatic and sensual image featuring Tom Cruise and Nicole Kidman as a married couple who embark on separate nocturnal journeys of sexual exploration and self-discovery in Stanley Kubrick's final film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eyes_Wide_Shut"
+  },
+  {
+    "title": "Paths of Glory",
+    "poster": "A powerful and anti-war image set during World War I, depicting the injustice and futility of trench warfare as a French general orders an attack that is doomed to fail and then scapegoats three innocent soldiers in Stanley Kubrick's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paths_of_Glory"
+  },
+  {
+    "title": "Spartacus (film)",
+    "poster": "An epic and visually grand image depicting the story of a slave rebellion against the Roman Empire, led by the gladiator Spartacus in Stanley Kubrick's historical drama.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spartacus_(film)"
+  },
+  {
+    "title": "Lolita (1962 film)",
+    "poster": "A controversial and suggestive image based on Vladimir Nabokov's novel about a middle-aged literature professor who becomes obsessed with a 12-year-old girl in Stanley Kubrick's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lolita_(1962_film)"
+  },
+  {
+    "title": "The Killing (1956 film)",
+    "poster": "A stylish and suspenseful image depicting the intricate planning and execution of a heist at a racetrack in Stanley Kubrick's early noir film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Killing_(1956_film)"
+  },
+  {
+    "title": "Night and the City",
+    "poster": "A gritty and atmospheric image of Robert De Niro as a down-on-his-luck lawyer who tries to make it as a boxing promoter in London in Jules Dassin's noir film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Night_and_the_City"
+  },
+  {
+    "title": "Rififi",
+    "poster": "A stylish and suspenseful image depicting a meticulously planned jewelry heist in Jules Dassin's classic French crime film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rififi"
+  },
+  {
+    "title": "Topkapi",
+    "poster": "A suspenseful and entertaining image of a group of international jewel thieves attempting to steal a priceless emerald-encrusted dagger from a museum in Istanbul in Jules Dassin's heist film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Topkapi_(film)"
+  },
+  {
+    "title": "Never on Sunday",
+    "poster": "A charming and lighthearted image of Melina Mercouri as a free-spirited prostitute in Piraeus who captivates an American tourist in Jules Dassin's romantic comedy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Never_on_Sunday"
+  },
+  {
+    "title": "The Cranes Are Flying",
+    "poster": "A poignant and visually striking image set during World War II, depicting the love story of a young couple torn apart by the war in Mikhail Kalatozov's acclaimed Soviet film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Cranes_Are_Flying"
+  },
+  {
+    "title": "I Am Cuba",
+    "poster": "A visually stunning and politically charged image celebrating the Cuban Revolution through a series of interconnected vignettes in Mikhail Kalatozov's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/I_Am_Cuba"
+  },
+  {
+    "title": "Letter Never Sent",
+    "poster": "A visually stunning and dramatic image set in the Siberian wilderness, depicting the perilous journey of a group of geologists searching for diamonds in Mikhail Kalatozov's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Letter_Never_Sent"
+  },
+  {
+    "title": "Shadows of Forgotten Ancestors",
+    "poster": "A visually rich and folkloric image depicting the traditions and superstitions of the Hutsul people in the Carpathian Mountains in Sergei Parajanov's visually poetic film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shadows_of_Forgotten_Ancestors"
+  },
+  {
+    "title": "The Color of Pomegranates",
+    "poster": "A visually stunning and symbolic image inspired by the life and work of the Armenian poet Sayat-Nova in Sergei Parajanov's highly stylized and non-narrative film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Color_of_Pomegranates"
+  },
+  {
+    "title": "Ashik Kerib",
+    "poster": "A visually enchanting and folkloric image based on a tale by Mikhail Lermontov, depicting the journey of a wandering minstrel in Sergei Parajanov's visually rich film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ashik_Kerib_(film)"
+  },
+  {
+    "title": "Little Vera",
+    "poster": "A gritty and realistic image depicting the bleak lives of a working-class family in the Soviet Union during the Perestroika era in Vasily Pichul's controversial film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Little_Vera"
+  },
+  {
+    "title": "The Ascent (1977 film)",
+    "poster": "A stark and powerful black and white image set during World War II, depicting the moral and physical endurance of two Soviet partisans captured by the Nazis in Larisa Shepitko's acclaimed film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Ascent_(1977_film)"
+  },
+  {
+    "title": "Come and See",
+    "poster": "A harrowing and unforgettable image depicting the horrors of war through the eyes of a teenage boy in Nazi-occupied Belarus in Elem Klimov's visceral and powerful film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Come_and_See"
+  },
+  {
+    "title": "Mirror for a Hero",
+    "poster": "A thought-provoking and surreal image exploring the disillusionment of a young man who travels back in time to the Soviet Union of the 1930s in Vladimir Khotinenko's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mirror_for_a_Hero"
+  },
+  {
+    "title": "Kin-dza-dza!",
+    "poster": "A bizarre and satirical image depicting two Soviet men who are accidentally transported to a strange and absurd planet in Georgiy Daneliya's cult science fiction comedy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kin-dza-dza!"
+  },
+  {
+    "title": "Repentance (film)",
+    "poster": "A surreal and allegorical image reflecting on the legacy of totalitarianism in a post-Soviet republic in Tengiz Abuladze's powerful film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Repentance_(film)"
+  },
+  {
+    "title": "The Lives of Others",
+    "poster": "A tense and emotionally resonant image set in East Berlin in the 1980s, depicting the moral awakening of a Stasi officer who is tasked with spying on a playwright and his lover.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lives_of_Others"
+  },
+  {
+    "title": "Good Bye, Lenin!",
+    "poster": "A charming and humorous image of a young man who tries to hide the fall of the Berlin Wall from his recently awakened mother, a devoted socialist.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Good_Bye,_Lenin!"
+  },
+  {
+    "title": "Run Lola Run",
+    "poster": "A high-energy and visually dynamic image following a woman who has 20 minutes to find a large sum of money to save her boyfriend's life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Run_Lola_Run"
+  },
+  {
+    "title": "The Baader Meinhof Complex",
+    "poster": "A gripping and controversial image depicting the rise and fall of the Red Army Faction, a radical left-wing terrorist group in West Germany.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Baader_Meinhof_Complex"
+  },
+  {
+    "title": "Wings of Desire",
+    "poster": "A visually poetic and philosophical image of angels observing the lives of ordinary people in Berlin, contemplating themes of love, loss, and the human condition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wings_of_Desire"
+  },
+  {
+    "title": "Das Boot",
+    "poster": "A tense and claustrophobic image set aboard a German U-boat during World War II, depicting the psychological and physical hardships faced by the crew.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Das_Boot"
+  },
+  {
+    "title": "The NeverEnding Story",
+    "poster": "A whimsical and fantastical image depicting a young boy who gets drawn into the magical world of Fantastica through a book he is reading.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_NeverEnding_Story"
+  },
+  {
+    "title": "Fitzcarraldo",
+    "poster": "An extraordinary and surreal image of a steamboat being hauled over a mountain in the Amazon rainforest, symbolizing the obsessive dream of an opera lover to bring Enrico Caruso to perform in the jungle.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fitzcarraldo"
+  },
+  {
+    "title": "Aguirre, the Wrath of God",
+    "poster": "A visually stunning and epic image of Klaus Kinski as the conquistador Aguirre, leading a doomed expedition down the Amazon River in search of El Dorado, embodying ambition, madness, and the destructive power of obsession.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aguirre,_the_Wrath_of_God"
+  },
+  {
+    "title": "Nosferatu the Vampyre",
+    "poster": "A haunting and atmospheric image of Klaus Kinski as the ancient vampire Nosferatu, evoking a sense of dread, decay, and the primal fear of the unknown.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nosferatu_the_Vampyre"
+  },
+  {
+    "title": "The Enigma of Kaspar Hauser",
+    "poster": "A mysterious and melancholic image of a young man who suddenly appears in a town, having lived his entire life in isolation, exploring themes of nature versus nurture and the cruelty of society.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Enigma_of_Kaspar_Hauser"
+  },
+  {
+    "title": "Even Dwarfs Started Small",
+    "poster": "A bizarre and provocative image featuring a cast entirely composed of little people engaged in acts of rebellion and chaotic behavior, challenging societal norms and perceptions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Even_Dwarfs_Started_Small"
+  },
+  {
+    "title": "Stroszek",
+    "poster": "A poignant and quirky image of a street musician, a prostitute, and an elderly man who travel from Berlin to Wisconsin in search of a better life, only to find disillusionment.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stroszek"
+  },
+  {
+    "title": "Cobra Verde",
+    "poster": "A visually stunning and epic image of Klaus Kinski as a ruthless slave trader in 19th-century Brazil, exploring themes of colonialism, exploitation, and madness.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cobra_Verde"
+  },
+  {
+    "title": "My Best Fiend",
+    "poster": "A fascinating and often humorous documentary exploring the complex and volatile relationship between Werner Herzog and Klaus Kinski during their collaborations.",
+    "wikipedia": "https://en.wikipedia.org/wiki/My_Best_Fiend"
+  },
+  {
+    "title": "Fata Morgana (film)",
+    "poster": "A surreal and mesmerizing image capturing the otherworldly landscapes of the Sahara Desert, interspersed with staged scenes and philosophical narration in Werner Herzog's experimental documentary.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fata_Morgana_(film)"
+  },
+  {
+    "title": "The Great Ecstasy of Woodcarver Steiner",
+    "poster": "A visually striking and intense documentary focusing on the life and work of a passionate and eccentric woodcarver.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Ecstasy_of_Woodcarver_Steiner"
+  },
+  {
+    "title": "Grizzly Man",
+    "poster": "A captivating and tragic documentary about a man who lived among grizzly bears in Alaska for 13 summers, capturing his unique relationship with the animals and his ultimate fate.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Grizzly_Man"
+  },
+  {
+    "title": "Cave of Forgotten Dreams",
+    "poster": "A fascinating and visually stunning documentary providing a glimpse inside the Chauvet Cave in Southern France, home to some of the oldest known cave paintings.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cave_of_Forgotten_Dreams"
+  },
+  {
+    "title": "The Act of Killing",
+    "poster": "A disturbing and thought-provoking documentary in which former perpetrators of the Indonesian mass killings of 1965-66 reenact their crimes for the camera.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Act_of_Killing"
+  },
+  {
+    "title": "Sans Soleil",
+    "poster": "A visually rich and philosophical essay film exploring themes of memory, time, and cultural differences through the travels and reflections of an unseen narrator.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sans_Soleil"
+  },
+  {
+    "title": "Man with a Movie Camera",
+    "poster": "A groundbreaking and visually experimental silent documentary showcasing urban life in Soviet cities in the 1920s through innovative camerawork and editing techniques.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Man_with_a_Movie_Camera"
+  },
+  {
+    "title": "Koyaanisqatsi",
+    "poster": "A visually stunning and hypnotic experimental film composed primarily of slow-motion and time-lapse footage of natural landscapes and urban environments, set to a Philip Glass score.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Koyaanisqatsi"
+  },
+  {
+    "title": "Baraka (film)",
+    "poster": "A visually breathtaking and non-narrative documentary showcasing diverse cultures, landscapes, and spiritual practices from around the world.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Baraka_(film)"
+  },
+  {
+    "title": "Microcosmos",
+    "poster": "An astonishing and intimate documentary providing a close-up look at the world of insects and other small creatures in their natural habitats.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Microcosmos_(film)"
+  },
+  {
+    "title": "Winged Migration",
+    "poster": "A visually stunning and awe-inspiring documentary following the migratory patterns of various bird species across the globe.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Winged_Migration"
+  },
+  {
+    "title": "Manufactured Landscapes",
+    "poster": "A visually striking and thought-provoking documentary exploring the large-scale industrial landscapes and environmental impact captured in the photographs of Edward Burtynsky.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Manufactured_Landscapes"
+  },
+  {
+    "title": "The Gleaners and I",
+    "poster": "A charming and insightful documentary in which director Agnès Varda travels around France meeting people who live by gleaning leftover food and discarded objects.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Gleaners_and_I"
+  },
+  {
+    "title": "Faces Places",
+    "poster": "A heartwarming and collaborative documentary in which Agnès Varda and the artist JR travel around rural France creating large-scale photographic installations on buildings and landscapes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Faces_Places"
+  },
+  {
+    "title": "Eraserhead",
+    "poster": "A disturbing close-up of Henry Spencer's face, his hair standing on end, with a small, grotesque creature emerging from his mouth, evoking a sense of industrial decay and psychological horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eraserhead"
+  },
+  {
+    "title": "El Topo",
+    "poster": "A surreal and psychedelic Western about a gunslinger's quest for enlightenment, filled with bizarre imagery and religious allegory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/El_Topo"
+  },
+  {
+    "title": "The Holy Mountain",
+    "poster": "A visually extravagant and esoteric film following a Christ-like figure and a group of pilgrims on a spiritual journey to a mystical mountain.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Holy_Mountain_(1973_film)"
+  },
+  {
+    "title": "Santa Sangre",
+    "poster": "A visually stunning and disturbing surreal horror film about a young man haunted by his traumatic childhood in a circus.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Santa_Sangre"
+  },
+  {
+    "title": "Fando y Lis",
+    "poster": "A controversial and surreal debut film about a disabled man and his girlfriend searching for the mythical city of Tar.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fando_y_Lis"
+  },
+  {
+    "title": "Tetsuo: The Iron Man",
+    "poster": "A visually intense and cyberpunk-influenced film about a man who slowly transforms into a mass of scrap metal.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tetsuo:_The_Iron_Man"
+  },
+  {
+    "title": "Naked Lunch (film)",
+    "poster": "A surreal and hallucinatory adaptation of William S. Burroughs's novel, blending science fiction, horror, and dark humor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Naked_Lunch_(film)"
+  },
+  {
+    "title": "Brazil (1985 film)",
+    "poster": "A visually imaginative and darkly satirical image of a dystopian bureaucracy in Terry Gilliam's cult classic film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brazil_(1985_film)"
+  },
+  {
+    "title": "Delicatessen",
+    "poster": "A quirky and darkly comedic film set in a post-apocalyptic apartment building where the landlord is also the local butcher, and human meat is on the menu.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Delicatessen_(film)"
+  },
+  {
+    "title": "The City of Lost Children",
+    "poster": "A visually stunning and dreamlike fantasy film about a mad scientist who steals children's dreams.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_City_of_Lost_Children"
+  },
+  {
+    "title": "Pi",
+    "poster": "A stark and intense image of a mathematician who becomes obsessed with finding a pattern in the stock market and the universe, leading him down a path of paranoia and discovery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pi_(film)"
+  },
+  {
+    "title": "Primer",
+    "poster": "A minimalist and mind-bending image reflecting the complex and paradoxical nature of time travel as discovered by two engineers in their garage.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Primer_(film)"
+  },
+  {
+    "title": "Upstream Color",
+    "poster": "An ethereal and enigmatic image hinting at the film's complex narrative involving parasites, identity, and the interconnectedness of human lives.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Upstream_Color"
+  },
+  {
+    "title": "Synecdoche, New York",
+    "poster": "A complex and melancholic image reflecting the ambitious and ultimately overwhelming theatrical project of a playwright who creates a life-sized replica of New York City inside a warehouse.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Synecdoche,_New_York"
+  },
+  {
+    "title": "Being John Malkovich",
+    "poster": "A surreal and humorous image featuring John Cusack who discovers a portal that allows him to enter the mind of actor John Malkovich.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Being_John_Malkovich"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "poster": "A whimsical and poignant image of Jim Carrey and Kate Winslet as a former couple who undergo a procedure to erase each other from their memories.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind"
+  },
+  {
+    "title": "Adaptation.",
+    "poster": "A meta-narrative image reflecting the film's complex and self-referential story about a screenwriter struggling to adapt a non-fiction book into a screenplay.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adaptation."
+  },
+  {
+    "title": "Donnie Darko",
+    "poster": "An enigmatic and cult image featuring Jake Gyllenhaal as a troubled teenager who is visited by a mysterious figure in a rabbit costume and told that the world will end in 28 days.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Donnie_Darko"
+  },
+  {
+    "title": "The Science of Sleep",
+    "poster": "A whimsical and dreamlike image capturing the surreal inner world of a man with an active imagination who blurs the lines between dreams and reality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Science_of_Sleep"
+  },
+  {
+    "title": "Brazil (1985 film)",
+    "poster": "A visually imaginative and darkly satirical image of a dystopian bureaucracy in Terry Gilliam's cult classic film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Brazil_(1985_film)"
+  },
+  {
+    "title": "Naked Lunch (film)",
+    "poster": "A surreal and hallucinatory adaptation of William S. Burroughs's novel, blending science fiction, horror, and dark humor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Naked_Lunch_(film)"
+  },
+  {
+    "title": "Eraserhead",
+    "poster": "A disturbing close-up of Henry Spencer's face, his hair standing on end, with a small, grotesque creature emerging from his mouth, evoking a sense of industrial decay and psychological horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eraserhead"
+  },
+  {
+    "title": "Tetsuo: The Iron Man",
+    "poster": "A visually intense and cyberpunk-influenced film about a man who slowly transforms into a mass of scrap metal.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tetsuo:_The_Iron_Man"
+  },
+  {
+    "title": "El Topo",
+    "poster": "A surreal and psychedelic Western about a gunslinger's quest for enlightenment, filled with bizarre imagery and religious allegory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/El_Topo"
+  },
+  {
+    "title": "The Holy Mountain",
+    "poster": "A visually extravagant and esoteric film following a Christ-like figure and a group of pilgrims on a spiritual journey to a mystical mountain.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Holy_Mountain_(1973_film)"
+  },
+  {
+    "title": "Santa Sangre",
+    "poster": "A visually stunning and disturbing surreal horror film about a young man haunted by his traumatic childhood in a circus.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Santa_Sangre"
+  },
+  {
+    "title": "Fando y Lis",
+    "poster": "A controversial and surreal debut film about a disabled man and his girlfriend searching for the mythical city of Tar.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fando_y_Lis"
+  },
+  {
+    "title": "Hausu (House)",
+    "poster": "A psychedelic and bizarre Japanese horror comedy about a group of schoolgirls who visit the haunted house of one of their aunts.",
+    "wikipedia": "https://en.wikipedia.org/wiki/House_(1977_film)"
+  },
+  {
+    "title": "Funeral Parade of Roses",
+    "poster": "A visually stunning and experimental film set in the underground gay and transgender scene of 1960s Tokyo, blending documentary and fiction.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Funeral_Parade_of_Roses"
+  },
+  {
+    "title": "Kwaidan",
+    "poster": "A visually stunning and atmospheric anthology of four Japanese ghost stories based on Lafcadio Hearn's collections.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kwaidan"
+  },
+  {
+    "title": "Onibaba",
+    "poster": "A chilling and atmospheric period horror film set in medieval Japan, featuring two women who survive by killing samurai and selling their belongings.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Onibaba"
+  },
+  {
+    "title": "Kuroneko",
+    "poster": "A visually stunning and eerie ghost story set in feudal Japan, about the vengeful spirits of a mother and daughter who were brutally murdered.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kuroneko"
+  },
+  {
+    "title": "Ugetsu",
+    "poster": "A hauntingly beautiful image of a boat drifting through a misty lake, with ethereal figures suggesting the allure and dangers of the supernatural world in feudal Japan.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ugetsu"
+  },
+  {
+    "title": "Sansho the Bailiff",
+    "poster": "A poignant image of a family torn apart by injustice and oppression in medieval Japan, emphasizing themes of resilience and the enduring power of human connection.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sansho_the_Bailiff"
+  },
+  {
+    "title": "Rashomon",
+    "poster": "A stylized and enigmatic image of the four key witnesses silhouetted against a bamboo forest, highlighting the subjectivity of truth and perception.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rashomon"
+  },
+  {
+    "title": "Seven Samurai",
+    "poster": "A dynamic and powerful image of seven samurai warriors standing defiantly against a stormy backdrop, embodying courage, loyalty, and the clash between tradition and change.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seven_Samurai"
+  },
+  {
+    "title": "Tokyo Story",
+    "poster": "A serene yet melancholic image of an aging couple sitting in quiet contemplation, suggesting the passage of time and the changing dynamics of family relationships in post-war Japan.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tokyo_Story"
+  },
+  {
+    "title": "The Seventh Seal",
+    "poster": "A dramatic black and white image of Death, cloaked and skeletal, playing chess with a knight on a desolate beach, symbolizing humanity's confrontation with mortality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Seventh_Seal"
+  },
+  {
+    "title": "Persona",
+    "poster": "A fragmented close-up of the faces of Bibi Andersson and Liv Ullmann, seemingly merging into one, creating a profound sense of psychological unease.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Persona_(1966_film)"
+  },
+  {
+    "title": "Wild Strawberries",
+    "poster": "A reflective and poignant image of an elderly professor taking a car journey to receive an honorary degree, encountering figures from his past and confronting his own mortality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wild_Strawberries"
+  },
+  {
+    "title": "The Silence (1963)",
+    "poster": "An enigmatic and unsettling image of two sisters with contrasting personalities confined to a hotel room in a foreign city during wartime, exploring themes of isolation and the breakdown of communication.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Silence_(1963_film)"
+  },
+  {
+    "title": "Through a Glass Darkly",
+    "poster": "An intense and claustrophobic image of four individuals isolated on a remote island, grappling with themes of faith, madness, and the search for God.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Through_a_Glass_Darkly"
+  },
+  {
+    "title": "Cries and Whispers",
+    "poster": "A visually striking and emotionally raw image dominated by the color red, depicting the final days of three sisters in a secluded mansion, exploring themes of sisterhood, isolation, and death.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cries_and_Whispers"
+  },
+  {
+    "title": "Scenes from a Marriage",
+    "poster": "An intimate and emotionally charged image of Liv Ullmann and Erland Josephson as a married couple navigating the complexities of love, infidelity, and divorce.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scenes_from_a_Marriage"
+  },
+  {
+    "title": "The Mirror (1975 film)",
+    "poster": "A poetic and fragmented image incorporating dreamlike sequences and childhood memories, reflecting on the director's personal history and the nature of time and memory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Mirror_(1975_film)"
+  },
+  {
+    "title": "Stalker",
+    "poster": "A hazy, almost painterly image of the Zone, with three figures silhouetted against a mysterious, overgrown landscape, suggesting a journey into the unknown depths of human desire.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stalker_(1979_film)"
+  },
+  {
+    "title": "Solaris",
+    "poster": "A dreamlike depiction of the Solaris ocean, swirling with ethereal colors, with the faces of the cosmonauts Andrei Tarkovsky and Natalya Bondarchuk subtly embedded within.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Solaris_(1972_film)"
+  },
+  {
+    "title": "Andrei Rublev",
+    "poster": "A stark, almost iconographic image of the monk-painter Andrei Rublev, his face conveying both spiritual devotion and artistic struggle against a backdrop of medieval Russia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Andrei_Rublev_(film)"
+  },
+  {
+    "title": "Nostalghia",
+    "poster": "A visually stunning and melancholic image of a Russian writer visiting Italy, grappling with feelings of alienation, cultural displacement, and spiritual longing.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nostalghia"
+  },
+  {
+    "title": "The Sacrifice",
+    "poster": "A visually arresting and allegorical image of a man who makes a desperate pact with God to prevent a nuclear holocaust, exploring themes of faith, sacrifice, and the fate of humanity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Sacrifice_(1986_film)"
+  },
+  {
+    "title": "Ivan's Childhood",
+    "poster": "A poignant and dreamlike image set during World War II, depicting the experiences of a young orphan who works as a scout for the Soviet army.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ivan%27s_Childhood"
+  },
+  {
+    "title": "Mirror for a Hero",
+    "poster": "A thought-provoking and surreal image exploring the disillusionment of a young man who travels back in time to the Soviet Union of the 1930s.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mirror_for_a_Hero"
+  },
+  {
+    "title": "The Asthenic Syndrome",
+    "poster": "A surreal and unsettling image reflecting the apathy and emotional exhaustion of Soviet society in the late 1980s.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Asthenic_Syndrome"
+  },
+  {
+    "title": "Kin-dza-dza!",
+    "poster": "A bizarre and satirical image depicting two Soviet men who are accidentally transported to a strange and absurd planet.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kin-dza-dza!"
+  },
+  {
+    "title": "Repentance (film)",
+    "poster": "A surreal and allegorical image reflecting on the legacy of totalitarianism in a post-Soviet republic.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Repentance_(film)"
+  },
+  {
+    "title": "Come and See",
+    "poster": "A harrowing and unforgettable image depicting the horrors of war through the eyes of a teenage boy in Nazi-occupied Belarus.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Come_and_See"
+  },
+  {
+    "title": "The Ascent (1977 film)",
+    "poster": "A stark and powerful black and white image set during World War II, depicting the moral and physical endurance of two Soviet partisans captured by the Nazis.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Ascent_(1977_film)"
+  },
+  {
+    "title": "Little Vera",
+    "poster": "A gritty and realistic image depicting the bleak lives of a working-class family in the Soviet Union during the Perestroika era.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Little_Vera"
+  },
+  {
+    "title": "Letter Never Sent",
+    "poster": "A visually stunning and dramatic image set in the Siberian wilderness, depicting the perilous journey of a group of geologists searching for diamonds.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Letter_Never_Sent"
+  },
+  {
+    "title": "The Cranes Are Flying",
+    "poster": "A poignant and visually striking image set during World War II, depicting the love story of a young couple torn apart by the war.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Cranes_Are_Flying"
+  },
+  {
+    "title": "I Am Cuba",
+    "poster": "A visually stunning and politically charged image celebrating the Cuban Revolution through a series of interconnected vignettes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/I_Am_Cuba"
+  },
+  {
+    "title": "Shadows of Forgotten Ancestors",
+    "poster": "A visually rich and folkloric image depicting the traditions and superstitions of the Hutsul people in the Carpathian Mountains.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shadows_of_Forgotten_Ancestors"
+  },
+  {
+    "title": "The Color of Pomegranates",
+    "poster": "A visually stunning and symbolic image inspired by the life and work of the Armenian poet Sayat-Nova.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Color_of_Pomegranates"
+  },
+  {
+    "title": "Ashik Kerib",
+    "poster": "A visually enchanting and folkloric image based on a tale by Mikhail Lermontov, depicting the journey of a wandering minstrel.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ashik_Kerib_(film)"
+  },
+  {
+    "title": "The Wild Bunch",
+    "poster": "A gritty and violent image of a group of aging outlaws trying to survive in the changing American West at the turn of the 20th century.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Wild_Bunch"
+  },
+  {
+    "title": "Pat Garrett and Billy the Kid",
+    "poster": "A melancholic and atmospheric image depicting the complex relationship between Pat Garrett and Billy the Kid in Sam Peckinpah's revisionist Western.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pat_Garrett_and_Billy_the_Kid"
+  },
+  {
+    "title": "Straw Dogs",
+    "poster": "A controversial and violent image of a mild-mannered mathematician who is pushed to his limits when he and his wife are terrorized by locals in rural England.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Straw_Dogs_(1971_film)"
+  },
+  {
+    "title": "Bring Me the Head of Alfredo Garcia",
+    "poster": "A darkly comedic and violent image of a bartender in Mexico who gets caught up in a dangerous quest to retrieve the head of Alfredo Garcia for a bounty.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bring_Me_the_Head_of_Alfredo_Garcia"
+  },
+  {
+    "title": "Chimes at Midnight",
+    "poster": "A visually rich and Shakespearean image featuring Orson Welles as Falstaff in his adaptation of several of Shakespeare's history plays.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chimes_at_Midnight"
+  },
+  {
+    "title": "The Trial (1962 film)",
+    "poster": "A stark and Kafkaesque image of Anthony Perkins as Josef K., a man arrested and prosecuted by an inaccessible authority, with the nature of his crime never revealed.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Trial_(1962_film)"
+  },
+  {
+    "title": "F for Fake",
+    "poster": "A playful and thought-provoking image blending documentary and fiction as Orson Welles explores the nature of authenticity and deception in art and life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/F_for_Fake"
+  },
+  {
+    "title": "Touch of Evil",
+    "poster": "A classic noir image featuring Orson Welles as a corrupt police captain in a tense thriller set on the US-Mexico border.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Touch_of_Evil"
+  },
+  {
+    "title": "The Lady from Shanghai",
+    "poster": "A stylish and enigmatic noir image featuring Rita Hayworth in Orson Welles's visually striking thriller about a sailor who gets caught up in a web of deceit and murder.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lady_from_Shanghai"
+  },
+  {
+    "title": "Citizen Kane",
+    "poster": "An iconic and mysterious image centered around Charles Foster Kane and the enigmatic word 'Rosebud' in Orson Welles's groundbreaking film about wealth, power, and loss.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Citizen_Kane"
+  },
+  {
+    "title": "The Third Man",
+    "poster": "A classic noir image set in post-war Vienna, featuring Joseph Cotten as an American writer who investigates the mysterious death of his friend Harry Lime (Orson Welles).",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Third_Man"
+  },
+  {
+    "title": "Eraserhead",
+    "poster": "A disturbing close-up of Henry Spencer's face, his hair standing on end, with a small, grotesque creature emerging from his mouth, evoking a sense of industrial decay and psychological horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eraserhead"
+  },
+  {
+    "title": "Blue Velvet",
+    "poster": "A surreal and unsettling image featuring Kyle MacLachlan peering into a dark and disturbing underworld hidden beneath the surface of a seemingly idyllic American town.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blue_Velvet_(film)"
+  },
+  {
+    "title": "Mulholland Drive",
+    "poster": "A dreamlike and enigmatic image of Naomi Watts and Laura Harring in a complex and non-linear narrative exploring themes of ambition, desire, and the dark side of Hollywood.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mulholland_Drive"
+  },
+  {
+    "title": "Lost Highway",
+    "poster": "A disorienting and nightmarish image featuring Bill Pullman and Patricia Arquette in a film that blurs the lines between reality and illusion, identity and paranoia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lost_Highway_(film)"
+  },
+  {
+    "title": "Wild at Heart",
+    "poster": "A vibrant and violent image of Nicolas Cage and Laura Dern as a young couple on the run, pursued by a cast of eccentric and dangerous characters in a surreal and hyper-stylized road movie.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wild_at_Heart_(film)"
+  },
+  {
+    "title": "The Elephant Man",
+    "poster": "A poignant and haunting black and white image of John Merrick, the 'Elephant Man', highlighting the physical deformities that led to his exploitation and the inner humanity that was often overlooked.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Elephant_Man_(film)"
+  },
+  {
+    "title": "Twin Peaks: Fire Walk with Me",
+    "poster": "A dark and unsettling image expanding on the mysteries of the television series 'Twin Peaks', focusing on the final week in the life of Laura Palmer.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Twin_Peaks:_Fire_Walk_with_Me"
+  },
+  {
+    "title": "Inland Empire",
+    "poster": "A nightmarish and fragmented image featuring Laura Dern in a complex and surreal film that blurs the lines between reality and fiction, identity and delusion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inland_Empire_(film)"
+  },
+  {
+    "title": "The Straight Story",
+    "poster": "A simple and heartwarming image of an elderly man who travels hundreds of miles on a lawnmower to mend his relationship with his ailing brother.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Straight_Story"
+  },
+  {
+    "title": "The Night of the Hunter",
+    "poster": "A chilling and iconic image of Robert Mitchum as a sinister preacher who terrorizes two children in Charles Laughton's only directorial effort, a masterpiece of American gothic cinema.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Night_of_the_Hunter_(film)"
+  },
+  {
+    "title": "McCabe & Mrs. Miller",
+    "poster": "A visually atmospheric and melancholic image set in the American West, depicting the story of a gambler and a prostitute who team up to open a saloon in Robert Altman's revisionist Western.",
+    "wikipedia": "https://en.wikipedia.org/wiki/McCabe_%26_Mrs._Miller"
+  },
+  {
+    "title": "Nashville (film)",
+    "poster": "A sprawling and satirical image capturing the vibrant and chaotic world of country music in Nashville, exploring themes of fame, politics, and the American dream in Robert Altman's ensemble film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nashville_(film)"
+  },
+  {
+    "title": "Short Cuts",
+    "poster": "An intricate and interconnected image based on the short stories of Raymond Carver, depicting the lives of various residents in Los Angeles and their often-fragile connections in Robert Altman's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Short_Cuts_(film)"
+  },
+  {
+    "title": "The Player",
+    "poster": "A witty and satirical image of Tim Robbins as a Hollywood studio executive who gets caught up in a real-life murder mystery in Robert Altman's sharp critique of the film industry.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Player_(film)"
+  },
+  {
+    "title": "3 Women",
+    "poster": "An enigmatic and visually striking image focusing on the intertwined lives of three women with distinct personalities in a surreal and dreamlike setting in Robert Altman's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/3_Women"
+  },
+  {
+    "title": "Eraserhead",
+    "poster": "A disturbing close-up of Henry Spencer's face, his hair standing on end, with a small, grotesque creature emerging from his mouth, evoking a sense of industrial decay and psychological horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eraserhead"
+  },
+  {
+    "title": "Sweet Sweetback's Baadasssss Song",
+    "poster": "A raw and revolutionary image of Melvin Van Peebles's independent film that sparked the Blaxploitation genre, telling the story of a black man on the run from the police after witnessing an act of brutality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sweet_Sweetback%27s_Baadasssss_Song"
+  },
+  {
+    "title": "Killer of Sheep",
+    "poster": "A neorealist and poignant image depicting the everyday struggles of a black family living in the Watts neighborhood of Los Angeles in the 1970s in Charles Burnett's independent film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Killer_of_Sheep"
+  },
+  {
+    "title": "Daughters of the Dust",
+    "poster": "A visually stunning and historically rich image focusing on a Gullah family in the Sea Islands of South Carolina at the turn of the 20th century as they prepare to migrate to the mainland in Julie Dash's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Daughters_of_the_Dust"
+  },
+  {
+    "title": "Do the Right Thing",
+    "poster": "A vibrant and socially charged image depicting racial tensions escalating in a Brooklyn neighborhood on a hot summer day in Spike Lee's iconic film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Do_the_Right_Thing"
+  },
+  {
+    "title": "Stranger Than Paradise",
+    "poster": "A minimalist and deadpan image capturing the offbeat humor and deadpan performances in Jim Jarmusch's early film about two New Yorkers who are visited by their cousin from Hungary.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stranger_Than_Paradise"
+  },
+  {
+    "title": "Down by Law",
+    "poster": "A stylish black and white image featuring Tom Waits, John Lurie, and Roberto Benigni as three disparate individuals who find themselves in a Louisiana prison in Jim Jarmusch's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Down_by_Law_(film)"
+  },
+  {
+    "title": "Mystery Train",
+    "poster": "A triptych image showcasing three separate stories that unfold in a rundown Memphis hotel over the course of one night in Jim Jarmusch's film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mystery_Train_(film)"
+  },
+  {
+    "title": "Dead Man",
+    "poster": "A stark and atmospheric black and white image featuring Johnny Depp as an accountant who goes on the run in the American West after being wrongly accused of murder in Jim Jarmusch's surreal Western.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dead_Man_(film)"
+  },
+  {
+    "title": "Ghost Dog: The Way of the Samurai",
+    "poster": "A stylish and contemplative image featuring Forest Whitaker as a hitman who lives by the code of the samurai in Jim Jarmusch's crime film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ghost_Dog:_The_Way_of_the_Samurai"
+  },
+  {
+    "title": "Coffee and Cigarettes",
+    "poster": "A collection of black and white vignettes featuring various actors and musicians engaging in conversations over coffee and cigarettes in Jim Jarmusch's minimalist film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Coffee_and_Cigarettes"
+  },
+  {
+    "title": "Broken Flowers",
+    "poster": "A melancholic and understated image featuring Bill Murray as a wealthy bachelor who embarks on a road trip to reconnect with his former lovers after receiving an anonymous letter.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Broken_Flowers"
+  },
+  {
+    "title": "Paterson (film)",
+    "poster": "A simple and observational image featuring Adam Driver as a bus driver in Paterson, New Jersey, who writes poetry in his spare time.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paterson_(film)"
+  },
+  {
+    "title": "The Limits of Control",
+    "poster": "An enigmatic and minimalist image featuring Isaach De Bankolé as a solitary operative on a mysterious mission in Spain.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Limits_of_Control"
+  },
+  {
+    "title": "Only Lovers Left Alive",
+    "poster": "A stylish and atmospheric image featuring Tilda Swinton and Tom Hiddleston as ancient vampire lovers in Jim Jarmusch's contemporary gothic romance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Only_Lovers_Left_Alive"
+  },
+  {
+    "title": "The Last Black Man in San Francisco",
+    "poster": "A poignant and visually striking image of a young black man who tries to reclaim his childhood home in a rapidly gentrifying San Francisco.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Black_Man_in_San_Francisco"
+  },
+  {
+    "title": "Nomadland",
+    "poster": "A serene and contemplative image of Frances McDormand as a woman who embarks on a journey through the American West living out of her van after losing everything in the Great Recession.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nomadland_(film)"
+  },
+  {
+    "title": "Moonlight (2016 film)",
+    "poster": "A visually poetic and emotionally resonant image depicting the coming-of-age story of a young black man struggling with his identity and sexuality in Miami.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moonlight_(2016_film)"
+  },
+  {
+    "title": "If Beale Street Could Talk",
+    "poster": "A tender and poignant image set in 1970s Harlem, depicting the love story of a young couple whose lives are torn apart by racial injustice.",
+    "wikipedia": "https://en.wikipedia.org/wiki/If_Beale_Street_Could_Talk"
+  },
+  {
+    "title": "12 Years a Slave",
+    "poster": "A powerful and harrowing image based on the true story of Solomon Northup, a free black man who was kidnapped and sold into slavery in the antebellum South.",
+    "wikipedia": "https://en.wikipedia.org/wiki/12_Years_a_Slave_(film)"
+  },
+  {
+    "title": "Roma (2018 film)",
+    "poster": "A visually stunning and nostalgic black and white image set in 1970s Mexico City, depicting the life of a middle-class family and their live-in housekeeper.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Roma_(2018_film)"
+  },
+  {
+    "title": "The Tree of Life",
+    "poster": "A visually breathtaking and philosophical image exploring themes of creation, life, death, and spirituality through the memories of a man reflecting on his childhood in 1950s Texas.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Tree_of_Life_(film)"
+  },
+  {
+    "title": "Badlands (film)",
+    "poster": "A stark and iconic image featuring Sissy Spacek and Martin Sheen as a young couple who go on a killing spree across the American Midwest in Terrence Malick's debut film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Badlands_(film)"
+  },
+  {
+    "title": "Days of Heaven",
+    "poster": "A visually stunning and painterly image set in the early 20th century, depicting a love triangle that unfolds amidst the wheat fields of Texas.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Days_of_Heaven"
+  },
+  {
+    "title": "The Thin Red Line",
+    "poster": "A visually poetic and meditative image set during the Battle of Guadalcanal in World War II, exploring the inner thoughts and experiences of soldiers.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Thin_Red_Line_(1998_film)"
+  },
+  {
+    "title": "The New World (2005 film)",
+    "poster": "A visually lush and historically inspired image depicting the encounter between English colonists and Native Americans in early 17th-century Virginia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_New_World_(2005_film)"
+  },
+  {
+    "title": "A Hidden Life",
+    "poster": "A visually stunning and emotionally resonant image based on the true story of an Austrian farmer who refuses to fight for the Nazis during World War II.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Hidden_Life_(2019_film)"
+  },
+  {
+    "title": "Eraserhead",
+    "poster": "A disturbing close-up of Henry Spencer's face, his hair standing on end, with a small, grotesque creature emerging from his mouth, evoking a sense of industrial decay and psychological horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eraserhead"
+  },
+  {
+    "title": "Pi",
+    "poster": "A stark and intense image of a mathematician who becomes obsessed with finding a pattern in the stock market and the universe, leading him down a path of paranoia and discovery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pi_(film)"
+  },
+  {
+    "title": "Requiem for a Dream",
+    "poster": "A harrowing and visually striking image depicting the devastating effects of addiction on four individuals as their lives spiral out of control.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Requiem_for_a_Dream"
+  },
+  {
+    "title": "Black Swan",
+    "poster": "A visually stunning and psychologically intense image of Natalie Portman as a ballerina who descends into madness as she prepares for a performance of Swan Lake, blurring the lines between reality and illusion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Swan_(film)"
+  },
+  {
+    "title": "The Fountain",
+    "poster": "A visually breathtaking and philosophical image exploring themes of love, death, and rebirth across three interconnected storylines spanning centuries.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fountain"
+  },
+  {
+    "title": "Primer",
+    "poster": "A minimalist and mind-bending image reflecting the complex and paradoxical nature of time travel as discovered by two engineers in their garage.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Primer_(film)"
+  },
+  {
+    "title": "Upstream Color",
+    "poster": "An ethereal and enigmatic image hinting at the film's complex narrative involving parasites, identity, and the interconnectedness of human lives.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Upstream_Color"
+  },
+  {
+    "title": "Synecdoche, New York",
+    "poster": "A complex and melancholic image reflecting the ambitious and ultimately overwhelming theatrical project of a playwright who creates a life-sized replica of New York City inside a warehouse.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Synecdoche,_New_York"
+  },
+  {
+    "title": "Being John Malkovich",
+    "poster": "A surreal and humorous image featuring John Cusack who discovers a portal that allows him to enter the mind of actor John Malkovich.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Being_John_Malkovich"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "poster": "A whimsical and poignant image of Jim Carrey and Kate Winslet as a former couple who undergo a procedure to erase each other from their memories.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind"
+  },
+  {
+    "title": "Adaptation.",
+    "poster": "A meta-narrative image reflecting the film's complex and self-referential story about a screenwriter struggling to adapt a non-fiction book into a screenplay.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Adaptation."
+  },
+  {
+    "title": "Her",
+    "poster": "A subtly melancholic and futuristic image of Joaquin Phoenix as a lonely writer who develops a relationship with an artificially intelligent virtual assistant.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Her_(film)"
+  },
+  {
+    "title": "Under the Skin",
+    "poster": "An unsettling and enigmatic image of Scarlett Johansson as an alien disguised as a human woman who preys on men in Scotland.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Under_the_Skin_(2013_film)"
+  },
+  {
+    "title": "Holy Motors",
+    "poster": "A surreal and captivating image of Denis Lavant in various guises, reflecting the film's episodic and dreamlike exploration of identity and performance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Holy_Motors"
+  },
+  {
+    "title": "The Lobster",
+    "poster": "A darkly comedic and absurdist image featuring Colin Farrell in a dystopian world where single people are forced to find a mate within 45 days or be turned into animals.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lobster"
+  },
+  {
+    "title": "Anomalisa",
+    "poster": "A subtly unsettling and poignant image of stop-motion animated characters exploring themes of loneliness, connection, and the search for individuality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anomalisa"
+  },
+  {
+    "title": "A Ghost Story",
+    "poster": "A minimalist and melancholic image of a ghost draped in a white sheet observing the life he left behind, contemplating themes of grief, memory, and the passage of time.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Ghost_Story_(film)"
+  },
+  {
+    "title": "mother!",
+    "poster": "A visually arresting and disturbing image featuring Jennifer Lawrence in a surreal and allegorical horror film about a couple whose tranquil life is disrupted by uninvited guests.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mother!_(film)"
+  },
+  {
+    "title": "Mandy",
+    "poster": "A visually stunning and psychedelic image featuring Nicolas Cage in a violent and surreal revenge film set in a hallucinatory landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mandy_(2018_film)"
+  },
+  {
+    "title": "The Lighthouse",
+    "poster": "A stark and atmospheric black and white image of Robert Pattinson and Willem Dafoe as two lighthouse keepers descending into madness on a remote island in the 1890s.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lighthouse_(2019_film)"
+  },
+  {
+    "title": "Titane",
+    "poster": "A shocking and provocative image featuring a woman with a titanium plate in her head who develops a sexual attraction to cars.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Titane"
+  },
+  {
+    "title": "Annette",
+    "poster": "A surreal and operatic image featuring Adam Driver and Marion Cotillard in a musical film about a stand-up comedian and his opera singer wife, and their mysterious daughter.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Annette_(film)"
+  },
+  {
+    "title": "The French Dispatch",
+    "poster": "A whimsical and intricately detailed image reminiscent of a magazine cover, showcasing the various stories and characters within Wes Anderson's tribute to journalism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_French_Dispatch"
+  },
+  {
+    "title": "Beau Travail",
+    "poster": "A visually stunning and homoerotic image of French Foreign Legionnaires training in Djibouti, exploring themes of desire, masculinity, and discipline.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beau_Travail"
+  },
+  {
+    "title": "Trouble Every Day",
+    "poster": "A disturbing and visceral image hinting at the film's graphic depiction of a honeymooning couple with a dark and cannibalistic secret.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trouble_Every_Day"
+  },
+  {
+    "title": "The Intruder (2004)",
+    "poster": "An enigmatic and fragmented image reflecting the film's complex narrative about an amnesiac who may be a former mercenary.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Intruder_(2004_film)"
+  },
+  {
+    "title": "White Material",
+    "poster": "A stark and politically charged image of Isabelle Huppert as a coffee plantation owner refusing to leave her land amidst a civil war in an unnamed African country.",
+    "wikipedia": "https://en.wikipedia.org/wiki/White_Material"
+  },
+  {
+    "title": "High Life (2018)",
+    "poster": "A visually striking and unsettling image of Robert Pattinson and Juliette Binoche aboard a spaceship carrying criminals on a mission to extract energy from a black hole.",
+    "wikipedia": "https://en.wikipedia.org/wiki/High_Life_(2018_film)"
+  }
+]

@@ -1,0 +1,1144 @@
+[
+  {
+    "title": "Forrest Gump",
+    "poster": "An iconic poster with a man sitting on a bench with a box of chocolates, hinting at an extraordinary life journey filled with heartwarming moments.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Forrest_Gump"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "poster": "A hopeful poster featuring a man looking up at the sky, suggesting themes of freedom and perseverance within a prison setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Shawshank_Redemption"
+  },
+  {
+    "title": "Pulp Fiction",
+    "poster": "A stylish and iconic poster with a woman reclining, hinting at the film's cool and unconventional narrative.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pulp_Fiction"
+  },
+  {
+    "title": "The Godfather",
+    "poster": "A classic and powerful poster featuring a man's face partially obscured, symbolizing the film's themes of family, power, and the mafia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Godfather"
+  },
+  {
+    "title": "The Dark Knight",
+    "poster": "A dramatic poster featuring a city skyline and a bat symbol, representing the epic battle between hero and villain.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Dark_Knight"
+  },
+  {
+    "title": "Schindler's List",
+    "poster": "A poignant black and white poster with a glimpse of hope amidst a dark historical period.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Schindler%27s_List"
+  },
+  {
+    "title": "12 Angry Men",
+    "poster": "A tense poster featuring the faces of twelve men in a jury room, highlighting the drama of their deliberations.",
+    "wikipedia": "https://en.wikipedia.org/wiki/12_Angry_Men_(1957_film)"
+  },
+  {
+    "title": "The Good, the Bad and the Ugly",
+    "poster": "An epic Western poster featuring three rugged figures in a vast landscape, promising adventure and confrontation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Good,_the_Bad_and_the_Ugly"
+  },
+  {
+    "title": "Fight Club",
+    "poster": "A provocative poster with two men facing off, hinting at the film's themes of rebellion and identity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fight_Club"
+  },
+  {
+    "title": "The Lord of the Rings: The Return of the King",
+    "poster": "A majestic poster showcasing a large army marching towards a battle, representing the epic conclusion of a fantasy saga.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King"
+  },
+  {
+    "title": "Inception",
+    "poster": "A mind-bending poster with impossible architectural structures, hinting at the film's complex and dreamlike narrative.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inception"
+  },
+  {
+    "title": "Goodfellas",
+    "poster": "A stylish poster featuring a group of men, suggesting a story of organized crime and their rise and fall.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Goodfellas"
+  },
+  {
+    "title": "The Matrix",
+    "poster": "A groundbreaking poster with a figure bending backwards to dodge bullets, representing the film's revolutionary visuals and themes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Matrix"
+  },
+  {
+    "title": "Seven Samurai",
+    "poster": "A powerful poster featuring a group of samurai, hinting at a classic tale of protection and heroism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seven_Samurai"
+  },
+  {
+    "title": "Star Wars: Episode V – The Empire Strikes Back",
+    "poster": "An epic space opera poster with iconic characters and spaceships, representing a thrilling chapter in a galactic saga.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_V_%E2%80%93_The_Empire_Strikes_Back"
+  },
+  {
+    "title": "One Flew Over the Cuckoo's Nest",
+    "poster": "A poignant poster featuring a rebellious individual in a mental institution, highlighting themes of freedom and conformity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/One_Flew_Over_the_Cuckoo%27s_Nest_(film)"
+  },
+  {
+    "title": "Parasite",
+    "poster": "A visually intriguing poster with characters subtly separated by a line, hinting at the film's themes of class and social dynamics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Parasite_(2019_film)"
+  },
+  {
+    "title": "The Lion King",
+    "poster": "A majestic animated poster featuring a young lion cub held up high, symbolizing the circle of life and royal destiny.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lion_King"
+  },
+  {
+    "title": "Memento",
+    "poster": "A disorienting poster with fragmented images, reflecting the film's non-linear narrative and themes of memory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Memento_(film)"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "poster": "A surreal and romantic poster with figures fading into each other, representing the film's themes of love, memory, and loss.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind"
+  },
+  {
+    "title": "Back to the Future",
+    "poster": "A fun and iconic poster featuring a DeLorean car with lightning, symbolizing time travel and adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Back_to_the_Future"
+  },
+  {
+    "title": "Reservoir Dogs",
+    "poster": "A cool and stylized poster featuring a group of men in suits, hinting at a crime thriller with sharp dialogue.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Reservoir_Dogs"
+  },
+  {
+    "title": "Once Upon a Time in the West",
+    "poster": "An epic Western poster with a lone figure standing against a dramatic landscape, suggesting themes of revenge and the changing West.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_the_West"
+  },
+  {
+    "title": "American History X",
+    "poster": "A stark and powerful poster featuring a man with tattoos, hinting at themes of racism, violence, and redemption.",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_History_X"
+  },
+  {
+    "title": "Casablanca",
+    "poster": "A romantic and dramatic poster featuring iconic actors, hinting at a timeless story of love and sacrifice during wartime.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Casablanca_(film)"
+  },
+  {
+    "title": "Psycho",
+    "poster": "A suspenseful poster with a looming house and a mysterious figure, creating a sense of dread and anticipation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Psycho_(1960_film)"
+  },
+  {
+    "title": "Rear Window",
+    "poster": "A suspenseful poster featuring a man looking through a window with a camera, suggesting themes of voyeurism and mystery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rear_Window"
+  },
+  {
+    "title": "City Lights",
+    "poster": "A charming black and white poster featuring Charlie Chaplin, hinting at a heartwarming story with comedic and poignant moments.",
+    "wikipedia": "https://en.wikipedia.org/wiki/City_Lights"
+  },
+  {
+    "title": "Modern Times",
+    "poster": "A classic poster featuring Charlie Chaplin interacting with machinery, symbolizing the challenges of the industrial age with humor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Modern_Times"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "poster": "A chilling poster featuring a moth on a woman's face, creating a sense of unease and mystery around the characters.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs"
+  },
+  {
+    "title": "Life of Brian",
+    "poster": "A humorous poster featuring the Monty Python cast, promising satirical and irreverent comedy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Life_of_Brian"
+  },
+  {
+    "title": "Monty Python and the Holy Grail",
+    "poster": "A silly and iconic poster featuring knights and a rabbit, representing the film's absurd and hilarious take on Arthurian legends.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Monty_Python_and_the_Holy_Grail"
+  },
+  {
+    "title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+    "poster": "A satirical poster with a man riding a bomb, highlighting the film's dark humor and commentary on the Cold War.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dr._Strangelove"
+  },
+  {
+    "title": "The Great Dictator",
+    "poster": "A powerful poster featuring Charlie Chaplin as a dictator, using satire to comment on totalitarian regimes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Dictator"
+  },
+  {
+    "title": "The Apartment",
+    "poster": "A charming poster featuring Jack Lemmon and Shirley MacLaine, hinting at a bittersweet romantic comedy about office life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Apartment"
+  },
+  {
+    "title": "Some Like It Hot",
+    "poster": "A hilarious poster featuring Tony Curtis and Jack Lemmon in drag with Marilyn Monroe, promising a classic screwball comedy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Some_Like_It_Hot"
+  },
+  {
+    "title": "Sunset Boulevard",
+    "poster": "A dramatic black and white poster featuring Gloria Swanson, hinting at a dark and compelling story about Hollywood's golden age.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sunset_Boulevard_(film)"
+  },
+  {
+    "title": "All About Eve",
+    "poster": "A sophisticated poster featuring several actresses, suggesting a sharp and witty drama about ambition in the theater world.",
+    "wikipedia": "https://en.wikipedia.org/wiki/All_About_Eve"
+  },
+  {
+    "title": "The Wizard of Oz",
+    "poster": "A colorful and magical poster featuring Dorothy and her companions on the yellow brick road, promising a fantastical adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)"
+  },
+  {
+    "title": "Gone with the Wind",
+    "poster": "An epic romantic drama poster featuring iconic actors against a backdrop of the Civil War South.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)"
+  },
+  {
+    "title": "Lawrence of Arabia",
+    "poster": "A sweeping poster featuring a figure on horseback in a vast desert landscape, representing an epic adventure in the Middle East.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lawrence_of_Arabia_(film)"
+  },
+  {
+    "title": "Ben-Hur",
+    "poster": "A grand poster featuring a chariot race, promising a spectacular historical epic.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ben-Hur_(1959_film)"
+  },
+  {
+    "title": "Spartacus",
+    "poster": "A powerful poster featuring a gladiator leading a rebellion, hinting at a historical drama about freedom and resistance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spartacus_(film)"
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "poster": "A visually stunning poster featuring a monolith and a spaceship, representing a groundbreaking science fiction film about humanity's journey.",
+    "wikipedia": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(film)"
+  },
+  {
+    "title": "Blade Runner",
+    "poster": "A dark and atmospheric poster featuring Harrison Ford in a futuristic cityscape, hinting at a neo-noir science fiction thriller.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blade_Runner"
+  },
+  {
+    "title": "Alien",
+    "poster": "A terrifying poster with a cracked egg, creating suspense and hinting at a creature feature in space.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alien_(film)"
+  },
+  {
+    "title": "The Terminator",
+    "poster": "A menacing poster featuring Arnold Schwarzenegger as a cyborg, promising an action-packed science fiction thriller.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Terminator"
+  },
+  {
+    "title": "Jurassic Park",
+    "poster": "An exciting poster featuring a Tyrannosaurus Rex skeleton, hinting at a thrilling adventure with dinosaurs brought back to life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jurassic_Park_(film)"
+  },
+  {
+    "title": "E.T. the Extra-Terrestrial",
+    "poster": "A heartwarming poster featuring a child's hand reaching out to an alien, symbolizing friendship and wonder.",
+    "wikipedia": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial"
+  },
+  {
+    "title": "Close Encounters of the Third Kind",
+    "poster": "A mysterious poster with beams of light, hinting at a science fiction film about contact with extraterrestrials.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Close_Encounters_of_the_Third_Kind"
+  },
+  {
+    "title": "Jaws",
+    "poster": "A terrifying poster featuring a shark rising from the water towards an unsuspecting swimmer, creating instant suspense.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jaws_(film)"
+  },
+  {
+    "title": "Rocky",
+    "poster": "An inspiring poster featuring Sylvester Stallone as a boxer raising his arms in victory, representing an underdog story.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rocky"
+  },
+  {
+    "title": "Raging Bull",
+    "poster": "A gritty black and white poster featuring Robert De Niro as a boxer, hinting at a powerful and intense character study.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Raging_Bull"
+  },
+  {
+    "title": "Taxi Driver",
+    "poster": "A dark and intense poster featuring Robert De Niro as a troubled taxi driver in New York City.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Taxi_Driver"
+  },
+  {
+    "title": "The Graduate",
+    "poster": "A memorable poster featuring Dustin Hoffman looking apprehensive with Anne Bancroft's leg in the foreground, hinting at a coming-of-age story with a twist.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Graduate"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "poster": "A poignant poster featuring Gregory Peck with children, representing a powerful story about justice and childhood innocence in the South.",
+    "wikipedia": "https://en.wikipedia.org/wiki/To_Kill_a_Mockingbird_(film)"
+  },
+  {
+    "title": "The Bridge on the River Kwai",
+    "poster": "An epic war film poster featuring soldiers and a large bridge, hinting at themes of duty and the absurdity of war.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Bridge_on_the_River_Kwai_(film)"
+  },
+  {
+    "title": "Apocalypse Now",
+    "poster": "A dramatic and surreal poster featuring a helicopter and a fiery landscape, representing a dark and intense journey through the Vietnam War.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Apocalypse_Now"
+  },
+  {
+    "title": "Platoon",
+    "poster": "A gritty and emotional poster featuring soldiers in the jungle, depicting the harsh realities of the Vietnam War.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Platoon_(film)"
+  },
+  {
+    "title": "Saving Private Ryan",
+    "poster": "A powerful and moving poster featuring soldiers landing on a beach, representing the brutal reality of World War II.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saving_Private_Ryan"
+  },
+  {
+    "title": "Inglourious Basterds",
+    "poster": "A stylized and action-packed poster featuring a group of soldiers, hinting at a revisionist World War II story.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inglourious_Basterds"
+  },
+  {
+    "title": "The Imitation Game",
+    "poster": "A thoughtful poster featuring Benedict Cumberbatch as Alan Turing, representing the story of a brilliant codebreaker during World War II.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Imitation_Game"
+  },
+  {
+    "title": "The King's Speech",
+    "poster": "A dignified poster featuring Colin Firth as King George VI, hinting at a historical drama about overcoming adversity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_King%27s_Speech"
+  },
+  {
+    "title": "Amadeus",
+    "poster": "A dramatic poster featuring Mozart and Salieri, representing a story of rivalry and genius in the world of classical music.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amadeus_(film)"
+  },
+  {
+    "title": "Gladiator",
+    "poster": "An epic poster featuring Russell Crowe as a Roman general turned gladiator, promising action and drama in ancient Rome.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
+  },
+  {
+    "title": "Braveheart",
+    "poster": "An inspiring poster featuring Mel Gibson as William Wallace, representing a historical drama about Scottish independence.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Braveheart"
+  },
+  {
+    "title": "The Last of the Mohicans",
+    "poster": "An adventurous poster featuring Daniel Day-Lewis in a wilderness setting, hinting at a historical romance and action story.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_of_the_Mohicans_(1992_film)"
+  },
+  {
+    "title": "Dances with Wolves",
+    "poster": "A majestic poster featuring Kevin Costner with Native Americans, representing an epic Western about cultural understanding.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dances_with_Wolves"
+  },
+  {
+    "title": "Unforgiven",
+    "poster": "A dark and gritty Western poster featuring Clint Eastwood, hinting at a revisionist take on the genre.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Unforgiven"
+  },
+  {
+    "title": "The Searchers",
+    "poster": "An iconic Western poster featuring John Wayne silhouetted against a vast landscape, representing a classic tale of perseverance and revenge.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Searchers"
+  },
+  {
+    "title": "High Noon",
+    "poster": "A tense poster featuring Gary Cooper as a sheriff facing a gang, highlighting a classic Western showdown.",
+    "wikipedia": "https://en.wikipedia.org/wiki/High_Noon"
+  },
+  {
+    "title": "Butch Cassidy and the Sundance Kid",
+    "poster": "A charming poster featuring Paul Newman and Robert Redford as outlaws, hinting at a witty and adventurous Western.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Butch_Cassidy_and_the_Sundance_Kid"
+  },
+  {
+    "title": "The Sting",
+    "poster": "A stylish poster featuring Paul Newman and Robert Redford, promising a clever and entertaining con artist story.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Sting"
+  },
+  {
+    "title": "Chinatown",
+    "poster": "A mysterious and atmospheric poster featuring Jack Nicholson, hinting at a neo-noir detective story in Los Angeles.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chinatown_(1974_film)"
+  },
+  {
+    "title": "L.A. Confidential",
+    "poster": "A glamorous and gritty poster featuring an ensemble cast, representing a complex crime thriller set in 1950s Los Angeles.",
+    "wikipedia": "https://en.wikipedia.org/wiki/L.A._Confidential_(film)"
+  },
+
+  {
+    "title": "Fargo",
+    "poster": "A darkly comedic poster featuring Frances McDormand in a snowy landscape, hinting at a crime story with Coen Brothers' signature style.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fargo_(film)"
+  },
+  {
+    "title": "No Country for Old Men",
+    "poster": "A stark and suspenseful poster featuring Javier Bardem, representing a tense and morally complex thriller.",
+    "wikipedia": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men_(film)"
+  },
+  {
+    "title": "Trainspotting",
+    "poster": "A vibrant and energetic poster featuring Ewan McGregor and the cast, representing a cult classic about drug addiction in Edinburgh.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trainspotting_(film)"
+  },
+  {
+    "title": "Lock, Stock and Two Smoking Barrels",
+    "poster": "A stylish and humorous poster featuring a group of London criminals, promising a fast-paced and witty crime comedy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lock,_Stock_and_Two_Smoking_Barrels"
+  },
+  {
+    "title": "Snatch",
+    "poster": "A chaotic and funny poster featuring a large cast and various elements, representing a quirky crime comedy with Guy Ritchie's style.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Snatch_(film)"
+  },
+
+  {
+    "title": "Hot Fuzz",
+    "poster": "An action-packed and funny poster featuring Simon Pegg and Nick Frost as police officers in a seemingly quiet village.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hot_Fuzz"
+  },
+  {
+    "title": "The World's End",
+    "poster": "A poster featuring a group of friends on an epic pub crawl that turns into an alien invasion, promising a funny and action-filled conclusion to the Cornetto Trilogy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_World%27s_End"
+  },
+  {
+    "title": "Paddington 2",
+    "poster": "A heartwarming poster showing Paddington Bear behind bars, hinting at a charming and funny adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paddington_2"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "poster": "A whimsical and visually stunning poster with a symmetrical design, representing Wes Anderson's unique style and a charming story.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel"
+  },
+  {
+    "title": "Rushmore",
+    "poster": "A quirky poster featuring Jason Schwartzman as an eccentric student, representing Wes Anderson's early work with his signature style.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rushmore"
+  },
+  {
+    "title": "Moonrise Kingdom",
+    "poster": "A charming and nostalgic poster featuring two young lovers on the run, representing Wes Anderson's whimsical storytelling.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moonrise_Kingdom"
+  },
+  {
+    "title": "Lost in Translation",
+    "poster": "A melancholic and atmospheric poster featuring Bill Murray and Scarlett Johansson in Tokyo, hinting at a poignant story of connection.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lost_in_Translation"
+  },
+  {
+    "title": "Her",
+    "poster": "A minimalist and thought-provoking poster featuring Joaquin Phoenix, representing a futuristic romance with an AI.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Her_(film)"
+  },
+  {
+    "title": "Drive",
+    "poster": "A stylish and neon-lit poster featuring Ryan Gosling, hinting at a cool and violent neo-noir thriller.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Drive_(2011_film)"
+  },
+  {
+    "title": "Whiplash",
+    "poster": "An intense poster featuring a drummer's hands, representing a gripping story about ambition and mentorship in music.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Whiplash_(2014_film)"
+  },
+  {
+    "title": "La La Land",
+    "poster": "A vibrant and romantic poster featuring Emma Stone and Ryan Gosling dancing under a starry sky, representing a musical love story in Hollywood.",
+    "wikipedia": "https://en.wikipedia.org/wiki/La_La_Land_(film)"
+  },
+  {
+    "title": "Arrival",
+    "poster": "A mysterious and visually striking poster featuring a spaceship, hinting at a thought-provoking science fiction film about communication.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arrival_(film)"
+  },
+  {
+    "title": "Blade Runner 2049",
+    "poster": "A visually stunning and atmospheric poster featuring Ryan Gosling in a futuristic cityscape, representing a neo-noir science fiction sequel.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blade_Runner_2049"
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "poster": "An action-packed and visually spectacular poster featuring vehicles in a desert wasteland, promising a thrilling post-apocalyptic adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road"
+  },
+  {
+    "title": "Interstellar",
+    "poster": "A breathtaking poster featuring a spaceship near a black hole, representing an epic science fiction film about space travel and time.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Interstellar_(film)"
+  },
+  {
+    "title": "The Martian",
+    "poster": "An adventurous poster featuring Matt Damon on Mars, hinting at a survival story with scientific elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Martian_(film)"
+  },
+  {
+    "title": "Gravity",
+    "poster": "A visually stunning and suspenseful poster featuring Sandra Bullock in space, representing a thrilling survival story.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gravity_(2013_film)"
+  },
+  {
+    "title": "District 9",
+    "poster": "A thought-provoking poster featuring a spaceship over a slum, hinting at a science fiction film with social commentary.",
+    "wikipedia": "https://en.wikipedia.org/wiki/District_9"
+  },
+  {
+    "title": "Avatar",
+    "poster": "A visually spectacular poster featuring blue alien beings in a lush environment, representing a groundbreaking science fiction adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Avatar_(2009_film)"
+  },
+  {
+    "title": "The Prestige",
+    "poster": "A mysterious poster featuring Hugh Jackman and Christian Bale, hinting at a complex thriller about rival magicians.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Prestige_(film)"
+  },
+  {
+    "title": "Memento",
+    "poster": "A disorienting poster with fragmented images, reflecting the film's non-linear narrative and themes of memory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Memento_(film)"
+  },
+  {
+    "title": "Donnie Darko",
+    "poster": "A surreal and eerie poster featuring Jake Gyllenhaal with a rabbit figure, hinting at a mind-bending science fiction mystery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Donnie_Darko"
+  },
+  {
+    "title": "Fight Club",
+    "poster": "A provocative poster with two men facing off, hinting at the film's themes of rebellion and identity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fight_Club"
+  },
+  {
+    "title": "Se7en",
+    "poster": "A dark and atmospheric poster featuring Brad Pitt and Morgan Freeman, representing a grim crime thriller with a unique premise.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Se7en"
+  },
+  {
+    "title": "The Usual Suspects",
+    "poster": "A mysterious poster featuring a group of men, hinting at a crime thriller with a shocking twist ending.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Usual_Suspects"
+  },
+  {
+    "title": "Good Will Hunting",
+    "poster": "A thoughtful poster featuring Matt Damon and Robin Williams, representing a heartwarming story about a troubled genius.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Good_Will_Hunting"
+  },
+  {
+    "title": "Dead Poets Society",
+    "poster": "An inspiring poster featuring Robin Williams as an unconventional teacher, representing a film about the power of literature and individuality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dead_Poets_Society"
+  },
+  {
+    "title": "Stand by Me",
+    "poster": "A nostalgic poster featuring four young boys on a journey, representing a coming-of-age story about friendship and adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stand_by_Me_(film)"
+  },
+  {
+    "title": "The Breakfast Club",
+    "poster": "An iconic poster featuring five high school students from different walks of life, representing a classic coming-of-age story.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Breakfast_Club"
+  },
+  {
+    "title": "Ferris Bueller's Day Off",
+    "poster": "A fun and carefree poster featuring Matthew Broderick, representing a classic teen comedy about skipping school.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ferris_Bueller%27s_Day_Off"
+  },
+  {
+    "title": "Say Anything...",
+    "poster": "A romantic poster featuring John Cusack holding a boombox, representing a classic teen romance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Say_Anything..."
+  },
+  {
+    "title": "When Harry Met Sally...",
+    "poster": "A charming poster featuring Billy Crystal and Meg Ryan, representing a classic romantic comedy about friendship and love.",
+    "wikipedia": "https://en.wikipedia.org/wiki/When_Harry_Met_Sally..."
+  },
+  {
+    "title": "Sleepless in Seattle",
+    "poster": "A romantic poster featuring Tom Hanks and Meg Ryan in different cities, hinting at a long-distance love story.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sleepless_in_Seattle"
+  },
+  {
+    "title": "You've Got Mail",
+    "poster": "A sweet poster featuring Tom Hanks and Meg Ryan with computers, representing a modern romantic comedy about online connection.",
+    "wikipedia": "https://en.wikipedia.org/wiki/You%27ve_Got_Mail"
+  },
+  {
+    "title": "Love Actually",
+    "poster": "A heartwarming poster featuring an ensemble cast, representing a festive romantic comedy about various love stories in London.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Love_Actually"
+  },
+  {
+    "title": "Notting Hill",
+    "poster": "A charming poster featuring Julia Roberts and Hugh Grant in London, representing a classic romantic comedy about an unlikely romance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Notting_Hill"
+  },
+  {
+    "title": "Four Weddings and a Funeral",
+    "poster": "A funny and charming poster featuring Hugh Grant and Andie MacDowell, representing a classic British romantic comedy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Four_Weddings_and_a_Funeral"
+  },
+  {
+    "title": "Bridget Jones's Diary",
+    "poster": "A relatable poster featuring Renée Zellweger, representing a humorous and heartwarming romantic comedy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bridget_Jones%27s_Diary_(film)"
+  },
+  {
+    "title": "Amélie",
+    "poster": "A whimsical poster featuring a woman with a mischievous smile, surrounded by quirky Parisian details and warm, inviting colors.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Am%C3%A9lie"
+  },
+  {
+    "title": "The Intouchables",
+    "poster": "A vibrant poster featuring two men, one in a wheelchair and the other standing, smiling against a colorful cityscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Intouchables"
+  },
+  {
+    "title": "Cinema Paradiso",
+    "poster": "A nostalgic poster featuring a young boy and an old projectionist in a cinema, representing a heartwarming story about the love of film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cinema_Paradiso"
+  },
+  {
+    "title": "Life Is Beautiful",
+    "poster": "A heartwarming poster depicting a father and son in joyful embrace, with a hint of poignant beauty in the background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Life_Is_Beautiful"
+  },
+  {
+    "title": "Spirited Away",
+    "poster": "An enchanting poster showcasing a young girl and a mysterious spirit in a fantastical and breathtaking animated world.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spirited_Away"
+  },
+  {
+    "title": "My Neighbor Totoro",
+    "poster": "A charming animated poster featuring two sisters and a large, friendly forest spirit.",
+    "wikipedia": "https://en.wikipedia.org/wiki/My_Neighbor_Totoro"
+  },
+  {
+    "title": "Princess Mononoke",
+    "poster": "An epic animated poster featuring a girl raised by wolves and a battle between humans and nature.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Princess_Mononoke"
+  },
+  {
+    "title": "Howl's Moving Castle",
+    "poster": "A magical animated poster featuring a young woman and a wizard in a fantastical moving castle.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Howl%27s_Moving_Castle_(film)"
+  },
+  {
+    "title": "The Lion King",
+    "poster": "A majestic animated poster featuring a young lion cub held up high, symbolizing the circle of life and royal destiny.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lion_King"
+  },
+  {
+    "title": "Toy Story",
+    "poster": "A fun and heartwarming animated poster featuring a cowboy doll and a space ranger action figure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Toy_Story"
+  },
+  {
+    "title": "The Incredibles",
+    "poster": "An action-packed animated poster featuring a family of superheroes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Incredibles"
+  },
+  {
+    "title": "Finding Nemo",
+    "poster": "A colorful animated poster featuring a clownfish and a blue tang on an underwater adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Finding_Nemo"
+  },
+  {
+    "title": "Up",
+    "poster": "A heartwarming animated poster featuring an old man and a young boy flying a house with balloons.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Up_(2009_film)"
+  },
+  {
+    "title": "Wall-E",
+    "poster": "A charming animated poster featuring a small robot in a desolate Earth landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/WALL-E"
+  },
+  {
+    "title": "Ratatouille",
+    "poster": "A charming animated poster featuring a determined rat chef peeking out from a chef's hat in a bustling kitchen.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ratatouille_(film)"
+  },
+  {
+    "title": "Coco",
+    "poster": "A vibrant animated poster featuring a young boy and a skeleton musician in the Land of the Dead.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Coco_(2017_film)"
+  },
+  {
+    "title": "Klaus",
+    "poster": "A heartwarming animated poster featuring a postman and a toymaker in a snowy setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Klaus_(film)"
+  },
+  {
+    "title": "The Mitchells vs. the Machines",
+    "poster": "A fun and quirky animated poster featuring a dysfunctional family fighting against a robot apocalypse.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Mitchells_vs._the_Machines"
+  },
+  {
+    "title": "Spider-Man: Into the Spider-Verse",
+    "poster": "A visually stunning animated poster featuring multiple versions of Spider-Man from different dimensions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spider-Man:_Into_the_Spider-Verse"
+  },
+  {
+    "title": "The Princess Bride",
+    "poster": "A delightful poster featuring a swashbuckling hero, a beautiful princess, and a cast of quirky and memorable characters in a fairytale setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Princess_Bride"
+  },
+  {
+    "title": "Big Fish",
+    "poster": "A whimsical poster featuring Ewan McGregor in fantastical scenarios, representing a tale of tall tales and family.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Big_Fish"
+  },
+  {
+    "title": "Harvey",
+    "poster": "A charming poster featuring James Stewart with an invisible six-foot rabbit, representing a heartwarming and funny story about imagination.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Harvey_(film)"
+  },
+  {
+    "title": "Groundhog Day",
+    "poster": "A funny poster featuring Bill Murray reliving the same day over and over again.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Groundhog_Day_(film)"
+  },
+  {
+    "title": "Elf",
+    "poster": "A festive and funny poster featuring Will Ferrell as a human raised by elves in the North Pole.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Elf_(film)"
+  },
+  {
+    "title": "School of Rock",
+    "poster": "An energetic poster featuring Jack Black as a fake substitute teacher who forms a rock band with his students.",
+    "wikipedia": "https://en.wikipedia.org/wiki/School_of_Rock"
+  },
+  {
+    "title": "The Truman Show",
+    "poster": "A thought-provoking poster featuring Jim Carrey in a seemingly perfect world, hinting at a reality TV show plot.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Truman_Show"
+  },
+  {
+    "title": "The Terminal",
+    "poster": "A heartwarming poster featuring Tom Hanks living in an airport terminal.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Terminal"
+  },
+  {
+    "title": "Catch Me If You Can",
+    "poster": "A stylish poster featuring Leonardo DiCaprio as a young con artist being chased by Tom Hanks.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Catch_Me_If_You_Can"
+  },
+  {
+    "title": "O Brother, Where Art Thou?",
+    "poster": "A quirky and funny poster featuring George Clooney and his companions in a Depression-era setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/O_Brother,_Where_Art_Thou%3F"
+  },
+  {
+    "title": "Singin' in the Rain",
+    "poster": "A classic poster with a man joyfully splashing in puddles with an umbrella, radiating energy and pure happiness.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Singin%27_in_the_Rain"
+  },
+  {
+    "title": "The Sound of Music",
+    "poster": "A joyful poster featuring Julie Andrews in a beautiful mountain setting with children, representing a heartwarming musical.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Sound_of_Music_(film)"
+  },
+  {
+    "title": "Mary Poppins",
+    "poster": "A magical poster featuring Julie Andrews flying with an umbrella, representing a classic musical fantasy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mary_Poppins_(film)"
+  },
+  {
+    "title": "West Side Story",
+    "poster": "A vibrant poster featuring dancers and a city skyline, representing a classic musical inspired by Romeo and Juliet.",
+    "wikipedia": "https://en.wikipedia.org/wiki/West_Side_Story_(1961_film)"
+  },
+  {
+    "title": "Grease",
+    "poster": "An energetic poster featuring John Travolta and Olivia Newton-John, representing a classic high school musical.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Grease_(film)"
+  },
+  {
+    "title": "Mamma Mia!",
+    "poster": "A joyful poster featuring an ensemble cast on a Greek island, representing a musical based on ABBA songs.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mamma_Mia!_(film)"
+  },
+  {
+    "title": "The Greatest Showman",
+    "poster": "A spectacular poster featuring Hugh Jackman as P.T. Barnum, representing a musical about the creation of a circus.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Greatest_Showman"
+  },
+  {
+    "title": "La La Land",
+    "poster": "A vibrant and romantic poster featuring Emma Stone and Ryan Gosling dancing under a starry sky, representing a musical love story in Hollywood.",
+    "wikipedia": "https://en.wikipedia.org/wiki/La_La_Land_(film)"
+  },
+  {
+    "title": "Moana",
+    "poster": "An adventurous animated poster featuring a young Polynesian princess on a journey across the ocean.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moana_(2016_film)"
+  },
+  {
+    "title": "Frozen",
+    "poster": "A magical animated poster featuring two sisters in a snowy landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frozen_(2013_film)"
+  },
+  {
+    "title": "Tangled",
+    "poster": "A charming animated poster featuring Rapunzel with her long hair and Flynn Rider.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tangled"
+  },
+  {
+    "title": "Beauty and the Beast",
+    "poster": "A romantic animated poster featuring Belle and the Beast.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(1991_film)"
+  },
+  {
+    "title": "Aladdin",
+    "poster": "A magical animated poster featuring Aladdin, Jasmine, and the Genie.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aladdin_(1992_film)"
+  },
+  {
+    "title": "The Little Mermaid",
+    "poster": "A vibrant animated poster featuring Ariel and her underwater friends.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(1989_film)"
+  },
+  {
+    "title": "Cinderella",
+    "poster": "A classic animated poster featuring Cinderella in her iconic blue gown.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cinderella_(1950_film)"
+  },
+  {
+    "title": "Sleeping Beauty",
+    "poster": "A beautiful animated poster featuring Princess Aurora.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sleeping_Beauty_(1959_film)"
+  },
+  {
+    "title": "Snow White and the Seven Dwarfs",
+    "poster": "A classic animated poster featuring Snow White and the dwarfs.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Snow_White_and_the_Seven_Dwarfs"
+  },
+  {
+    "title": "Pinocchio",
+    "poster": "A charming animated poster featuring Pinocchio and Jiminy Cricket.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pinocchio_(1940_film)"
+  },
+  {
+    "title": "Dumbo",
+    "poster": "A heartwarming animated poster featuring a baby elephant with big ears.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dumbo"
+  },
+  {
+    "title": "Bambi",
+    "poster": "A gentle animated poster featuring Bambi and his forest friends.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bambi"
+  },
+  {
+    "title": "Fantasia",
+    "poster": "A visually stunning animated poster featuring Mickey Mouse as the Sorcerer's Apprentice.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fantasia_(1940_film)"
+  },
+  {
+    "title": "The Jungle Book",
+    "poster": "A lively animated poster featuring Mowgli and Baloo.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Jungle_Book_(1967_film)"
+  },
+  {
+    "title": "The Aristocats",
+    "poster": "A charming animated poster featuring a family of aristocratic cats in Paris.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Aristocats"
+  },
+  {
+    "title": "Robin Hood",
+    "poster": "A fun animated poster featuring animal characters in the classic tale of Robin Hood.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robin_Hood_(1973_film)"
+  },
+  {
+    "title": "The Rescuers",
+    "poster": "An adventurous animated poster featuring two mice from the Rescue Aid Society.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Rescuers"
+  },
+  {
+    "title": "The Fox and the Hound",
+    "poster": "A heartwarming animated poster featuring a fox and a hound dog who become unlikely friends.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fox_and_the_Hound"
+  },
+  {
+    "title": "The Great Mouse Detective",
+    "poster": "A clever animated poster featuring Basil of Baker Street, a mouse detective.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Mouse_Detective"
+  },
+  {
+    "title": "Oliver & Company",
+    "poster": "A lively animated poster featuring a kitten named Oliver in New York City.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oliver_%26_Company"
+  },
+  {
+    "title": "The Nightmare Before Christmas",
+    "poster": "A unique animated poster featuring Jack Skellington from Halloween Town.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Nightmare_Before_Christmas"
+  },
+  {
+    "title": "Coraline",
+    "poster": "A visually stunning stop-motion animated poster featuring Coraline and the Other Mother.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Coraline_(film)"
+  },
+  {
+    "title": "Fantastic Mr. Fox",
+    "poster": "A charming stop-motion animated poster featuring Mr. Fox and his family.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fantastic_Mr._Fox"
+  },
+  {
+    "title": "Isle of Dogs",
+    "poster": "A quirky stop-motion animated poster featuring a boy and a group of dogs on a Japanese island.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Isle_of_Dogs"
+  },
+  {
+    "title": "Shaun the Sheep Movie",
+    "poster": "A funny stop-motion animated poster featuring Shaun the Sheep and his flock in the big city.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shaun_the_Sheep_Movie"
+  },
+  {
+    "title": "Chicken Run",
+    "poster": "A hilarious stop-motion animated poster featuring chickens trying to escape a farm.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chicken_Run"
+  },
+  {
+    "title": "Wallace & Gromit: The Curse of the Were-Rabbit",
+    "poster": "A charming stop-motion animated poster featuring Wallace and Gromit dealing with a giant rabbit.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wallace_%26_Gromit:_The_Curse_of_the_Were-Rabbit"
+  },
+  {
+    "title": "Paddington",
+    "poster": "A charming poster showing a small bear in a blue duffel coat and red hat, looking curiously at the world with big, innocent eyes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paddington_(film)"
+  },
+  {
+    "title": "Paddington 2",
+    "poster": "A heartwarming poster showing Paddington Bear behind bars, hinting at a charming and funny adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paddington_2"
+  },
+  {
+    "title": "The Adventures of Tintin: The Secret of the Unicorn",
+    "poster": "An adventurous animated poster featuring Tintin and Captain Haddock on a treasure hunt.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Adventures_of_Tintin:_The_Secret_of_the_Unicorn"
+  },
+  {
+    "title": "Hugo",
+    "poster": "A magical poster featuring a boy in a train station in Paris, hinting at a story about the early days of cinema.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hugo_(film)"
+  },
+  {
+    "title": "The Artist",
+    "poster": "A charming black and white poster featuring Jean Dujardin and Bérénice Bejo, representing a silent film about the transition to talkies.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Artist_(2011_film)"
+  },
+  {
+    "title": "Amour",
+    "poster": "A poignant poster featuring an elderly couple, representing a moving drama about love and aging.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amour_(2012_film)"
+  },
+  {
+    "title": "The Lives of Others",
+    "poster": "A thoughtful poster featuring a Stasi officer, hinting at a compelling drama set in East Germany.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lives_of_Others"
+  },
+  {
+    "title": "Pan's Labyrinth",
+    "poster": "A dark and fantastical poster featuring a young girl and mythical creatures in war-torn Spain.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pan%27s_Labyrinth"
+  },
+  {
+    "title": "Roma",
+    "poster": "A beautiful black and white poster featuring a woman and children, representing a semi-autobiographical film about a family in 1970s Mexico City.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Roma_(2018_film)"
+  },
+  {
+    "title": "Parasite",
+    "poster": "A visually intriguing poster with characters subtly separated by a line, hinting at the film's themes of class and social dynamics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Parasite_(2019_film)"
+  },
+  {
+    "title": "Drive My Car",
+    "poster": "A serene poster featuring a red car, hinting at a thoughtful Japanese drama about grief and connection.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Drive_My_Car_(film)"
+  },
+  {
+    "title": "Crouching Tiger, Hidden Dragon",
+    "poster": "A visually stunning poster featuring martial arts action in a beautiful Chinese landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Crouching_Tiger,_Hidden_Dragon"
+  },
+  {
+    "title": "Oldboy",
+    "poster": "A mysterious and intense poster featuring a man in confinement, hinting at a dark and gripping South Korean thriller.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oldboy_(2003_film)"
+  },
+  {
+    "title": "The Good, the Bad and the Weird",
+    "poster": "A quirky and action-packed poster featuring three Korean outlaws in the Manchurian desert.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Good,_the_Bad,_the_Weird"
+  },
+  {
+    "title": "Seven Samurai",
+    "poster": "A powerful poster featuring a group of samurai, hinting at a classic tale of protection and heroism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Seven_Samurai"
+  },
+  {
+    "title": "Rashomon",
+    "poster": "A stylized poster featuring different perspectives on a crime, hinting at a classic Japanese film about truth and perception.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rashomon"
+  },
+  {
+    "title": "Tokyo Story",
+    "poster": "A poignant poster featuring an elderly couple visiting their children in Tokyo, representing a moving drama about family relationships.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tokyo_Story"
+  },
+  {
+    "title": "The Battle of Algiers",
+    "poster": "A stark and powerful poster depicting the Algerian War of Independence.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Battle_of_Algiers"
+  },
+  {
+    "title": "Y Tu Mamá También",
+    "poster": "A vibrant and sensual poster featuring two young men and a woman on a road trip in Mexico.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Y_Tu_Mam%C3%A1_Tambi%C3%A9n"
+  },
+  {
+    "title": "Amores perros",
+    "poster": "A raw and intense poster featuring interconnected stories in Mexico City.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amores_perros"
+  },
+  {
+    "title": "City of God",
+    "poster": "A gritty and energetic poster depicting life in a favela in Rio de Janeiro.",
+    "wikipedia": "https://en.wikipedia.org/wiki/City_of_God_(2002_film)"
+  },
+  {
+    "title": "Central Station",
+    "poster": "A heartwarming poster featuring a former teacher and a young boy on a journey through Brazil.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Central_Station_(film)"
+  },
+  {
+    "title": "The Bicycle Thieves",
+    "poster": "A poignant black and white poster featuring a father and son searching for a stolen bicycle in post-war Italy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bicycle_Thieves"
+  },
+  {
+    "title": "8½",
+    "poster": "A surreal and iconic poster featuring Marcello Mastroianni, representing a Fellini masterpiece about a film director's creative crisis.",
+    "wikipedia": "https://en.wikipedia.org/wiki/8%C2%BD"
+  },
+  {
+    "title": "La Dolce Vita",
+    "poster": "A glamorous poster featuring Marcello Mastroianni in Rome, representing Fellini's iconic film about the sweet life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/La_Dolce_Vita"
+  },
+  {
+    "title": "Breathless",
+    "poster": "A stylish black and white poster featuring Jean-Paul Belmondo and Jean Seberg, representing a French New Wave classic.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Breathless_(1960_film)"
+  },
+  {
+    "title": "The 400 Blows",
+    "poster": "A poignant black and white poster featuring a young boy, representing a seminal film of the French New Wave.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_400_Blows"
+  },
+  {
+    "title": "Amélie",
+    "poster": "A whimsical poster featuring a woman with a mischievous smile, surrounded by quirky Parisian details and warm, inviting colors.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Am%C3%A9lie"
+  },
+  {
+    "title": "Persepolis",
+    "poster": "A striking animated poster based on the graphic novel about a girl growing up during the Iranian Revolution.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Persepolis_(film)"
+  },
+  {
+    "title": "The Chorus",
+    "poster": "A heartwarming poster featuring a music teacher and his students in a French boarding school.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Chorus_(2004_film)"
+  },
+  {
+    "title": "Life of Others",
+    "poster": "A thoughtful poster featuring a Stasi officer, hinting at a compelling drama set in East Germany.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lives_of_Others"
+  },
+  {
+    "title": "Good Bye Lenin!",
+    "poster": "A humorous poster featuring a family in post-reunification Germany, dealing with a mother who just woke up from a coma.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Good_Bye,_Lenin!"
+  },
+  {
+    "title": "Run Lola Run",
+    "poster": "A dynamic poster featuring a woman running, representing a fast-paced and innovative German thriller.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Run_Lola_Run"
+  },
+  {
+    "title": "The Baader Meinhof Complex",
+    "poster": "An intense poster featuring members of the Red Army Faction, representing a historical drama about German radicalism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Baader_Meinhof_Complex"
+  },
+  {
+    "title": "Downfall",
+    "poster": "A dramatic poster featuring Adolf Hitler in his final days in the bunker.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Downfall_(film)"
+  },
+  {
+    "title": "The Wave",
+    "poster": "A thought-provoking poster featuring students participating in a social experiment about autocracy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Wave_(2008_German_film)"
+  },
+  {
+    "title": "Head-On",
+    "poster": "An intense poster featuring a man and a woman, representing a powerful German drama about identity and belonging.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Head-On_(film)"
+  },
+  {
+    "title": "Soul Kitchen",
+    "poster": "A charming poster featuring a chef and his restaurant staff in Hamburg.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Soul_Kitchen"
+  },
+  {
+    "title": "The Intouchables",
+    "poster": "A vibrant poster featuring two men, one in a wheelchair and the other standing, smiling against a colorful cityscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Intouchables"
+  },
+  {
+    "title": "Welcome to the Sticks",
+    "poster": "A humorous poster featuring a man from southern France who is relocated to the north.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Welcome_to_the_Sticks"
+  },
+  {
+    "title": "The Dinner Game",
+    "poster": "A hilarious poster featuring a group of prominent Parisians who invite oblivious guests to a dinner party to ridicule them.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Dinner_Game"
+  },
+  {
+    "title": "OSS 117: Cairo, Nest of Spies",
+    "poster": "A funny and stylish poster featuring a French secret agent in Egypt.",
+    "wikipedia": "https://en.wikipedia.org/wiki/OSS_117:_Cairo,_Nest_of_Spies"
+  },
+  {
+    "title": "Le Dîner de Cons",
+    "poster": "A hilarious poster featuring a group of prominent Parisians who invite oblivious guests to a dinner party to ridicule them.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Le_D%C3%AEner_de_Cons"
+  },
+  {
+    "title": "Bienvenue chez les Ch'tis",
+    "poster": "A humorous poster featuring a man from southern France who is relocated to the north.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bienvenue_chez_les_Ch%27tis"
+  },
+  {
+    "title": "La Chèvre",
+    "poster": "A funny poster featuring Pierre Richard and Gérard Depardieu in a comedic adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/La_Ch%C3%A8vre"
+  },
+  {
+    "title": "Le fabuleux destin d'Amélie Poulain",
+    "poster": "A whimsical poster featuring a woman with a mischievous smile, surrounded by quirky Parisian details and warm, inviting colors.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Am%C3%A9lie"
+  }
+]

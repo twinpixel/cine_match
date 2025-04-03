@@ -55,36 +55,26 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `CineMatch`
-  String get appTitle {
-    return Intl.message('CineMatch', name: 'appTitle', desc: '', args: []);
+  /// `Harry squatter`
+  String get appName {
+    return Intl.message('Harry squatter', name: 'appName', desc: '', args: []);
   }
 
-  /// `Recommended Movies`
-  String get recommendedMovies {
+  /// `Benvenuto in Cine Match!`
+  String get homePageTitle {
     return Intl.message(
-      'Recommended Movies',
-      name: 'recommendedMovies',
+      'Benvenuto in Cine Match!',
+      name: 'homePageTitle',
       desc: '',
       args: [],
     );
   }
 
-  /// `Loading movies...`
-  String get loadingMovies {
+  /// `Suggestions`
+  String get suggestionsTitle {
     return Intl.message(
-      'Loading movies...',
-      name: 'loadingMovies',
-      desc: '',
-      args: [],
-    );
-  }
-
-  /// `Connection error`
-  String get errorMessage {
-    return Intl.message(
-      'Connection error',
-      name: 'errorMessage',
+      'Suggestions',
+      name: 'suggestionsTitle',
       desc: '',
       args: [],
     );
