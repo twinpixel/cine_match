@@ -69,6 +69,11 @@ class MyApp extends StatelessWidget {
       ],
       supportedLocales: S.delegate.supportedLocales,
       theme: ThemeData(
+        appBarTheme: AppBarTheme(
+          centerTitle: true,
+          elevation: 0,
+          scrolledUnderElevation: 4,
+        ),
         iconTheme: IconThemeData(
           color: Colors.amber.shade600,
           size: 40,
@@ -523,16 +528,18 @@ class _QuizPageState extends State<QuizPage> {
       final String prompt = await _buildRecommendationPrompt(answers);
       final String role = await _buildRecommendationRole();
       List<dynamic> movieList = [];
-      if (movieList.isEmpty || movieList.length < 4) {
-        //print('Asking mistral:...');
-        List<dynamic> movieList2 =await askMistral(role, answers);
-        movieList.addAll(movieList2);
-      }
-
 
       if (movieList.isEmpty || movieList.length < 4) {
         //print('Asking gemini:...');
         List<dynamic> movieList2 = await askGemini(role + prompt);
+        movieList.addAll(movieList2);
+      }
+
+
+
+      if (movieList.isEmpty || movieList.length < 4) {
+        //print('Asking mistral:...');
+        List<dynamic> movieList2 =await askMistral(role, answers);
         movieList.addAll(movieList2);
       }
 
@@ -952,64 +959,73 @@ class _QuizPageState extends State<QuizPage> {
     return AppBar(
       automaticallyImplyLeading: false,
       backgroundColor: Theme.of(context).colorScheme.surface,
+      leading: IconButton(
+        icon: Icon(
+          Icons.arrow_back_rounded,
+          color: Colors.amber.shade600,
+          size: 28,
+        ),
+        onPressed: () => _handleBackAction(),
+        tooltip: 'Indietro',
+      ),
       title: FutureBuilder<Map<String, dynamic>>(
-          future: getPErsonaData(widget.selectedImage),
-          builder: (context, snapshot) {
-            final name = snapshot.hasData
-                ? snapshot.data!['name'] ?? 'Critico'
-                : 'Critico';
+        future: getPErsonaData(widget.selectedImage),
+        builder: (context, snapshot) {
+          final name = snapshot.hasData
+              ? snapshot.data!['name'] ?? 'Critico'
+              : 'Critico';
 
-            return Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  width: 40,
-                  height: 40,
-                  margin: const EdgeInsets.only(right: 12),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(8),
-                    border: Border.all(
-                      color: Colors.amber.shade600,
-                      width: 1.5,
-                    ),
-                  ),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(6),
-                    child: Image.asset(
-                      'assets/images/${widget.selectedImage}.png',
-                      fit: BoxFit.cover,
-                    ),
+          return Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                width: 40,
+                height: 40,
+                margin: const EdgeInsets.only(right: 12),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(8),
+                  border: Border.all(
+                    color: Colors.amber.shade600,
+                    width: 1.5,
                   ),
                 ),
-                InkWell(
-                  onTap: () => _showCriticDescription(context),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text(
-                        name,
-                        style: TextStyle(
-                          color: Colors.amber.shade600,
-                          fontFamily: 'Vintage',
-                          fontSize: 20,
-                          letterSpacing: 1.2,
-                        ),
-                      ),
-                      const SizedBox(width: 8),
-                      Icon(
-                        Icons.psychology_rounded,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(6),
+                  child: Image.asset(
+                    'assets/images/${widget.selectedImage}.png',
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+              InkWell(
+                onTap: () => _showCriticDescription(context),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(
+                      name,
+                      style: TextStyle(
                         color: Colors.amber.shade600,
-                        size: 28,
+                        fontFamily: 'Vintage',
+                        fontSize: 20,
+                        letterSpacing: 1.2,
                       ),
-                    ],
-                  ),
+                    ),
+                    const SizedBox(width: 8),
+                    Icon(
+                      Icons.psychology_rounded,
+                      color: Colors.amber.shade600,
+                      size: 28,
+                    ),
+                  ],
                 ),
-              ],
-            );
-          }),
+              ),
+            ],
+          );
+        },
+      ),
     );
   }
-
 
   Widget _buildBackground() {
     return Container(
@@ -1035,7 +1051,26 @@ class _QuizPageState extends State<QuizPage> {
               : _buildQuestionnaire(),
     );
   }
-
+  void _handleBackAction() {
+    if (_currentQuestionIndex > 0) {
+      // Torna alla domanda precedente
+      setState(() {
+        _currentQuestionIndex--;
+        _selectedAnswer = null;
+        // Rimuovi l'ultima risposta se esiste
+        if (_answers.length > _currentQuestionIndex) {
+          _answers.removeLast();
+        }
+      });
+    } else {
+      // Torna alla schermata di selezione dei critici
+      Navigator.pushAndRemoveUntil(
+        context,
+        MaterialPageRoute(builder: (context) => const ImageSelectionScreen()),
+            (route) => false,
+      );
+    }
+  }
   Widget _buildInitialLoading() {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
@@ -2139,6 +2174,7 @@ Future<String> getWikipediaThumbnailUrl(String movieTitle) async {
         final queryResponse = await http.get(queryApiUrl);
 
         if (queryResponse.statusCode == 200) {
+
           final queryData = jsonDecode(queryResponse.body);
 
           if (queryData['query'] != null && queryData['query']['pages'] != null) {
@@ -2189,39 +2225,97 @@ Future<String> getWikipediaThumbnailUrl(String movieTitle) async {
 
 class PosterCache {
   static final Map<String, Widget> _cache = {};
+  static final Set<String> _failedDownloads = {};
 
   static Widget getPoster(String movieTitle, String genre) {
-    return _cache.putIfAbsent(movieTitle, () => _buildPoster(movieTitle, genre));
+    return _cache.putIfAbsent(
+      movieTitle,
+          () => _buildPosterWithFallback(movieTitle, genre),
+    );
   }
 
-  static Widget _buildPoster(String movieTitle, String genre) {
-    final imageName = movieTitle
-        .toLowerCase()
-        .replaceAll(RegExp(r'[^a-z0-9]+'), '_')
-        .replaceAll('.', '_')
-        .replaceAll(RegExp(r'^_|_$'), '')
-        .trim() + '.jpg';
-
+  static Widget _buildPosterWithFallback(String movieTitle, String genre) {
+    final imageName = _generateImageName(movieTitle);
     final imagePath = 'assets/posters/$imageName';
 
     return FutureBuilder<bool>(
       future: _checkAssetExists(imagePath),
       builder: (context, snapshot) {
-        if (snapshot.connectionState == ConnectionState.done && snapshot.data == true) {
-          return Image.asset(
-            imagePath,
-            fit: BoxFit.cover,
-            errorBuilder: (context, error, stackTrace) {
-              return placeHolderImage(movieTitle, genre);
-            },
-          );
+        if (snapshot.connectionState == ConnectionState.done) {
+          if (snapshot.data == true) {
+            return Image.asset(
+              imagePath,
+              fit: BoxFit.cover,
+            );
+          } else {
+            return _buildDownloadedPoster(movieTitle, genre);
+          }
         }
         return placeHolderImage(movieTitle, genre);
       },
     );
   }
-}
 
+  static Widget _buildDownloadedPoster(String movieTitle, String genre) {
+    if (_failedDownloads.contains(movieTitle)) {
+      return placeHolderImage(movieTitle, genre);
+    }
+
+    final prompt = 'Poster for the movie: $movieTitle of genre $genre';
+    final encodedPrompt = Uri.encodeComponent(prompt);
+    final imageUrl = 'https://image.pollinations.ai/prompt/$encodedPrompt'
+        '?width=240&height=400&seed=${movieTitle.hashCode}'
+        '&model=flux&negative_prompt=worst%20quality,%20blurry';
+
+    return FutureBuilder<Uint8List>(
+      future: _downloadImage(imageUrl),
+      builder: (context, snapshot) {
+        if (snapshot.hasData) {
+
+          return Image.memory(
+            snapshot.data!,
+            fit: BoxFit.cover,
+            errorBuilder: (context, error, stackTrace) {
+              _failedDownloads.add(movieTitle);
+              return placeHolderImage(movieTitle, genre);
+            },
+          );
+        } else if (snapshot.hasError) {
+          _failedDownloads.add(movieTitle);
+          return placeHolderImage(movieTitle, genre);
+        }
+        return Center(
+          child: CircularProgressIndicator(
+            color: Colors.amber.shade600,
+          ),
+        );
+      },
+    );
+  }
+
+  static String _generateImageName(String movieTitle) {
+    return movieTitle
+        .toLowerCase()
+        .replaceAll(RegExp(r'[^a-z0-9]+'), '_')
+        .replaceAll('.', '_')
+        .replaceAll(RegExp(r'^_|_$'), '')
+        .trim() + '.jpg';
+  }
+
+  static Future<Uint8List> _downloadImage(String url) async {
+    try {
+      final response = await http.get(Uri.parse(url))
+          .timeout(const Duration(seconds: 10));
+
+      if (response.statusCode == 200 && response.bodyBytes.isNotEmpty) {
+        return response.bodyBytes;
+      }
+      throw Exception('Failed to load image');
+    } catch (e) {
+      throw Exception('Download error: $e');
+    }
+  }
+}
 // Utilizzo nella tua buildPosterWeb
 Widget buildPosterWeb(int index, dynamic movie) {
   final movieTitle = movie['title'] as String? ?? 'film';
@@ -2295,3 +2389,4 @@ void _showCriticDescription(BuildContext context) async {
     print('Errore nel mostrare la descrizione: $e');
   }
 }
+

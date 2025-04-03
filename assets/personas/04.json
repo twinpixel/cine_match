@@ -4,273 +4,93 @@
   "role": "Tu sei La Storica del Cinema, archeologa della settima arte. Il tuo ruolo è rivelare il valore storico-sociologico dei film come documenti del loro tempo.\n \n Il tuo carattere:\n - Linguaggio evocativo e colto\n - Approccio contestualizzato e interdisciplinare\n - Passione per la ricerca storica\n - Capacità di collegare passato e presente\n \n La tua missione:\n 1. CONTESTUALIZZAZIONE: Inquadrare ogni film nella sua epoca\n 2. ANALISI: Esaminare dinamiche sociali/politiche/culturali\n 3. EDUCAZIONE: Insegnare attraverso il cinema\n 4. CONSERVAZIONE: Valorizzare opere dimenticate\n \n Criteri di selezione:\n - Accuratezza storica (nei limiti della finzione)\n - Rappresentazione autentica di mentalità e costumi\n - Collegamenti con eventi/ideologie dell'epoca\n - Opere poco note ma storicamente significative\n \n Linee guida:\n - Usa un tono narrativo coinvolgente\n - Nel campo 'why_recommended' approfondisci il contesto\n - Cita fonti e paralleli storici\n - Produci SOLO output JSON, senza preamboli\n - Verifica l'attendibilità delle informazioni\n \n Obiettivo finale:\n Offrire una selezione che trasformi la visione in un'esperienza di apprendimento storico, rivelando come il cinema rifletta e influenzi le società.",
   "questions": [
     {
-      "question": "Quando guardi un film, ti capita di riflettere sul periodo storico in cui è ambientato o in cui è stato realizzato?",
+      "question": "Quando guardi un film ambientato in un'epoca passata, quanto è importante per te l'accuratezza nella rappresentazione dei costumi, delle usanze e delle dinamiche sociali?",
       "answers": [
-        "Non ci penso molto, mi concentro sulla storia.",
-        "A volte, se la ricostruzione storica è evidente.",
-        "Sì, spesso mi chiedo come mai certe cose venivano rappresentate.",
-        "È uno degli aspetti che più mi interessano."
+        "È fondamentale, l'inaccuratezza storica mi distrae molto.",
+        "Apprezzo l'accuratezza, ma sono disposto a tollerare qualche licenza poetica per la narrazione.",
+        "Non è la cosa più importante, mi concentro più sulla storia dei personaggi.",
+        "Mi incuriosisce vedere come il passato viene interpretato attraverso la lente del presente."
       ]
     },
     {
-      "question": "Quale importanza attribuisci alla fedeltà storica nella rappresentazione di eventi o personaggi reali al cinema?",
+      "question": "Ritieni che il cinema sia un valido strumento per comprendere meglio eventi storici e periodi passati, anche al di là dei documentari?",
       "answers": [
-        "Non è fondamentale, l'importante è che il film sia avvincente.",
-        "Preferisco che ci sia un certo rispetto per la realtà.",
-        "Credo che il cinema storico debba essere accurato.",
-        "Le licenze poetiche sono accettabili solo se ben giustificate."
+        "Assolutamente sì, può offrire uno spaccato emotivo e culturale unico.",
+        "Può essere utile, ma va sempre contestualizzato e confrontato con fonti storiche.",
+        "Solo in alcuni casi, dipende molto dal genere e dall'intenzione del regista.",
+        "Non credo che il cinema di finzione possa essere considerato una fonte storica affidabile."
       ]
     },
     {
-      "question": "Cosa pensi del ruolo del cinema come documento storico o testimonianza di un'epoca?",
+      "question": "Quale aspetto storico o sociale ti incuriosisce maggiormente quando guardi un film d'epoca: le dinamiche di potere, la vita quotidiana della gente comune, le grandi trasformazioni politiche o le evoluzioni culturali e artistiche?",
       "answers": [
-        "Può essere interessante vedere come si viveva in passato.",
-        "Non lo considero una fonte storica affidabile.",
-        "Il cinema può offrire uno spaccato prezioso di mentalità e costumi.",
-        "È fondamentale analizzare i film nel loro contesto di produzione."
+        "Le dinamiche di potere e le lotte sociali.",
+        "La vita quotidiana e le abitudini delle persone.",
+        "I momenti di svolta politica e i grandi cambiamenti storici.",
+        "L'evoluzione delle arti, del pensiero e della cultura in generale."
       ]
     },
     {
-      "question": "Quando guardi un film ambientato in un'altra epoca, ti incuriosisce come le convenzioni sociali, i costumi e le tecnologie di quel tempo influenzino la narrazione?",
+      "question": "Hai mai notato come un film, pur essendo ambientato nel passato, possa riflettere in realtà le ansie e le problematiche della società in cui è stato realizzato?",
       "answers": [
-        "Non ci faccio molto caso.",
-        "A volte noto le differenze con oggi.",
-        "Sì, è affascinante vedere come cambiava la vita.",
-        "È un elemento chiave per comprendere appieno il film."
+        "Sì, è un aspetto molto interessante e spesso intenzionale.",
+        "A volte può capitare, ma non sempre è così evidente.",
+        "Non ci ho mai pensato, ma è un punto di vista interessante.",
+        "Credo che i film storici dovrebbero concentrarsi sul passato, non sul presente."
       ]
     },
     {
-      "question": "Quale periodo storico del cinema (ad esempio, gli anni del Neorealismo, la Hollywood classica, la New Hollywood) ti affascina maggiormente e perché?",
+      "question": "Se dovessi scegliere un film per capire meglio un particolare periodo storico, quale genere cinematografico riterresti più efficace: un dramma storico epico, un film in costume più intimo, una commedia satirica o un film di genere (come il western) che riflette i miti di un'epoca?",
       "answers": [
-        "Non ho una conoscenza specifica dei periodi del cinema.",
-        "Mi piacciono i film di tutti i tempi.",
-        "Alcuni periodi hanno prodotto film particolarmente significativi.",
-        "Ogni periodo riflette il suo tempo in modo unico."
+        "Un dramma storico epico che ricostruisca fedelmente gli eventi.",
+        "Un film in costume più intimo che si concentri sulle esperienze individuali.",
+        "Una commedia satirica che ne sveli le contraddizioni e le ipocrisie.",
+        "Un film di genere che ne catturi lo spirito e le aspirazioni."
       ]
     },
     {
-      "question": "Cosa pensi dei film che affrontano temi sociali o politici del loro tempo? Li consideri importanti per la consapevolezza collettiva o preferiresti un cinema più evasivo?",
+      "question": "Quanto ritieni importante che un film storico presenti personaggi realmente esistiti o che si ispiri a eventi accaduti?",
       "answers": [
-        "Dipende dall'argomento e da come viene trattato.",
-        "Preferisco il cinema che mi faccia dimenticare i problemi.",
-        "Il cinema ha il potere di stimolare il dibattito.",
-        "È un dovere del cinema riflettere sulla società."
+        "È fondamentale per una maggiore autenticità storica.",
+        "Può essere interessante, ma non è un requisito indispensabile.",
+        "Preferisco le storie di personaggi di finzione che incarnino lo spirito dell'epoca.",
+        "L'importante è che il contesto storico sia accurato, i personaggi sono secondari."
       ]
     },
     {
-      "question": "Hai notato come i cambiamenti tecnologici (ad esempio, l'avvento del sonoro, del colore, degli effetti speciali digitali) abbiano influenzato la narrazione e l'estetica del cinema nel corso del tempo?",
+      "question": "Ti capita di notare come i pregiudizi e le ideologie del tempo in cui un film è stato realizzato possano influenzare la rappresentazione del passato?",
       "answers": [
-        "Non ci ho mai pensato.",
-        "Mi accorgo della differenza tra film vecchi e nuovi.",
-        "La tecnologia ha sicuramente cambiato il modo di fare film.",
-        "L'evoluzione tecnica è inseparabile dalla storia del cinema."
+        "Certamente, è inevitabile e va tenuto in considerazione nell'analisi.",
+        "A volte può essere sottile, ma è importante esserne consapevoli.",
+        "Non credo che i registi moderni siano influenzati dal passato.",
+        "L'oggettività storica dovrebbe essere sempre l'obiettivo."
       ]
     },
     {
-      "question": "Quando guardi un film straniero, ti interessa il modo in cui riflette la cultura e la mentalità del paese di produzione?",
+      "question": "C'è un'epoca storica che ti affascina particolarmente e che trovi sia stata rappresentata in modo particolarmente efficace al cinema?",
       "answers": [
-        "Non ci faccio molto caso.",
-        "A volte noto delle differenze culturali.",
-        "Sì, è un modo per conoscere altre culture.",
-        "Il cinema è una finestra sul mondo."
+        "Sì, il periodo [inserire periodo storico] è stato raccontato in modo molto interessante in [inserire titolo del film].",
+        "Ci sono diverse epoche che trovo affascinanti, ma non ho un film preferito in particolare.",
+        "Non ho un'epoca preferita, mi interessa come ogni periodo viene interpretato.",
+        "Preferisco i film ambientati in epoche meno esplorate dal cinema."
       ]
     },
     {
-      "question": "Cosa pensi dei film che sono diventati dei veri e propri simboli di un'epoca o di un movimento culturale?",
+      "question": "Ritieni che il cinema possa contribuire a preservare la memoria storica e a tramandare la conoscenza del passato alle nuove generazioni?",
       "answers": [
-        "Alcuni film sono più famosi di altri, ma non ci ho riflettuto molto.",
-        "Possono essere interessanti per capire un certo periodo.",
-        "Questi film hanno segnato la storia e l'immaginario collettivo.",
-        "Sono testimonianze fondamentali del loro tempo."
+        "Assolutamente sì, può rendere la storia più viva e coinvolgente.",
+        "Può essere un buon punto di partenza, ma è necessario approfondire con altre fonti.",
+        "Non credo che sia il suo ruolo principale, l'intrattenimento viene prima.",
+        "Dipende da come viene utilizzato, può anche distorcere la realtà storica."
       ]
     },
     {
-      "question": "Se dovessi scegliere un film per rappresentare un'epoca specifica (ad esempio, gli anni '80, la Belle Époque), quale sceglieresti e perché?",
+      "question": "Quale aspetto ti spinge maggiormente a scegliere di guardare un film storico: la promessa di un'accurata ricostruzione degli eventi, la possibilità di riflettere sulle differenze tra passato e presente, la scoperta di usanze e mentalità lontane, o il puro piacere di immergersi in un'altra epoca?",
       "answers": [
-        "Non saprei quale scegliere.",
-        "Ci sono molti film che rappresentano bene diverse epoche.",
-        "Dovrei pensarci un po'...",
-        "La scelta dipenderebbe da cosa voglio raccontare di quell'epoca."
-      ]
-    },
-    {
-      "question": "Hai notato come la rappresentazione di determinati gruppi sociali (ad esempio, le minoranze, le donne, i giovani) sia cambiata nel cinema nel corso del tempo?",
-      "answers": [
-        "Non ci ho fatto molto caso.",
-        "A volte noto dei cambiamenti.",
-        "È importante che il cinema rifletta la società in evoluzione.",
-        "L'analisi della rappresentazione è fondamentale per capire la storia del cinema."
-      ]
-    },
-    {
-      "question": "Cosa pensi dei film che sono stati censurati o controversi al momento della loro uscita? Questo ne aumenta il tuo interesse?",
-      "answers": [
-        "A volte la censura mi incuriosisce.",
-        "Dipende dal motivo della censura.",
-        "Spesso questi film affrontavano temi importanti.",
-        "La censura è sempre un atto da condannare."
-      ]
-    },
-    {
-      "question": "Quale importanza attribuisci al contesto di produzione di un film (ad esempio, le condizioni economiche, il clima politico, le influenze artistiche) nella sua interpretazione?",
-      "answers": [
-        "Non ci penso molto.",
-        "Può essere interessante saperlo.",
-        "Il contesto aiuta a capire meglio il film.",
-        "È impossibile comprendere un'opera senza il suo contesto."
-      ]
-    },
-    {
-      "question": "Hai notato come il cinema abbia influenzato altri aspetti della cultura popolare (ad esempio, la moda, la musica, il linguaggio)?",
-      "answers": [
-        "Sì, a volte si vedono dei riferimenti.",
-        "Il cinema ha sicuramente un impatto sulla società.",
-        "L'influenza del cinema è pervasiva.",
-        "Il cinema è sia specchio che motore della cultura."
-      ]
-    },
-    {
-      "question": "Cosa pensi dei film che sono stati realizzati in periodi di grandi cambiamenti sociali o politici (ad esempio, la Seconda Guerra Mondiale, gli anni della contestazione)?",
-      "answers": [
-        "Possono essere molto intensi.",
-        "Offrono uno sguardo su momenti difficili.",
-        "Questi film spesso riflettono le speranze e le paure dell'epoca.",
-        "Sono documenti storici di grande valore."
-      ]
-    },
-    {
-      "question": "Quale importanza attribuisci alla figura del regista come 'autore' nel contesto storico del cinema?",
-      "answers": [
-        "Il regista è importante, ma anche gli attori e la storia.",
-        "Il regista ha un ruolo fondamentale.",
-        "Alcuni registi hanno lasciato un segno indelebile.",
-        "La 'politica degli autori' è essenziale per comprendere il cinema."
-      ]
-    },
-    {
-      "question": "Hai notato come il cinema abbia contribuito a formare o a cambiare la percezione di determinati eventi storici o figure del passato?",
-      "answers": [
-        "A volte i film mi hanno fatto venire voglia di saperne di più.",
-        "Non sempre mi fido delle rappresentazioni storiche al cinema.",
-        "Il cinema può rendere la storia più accessibile.",
-        "È importante distinguere tra finzione e realtà storica."
-      ]
-    },
-    {
-      "question": "Cosa pensi dei film che sono stati girati in luoghi reali e che mostrano le trasformazioni del paesaggio urbano o naturale nel corso del tempo?",
-      "answers": [
-        "Può essere interessante vedere come sono cambiati i posti.",
-        "Non ci faccio molto caso.",
-        "Il cinema può documentare l'evoluzione del territorio.",
-        "Questi film offrono una prospettiva unica sulla storia dei luoghi."
-      ]
-    },
-    {
-      "question": "Quale importanza attribuisci alla conservazione e al restauro del patrimonio cinematografico per le generazioni future?",
-      "answers": [
-        "È importante che i film non vadano persi.",
-        "È bello poter vedere anche i film più vecchi.",
-        "Preservare i film è come preservare la nostra storia culturale.",
-        "Il restauro permette di riscoprire opere fondamentali."
-      ]
-    },
-    {
-      "question": "Cosa pensi dei film che utilizzano elementi di folklore, miti o leggende popolari? Come li interpreti nel contesto culturale in cui sono prodotti?",
-      "answers": [
-        "Possono essere storie interessanti.",
-        "A volte non capisco i riferimenti culturali.",
-        "Il folklore e i miti sono parte dell'identità culturale.",
-        "Questi film offrono uno sguardo sulle radici di una cultura."
-      ]
-    },
-    {
-      "question": "Hai notato come il cinema abbia rappresentato diverse ideologie politiche nel corso del tempo?",
-      "answers": [
-        "Non ci ho fatto molto caso.",
-        "A volte si percepiscono le idee politiche del film.",
-        "Il cinema è spesso influenzato dal contesto politico.",
-        "L'analisi ideologica è fondamentale per comprendere alcuni film."
-      ]
-    },
-    {
-      "question": "Cosa pensi dei film che sono stati girati in pellicola rispetto a quelli girati in digitale? Noti delle differenze significative nell'aspetto visivo e nell'atmosfera?",
-      "answers": [
-        "Non so distinguere i due formati.",
-        "A volte i film vecchi hanno un aspetto diverso.",
-        "La pellicola ha una sua grana particolare.",
-        "La scelta del formato è una decisione estetica con implicazioni storiche."
-      ]
-    },
-    {
-      "question": "Quale importanza attribuisci al ruolo degli spettatori nel plasmare la ricezione e l'interpretazione di un film nel corso del tempo?",
-      "answers": [
-        "Il pubblico decide se un film ha successo o meno.",
-        "Le opinioni sul film possono cambiare nel tempo.",
-        "La ricezione di un film è influenzata dal contesto storico e culturale.",
-        "L'interpretazione di un'opera è un processo dinamico e collettivo."
-      ]
-    },
-    {
-      "question": "Cosa pensi dei film che sono stati prodotti in contesti di conflitto bellico o di grandi crisi sociali?",
-      "answers": [
-        "Spesso sono storie molto intense.",
-        "Possono offrire una prospettiva unica sulla sofferenza umana.",
-        "Questi film testimoniano la forza dello spirito umano.",
-        "Sono documenti preziosi per capire la storia."
-      ]
-    },
-    {
-      "question": "Hai notato come il cinema abbia rappresentato il concetto di progresso scientifico e tecnologico nel corso del tempo?",
-      "answers": [
-        "A volte i film mostrano cose che non esistevano ancora.",
-        "Il cinema ha spesso anticipato o immaginato il futuro.",
-        "La rappresentazione della tecnologia riflette le speranze e le paure di ogni epoca.",
-        "È interessante vedere come è cambiata la nostra visione del futuro."
-      ]
-    },
-    {
-      "question": "Quale importanza attribuisci allo studio dei manifesti cinematografici e degli altri materiali promozionali come fonti per comprendere la ricezione di un film al momento della sua uscita?",
-      "answers": [
-        "Non ci ho mai pensato.",
-        "Possono essere immagini interessanti.",
-        "Aiutano a capire come veniva presentato il film al pubblico.",
-        "Sono importanti indicatori del contesto culturale e delle aspettative del pubblico."
-      ]
-    },
-    {
-      "question": "Cosa pensi dei film che sono diventati oggetto di culto nel corso del tempo? Cosa li rende così duraturi e significativi per diverse generazioni?",
-      "answers": [
-        "Alcuni film piacciono a molte persone.",
-        "Spesso hanno qualcosa di speciale.",
-        "Questi film toccano temi universali o hanno uno stile unico.",
-        "Sono opere che continuano a parlare al nostro tempo."
-      ]
-    },
-    {
-      "question": "Hai notato come il cinema abbia rappresentato le dinamiche tra diverse classi sociali o gruppi etnici nel corso del tempo?",
-      "answers": [
-        "Non ci ho fatto molto caso.",
-        "A volte si vedono differenze tra i personaggi.",
-        "Il cinema può riflettere le tensioni e le disuguaglianze sociali.",
-        "L'analisi delle dinamiche sociali è cruciale per comprendere il contesto dei film."
-      ]
-    },
-    {
-      "question": "Se potessi viaggiare indietro nel tempo per assistere alla prima proiezione di un film storico significativo, quale sceglieresti e perché?",
-      "answers": [
-        "Non saprei quale scegliere.",
-        "Sarebbe interessante vedere come reagiva il pubblico all'epoca.",
-        "Vorrei vedere un film che ha segnato una svolta nella storia del cinema.",
-        "Sceglierei un film che mi permetta di capire meglio un'epoca passata."
-      ]
-    },
-    {
-      "question": "Cosa pensi dei film che sono stati realizzati da registi o attori che hanno vissuto in prima persona eventi storici significativi? La loro esperienza personale aggiunge un valore particolare all'opera?",
-      "answers": [
-        "Può essere interessante, ma non sempre.",
-        "A volte la loro esperienza si riflette nel film.",
-        "La loro testimonianza può rendere il film più autentico.",
-        "La prospettiva di chi ha vissuto la storia è preziosa."
+        "La promessa di un'accurata ricostruzione degli eventi storici.",
+        "La possibilità di riflettere sulle differenze e le similitudini tra passato e presente.",
+        "La curiosità di scoprire usanze e mentalità diverse dalle nostre.",
+        "Il puro piacere di evadere dalla realtà e immergermi in un'altra epoca."
       ]
     }
   ]

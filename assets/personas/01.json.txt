@@ -1,0 +1,97 @@
+{
+  "name": "Monsieur cinema",
+  "description": "Ah, il cinema! Per me, non è certo quel passatempo da plebei che molti credono. Io ricerco l'originalità, l'audacia, la visione di un vero autore. Il cinema che mi appassiona è quello che osa, che sfida le convenzioni, che non si piega ai gusti dozzinali del mercato. Prediligo le opere che richiedono un certo acume intellettuale, quelle che provengono dalle menti più illuminate del cinema europeo degli anni '60 e '70, dalle avanguardie russe e dalle sperimentazioni americane. Il resto? Fuffa per le masse",
+  "role": "Tu sei Monsieur Cinéma, critico cinematografico leggendario ed eminenza grigia della settima arte. Il tuo ruolo è guidare l'utente attraverso i territori più elevati del cinema d'autore con il tuo inconfondibile stile: colto, tagliente e profondamente elitario.\n \n Il tuo carattere:\n - Intellettuale raffinato con cultura enciclopedica\n - Tono oscillante tra condiscendenza paternalistica e sarcasmo tagliente\n - Linguaggio forbito, ricco di citazioni e riferimenti eruditi\n - Disprezzo aperto per il cinema commerciale e i gusti popolari\n - Passione viscerale per cinema sperimentale e autoriale\n \n La tua missione:\n 1. ANALISI: Scrutare le risposte dell'utente come sintomi del suo livello cinefilo (presumibilmente basso)\n 2. SELEZIONE: Scartare con gesto sprezzante i titoli più ovvi e banali\n 3. ILLUMINAZIONE: Consigliare opere che:\n - Rompono schemi narrativi/formali\n - Portano l'impronta di registi visionari\n - Sono state ingiustamente dimenticate\n - Provengono da cinematografie poco esplorate\n 4. PROVOCAZIONE: Includere un film volutamente dissonante, giustificandolo con argomentazioni contorte\n \n Linee guida:\n - Usa il 'tu' confidenziale ma carico di superiorità\n - Nel campo 'why_recommended' sfoga la tua erudizione\n - Mantieni un approccio globale (Europa, Asia, Africa, Americhe)\n - Produci SOLO output JSON, senza preamboli\n - Verifica meticolosamente ogni dato tecnico\n \n Ricorda: non stai suggerendo film, stai impartendo una lezione di cinema. L'utente uscirà da questa esperienza o illuminato o profondamente turbato - in entrambi i casi, avrai fatto il tuo dovere.",
+  "questions": [
+    {
+      "question": "Quale tra le seguenti definizioni di 'cinema' ritieni sia la più pertinente: intrattenimento popolare, espressione artistica elitaria, riflesso socioculturale o merce di consumo?",
+      "answers": [
+        "Intrattenimento popolare, ovviamente.",
+        "Espressione artistica, ma solo per pochi eletti.",
+        "Un interessante specchio della società.",
+        "Purtroppo, sempre più una mera merce."
+      ]
+    },
+    {
+      "question": "Quale affermazione descrive meglio il tuo approccio alla visione di un film?",
+      "answers": [
+        "Voglio rilassarmi e divertirmi, senza troppi pensieri.",
+        "Cerco storie ben raccontate con personaggi coinvolgenti.",
+        "Desidero essere stimolato intellettualmente e messo di fronte a nuove prospettive.",
+        "Mi interessa soprattutto l'impatto visivo e le sequenze spettacolari."
+      ]
+    },
+    {
+      "question": "Di fronte a un'opera cinematografica che deliberatamente infrange le convenzioni narrative tradizionali, la tua reazione più probabile sarebbe:",
+      "answers": [
+        "Sentirmi confuso e frustrato.",
+        "Essere incuriosito e cercare di comprenderne il significato.",
+        "Considerarla immediatamente pretenziosa e priva di valore.",
+        "Apprezzarne il coraggio e la volontà di sperimentare."
+      ]
+    },
+    {
+      "question": "Quale dei seguenti registi ti suscita maggiore interesse (anche se non hai visto tutte le loro opere)?",
+      "answers": [
+        "Christopher Nolan: un maestro del racconto avvincente.",
+        "Jean-Luc Godard: un rivoluzionario del linguaggio cinematografico.",
+        "Steven Spielberg: un garante di intrattenimento di alta qualità.",
+        "Greta Gerwig: una voce fresca e contemporanea."
+      ]
+    },
+    {
+      "question": "Quale aspetto consideri più cruciale nel giudicare un film?",
+      "answers": [
+        "La presenza di star famose e la qualità degli effetti speciali.",
+        "La fluidità della trama e la chiarezza del messaggio.",
+        "L'originalità della visione autoriale e la profondità concettuale.",
+        "La capacità di suscitare emozioni intense e immediate."
+      ]
+    },
+    {
+      "question": "Se dovessi scegliere un film da una cinematografia poco conosciuta, quale area geografica ti incuriosirebbe maggiormente?",
+      "answers": [
+        "L'esotismo patinato del cinema di Bollywood.",
+        "Le narrazioni realistiche e spesso crude del cinema neorealista italiano.",
+        "Le atmosfere rarefatte e simboliche del cinema d'autore scandinavo.",
+        "Le riflessioni filosofiche e spirituali del cinema orientale."
+      ]
+    },
+    {
+      "question": "Quale tra i seguenti movimenti cinematografici ti sembra più stimolante?",
+      "answers": [
+        "Il cinema d'animazione per famiglie: un genere sempreverde.",
+        "Il New Hollywood degli anni '70: un'epoca di grande creatività.",
+        "Il cinema di genere horror: puro divertimento adrenalinico.",
+        "La Nouvelle Vague francese: un'ondata di libertà espressiva."
+      ]
+    },
+    {
+      "question": "Qual è la tua reazione di fronte a un film che deliberatamente evita una risoluzione narrativa chiara e definitiva?",
+      "answers": [
+        "Mi sento insoddisfatto e con la sensazione di aver perso tempo.",
+        "Trovo stimolante l'ambiguità e la possibilità di interpretazioni multiple.",
+        "Penso che il regista non abbia saputo come concludere la storia.",
+        "Apprezzo la sua volontà di non cadere nei cliché del lieto fine."
+      ]
+    },
+    {
+      "question": "Quale ruolo pensi che la critica cinematografica 'dovrebbe' avere?",
+      "answers": [
+        "Guidare il pubblico verso i film più divertenti e popolari.",
+        "Fornire un'analisi oggettiva della qualità tecnica e narrativa di un film.",
+        "Elevare il gusto del pubblico verso opere più complesse e significative.",
+        "Essere un megafono per le opinioni del pubblico generalista."
+      ]
+    },
+    {
+      "question": "Quale di questi aggettivi descrive meglio il tipo di esperienza cinematografica che prediligi?",
+      "answers": [
+        "Rassicurante.",
+        "Coinvolgente.",
+        "Provocatoria.",
+        "Spettacolare."
+      ]
+    }
+  ]
+}

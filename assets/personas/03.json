@@ -4,273 +4,93 @@
   "role": "Tu sei Il Maestro Tecnico, l'architetto della settima arte. Il tuo ruolo è analizzare e raccomandare film basandoti esclusivamente sulla loro eccellenza tecnica. Il tuo carattere: - Linguaggio preciso e tecnico - Approccio analitico e imparziale - Attenzione maniacale ai dettagli - Conoscenza enciclopedica delle tecniche cinematografiche La tua missione: 1. ANALISI: Smontare ogni film nei suoi componenti tecnici 2. INNOVAZIONE: Valorizzare opere pionieristiche 3. DOCENZA: Spiegare chiaramente le scelte tecniche 4. OGGETTIVITÀ: Valutare senza influenze emotive Criteri di selezione: - Perfezione in regia/fotografia/montaggio/suono/VFX - Innovazioni tecnologiche rilevanti - Coerenza tra tecnica e narrazione - Esempi didattici di maestria tecnica Linee guida: - Usa terminologia specialistica appropriata - Nel campo 'why_recommended' evidenzia i dettagli tecnici - Cita registi e tecnici rilevanti - Produci SOLO output JSON, senza preamboli - Verifica l'accuratezza di ogni dato tecnico Obiettivo finale: Fornire una selezione che dimostri come la tecnologia al servizio della narrazione possa elevare il cinema a vera arte, educando l'utente all'apprezzamento tecnico.",
   "questions": [
     {
-      "question": "Quando guardi un film, quale aspetto tecnico cattura maggiormente la tua attenzione: la composizione dell'inquadratura e l'illuminazione, il ritmo del montaggio, la progettazione del suono o l'integrazione degli effetti visivi?",
+      "question": "Quando valuti un film, quale aspetto tecnico cattura maggiormente la tua attenzione: la composizione dell'inquadratura e il lavoro della fotografia, la precisione del montaggio, la complessità del paesaggio sonoro o l'ingegno degli effetti visivi?",
       "answers": [
-        "La storia e gli attori sono ciò che conta di più.",
-        "Mi colpiscono le belle immagini in generale.",
-        "Noto se il montaggio è ben fatto e il suono è coinvolgente.",
-        "Analizzo attentamente ogni scelta di inquadratura, luce, suono e montaggio."
+        "Indubbiamente la fotografia e la composizione. Un'immagine ben costruita è fondamentale.",
+        "La fluidità e il ritmo del montaggio sono ciò che più mi colpisce.",
+        "Un paesaggio sonoro immersivo e dettagliato è per me un elemento cruciale.",
+        "Apprezzo particolarmente l'innovazione e la resa degli effetti visivi, quando ben eseguiti."
       ]
     },
     {
-      "question": "Quale importanza attribuisci alla scelta delle lenti e alla profondità di campo nella creazione dell'atmosfera di una scena?",
+      "question": "Ritieni che l'innovazione tecnologica nel cinema debba sempre essere al servizio della narrazione, o può avere valore di per sé come puro esercizio stilistico?",
       "answers": [
-        "Non ci faccio molto caso.",
-        "Mi accorgo se l'immagine è nitida o sfocata.",
-        "Penso che contribuiscano all'aspetto visivo.",
-        "Sono elementi cruciali per definire lo spazio e l'emozione."
+        "L'innovazione tecnica senza un solido fondamento narrativo è mero virtuosismo.",
+        "A volte, l'esplorazione tecnica può aprire nuove strade narrative inaspettate.",
+        "L'equilibrio tra tecnica e narrazione è l'aspetto più difficile da raggiungere.",
+        "Preferisco un approccio classico e consolidato, se efficace per la storia."
       ]
     },
     {
-      "question": "Cosa pensi dell'uso del colore in un film? Un elemento puramente estetico o un potente strumento narrativo e psicologico?",
+      "question": "Quale regista contemporaneo ritieni si distingua particolarmente per la sua maestria tecnica e per l'uso innovativo degli strumenti cinematografici?",
       "answers": [
-        "Mi piace quando i colori sono vivaci.",
-        "Non ci ho mai riflettuto molto.",
-        "Può aiutare a creare un certo mood.",
-        "La palette cromatica è fondamentale per la narrazione visiva."
+        "Christopher Nolan, per la sua gestione complessa della narrazione e delle immagini.",
+        "Denis Villeneuve, per la sua attenzione maniacale alla fotografia e al sound design.",
+        "Alfonso Cuarón, per la sua abilità nell'uso di piani sequenza e della profondità di campo.",
+        "Greta Gerwig, per la sua sensibilità nel combinare elementi tecnici classici con una visione moderna."
       ]
     },
     {
-      "question": "Quando un film presenta un montaggio particolarmente dinamico o inusuale, la tua reazione è di ammirazione per la tecnica o di confusione per la discontinuità?",
+      "question": "Quanto è importante per te la coerenza stilistica e tecnica di un film? Un'opera che spazia tra diverse tecniche ti incuriosisce o ti disorienta?",
       "answers": [
-        "A volte mi sembra che il montaggio sia troppo frenetico.",
-        "Se il ritmo è buono, non mi disturba.",
-        "Apprezzo quando il montaggio è creativo.",
-        "Un montaggio innovativo è spesso un segno di genialità."
+        "La coerenza è fondamentale per l'immersione dello spettatore.",
+        "Un'incoerenza tecnica immotivata è spesso sintomo di scarsa cura.",
+        "A volte, un cambio di stile può essere una scelta narrativa audace e interessante.",
+        "Preferisco un approccio stilistico ben definito e riconoscibile."
       ]
     },
     {
-      "question": "Quale ruolo ritieni che il sound design (effetti sonori, dialoghi, musica) giochi nell'esperienza cinematografica complessiva?",
+      "question": "Hai notato di recente un film in cui una specifica scelta tecnica (ad esempio, un particolare tipo di montaggio o un uso audace del suono) ha elevato significativamente l'esperienza dello spettatore?",
       "answers": [
-        "Serve per sentire bene quello che dicono e per la musica.",
-        "Può rendere il film più coinvolgente.",
-        "È fondamentale per creare l'atmosfera e la tensione.",
-        "Il suono è la metà dell'esperienza cinematografica."
+        "Sì, ricordo un film con un montaggio ellittico particolarmente efficace nel creare tensione.",
+        "Recentemente ho apprezzato un film per l'uso meticoloso del suono diegetico e non diegetico.",
+        "Ho trovato un film in cui la fotografia con lenti anamorfiche ha contribuito enormemente all'atmosfera.",
+        "Non particolarmente, la tecnica dovrebbe essere al servizio della storia senza farsi notare troppo."
       ]
     },
     {
-      "question": "Cosa pensi dell'uso degli effetti speciali digitali (CGI)? Un'opportunità per creare mondi impossibili o un abuso che spesso compromette la credibilità visiva?",
+      "question": "Considerando l'importanza del suono in un film, quale aspetto ritieni sia più cruciale per la sua efficacia: la chiarezza dei dialoghi, la ricchezza degli effetti sonori o la suggestività della colonna sonora?",
       "answers": [
-        "Se ben fatti, sono spettacolari.",
-        "A volte mi sembrano finti.",
-        "Possono espandere le possibilità narrative.",
-        "Preferisco gli effetti pratici, più autentici."
+        "La chiarezza dei dialoghi è prioritaria per la comprensione della narrazione.",
+        "La profondità e la precisione degli effetti sonori contribuiscono significativamente all'immersione.",
+        "Una colonna sonora ben composta può amplificare enormemente le emozioni.",
+        "Tutti e tre gli elementi devono lavorare in armonia per un risultato ottimale."
       ]
     },
     {
-      "question": "Hai notato l'evoluzione delle tecniche di ripresa nel corso della storia del cinema? Quali innovazioni ti hanno colpito maggiormente?",
+      "question": "Nel campo degli effetti visivi, preferisci un approccio realistico e invisibile, che si integri perfettamente con l'azione, o apprezzi maggiormente le soluzioni più audaci e stilizzate?",
       "answers": [
-        "Non ci ho mai pensato.",
-        "Mi piacciono le riprese fluide e stabili.",
-        "Le riprese con la steadycam o i droni sono interessanti.",
-        "Le innovazioni tecniche hanno trasformato il linguaggio del cinema."
+        "L'invisibilità è il segno di effetti visivi ben riusciti.",
+        "Apprezzo l'audacia quando è al servizio di una visione artistica precisa.",
+        "Dipende dal genere del film e dall'effetto che si vuole ottenere.",
+        "Trovo che spesso gli effetti troppo evidenti distraggano dalla storia."
       ]
     },
     {
-      "question": "Quando guardi un film in bianco e nero, lo consideri un limite tecnico o una scelta stilistica con un suo specifico valore espressivo?",
+      "question": "Quanto influisce la qualità del montaggio sulla tua valutazione complessiva di un film? Un montaggio dinamico e ritmato può compensare altre carenze?",
       "answers": [
-        "Preferisco i film a colori.",
-        "Dipende dal film.",
-        "Può creare un'atmosfera particolare.",
-        "Il bianco e nero può esaltare la composizione e le luci."
+        "Un montaggio scadente può rovinare anche il miglior materiale girato.",
+        "Un montaggio brillante può effettivamente elevare un film con altre debolezze.",
+        "Preferisco un montaggio classico e lineare che non attiri troppo l'attenzione.",
+        "Il montaggio è fondamentale per il ritmo e la fluidità della narrazione."
       ]
     },
     {
-      "question": "Cosa pensi dell'importanza della color correction e del grading nella post-produzione di un film?",
+      "question": "Riesci a individuare e apprezzare le diverse tecniche di illuminazione utilizzate in un film? Quali approcci fotografici ti colpiscono maggiormente per la loro efficacia espressiva?",
       "answers": [
-        "Non so cosa siano.",
-        "Immagino servano a rendere i colori più belli.",
-        "Contribuiscono all'aspetto finale del film.",
-        "Sono fondamentali per definire l'estetica e il tono."
+        "Noto e apprezzo l'uso del chiaroscuro per creare drammaticità.",
+        "Sono particolarmente attratto dalla luce naturale e dalla sua capacità di rendere autenticità.",
+        "Amo l'uso creativo del colore e delle ombre per definire l'atmosfera.",
+        "L'illuminazione è un elemento fondamentale per guidare lo sguardo dello spettatore."
       ]
     },
     {
-      "question": "Se dovessi analizzare un film dal punto di vista puramente tecnico, quali sarebbero i tre elementi su cui ti concentreresti maggiormente?",
+      "question": "Pensi che la conoscenza delle tecniche cinematografiche sia fondamentale per apprezzare appieno un film, o ritieni che l'emozione e la storia siano gli elementi più importanti?",
       "answers": [
-        "La trama, gli attori e la regia.",
-        "Le immagini, il suono e la musica.",
-        "La fotografia, il montaggio e il suono.",
-        "La sceneggiatura, la recitazione e gli effetti speciali."
-      ]
-    },
-    {
-      "question": "Hai familiarità con le diverse proporzioni dell'immagine (aspect ratio) utilizzate nel cinema (ad esempio 4:3, 1.85:1, 2.39:1)? Ritieni che influenzino la tua esperienza visiva?",
-      "answers": [
-        "Non ci ho mai fatto caso.",
-        "A volte lo schermo mi sembra più largo o più stretto.",
-        "Penso che contribuiscano all'inquadratura.",
-        "La scelta del formato è una decisione artistica importante."
-      ]
-    },
-    {
-      "question": "Cosa pensi dell'uso della camera a mano? Un modo per dare un senso di realismo e immediatezza o una scelta stilistica amatoriale e fastidiosa?",
-      "answers": [
-        "A volte mi fa venire il mal di mare.",
-        "Può rendere le scene più dinamiche.",
-        "Dipende da come viene utilizzata.",
-        "Se ben usata, può aumentare l'immersione."
-      ]
-    },
-    {
-      "question": "Quale importanza attribuisci alla qualità della digitalizzazione e del restauro dei film classici?",
-      "answers": [
-        "Non guardo molti film vecchi.",
-        "È bello poterli vedere in buona qualità.",
-        "È fondamentale per preservare la storia del cinema.",
-        "Un buon restauro può rivelare dettagli inediti."
-      ]
-    },
-    {
-      "question": "Cosa pensi dell'uso del 3D al cinema? Un'innovazione immersiva o un espediente commerciale spesso fastidioso?",
-      "answers": [
-        "A volte può essere divertente, ma non sempre necessario.",
-        "Spesso mi dà fastidio agli occhi.",
-        "Se ben fatto, può aggiungere profondità.",
-        "Nella maggior parte dei casi è solo un trucco."
-      ]
-    },
-    {
-      "question": "Hai notato l'evoluzione delle tecniche di illuminazione sul set nel corso degli anni?",
-      "answers": [
-        "Non ci ho mai pensato.",
-        "Mi accorgo se una scena è ben illuminata.",
-        "L'illuminazione crea l'atmosfera.",
-        "La luce è uno degli elementi fondamentali della fotografia cinematografica."
-      ]
-    },
-    {
-      "question": "Cosa pensi del ruolo dello scenografo e del costumista nel definire l'aspetto visivo di un film?",
-      "answers": [
-        "Servono a creare l'ambiente e a vestire gli attori.",
-        "Possono rendere il film più credibile.",
-        "Contribuiscono in modo significativo all'immersione.",
-        "La cura per i dettagli scenografici e costumistici è essenziale."
-      ]
-    },
-    {
-      "question": "Quando guardi un film d'epoca, presti attenzione alla coerenza storica degli elementi tecnici (ad esempio, la qualità dell'immagine, il suono)?",
-      "answers": [
-        "Non ci faccio molto caso.",
-        "Se la qualità è buona, non mi pongo domande.",
-        "Apprezzo quando c'è attenzione ai dettagli.",
-        "La precisione tecnica è fondamentale per la credibilità."
-      ]
-    },
-    {
-      "question": "Cosa pensi dell'uso dei droni per le riprese aeree? Una moda passeggera o un nuovo strumento con un grande potenziale creativo?",
-      "answers": [
-        "Possono offrire belle vedute.",
-        "A volte mi sembrano un po' gratuiti.",
-        "Offrono nuove prospettive interessanti.",
-        "Hanno ampliato le possibilità del linguaggio visivo."
-      ]
-    },
-    {
-      "question": "Hai familiarità con il concetto di 'diegesi' e 'non diegesi' nel suono cinematografico? Ritieni che la distinzione sia importante per l'analisi di un film?",
-      "answers": [
-        "Non so cosa significhino questi termini.",
-        "Non ci ho mai pensato.",
-        "Immagino che il suono debba essere coerente con le immagini.",
-        "La gestione del suono diegetico e non diegetico è cruciale per la narrazione."
-      ]
-    },
-    {
-      "question": "Cosa pensi dell'importanza del direttore della fotografia (DoP) nel determinare l'aspetto visivo complessivo di un film?",
-      "answers": [
-        "Non so bene cosa faccia.",
-        "Immagino si occupi delle riprese.",
-        "Ha un ruolo importante nell'estetica del film.",
-        "È il vero artefice della visione visiva del regista."
-      ]
-    },
-    {
-      "question": "Quando un film presenta un uso innovativo della tecnologia (ad esempio, realtà virtuale, intelligenza artificiale), la tua reazione è di curiosità e apertura o di scetticismo e diffidenza?",
-      "answers": [
-        "Sono un po' scettico verso le nuove tecnologie.",
-        "Dipende da come vengono utilizzate.",
-        "Sono curioso di vedere le nuove possibilità.",
-        "La tecnologia deve essere al servizio dell'arte."
-      ]
-    },
-    {
-      "question": "Cosa pensi dell'importanza del lavoro di un colorist nella post-produzione?",
-      "answers": [
-        "Non so cosa faccia un colorist.",
-        "Immagino che renda i colori più belli.",
-        "Contribuisce all'atmosfera del film.",
-        "Il colorist è un artista che definisce l'aspetto finale del film."
-      ]
-    },
-    {
-      "question": "Hai notato l'uso di diverse tecniche di illuminazione (ad esempio, chiaroscuro, controluce) e il loro impatto emotivo?",
-      "answers": [
-        "Non ci faccio molto caso.",
-        "Mi accorgo se una scena è luminosa o scura.",
-        "L'illuminazione può creare tensione o intimità.",
-        "La luce è un linguaggio visivo potentissimo."
-      ]
-    },
-    {
-      "question": "Cosa pensi dell'importanza della sincronizzazione labiale nel doppiaggio di un film?",
-      "answers": [
-        "Preferisco i film in lingua originale.",
-        "Se non è perfetta, è fastidiosa.",
-        "È fondamentale per non rovinare l'esperienza.",
-        "Il doppiaggio è comunque una pratica discutibile."
-      ]
-    },
-    {
-      "question": "Hai familiarità con le diverse tecniche di montaggio (ad esempio, jump cut, dissolvenza, montaggio parallelo)?",
-      "answers": [
-        "Non conosco questi termini.",
-        "A volte noto dei passaggi strani tra le scene.",
-        "Penso che il montaggio influenzi il ritmo.",
-        "Le diverse tecniche di montaggio hanno un preciso significato espressivo."
-      ]
-    },
-    {
-      "question": "Cosa pensi dell'uso della motion capture per creare personaggi digitali?",
-      "answers": [
-        "A volte i personaggi sembrano finti.",
-        "Se ben fatta, può essere impressionante.",
-        "Offre nuove possibilità per la recitazione.",
-        "Preferisco gli attori in carne e ossa."
-      ]
-    },
-    {
-      "question": "Quale importanza attribuisci alla qualità della proiezione cinematografica (nitidezza dell'immagine, qualità del suono, calibrazione del colore)?",
-      "answers": [
-        "Non ci faccio molto caso, purché si veda e si senta.",
-        "È importante che l'immagine sia chiara.",
-        "Una buona proiezione migliora l'esperienza.",
-        "Una proiezione scadente può rovinare anche il miglior film."
-      ]
-    },
-    {
-      "question": "Cosa pensi dell'uso di formati video non standard (ad esempio, anamorfico, IMAX)?",
-      "answers": [
-        "Non so cosa siano.",
-        "A volte lo schermo è più grande.",
-        "Possono offrire un'esperienza più immersiva.",
-        "La scelta del formato è parte integrante della visione del regista."
-      ]
-    },
-    {
-      "question": "Hai notato l'evoluzione delle tecniche di ripresa subacquea o aerea nel corso della storia del cinema?",
-      "answers": [
-        "Non ci ho mai pensato.",
-        "Mi piacciono le scene sott'acqua o dall'alto.",
-        "Le riprese specializzate possono essere molto efficaci.",
-        "Dimostrano l'ingegno e la capacità tecnica dei filmmaker."
-      ]
-    },
-    {
-      "question": "Se potessi scegliere un solo aspetto tecnico da poter controllare completamente in un film, quale sceglieresti: la fotografia, il montaggio, il suono o gli effetti visivi?",
-      "answers": [
-        "La regia, per guidare gli attori.",
-        "La sceneggiatura, per raccontare una bella storia.",
-        "La fotografia, per creare immagini suggestive.",
-        "Il montaggio, per dare ritmo e significato al film."
+        "La conoscenza tecnica arricchisce indubbiamente la comprensione e l'apprezzamento.",
+        "L'emozione e la storia rimangono il cuore del cinema, la tecnica è al loro servizio.",
+        "Un film tecnicamente perfetto ma emotivamente vuoto è un'opera incompiuta.",
+        "Entrambi gli aspetti sono importanti e si influenzano reciprocamente."
       ]
     }
   ]
