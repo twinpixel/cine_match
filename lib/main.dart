@@ -2036,7 +2036,7 @@ class loadPosterCached {
   }
 
   static Widget _buildGeneratedPoster(String movieTitle, String genre) {
-    final prompt = 'Poster for the movie: $movieTitle of genre $genre';
+    final prompt = 'Poster for the movie: $movieTitle of genre $genre, with no text';
     final encodedPrompt = Uri.encodeComponent(prompt);
     final imageUrl = 'https://image.pollinations.ai/prompt/$encodedPrompt'
         '?width=240&height=400&seed=${movieTitle.hashCode}'
