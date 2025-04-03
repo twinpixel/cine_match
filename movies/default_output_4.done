@@ -1,277 +1,237 @@
 [
   {
-    "title": "Alien",
-    "poster": "A haunting image of a dark, claustrophobic spaceship interior with a glowing, menacing alien silhouette.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Alien_(film)"
+    "title": "The Good, the Bad and the Ugly",
+    "poster": "A striking poster featuring three main characters, each with distinct attire: a cowboy with a poncho, a scruffy bandit, and a gunslinger. The vast desert landscape and a dramatic sky create an intense atmosphere.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Good,_the_Bad_and_the_Ugly"
   },
   {
-    "title": "Blade Runner",
-    "poster": "A neon-drenched cityscape with a lone figure in a trench coat against a backdrop of rain and towering skyscrapers.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Blade_Runner"
+    "title": "Once Upon a Time in the West",
+    "poster": "A moody poster showcasing a desolate train station with a lone figure silhouetted against the sunset, evoking a sense of nostalgia and tension.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_the_West"
   },
   {
-    "title": "Gladiator",
-    "poster": "A dramatic depiction of a gladiator in armor, raising his sword amidst a cheering crowd in the Colosseum.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
+    "title": "A Fistful of Dollars",
+    "poster": "An iconic poster featuring a solitary gunslinger with a serious expression, holding a revolver, surrounded by dust and tumbleweeds, embodying the essence of the spaghetti western.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Fistful_of_Dollars"
   },
   {
-    "title": "The Martian",
-    "poster": "A bold and colorful poster featuring an astronaut against a stark Martian landscape with the tagline 'Bring Him Home'.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Martian_(film)"
+    "title": "For a Few Dollars More",
+    "poster": "A dramatic poster showing two bounty hunters facing off against a notorious bandit, with a dusty landscape and a clock tower in the background symbolizing the passage of time.",
+    "wikipedia": "https://en.wikipedia.org/wiki/For_a_Few_Dollars_More"
   },
   {
-    "title": "Prometheus",
-    "poster": "A mysterious and atmospheric image of a space ship entering a dark, foreboding planet's atmosphere.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Prometheus_(film)"
+    "title": "Duck, You Sucker!",
+    "poster": "A stylized poster featuring a revolutionary and a bandit, with fire and explosions in the background, capturing the chaos and camaraderie of the story.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Duck,_You_Sucker!"
   },
   {
-    "title": "Black Hawk Down",
-    "poster": "A gritty, war-themed poster with soldiers in action amidst a chaotic urban battle scene.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Black_Hawk_Down_(film)"
+    "title": "The Howling",
+    "poster": "A chilling poster depicting a lone figure in the woods, with ominous shadows and a full moon overhead, hinting at the horror that unfolds.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Howling"
   },
   {
-    "title": "Kingdom of Heaven",
-    "poster": "An epic landscape featuring a castle against a sunset, with a knight holding a sword in the foreground.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Kingdom_of_Heaven"
+    "title": "Once Upon a Time in America",
+    "poster": "An evocative poster featuring a skyline at dusk, with two main characters in the foreground, looking contemplative and reflecting on their past.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_America"
   },
   {
-    "title": "Thelma & Louise",
-    "poster": "A striking image of two women driving a convertible with a vast desert landscape behind them.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Thelma_%26_Louise"
+    "title": "The Colossus of Rhodes",
+    "poster": "A grand poster showcasing the massive statue of Rhodes, with ancient warriors in battle, highlighting the epic scale of the film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Colossus_of_Rhodes"
   },
   {
-    "title": "Hannibal",
-    "poster": "A chilling close-up of a face obscured by shadows, with symbolic imagery hinting at the horror within.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hannibal_(film)"
+    "title": "The Last Movie",
+    "poster": "A colorful poster featuring a vintage cinema marquee and characters in 1970s attire, capturing the nostalgic era of filmmaking.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Movie"
   },
   {
-    "title": "American Gangster",
-    "poster": "A sleek, stylish image of a gangster in a fedora, with a city skyline in the background.",
-    "wikipedia": "https://en.wikipedia.org/wiki/American_Gangster"
+    "title": "My Name Is Nobody",
+    "poster": "A whimsical poster showcasing a nonchalant gunslinger with a playful grin, set against a vibrant landscape of the Old West.",
+    "wikipedia": "https://en.wikipedia.org/wiki/My_Name_Is_Nobody"
   },
   {
-    "title": "Body of Lies",
-    "poster": "A tense and dramatic image of a man in a suit holding a gun, with a Middle Eastern background.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Body_of_Lies_(film)"
+    "title": "Sacco e Vanzetti",
+    "poster": "A somber poster featuring two men in jail, with a dark and gritty atmosphere, emphasizing the themes of injustice and tragedy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sacco_e_Vanzetti"
   },
   {
-    "title": "The Counselor",
-    "poster": "A stark, minimalist poster showing a lone figure in a desert landscape, embodying existential themes.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Counselor"
+    "title": "A Field in England",
+    "poster": "An abstract poster depicting a field under a cloudy sky, with figures wandering, suggesting a mix of historical drama and surrealism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Field_in_England"
   },
   {
-    "title": "Matchstick Men",
-    "poster": "A whimsical image of a man with a suitcase standing in a bright city environment, hinting at deception.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Matchstick_Men"
+    "title": "Stagecoach",
+    "poster": "A classic poster featuring the iconic stagecoach surrounded by cowboys and outlaws, set against a dramatic landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stagecoach_(1939_film)"
   },
   {
-    "title": "A Good Year",
-    "poster": "A serene image of a vineyard in Provence with a romantic sunset, suggesting themes of love and nostalgia.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Good_Year"
+    "title": "The Big Gundown",
+    "poster": "A gripping poster showcasing a showdown between a lone hero and a menacing bounty hunter, set in a dusty town.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Big_Gundown"
   },
   {
-    "title": "Tears of the Sun",
-    "poster": "A powerful image of a soldier in combat gear, gazing into a vast, intense jungle backdrop.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tears_of_the_Sun"
+    "title": "The Great Silence",
+    "poster": "A haunting poster featuring a mute gunslinger in the snow, with barren landscapes and a sense of foreboding.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Silence"
   },
   {
-    "title": "Exodus: Gods and Kings",
-    "poster": "A grand and sweeping image of a biblical landscape with epic battles and majestic figures.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Exodus:_Gods_and_Kings"
+    "title": "A Pistol for Ringo",
+    "poster": "An action-packed poster showcasing a dashing cowboy with a revolver, amidst a backdrop of gunfire and chaos.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Pistol_for_Ringo"
   },
   {
-    "title": "Alien: Covenant",
-    "poster": "A striking alien landscape with a crew exploring, combined with ominous dark shadows hinting at danger.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Alien:_Covenant"
+    "title": "They Call Me Trinity",
+    "poster": "A lighthearted poster featuring two brothers embracing in the wild west, with a colorful sky and playful elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/They_Call_Me_Trinity"
   },
   {
-    "title": "House of Gucci",
-    "poster": "A stylish poster featuring glamorous fashion models and dramatic expressions, set against an opulent backdrop.",
-    "wikipedia": "https://en.wikipedia.org/wiki/House_of_Gucci"
+    "title": "The Return of Ringo",
+    "poster": "A dramatic poster showcasing a lone gunslinger returning home, with a gritty atmosphere and a vibrant sunset.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Return_of_Ringo"
   },
   {
-    "title": "1492: Conquest of Paradise",
-    "poster": "A vivid image depicting explorers on a ship against a backdrop of the New World, hinting at adventure.",
-    "wikipedia": "https://en.wikipedia.org/wiki/1492:_Conquest_of_Paradise"
+    "title": "The Mercenary",
+    "poster": "An intense poster featuring a mercenary in a dynamic pose, surrounded by chaos and a desolate landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Mercenary_(film)"
   },
   {
-    "title": "The Duellists",
-    "poster": "An artful depiction of two soldiers facing off, set in a historical background filled with tension.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Duellists"
+    "title": "The Hateful Eight",
+    "poster": "A mysterious poster featuring a snow-covered cabin with various characters gathered around, hinting at tension and betrayal.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Hateful_Eight"
   },
   {
-    "title": "Legend",
-    "poster": "A captivating fantasy image featuring a mystical forest and a dark figure, evoking a sense of magic.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Legend_(film)"
+    "title": "The Last Temptation of Christ",
+    "poster": "A contemplative poster featuring Jesus in a desert landscape, with a sense of spirituality and introspection.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Temptation_of_Christ"
   },
   {
-    "title": "Someone to Watch Over Me",
-    "poster": "An intimate image of a couple entwined, surrounded by urban city lights, reflecting themes of love and danger.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Someone_to_Watch_Over_Me"
+    "title": "The Wild Bunch",
+    "poster": "A gritty poster showcasing an aging gang of outlaws amidst the chaos of a Mexican revolution, highlighting themes of loyalty and sacrifice.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Wild_Bunch"
   },
   {
-    "title": "The Good Year",
-    "poster": "A picturesque scene of a sun-drenched vineyard, evoking warmth, relaxation, and a rustic lifestyle.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Good_Year"
+    "title": "No Country for Old Men",
+    "poster": "A stark poster featuring a desolate landscape with a lone figure, conveying tension and the inevitability of fate.",
+    "wikipedia": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men"
   },
   {
-    "title": "The Last Duel",
-    "poster": "An intense image featuring two knights preparing for battle, set against a medieval backdrop.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Duel_(film)"
+    "title": "The Searchers",
+    "poster": "A classic poster showcasing a lone cowboy on horseback, set against a sprawling landscape of the American West.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Searchers"
   },
   {
-    "title": "Raised by Wolves",
-    "poster": "A thought-provoking sci-fi image of a desolate landscape with futuristic elements hinting at survival.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Raised_by_Wolves_(TV_series)"
+    "title": "The Outlaw Josey Wales",
+    "poster": "A powerful poster featuring a weary outlaw against a fiery backdrop, embodying themes of revenge and redemption.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Outlaw_Josey_Wales"
   },
   {
-    "title": "G.I. Jane",
-    "poster": "A strong image of a woman in military attire, showcasing strength and resilience within a tough environment.",
-    "wikipedia": "https://en.wikipedia.org/wiki/G.I._Jane"
+    "title": "High Noon",
+    "poster": "A tense poster showcasing a sheriff awaiting a duel at noon, with a clock tower looming in the background, symbolizing time running out.",
+    "wikipedia": "https://en.wikipedia.org/wiki/High_Noon"
   },
   {
-    "title": "The Martian",
-    "poster": "A bright, colorful poster showcasing an astronaut on Mars with the tagline 'Help is Only 140 Million Miles Away'.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Martian_(film)"
+    "title": "Tombstone",
+    "poster": "An action-filled poster featuring the iconic Wyatt Earp and Doc Holliday, with gunfight imagery and dramatic skies.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tombstone_(film)"
   },
   {
-    "title": "Gladiator",
-    "poster": "A powerful and epic poster with a gladiator raising his sword amidst a backdrop of ancient Rome.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
+    "title": "The Assassination of Jesse James by the Coward Robert Ford",
+    "poster": "A contemplative poster showcasing Jesse James in a pensive pose, set against a moody landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Assassination_of_Jesse_James_by_the_Coward_Robert_Ford"
   },
   {
-    "title": "Alien: Resurrection",
-    "poster": "A dark and eerie image featuring a menacing alien lurking among shadows in a high-tech setting.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Alien:_Resurrection"
+    "title": "Rango",
+    "poster": "A colorful animated poster featuring a chameleon in a cowboy hat, evoking a fun and adventurous spirit.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rango"
   },
   {
-    "title": "The Counselor",
-    "poster": "A stark minimalist design featuring a man in a suit, surrounded by abstract shapes indicative of danger.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Counselor"
+    "title": "Bandidas",
+    "poster": "A lively poster featuring two female bandits in Western attire, with dynamic poses and a vibrant backdrop, emphasizing girl power.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bandidas"
   },
   {
-    "title": "All the Money in the World",
-    "poster": "A tense and gripping image featuring a man in a suit, against a backdrop of wealth and mystery.",
-    "wikipedia": "https://en.wikipedia.org/wiki/All_the_Money_in_the_World"
+    "title": "The Magnificent Seven",
+    "poster": "A classic action poster showcasing a diverse group of gunslingers, ready for battle amidst a dusty town.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Magnificent_Seven_(1960_film)"
   },
   {
-    "title": "Napoleon",
-    "poster": "A grand and sweeping image depicting the iconic figure of Napoleon amidst a dramatic battlefield.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Napoleon_(upcoming_film)"
+    "title": "Young Guns",
+    "poster": "A vibrant poster showcasing a young group of outlaws with guns drawn, set against a dramatic sunset.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Young_Guns"
   },
   {
-    "title": "The Last Duel",
-    "poster": "A medieval-themed poster depicting the intense confrontation between two knights in armor.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Duel_(film)"
+    "title": "The Ballad of Buster Scruggs",
+    "poster": "An eclectic poster featuring different vignettes from the film, with a combination of Western and whimsical elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Ballad_of_Buster_Scruggs"
   },
   {
-    "title": "Robin Hood",
-    "poster": "A dynamic image of Robin Hood with his bow drawn, set against a lush green forest landscape.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Robin_Hood_(2010_film)"
+    "title": "3:10 to Yuma",
+    "poster": "An intense poster featuring a confrontation between a lawman and an outlaw, with a train in the distance symbolizing urgency.",
+    "wikipedia": "https://en.wikipedia.org/wiki/3:10_to_Yuma_(2007_film)"
   },
   {
-    "title": "The Good Year",
-    "poster": "A visually warm and inviting poster showcasing the beauty of vineyards and countryside life.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Good_Year"
+    "title": "The Revenant",
+    "poster": "A haunting poster featuring a frontiersman in the wilderness, against a backdrop of snow and pine trees, embodying survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Revenant_(film)"
   },
   {
-    "title": "Before Night Falls",
-    "poster": "A poignant and artistic poster depicting the life of a writer against a backdrop of Cuba.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Before_Night_Falls_(film)"
+    "title": "Deadwood: The Movie",
+    "poster": "A dark poster showcasing the characters of Deadwood, with a gritty atmosphere and a sense of conclusion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Deadwood:_The_Movie"
   },
   {
-    "title": "Thelma & Louise",
-    "poster": "A powerful image of two women driving into the sunset, symbolizing freedom and rebellion.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Thelma_%26_Louise"
+    "title": "The Proposition",
+    "poster": "A stark poster featuring a rough landscape with a lone rider, capturing the brutal essence of the film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Proposition_(film)"
   },
   {
-    "title": "Gladiator",
-    "poster": "An epic poster featuring a lone gladiator standing in an arena, looking ready to fight.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
+    "title": "The Homesman",
+    "poster": "A somber poster featuring a woman on horseback against a vast plain, evoking themes of hardship and resilience.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Homesman"
   },
   {
-    "title": "American Gangster",
-    "poster": "A stylish poster featuring Denzel Washington dressed as a gangster amongst city lights.",
-    "wikipedia": "https://en.wikipedia.org/wiki/American_Gangster"
+    "title": "The Sisters Brothers",
+    "poster": "A vibrant poster showcasing two brothers on a journey, set against a colorful backdrop of the Old West.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Sisters_Brothers"
   },
   {
-    "title": "Blade Runner 2049",
-    "poster": "A visually stunning image of a dystopian city with a lone figure walking through the rain.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Blade_Runner_2049"
+    "title": "Bone Tomahawk",
+    "poster": "A gripping poster featuring a group of men facing off against a mysterious threat, with a desolate landscape in the background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bone_Tomahawk"
   },
   {
-    "title": "Body of Lies",
-    "poster": "A dramatic depiction of espionage with a backdrop of Middle Eastern conflict and tension.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Body_of_Lies_(film)"
+    "title": "The Harder They Fall",
+    "poster": "An action-packed poster featuring a group of outlaws with guns drawn, set against a vibrant sunset.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Harder_They_Fall"
   },
   {
-    "title": "Exodus: Gods and Kings",
-    "poster": "A biblical epic scene showing vast armies clashing against a backdrop of desert landscapes.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Exodus:_Gods_and_Kings"
+    "title": "Wind River",
+    "poster": "A haunting poster featuring a snowy landscape with a solitary figure, emphasizing themes of mystery and survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wind_River_(film)"
   },
   {
-    "title": "Kingdom of Heaven",
-    "poster": "An epic medieval landscape featuring a knight on a hill overlooking a beautiful castle.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Kingdom_of_Heaven"
+    "title": "The Open Road",
+    "poster": "A colorful poster showcasing a road stretching into the horizon, hinting at adventure and exploration.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Open_Road_(film)"
   },
   {
-    "title": "Gladiator",
-    "poster": "A powerful poster with a gladiator, sword raised, against a backdrop of Roman grandeur.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)"
+    "title": "The Ballad of Little Jo",
+    "poster": "A poignant poster featuring a woman in a rugged landscape, embodying strength and determination in a male-dominated world.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Ballad_of_Little_Jo"
   },
   {
-    "title": "The Martian",
-    "poster": "A vibrant and visually striking poster showcasing an astronaut amidst a desolate Martian landscape.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Martian_(film)"
+    "title": "Jeremiah Johnson",
+    "poster": "A rugged poster featuring a lone man in the wilderness, capturing the essence of survival and self-discovery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jeremiah_Johnson"
   },
   {
-    "title": "Prometheus",
-    "poster": "A mysterious and chilling poster depicting a vast alien world with a ship arriving in the background.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Prometheus_(film)"
+    "title": "Hannah and Her Sisters",
+    "poster": "A lighthearted poster featuring a group of friends in a whimsical setting, encapsulating themes of love and family.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hannah_and_Her_Sisters"
   },
   {
-    "title": "Legend",
-    "poster": "A fantasy-themed poster featuring striking visuals of mythical creatures in a dark, enchanted forest.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Legend_(film)"
-  },
-  {
-    "title": "The Counselor",
-    "poster": "A stark, tension-filled poster showcasing a man facing dilemmas in a world fraught with danger.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Counselor"
-  },
-  {
-    "title": "American Gangster",
-    "poster": "An atmospheric image featuring a gangster with a fedora, set against a gritty urban backdrop.",
-    "wikipedia": "https://en.wikipedia.org/wiki/American_Gangster"
-  },
-  {
-    "title": "The Duelists",
-    "poster": "A historical drama themed image of two men fighting with swords in an elegant backdrop.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Duellists"
-  },
-  {
-    "title": "G.I. Jane",
-    "poster": "An empowering poster featuring a woman in military regalia set against a backdrop of intense training.",
-    "wikipedia": "https://en.wikipedia.org/wiki/G.I._Jane"
-  },
-  {
-    "title": "Black Hawk Down",
-    "poster": "A gripping, action-oriented image depicting soldiers in a high-stakes urban conflict.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Black_Hawk_Down_(film)"
-  },
-  {
-    "title": "The Last Duel",
-    "poster": "A medieval-themed image depicting knights preparing for an epic battle in a grand setting.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Duel_(film)"
-  },
-  {
-    "title": "House of Gucci",
-    "poster": "A glamorous, high-fashion image featuring models and designers against a luxurious backdrop.",
-    "wikipedia": "https://en.wikipedia.org/wiki/House_of_Gucci"
-  },
-  {
-    "title": "Raised by Wolves",
-    "poster": "A striking sci-fi image of a futuristic landscape with themes of survival and exploration.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Raised_by_Wolves_(TV_series)"
+    "title": "The Cowboy Way",
+    "poster": "A fun poster featuring two modern cowboys in sunglasses with a backdrop of the rustic west, emphasizing camaraderie.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Cowboy_Way"
   }
 ]

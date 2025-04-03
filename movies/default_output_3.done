@@ -1,267 +1,262 @@
 [
   {
-    "title": "Suspiria",
-    "poster": "A haunting image of a dark, ornate ballet academy with shadows creeping around the edges, vibrant colors of red and green, a ghostly figure in the foreground.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Suspiria"
-  },
-  {
-    "title": "The Holy Mountain",
-    "poster": "Surreal and psychedelic imagery depicting a mystical journey, featuring a mountain surrounded by vibrant colors and bizarre characters.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Holy_Mountain"
-  },
-  {
-    "title": "Enter the Void",
-    "poster": "A mesmerizing neon-lit cityscape of Tokyo at night, with a visual haze and ethereal figures floating amidst the brightness.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Enter_the_Void"
-  },
-  {
-    "title": "Antichrist",
-    "poster": "A dark, ominous forest with stark contrasts between light and shadow, featuring a partially obscured silhouette of a woman amidst twisted trees.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Antichrist_(film)"
-  },
-  {
-    "title": "A Girl Walks Home Alone at Night",
-    "poster": "A striking image of a young woman in a chador, lit by neon lights against a desolate, surreal landscape in a ghostly perspective.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Girl_Walks_Home_Alone_at_Night"
-  },
-  {
-    "title": "The Lighthouse",
-    "poster": "A dramatic black and white image of a lighthouse against a stormy sea, featuring two men looking up at the tower, shrouded in mystery.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Lighthouse_(2019_film)"
-  },
-  {
-    "title": "Mandy",
-    "poster": "A vibrant and psychedelic poster depicting a long-haired woman with fiery eyes amidst a backdrop of swirling reds and blacks, hinting at revenge.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mandy_(film)"
-  },
-  {
-    "title": "The Witch",
-    "poster": "A dark, atmospheric depiction of a foreboding forest with an ominous cabin in the background, dominated by shadows and a faint light.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Witch"
-  },
-  {
-    "title": "Under the Skin",
-    "poster": "A surreal image of a woman in a dark, reflective environment, with abstract patterns and colors that suggest a blend of nature and technology.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Under_the_Skin_(film)"
-  },
-  {
-    "title": "Mulholland Drive",
-    "poster": "A dreamlike image featuring a woman with dark hair against a backdrop of Los Angeles lights, evoking mystery and intrigue.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mulholland_Drive"
-  },
-  {
-    "title": "The Fall",
-    "poster": "A fantastical and colorful illustration of a young girl and a stuntman in a surreal landscape, surrounded by mythical creatures and dream imagery.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Fall_(2006_film)"
-  },
-  {
-    "title": "Naked Lunch",
-    "poster": "A surreal and chaotic design featuring a typewriter and monstrous creatures, capturing the bizarre essence of the film’s narrative.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Naked_Lunch"
-  },
-  {
-    "title": "Stalker",
-    "poster": "A misty and atmospheric landscape with three figures wandering through a desolate terrain, invoking feelings of isolation and mystery.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Stalker_(film)"
-  },
-  {
-    "title": "Eraserhead",
-    "poster": "A stark black and white image featuring a man with an unsettling expression and an eerie background, embodying a nightmarish quality.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Eraserhead"
-  },
-  {
-    "title": "Tetsuo: The Iron Man",
-    "poster": "An industrial, black and white graphic showing a man and metal fusion with an intense expression, evoking body horror.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tetsuo:_The_Iron_Man"
-  },
-  {
-    "title": "Timecrimes",
-    "poster": "A mysterious figure in a forest, illuminated by a strange light, hinting at a complex narrative involving time travel.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Timecrimes"
-  },
-  {
-    "title": "The Killing of a Sacred Deer",
-    "poster": "A somber and striking image of a family in crisis, set against a backdrop of muted colors, hinting at a dark fate.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Killing_of_a_Sacred_Deer"
-  },
-  {
-    "title": "Mother!",
-    "poster": "A chaotic and colorful poster with disjointed images representing life and destruction, featuring an unsettling expression of a woman.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mother!"
-  },
-  {
-    "title": "The Double",
-    "poster": "A visually intriguing image of a man looking at his doppelgänger in a surreal urban setting, combining elements of comedy and drama.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Double_(2013_film)"
-  },
-  {
-    "title": "Hereditary",
-    "poster": "A dark and eerie image featuring a shadowy house and an unsettling family portrait, evoking a sense of dread and foreboding.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hereditary"
-  },
-  {
-    "title": "Goke, Body Snatcher from Hell",
-    "poster": "A vivid and bizarre image depicting alien creatures and a chaotic scene, emphasizing the horror and sci-fi elements of the film.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Goke,_Body_Snatcher_from_Hell"
-  },
-  {
-    "title": "Perfect Blue",
-    "poster": "An intense image of a woman surrounded by distorted reflections of herself, representing a psychological thriller with elements of horror.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Perfect_Blue"
-  },
-  {
-    "title": "The Cook, the Thief, His Wife & Her Lover",
-    "poster": "A striking and scandalous image of lavish dining juxtaposed with dark, opulent colors, hinting at betrayal and desire.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Cook,_the_Thief,_His_Wife_%26_Her_Lover"
-  },
-  {
-    "title": "The Square",
-    "poster": "A thought-provoking image of a public art installation with people interacting, showcasing themes of social commentary and absurdity.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Square_(2017_film)"
-  },
-  {
-    "title": "The Skin I Live In",
-    "poster": "A provocative image of a woman trapped behind glass, evoking themes of identity and body horror with a vivid color palette.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Skin_I_Live_In"
-  },
-  {
-    "title": "High Rise",
-    "poster": "A sleek design of a modern high-rise building depicted in geometric shapes and colors, hinting at a societal breakdown.",
-    "wikipedia": "https://en.wikipedia.org/wiki/High-Rise_(film)"
+    "title": "The Road",
+    "poster": "A desolate landscape with a father and son walking along a charred road under a muted sky",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Road_(film)"
   },
   {
     "title": "Eternal Sunshine of the Spotless Mind",
-    "poster": "A surreal and colorful poster of a couple drifting apart in a dream-like landscape, representing memory and love.",
+    "poster": "A fractured image of a couple's faces over a surreal, dreamlike backdrop",
     "wikipedia": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind"
   },
   {
-    "title": "Dogtooth",
-    "poster": "A puzzling image of a family in a controlled environment, with bright colors that contrast with the film’s dark themes.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Dogtooth"
+    "title": "The Fifth Element",
+    "poster": "A vibrant, sci-fi cityscape with a strikingly dressed woman in bright orange hair",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fifth_Element"
   },
   {
-    "title": "Blue Velvet",
-    "poster": "A striking and dark image of a blue velvet fabric intertwined with a flower, hinting at secret lives and hidden darkness.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Blue_Velvet"
+    "title": "Blade Runner 2049",
+    "poster": "A dark and moody cityscape illuminated by neon lights, featuring a solitary figure",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blade_Runner_2049"
   },
   {
-    "title": "The Abyss",
-    "poster": "A captivating underwater scene with lights illuminating a dark ocean, evoking mystery and suspense.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Abyss"
+    "title": "Run Lola Run",
+    "poster": "Dynamic imagery of a woman sprinting with colorful splashes representing urgency",
+    "wikipedia": "https://en.wikipedia.org/wiki/Run_Lola_Run"
   },
   {
-    "title": "The Platform",
-    "poster": "A bleak image of a vertical prison structure, with food descending through the levels hinting at social inequality and survival.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Platform"
+    "title": "Amélie",
+    "poster": "A whimsical design featuring a young woman surrounded by vibrant colors and whimsical elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/Am%C3%A9lie"
   },
   {
-    "title": "Oldboy",
-    "poster": "An intense image depicting a man trapped in a darkened room, surrounded by a surreal mix of violence and revenge.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Oldboy"
+    "title": "Snowpiercer",
+    "poster": "A train blasting through icy wasteland with a stark contrast of dark and light elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/Snowpiercer_(film)"
   },
   {
-    "title": "Annihilation",
-    "poster": "A mesmerizing depiction of a lush, mysterious landscape with a glowing phenomenon, unsettling yet beautiful.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Annihilation_(film)"
+    "title": "Mad Max: Fury Road",
+    "poster": "An explosive scene of vehicles racing through a desert with a dramatic sunset",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road"
   },
   {
-    "title": "Kill List",
-    "poster": "A dark and gritty image of a shadowy figure in an urban setting, hinting at a tale of crime and psychological horror.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Kill_List"
+    "title": "Pixar's Wall-E",
+    "poster": "A lonely robot amidst a colorful post-apocalyptic landscape, with the earth in the background",
+    "wikipedia": "https://en.wikipedia.org/wiki/WALL-E"
   },
   {
-    "title": "Brazil",
-    "poster": "A whimsical and surreal art piece showcasing chaotic bureaucracy, blending dark humor and dystopian elements.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Brazil_(1985_film)"
+    "title": "Delicatessen",
+    "poster": "A quirky, vintage-styled poster featuring a neighborhood bathed in warm colors and odd characters",
+    "wikipedia": "https://en.wikipedia.org/wiki/Delicatessen"
   },
   {
-    "title": "A Clockwork Orange",
-    "poster": "A stylized image of a young man in costume with an eerie grin, against a stark backdrop of urban decay.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Clockwork_Orange_(film)"
+    "title": "The Grand Budapest Hotel",
+    "poster": "A pastel-colored hotel building set against a snowy mountain backdrop with quirky characters",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel"
   },
   {
-    "title": "The Shape of Water",
-    "poster": "A dreamy and colorful underwater scene with a mermaid-like creature and a woman, capturing the essence of love and mystique.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Shape_of_Water"
+    "title": "The Science of Sleep",
+    "poster": "A dreamlike collage of whimsical imagery reflecting the inner thoughts of a man",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Science_of_Sleep"
   },
   {
-    "title": "The Invitation",
-    "poster": "A tense and dark group gathering set against a backdrop of muted colors, hinting at secrets and underlying dread.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Invitation_(2015_film)"
+    "title": "Spirited Away",
+    "poster": "A colorful fantasy world featuring a young girl and mysterious spirits",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spirited_Away"
   },
   {
-    "title": "It Follows",
-    "poster": "A disturbing image of a young girl looking back at an ominous presence, against a backdrop of a suburban landscape.",
-    "wikipedia": "https://en.wikipedia.org/wiki/It_Follows"
+    "title": "Cloud Atlas",
+    "poster": "A collage of interconnected stories with diverse characters and settings spanning time",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cloud_Atlas_(film)"
   },
   {
-    "title": "The Cell",
-    "poster": "A visually arresting image of a woman in a surreal dreamscape filled with nightmarish imagery and vibrant colors.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Cell"
+    "title": "The Fall",
+    "poster": "A visually stunning image with colorful fantasy elements and a young girl sitting amid a dreamy landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fall_(2006_film)"
   },
   {
-    "title": "The Fountain",
-    "poster": "An ethereal image depicting a man with a tree of life set against heavenly backgrounds, symbolizing love and rebirth.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Fountain_(film)"
+    "title": "Inception",
+    "poster": "A surreal, dream-inspired image with cityscapes bending and twisting in impossible ways",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inception"
+  },
+  {
+    "title": "Paprika",
+    "poster": "A vibrant, psychedelic collage of dreams and surreal imagery, featuring a woman in a dreamscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paprika_(film)"
   },
   {
     "title": "The Lobster",
-    "poster": "A quirky and surreal image of people in a strange setting, representing absurdism and societal pressure on relationships.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Lobster_(film)"
+    "poster": "An unsettling yet colorful poster featuring people in quirky poses in a dystopian setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lobster"
   },
   {
-    "title": "The Killing of a Sacred Deer",
-    "poster": "A haunting image of a young boy standing before a dark house at twilight, evoking themes of morality and consequence.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Killing_of_a_Sacred_Deer"
+    "title": "A Clockwork Orange",
+    "poster": "A striking image of a young man in a bowler hat with a menacing expression and bold colors",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Clockwork_Orange_(film)"
+  },
+  {
+    "title": "Nausicaä of the Valley of the Wind",
+    "poster": "A beautifully painted poster showing a young woman surrounded by flora and giant creatures",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind"
+  },
+  {
+    "title": "Her",
+    "poster": "A minimalist poster featuring a man against a backdrop of warm colors with digital elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/Her_(film)"
+  },
+  {
+    "title": "The City of Lost Children",
+    "poster": "A dark and whimsical image featuring a giant figure in a surreal industrial landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_City_of_Lost_Children"
+  },
+  {
+    "title": "The Shape of Water",
+    "poster": "A dreamy, underwater scene with a woman and a creature embracing in shades of blue and green",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Shape_of_Water"
+  },
+  {
+    "title": "Frances Ha",
+    "poster": "A vibrant, monochromatic image of a young woman leaping in an urban environment",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frances_Ha"
+  },
+  {
+    "title": "Under the Skin",
+    "poster": "A haunting image with a woman in a dark setting radiating an eerie, otherworldly glow",
+    "wikipedia": "https://en.wikipedia.org/wiki/Under_the_Skin_(film)"
+  },
+  {
+    "title": "Irréversible",
+    "poster": "A stark and powerful image conveying raw emotion, with a dark, twisted atmosphere",
+    "wikipedia": "https://en.wikipedia.org/wiki/Irr%C3%A9versible"
+  },
+  {
+    "title": "The Fountain",
+    "poster": "A magical poster illustrating the concept of life and rebirth, with lush colors and ethereal beings",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fountain"
+  },
+  {
+    "title": "The Secret Life of Walter Mitty",
+    "poster": "A vibrant image of a man with a hopeful expression set against a breathtaking landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Secret_Life_of_Walter_Mitty_(2013_film)"
+  },
+  {
+    "title": "Birdman",
+    "poster": "A striking poster with a surreal portrayal of a man's face merged with his bird persona",
+    "wikipedia": "https://en.wikipedia.org/wiki/Birdman_(film)"
+  },
+  {
+    "title": "The Hunt",
+    "poster": "A somber image featuring a man with a pained expression, surrounded by snowy landscapes",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Hunt_(2012_film)"
+  },
+  {
+    "title": "Beasts of the Southern Wild",
+    "poster": "A colorful, whimsical image of a child and mythical creatures in a swampy landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beasts_of_the_Southern_Wild"
+  },
+  {
+    "title": "Wild Tales",
+    "poster": "A darkly comedic collage of various characters in exaggerated and chaotic situations",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wild_Tales"
+  },
+  {
+    "title": "Trainspotting",
+    "poster": "A gritty yet vibrant image of young men in a chaotic urban environment",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trainspotting_(film)"
+  },
+  {
+    "title": "Midsommar",
+    "poster": "A bright and eerie image of people in a strange festival, surrounded by beautiful flowers",
+    "wikipedia": "https://en.wikipedia.org/wiki/Midsommar"
+  },
+  {
+    "title": "Moonrise Kingdom",
+    "poster": "A quirky, pastel-colored image featuring two children in a whimsical outdoor setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moonrise_Kingdom"
+  },
+  {
+    "title": "The Intouchables",
+    "poster": "A heartwarming image of two contrasting characters sharing a moment of laughter",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Intouchables"
+  },
+  {
+    "title": "Wings of Desire",
+    "poster": "A poetic image depicting angels observing the world in muted tones",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wings_of_Desire"
+  },
+  {
+    "title": "Amour",
+    "poster": "A poignant image of an elderly couple set against a backdrop of gentle light",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amour_(film)"
+  },
+  {
+    "title": "The Great Beauty",
+    "poster": "A luxurious image capturing the essence of Rome with rich colors and textures",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Beauty"
+  },
+  {
+    "title": "Lost in Translation",
+    "poster": "A calm and intimate image of two characters against a vibrant Tokyo skyline",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lost_in_Translation"
+  },
+  {
+    "title": "The Diving Bell and the Butterfly",
+    "poster": "A strikingly simple image representing freedom and confinement in soft colors",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Diving_Bell_and_the_Butterfly_(film)"
+  },
+  {
+    "title": "The Artist",
+    "poster": "A vintage-style poster with a classic black-and-white theme depicting a silent film star",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Artist"
+  },
+  {
+    "title": "Y Tu Mamá También",
+    "poster": "A vibrant image of two young men and a woman embarking on a journey through lush landscapes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Y_Tu_Mam%C3%A1_Tambi%C3%A9n"
+  },
+  {
+    "title": "The Motorcycle Diaries",
+    "poster": "A colorful image depicting a young man on a motorcycle against sweeping landscapes",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Motorcycle_Diaries"
+  },
+  {
+    "title": "The World's End",
+    "poster": "A humorous image of a group of friends in a pub setting, with an alien backdrop",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_World%27s_End_(film)"
+  },
+  {
+    "title": "The Truman Show",
+    "poster": "A surreal image of a man smiling amidst a fabricated, colorful world",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Truman_Show"
+  },
+  {
+    "title": "The Babadook",
+    "poster": "A dark and haunting image with a mysterious figure looming in shadow",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Babadook"
   },
   {
     "title": "A Ghost Story",
-    "poster": "A simple yet profound image of a sheeted ghost standing in an empty room, representing time and loss in a haunting manner.",
+    "poster": "A minimalist image of a ghost in a white sheet amidst a serene backdrop",
     "wikipedia": "https://en.wikipedia.org/wiki/A_Ghost_Story"
   },
   {
-    "title": "The Blackcoat's Daughter",
-    "poster": "An eerie image of two girls in a snow-covered boarding school, with shadows looming and a sense of dread palpable.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Blackcoat%27s_Daughter"
+    "title": "The Handmaiden",
+    "poster": "A beautifully intricate image reflecting themes of love and deception in a historical setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Handmaiden"
   },
   {
-    "title": "Mother!",
-    "poster": "A chaotic and colorful depiction of a woman standing amidst a swirling storm of human figures and emotions.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mother!"
+    "title": "Call Me by Your Name",
+    "poster": "A warm and romantic image of two young men in a sun-drenched Italian landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Call_Me_by_Your_Name"
   },
   {
-    "title": "Come and See",
-    "poster": "A harrowing image of a young boy amidst desolation and destruction, capturing the horror of war in stark contrast.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Come_and_See"
+    "title": "The Favourite",
+    "poster": "An elegant and colorful image featuring 18th-century characters in a lavish setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Favourite_(film)"
   },
   {
-    "title": "The Skin I Live In",
-    "poster": "A chilling and artistic portrayal of a woman confined within a glass enclosure, suggesting themes of identity and transformation.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Skin_I_Live_In"
-  },
-  {
-    "title": "The Platform",
-    "poster": "A bleak image showcasing a vertical prison structure with despairing figures, accentuating themes of survival and class struggle.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Platform"
-  },
-  {
-    "title": "Annihilation",
-    "poster": "A captivating and surreal image of a glowing phenomenon in a dense forest, hinting at themes of transformation and self-destruction.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Annihilation_(film)"
-  },
-  {
-    "title": "The Green Room",
-    "poster": "A stark and tense image of a band trapped in a green room, surrounded by dark tones and a sense of impending doom.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Green_Room"
-  },
-  {
-    "title": "Perfect Blue",
-    "poster": "An intense image of a woman in a fragmented reflection, symbolizing identity crisis and psychological intensity.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Perfect_Blue"
-  },
-  {
-    "title": "I'm Thinking of Ending Things",
-    "poster": "A surreal and grainy image of a couple in a car against a dark, moody backdrop, hinting at themes of existential dread.",
-    "wikipedia": "https://en.wikipedia.org/wiki/I%27m_Thinking_of_Ending_Things"
+    "title": "The Big Lebowski",
+    "poster": "A quirky poster featuring a laid-back man with various odd characters in the background",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Big_Lebowski"
   }
 ]
