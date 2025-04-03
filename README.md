@@ -147,3 +147,8 @@ request.
 
 This application was developed by an author with rudimentary knowledge of Flutter and Dart, with significant assistance
 from Large Language Models.
+
+## License
+
+This project is released under the BSD-3-Clause License. See the [LICENSE](LICENSE) file for details.
+
