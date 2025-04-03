@@ -644,7 +644,7 @@ class _QuizPageState extends State<QuizPage> {
       - description: Breve sinossi
       - score: Punteggio 1-10
       - genre: Genere principale scelto tra [action, horror, adventure,musical, comedy ,science-fiction ,crime ,war ,drama ,western, historical]
-      - why_recommended: Motivazione della raccomandazione
+      - why_recommended: Lunga e argomentata motivazione della raccomandazione e dei legami con le risposte dell'utente. in questo attributo il critico riversa la sua personalita
       - poster_prompt: Descrizione per generare la locandina
 
       ***IMPORTANTE***:
@@ -1982,11 +1982,11 @@ Future<String> getWikipediaThumbnailUrl(String movieTitle) async {
 
 
 class loadPosterCached {
-  static Widget getPoster(String movieTitle, String genre) {
-    return _buildPosterWithFallback(movieTitle, genre);
+  static Widget getPoster(String movieTitle, String genre, String desc) {
+    return _buildPosterWithFallback(movieTitle, genre, desc);
   }
 
-  static Widget _buildPosterWithFallback(String movieTitle, String genre) {
+  static Widget _buildPosterWithFallback(String movieTitle, String genre, String desc) {
     // 1. Cerca prima negli asset locali
     final imageName = _generateImageName(movieTitle);
     final imagePath = 'assets/posters/$imageName';
@@ -2003,10 +2003,10 @@ class loadPosterCached {
           } else {
             // 2. Se non trovato negli asset, cerca su Wikipedia (solo per app mobile)
             if (!kIsWeb) {
-              return _buildWikipediaPoster(movieTitle, genre);
+              return _buildWikipediaPoster(movieTitle, genre, desc);
             }
             // 3. Per web o se Wikipedia fallisce, genera l'immagine
-            return _buildGeneratedPoster(movieTitle, genre);
+            return _buildGeneratedPoster(movieTitle, genre, desc);
           }
         }
         // Mostra placeholder durante il caricamento
@@ -2015,7 +2015,7 @@ class loadPosterCached {
     );
   }
 
-  static Widget _buildWikipediaPoster(String movieTitle, String genre) {
+  static Widget _buildWikipediaPoster(String movieTitle, String genre, String desc) {
     return FutureBuilder<String>(
       future: getWikipediaThumbnailUrl(movieTitle),
       builder: (context, snapshot) {
@@ -2025,18 +2025,19 @@ class loadPosterCached {
             fit: BoxFit.cover,
             placeholder: (context, url) => placeHolderImage(movieTitle, genre),
             errorWidget: (context, url, error) =>
-                _buildGeneratedPoster(movieTitle, genre),
+           _buildGeneratedPoster(movieTitle, genre, desc)
           );
         } else if (snapshot.hasError) {
-          return _buildGeneratedPoster(movieTitle, genre);
+          return _buildGeneratedPoster(movieTitle, genre, desc);
         }
         return placeHolderImage(movieTitle, genre);
       },
     );
   }
 
-  static Widget _buildGeneratedPoster(String movieTitle, String genre) {
-    final prompt = 'Poster for the movie: $movieTitle of genre $genre, with no text';
+  static Widget _buildGeneratedPoster(String movieTitle, String genre, String? desc) {
+    var prompt = 'Poster for the movie: $movieTitle of genre $genre:  $desc. No text';
+
     final encodedPrompt = Uri.encodeComponent(prompt);
     final imageUrl = 'https://image.pollinations.ai/prompt/$encodedPrompt'
         '?width=240&height=400&seed=${movieTitle.hashCode}'
@@ -2095,6 +2096,7 @@ const int _maxCacheSize = 50;
 Widget buildPosterWeb(int index, dynamic movie) {
   final movieTitle = movie['title'] as String? ?? 'film';
   final genre = movie['genre'] as String? ?? 'genre';
+  final desc  = movie['poster_prompt'] as String? ?? '';
 
   // Creiamo una chiave unica combinando titolo e genere
   final cacheKey = '${movieTitle}_$genre';
@@ -2110,7 +2112,7 @@ Widget buildPosterWeb(int index, dynamic movie) {
   }
 
   // Generiamo il nuovo poster e lo memorizziamo in cache
-  final poster = loadPosterCached.getPoster(movieTitle, genre);
+  final poster = loadPosterCached.getPoster(movieTitle, genre,desc);
   _posterCache[cacheKey] = poster;
 
   return poster;
