@@ -1,232 +1,257 @@
 [
   {
-    "title": "Nosferatu",
-    "poster": "A haunting image featuring a shadowy figure with elongated fingers looming over a desolate landscape, with the moon casting an eerie glow.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Nosferatu"
+    "title": "Star Wars: Episode IV - A New Hope",
+    "poster": "A colorful poster featuring Luke Skywalker, Princess Leia, and Darth Vader in a space background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_IV_%E2%80%93_A_New_Hope"
   },
   {
-    "title": "The Cabinet of Dr. Caligari",
-    "poster": "A visually striking poster with distorted shapes and angular designs, showcasing a mysterious figure in a top hat standing next to a somber street.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Cabinet_of_Dr_Caligari"
+    "title": "Star Wars: Episode V - The Empire Strikes Back",
+    "poster": "A dramatic poster highlighting the battle between the Rebels and the Empire, showcasing iconic characters like Yoda and Darth Vader.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_V_%E2%80%93_The_Empire_Strikes_Back"
   },
   {
-    "title": "Metropolis",
-    "poster": "A futuristic city skyline filled with towering skyscrapers, with a gleaming robot and a woman reaching out towards a sprawling urban landscape.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Metropolis_(1927_film)"
+    "title": "Star Wars: Episode VI - Return of the Jedi",
+    "poster": "A vibrant poster displaying Luke Skywalker, Darth Vader, and the Rebel Alliance against the backdrop of the Death Star.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_VI_%E2%80%93_Return_of_the_Jedi"
   },
   {
-    "title": "The Phantom of the Opera",
-    "poster": "A dramatic depiction of a masked figure holding a rose in a dark setting with a grand chandelier above, evoking a sense of mystery and romance.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1925_film)"
+    "title": "American Graffiti",
+    "poster": "A nostalgic poster featuring classic cars, teenagers, and a vibrant sunset, representing the 1960s culture.",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Graffiti"
   },
   {
-    "title": "Sunrise: A Song of Two Humans",
-    "poster": "A vibrant image showcasing a couple standing on a bridge against a beautiful sunrise, with elements of nature and urban life intertwining.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sunrise:_A_Song_of_Two_Humans"
+    "title": "THX 1138",
+    "poster": "A minimalist poster with a futuristic cityscape background, focusing on themes of conformity and society.",
+    "wikipedia": "https://en.wikipedia.org/wiki/THX_1138"
   },
   {
-    "title": "The Golem",
-    "poster": "A stark black and white poster featuring a massive clay figure with a haunting expression, amidst a backdrop of an ancient city.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Golem_(1920_film)"
+    "title": "Indiana Jones and the Raiders of the Lost Ark",
+    "poster": "An adventurous poster showcasing Indiana Jones with his hat and whip, alongside a mysterious ancient artifact.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Raiders_of_the_Lost_Ark"
   },
   {
-    "title": "Dr. Jekyll and Mr. Hyde",
-    "poster": "A split image contrasting a refined man in a suit with a monstrous figure, symbolizing the duality of human nature.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Dr._Jekyll_and_Mr._Hyde_(1920_film)"
+    "title": "Indiana Jones and the Temple of Doom",
+    "poster": "A thrilling poster depicting Indiana Jones in action with exotic elements and a dark ambiance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Temple_of_Doom"
   },
   {
-    "title": "The Unknown",
-    "poster": "An eerie poster showing a man with outstretched arms amidst a circus setting, with shadows lurking in the background.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Unknown_(1927_film)"
+    "title": "Indiana Jones and the Last Crusade",
+    "poster": "An adventurous poster featuring Indiana Jones with his father and a hidden treasure background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Indiana_Jones_and_the_Last_Crusade"
   },
   {
-    "title": "The Lodger: A Story of the London Fog",
-    "poster": "A suspenseful image featuring a shadowy figure beneath a streetlamp, with a foggy London backdrop that adds to the mystery.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Lodger:_A_Story_of_the_London_Fog"
+    "title": "Red Tails",
+    "poster": "A dynamic poster featuring African-American pilots in WWII, highlighting bravery and camaraderie.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Red_Tails"
   },
   {
-    "title": "Faust",
-    "poster": "A dramatic poster with a figure making a pact with a demonic presence, surrounded by swirling clouds and ethereal light.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Faust_(1926_film)"
+    "title": "Strange Magic",
+    "poster": "A colorful and whimsical poster showcasing fantastical creatures and a magical forest setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Strange_Magic"
   },
   {
-    "title": "The Passion of Joan of Arc",
-    "poster": "A stark, emotional close-up of a woman in distress, set against a backdrop of medieval architecture.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Passion_of_Joan_of_Arc"
+    "title": "Star Wars: Episode I - The Phantom Menace",
+    "poster": "A captivating poster with Anakin Skywalker, Qui-Gon Jinn, and various colorful characters and spacecraft.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_I_%E2%80%93_The_Phantom_Menace"
   },
   {
-    "title": "Haxan",
-    "poster": "A provocative image depicting witches and demonic symbols, set in a dark, stylized medieval background.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Häxan"
+    "title": "Star Wars: Episode II - Attack of the Clones",
+    "poster": "An action-packed poster featuring Anakin Skywalker and Padmé Amidala in a romantic yet perilous scene.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_II_%E2%80%93_Attack_of_the_Clones"
   },
   {
-    "title": "A Page of Madness",
-    "poster": "An abstract and surreal composition that highlights the haunting nature of madness, with distorted faces and shadowy figures.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Page_of_Madness"
+    "title": "Star Wars: Episode III - Revenge of the Sith",
+    "poster": "A dark and intense poster highlighting Anakin Skywalker's transformation with a fiery backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_III_%E2%80%93_Revenge_of_the_Sith"
   },
   {
-    "title": "Bloody Mama",
-    "poster": "A bold and violent depiction of a matriarch surrounded by her criminal sons, with an edge of retro exploitation.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bloody_Mama"
+    "title": "Star Wars: The Clone Wars",
+    "poster": "An animated poster showcasing Jedi knights in combat against the Sith in a galaxy far, far away.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Star_Wars:_The_Clone_Wars"
   },
   {
-    "title": "The Cabinet of Caligari",
-    "poster": "An expressionistic poster featuring jagged shadows and a figure in a somber posture, reflecting psychological disturbance.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Cabinet_of_Caligari"
+    "title": "Star Wars: The Clone Wars (film)",
+    "poster": "A colorful and action-oriented poster featuring the main characters of the animated series in epic battle scenes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Star_Wars:_The_Clone_Wars_(film)"
   },
   {
-    "title": "Vampyr",
-    "poster": "A mysterious and atmospheric poster showing a ghostly figure in a fog-laden graveyard, creating a chilling sense of dread.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Vampyr"
+    "title": "The Land Before Time",
+    "poster": "A vibrant poster showing a group of young dinosaurs journeying through a prehistoric landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Land_Before_Time"
   },
   {
-    "title": "The Blood of a Poet",
-    "poster": "A surreal image of a poet in disarray, with strange abstract shapes and scenes depicting existential themes.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Blood_of_a_Poet"
+    "title": "The Adventures of Young Indiana Jones",
+    "poster": "An adventurous poster featuring a young Indiana Jones in various historical settings, combining action and education.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Adventures_of_Young_Indiana_Jones"
   },
   {
-    "title": "The Man Who Laughs",
-    "poster": "A haunting portrayal of a man with a grotesque smile, surrounded by darkly romantic elements of a Victorian setting.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Man_Who_Laughs_(1928_film)"
+    "title": "The Phantom Menace (video game)",
+    "poster": "A poster depicting characters such as Darth Maul and Qui-Gon Jinn amidst intense lightsaber battles.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_I_%E2%80%93_The_Phantom_Menace_(video_game)"
   },
   {
-    "title": "The Witchfinder General",
-    "poster": "A dark and foreboding depiction of a witch trial scene with intense expressions and a strong sense of persecution.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Witchfinder_General"
+    "title": "Ocean's Eleven",
+    "poster": "A stylish and sleek poster featuring the ensemble cast in sharp suits, ready for a high-stakes heist.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ocean%27s_Eleven_(2001_film)"
   },
   {
-    "title": "The Haunting",
-    "poster": "A chilling image of an eerie mansion shrouded in darkness, with fog creeping through the windows and a sense of foreboding.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Haunting_(1963_film)"
+    "title": "Ocean's Twelve",
+    "poster": "A vibrant poster showcasing the cast engaged in a complex heist in various European cities.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ocean%27s_Twelve"
   },
   {
-    "title": "Cabaret",
-    "poster": "A vibrant and energetic poster capturing the essence of 1930s Berlin nightlife featuring performers in dramatic costumes.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Cabaret_(film)"
+    "title": "Ocean's Thirteen",
+    "poster": "A bold poster highlighting the ensemble cast as they plot revenge against a ruthless casino owner.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ocean%27s_Thirteen"
   },
   {
-    "title": "The Ring",
-    "poster": "An atmospheric depiction of a young girl holding an ominous object, surrounded by dark shadows, hinting at supernatural themes.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Ring_(2002_film)"
+    "title": "Traffic",
+    "poster": "A gritty and intense poster showcasing the drug trade with interwoven storylines across multiple characters.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Traffic_(film)"
   },
   {
-    "title": "Dracula",
-    "poster": "A claustrophobic image of a vampire shrouded in darkness, with crimson red highlights suggesting danger and horror.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Dracula_(1931_film)"
+    "title": "Erin Brockovich",
+    "poster": "A powerful poster featuring Julia Roberts as Erin surrounded by environmental imagery related to the case.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Erin_Brockovich_(film)"
   },
   {
-    "title": "The Seventh Seal",
-    "poster": "A profound image of a knight playing chess against Death, set against a haunting, stark landscape.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Seventh_Seal"
+    "title": "Contagion",
+    "poster": "A haunting poster showing the spread of a virus with images of the globe and people in masks.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Contagion"
   },
   {
-    "title": "Eyes Without a Face",
-    "poster": "A striking, unsettling image of a masked woman gazing out with a haunting expression, capturing themes of identity and horror.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Eyes_Without_a_Face"
+    "title": "The Informant!",
+    "poster": "A quirky poster featuring Matt Damon in a suit with a humorous and colorful design.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Informant!"
   },
   {
-    "title": "Spiritualism",
-    "poster": "A mystical representation with ghostly figures and ethereal lights that evoke themes of the supernatural and the afterlife.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Spiritualism_(film)"
+    "title": "Magic Mike",
+    "poster": "A sultry poster showcasing male dancers in a club setting, highlighting the themes of aspiration and performance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Magic_Mike"
   },
   {
-    "title": "Carrie",
-    "poster": "An iconic image of a girl covered in blood, standing in a dramatic pose surrounded by chaos, symbolizing revenge and transformation.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Carrie_(1976_film)"
+    "title": "Full Frontal",
+    "poster": "An avant-garde poster featuring characters engaged in various interactions, showcasing a sense of intimacy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Full_Frontal"
   },
   {
-    "title": "The Others",
-    "poster": "A suspenseful and eerie poster featuring a shadowy figure in a dimly lit room, suggesting themes of isolation and ghostly presence.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Others"
+    "title": "Blue Jasmine",
+    "poster": "An elegant poster featuring Cate Blanchett as Jasmine against a backdrop of luxury and despair.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blue_Jasmine"
   },
   {
-    "title": "The Evil Dead",
-    "poster": "A bold image showcasing a cabin in the woods surrounded by swirling darkness, hinting at the horrors that await within.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Evil_Dead"
+    "title": "Midnight in Paris",
+    "poster": "A romantic poster showcasing Paris at night with iconic landmarks and characters from different eras.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Midnight_in_Paris"
   },
   {
-    "title": "Psycho",
-    "poster": "An iconic image of a woman screaming in a shower, with a looming figure in the background, encapsulating themes of horror and suspense.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Psycho_(1960_film)"
+    "title": "Manhattan",
+    "poster": "A black and white poster featuring the New York skyline, capturing the essence of love and urban life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Manhattan_(film)"
   },
   {
-    "title": "The Shining",
-    "poster": "A chilling depiction of a deserted hotel with ominous shadows, featuring a figure holding an axe, evoking terror and madness.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Shining_(film)"
+    "title": "Annie Hall",
+    "poster": "A whimsical poster featuring Woody Allen and Diane Keaton with a playful design that reflects a romantic comedy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Annie_Hall"
   },
   {
-    "title": "Hereditary",
-    "poster": "A haunting image of a family shrouded in sorrow set against a backdrop of unsettling family secrets.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hereditary_(film)"
+    "title": "Hannah and Her Sisters",
+    "poster": "A warm poster depicting a family gathering, showcasing the complexities of relationships.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hannah_and_Her_Sisters"
   },
   {
-    "title": "The Witch",
-    "poster": "A dark and atmospheric poster depicting a family in a secluded forest, evoking themes of fear and superstition.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Witch_(film)"
+    "title": "Celebrity",
+    "poster": "A glamorous poster featuring a mix of celebrity culture and relationships with rich color schemes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Celebrity_(film)"
   },
   {
-    "title": "Get Out",
-    "poster": "An unsettling image of a man in a trance-like state surrounded by a dark, ominous atmosphere, hinting at underlying horror.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Get_Out"
+    "title": "Vicky Cristina Barcelona",
+    "poster": "A vibrant poster depicting the beautiful setting of Barcelona with a mix of romance and drama.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vicky_Cristina_Barcelona"
   },
   {
-    "title": "The Babadook",
-    "poster": "A stark, dark image featuring a shadowy creature looming over a mother and son, encapsulating themes of grief and fear.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Babadook"
+    "title": "Scoop",
+    "poster": "A playful poster featuring Scarlett Johansson and Woody Allen in a whimsical investigative scene.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scoop_(film)"
   },
   {
-    "title": "The Lighthouse",
-    "poster": "An eerie depiction of two men in a remote lighthouse, surrounded by stormy seas and elements of madness.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Lighthouse_(2019_film)"
+    "title": "You Will Meet a Tall Dark Stranger",
+    "poster": "An intriguing poster illustrating themes of love and fate set against an eclectic backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/You_Will_Meet_a_Tall_Dark_Stranger"
   },
   {
-    "title": "Midsommar",
-    "poster": "An unsettling bright image set in a flower-filled landscape, with a sense of foreboding creeping into the idyllic scene.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Midsommar"
+    "title": "Irrational Man",
+    "poster": "A moody poster featuring Joaquin Phoenix with philosophical undertones and a mysterious atmosphere.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Irrational_Man"
   },
   {
-    "title": "It Follows",
-    "poster": "An ominous image of a figure walking in the distance, creating a sense of dread in a suburban setting during twilight.",
-    "wikipedia": "https://en.wikipedia.org/wiki/It_Follows"
+    "title": "Café Society",
+    "poster": "A romantic poster capturing the essence of the 1930s New York with a touch of glamour and nostalgia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Caf%C3%A9_Society"
   },
   {
-    "title": "The Sixth Sense",
-    "poster": "A haunting image of a boy with a distant look, surrounded by shadowy figures, encapsulating the theme of unseen dangers.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Sixth_Sense"
+    "title": "The Curse of the Jade Scorpion",
+    "poster": "A stylish and retro poster featuring Allen among the intrigue of a detective mystery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Curse_of_the_Jade_Scorpion"
   },
   {
-    "title": "The Conjuring",
-    "poster": "An intense image of a haunted house set against a dark, stormy backdrop, creating a sense of suspense and horror.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Conjuring"
+    "title": "Bullets Over Broadway",
+    "poster": "A theatrical poster highlighting the playfulness of a Broadway production mixed with crime.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bullets_Over_Broadway"
   },
   {
-    "title": "An American Werewolf in London",
-    "poster": "A dramatic depiction of a man transforming into a werewolf under a full moon in a dark, eerie setting.",
-    "wikipedia": "https://en.wikipedia.org/wiki/An_American_Werewolf_in_London"
+    "title": "Everyone Says I Love You",
+    "poster": "A colorful musical poster showcasing the ensemble cast in a romantic comedy setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Everyone_Says_I_Love_You"
   },
   {
-    "title": "The Exorcist",
-    "poster": "A chilling image of a girl in a darkened room, with a silhouette of a figure lurking behind her, symbolizing possession and fear.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Exorcist_(film)"
+    "title": "Take the Money and Run",
+    "poster": "A comedic poster featuring Woody Allen as a bumbling criminal, set in a humorous context.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Take_the_Money_and_Run"
   },
   {
-    "title": "The Omen",
-    "poster": "A sinister image featuring a child in a dark setting with a menacing expression, hinting at themes of evil and foreboding.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Omen"
+    "title": "Sweet and Lowdown",
+    "poster": "A jazzy poster highlighting Sean Penn as a talented but troubled musician, with a vintage feel.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sweet_and_Lowdown"
   },
   {
-    "title": "Rosemary's Baby",
-    "poster": "A haunting image of a woman looking frightened, with an almost surreal atmosphere surrounding her, suggesting themes of paranoia and dread.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Rosemary%27s_Baby"
+    "title": "The Front",
+    "poster": "A vintage poster depicting the themes of blacklisting in Hollywood with an engaging design.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Front"
   },
   {
-    "title": "Scream",
-    "poster": "A stark image featuring the iconic ghostface mask against a backdrop of chaos, symbolizing horror in modern society.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Scream_(1996_film)"
+    "title": "Deconstructing Harry",
+    "poster": "An intriguing poster featuring Woody Allen amidst a chaotic blend of characters and narratives.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Deconstructing_Harry"
   },
   {
-    "title": "The Ring",
-    "poster": "An unsettling image of a girl crawling out of a television screen, capturing the essence of supernatural horror in a modern context.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Ring_(2002_film)"
+    "title": "Match Point",
+    "poster": "A dramatic poster featuring a couple against a backdrop of wealth and moral dilemmas.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Match_Point"
+  },
+  {
+    "title": "Wonder Wheel",
+    "poster": "A nostalgic poster depicting a Coney Island amusement park setting with characters caught in a love triangle.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wonder_Wheel_(film)"
+  },
+  {
+    "title": "A Rainy Day in New York",
+    "poster": "A charming poster showing iconic NYC landmarks with a romantic twist between characters.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Rainy_Day_in_New_York"
+  },
+  {
+    "title": "Roxanne Roxanne",
+    "poster": "A vibrant poster capturing the essence of hip-hop culture and the struggles of a young artist.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Roxanne_Roxanne"
+  },
+  {
+    "title": "The Naked Gun",
+    "poster": "A humorous poster featuring Leslie Nielsen with visual gags and comedic elements from the iconic franchise.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Naked_Gun"
+  },
+  {
+    "title": "The Godfather",
+    "poster": "A classic poster featuring Marlon Brando as Don Vito Corleone against a dark, moody background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Godfather"
   }
 ]

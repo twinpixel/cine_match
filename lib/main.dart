@@ -487,25 +487,25 @@ class _QuizPageState extends State<QuizPage> {
       List<dynamic> movieList = [];
 
       if (movieList.isEmpty || movieList.length < 4) {
-        //print('Asking gemini:...');
+        print('Asking gemini:...');
         List<dynamic> movieList2 = await askGemini(role + prompt);
         movieList.addAll(movieList2);
       }
 
-
+      if (movieList.isEmpty || movieList.length < 4) {
+        print('Asking pollination:...');
+        List<dynamic> movieList2 = await askPollination(role, prompt);
+        movieList.addAll(movieList2);
+      }
 
       if (movieList.isEmpty || movieList.length < 4) {
-        //print('Asking mistral:...');
+        print('Asking mistral:...');
         List<dynamic> movieList2 =await askMistral(role, answers);
         movieList.addAll(movieList2);
       }
 
 
-      if (movieList.isEmpty || movieList.length < 4) {
-        //print('Asking pollination:...');
-        List<dynamic> movieList2 = await askPollination(role, prompt);
-        movieList.addAll(movieList2);
-      }
+
       //print('$movieList');
 
       _navigateToMovieList(context, movieList);
