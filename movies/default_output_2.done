@@ -1,267 +1,307 @@
 [
   {
-    "title": "The Godfather",
-    "poster": "A dark and moody image featuring a puppet hand holding strings, with the title in iconic font.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Godfather"
+    "title": "La Dolce Vita",
+    "poster": "A striking monochrome image featuring a glamorous Marcello Mastroianni, with a silhouette of Rome’s Trevi Fountain, surrounded by beautiful women and nightlife elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/La_Dolce_Vita"
   },
   {
-    "title": "The Godfather Part II",
-    "poster": "A split image of a young Vito Corleone and Michael Corleone, with a dark color palette and a somber atmosphere.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Godfather_Part_II"
+    "title": "The Leopard",
+    "poster": "An elegant poster with a regal-looking Burt Lancaster in period clothing, set against a backdrop of Italian aristocracy and lush landscapes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Leopard_(film)"
   },
   {
-    "title": "Apocalypse Now",
-    "poster": "A haunting image of a helicopter amidst a fiery backdrop, showcasing chaos and the Vietnam War.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Apocalypse_Now"
+    "title": "Death in Venice",
+    "poster": "A haunting image of Dirk Bogarde on a picturesque beach, with a soft-focus effect highlighting the melancholic atmosphere.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Death_in_Venice_(film)"
   },
   {
-    "title": "The Conversation",
-    "poster": "A close-up of a man with a look of concern, surrounded by recording equipment in a shadowy environment.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Conversation"
+    "title": "La Haine",
+    "poster": "A gritty black and white poster featuring the three main protagonists amidst urban decay, with a powerful tagline about violence.",
+    "wikipedia": "https://en.wikipedia.org/wiki/La_Haine"
   },
   {
-    "title": "The Outsiders",
-    "poster": "A group of young men with different hairstyles and clothing, symbolizing their social divide, against a gritty urban backdrop.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Outsiders_(film)"
+    "title": "The Conformist",
+    "poster": "A visually striking poster showcasing Jean-Louis Trintignant in a foggy landscape, with an ominous, surreal atmosphere.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Conformist"
   },
   {
-    "title": "Bram Stoker's Dracula",
-    "poster": "A dramatic portrait of Dracula with a gothic castle in the background, utilizing rich reds and blacks.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bram_Stoker%27s_Dracula"
+    "title": "The 400 Blows",
+    "poster": "A poignant image of a young boy standing alone on a Parisian street, capturing themes of youth and rebellion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_400_Blows"
   },
   {
-    "title": "Marie Antoinette",
-    "poster": "Bright and pastel-colored with ornate designs, showcasing the lavish lifestyle of the French queen.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Marie_Antoinette_(film)"
+    "title": "The Wicker Man",
+    "poster": "A chilling, brightly colored poster featuring a pagan festival setting with an oversized wicker man looming in the background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Wicker_Man"
   },
   {
-    "title": "The Rainmaker",
-    "poster": "A duel between good and evil captured in a courtroom setting, contrasting dark and light colors.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Rainmaker_(1997_film)"
+    "title": "Repulsion",
+    "poster": "A disconcerting poster featuring Catherine Deneuve with a haunting expression, with surreal and disturbing imagery surrounding her.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Repulsion_(film)"
   },
   {
-    "title": "Youth Without Youth",
-    "poster": "An abstract and surreal design symbolizing youth and aging, with a figure integrated into mystical elements.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Youth_Without_Youth"
+    "title": "Blue is the Warmest Color",
+    "poster": "A vibrant poster depicting the intimate connection between the two main characters, with a background of deep blue tones.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blue_Is_the_Warmest_Colour_(film)"
   },
   {
-    "title": "The Bling Ring",
-    "poster": "A glamorous and flashy design that showcases wealth and celebrity culture, set against a backdrop of luxury items.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Bling_Ring"
+    "title": "The Cook, the Thief, His Wife & Her Lover",
+    "poster": "An extravagant and colorful poster showing a lavish dining scene with ominous undertones, featuring the main characters in dramatic poses.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Cook,_the_Thief,_His_Wife_%26_Her_Lover"
   },
   {
-    "title": "Rumble Fish",
-    "poster": "A black and white image of two fish in an artful, stylized portrayal that symbolizes inner struggles.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Rumble_Fish"
+    "title": "Persona",
+    "poster": "A striking poster showcasing Bibi Andersson and Liv Ullmann's faces merging together, emphasizing themes of identity and duality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Persona_(film)"
   },
   {
-    "title": "A Very Murray Christmas",
-    "poster": "A festive and colorful design featuring Bill Murray amidst Christmas decorations and snowy elements.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Very_Murray_Christmas"
+    "title": "Un Chien Andalou",
+    "poster": "An iconic black and white poster featuring surrealist imagery that includes the famous eye-cutting scene, evoking shock and curiosity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Un_Chien_Andalou"
   },
   {
-    "title": "Goodfellas",
-    "poster": "An intense image of three mobsters with a gritty urban backdrop, hinting at crime and loyalty.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Goodfellas"
+    "title": "Nymphomaniac",
+    "poster": "A bold and provocative poster featuring Charlotte Gainsbourg in a vulnerable state, set against a stark backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nymphomaniac"
   },
   {
-    "title": "Casino",
-    "poster": "A vibrant Las Vegas scene filled with neon lights and glamorous images of gambling and excess.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Casino_(film)"
+    "title": "A Clockwork Orange",
+    "poster": "An iconic and colorful poster featuring Malcolm McDowell in his signature outfit, with a menacing smile, set against a psychedelic background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Clockwork_Orange_(film)"
   },
   {
-    "title": "Taxi Driver",
-    "poster": "A gritty NYC street at night, featuring a lone figure in a taxi with a haunting gaze.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Taxi_Driver"
+    "title": "The Third Man",
+    "poster": "A classic film noir poster with Orson Welles' shadowy figure looming over a dark alley with a mysterious feel.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Third_Man"
   },
   {
-    "title": "The Departed",
-    "poster": "A tense image of agents and gangsters with a shadowy atmosphere, featuring contrasting colors of black and gold.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Departed"
+    "title": "Mad Max: Fury Road",
+    "poster": "An explosive, vibrant poster featuring Charlize Theron in a post-apocalyptic landscape with high-octane visuals and action.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road"
   },
   {
-    "title": "Shutter Island",
-    "poster": "A mysterious and foreboding image of an isolated island shrouded in fog, with a sense of unease.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Shutter_Island"
+    "title": "Glengarry Glen Ross",
+    "poster": "A simple yet impactful poster featuring the main cast in a corporate setting, expressing tension and urgency.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Glengarry_Glen_Ross_(film)"
   },
   {
-    "title": "Gangs of New York",
-    "poster": "A gritty historical scene depicting 19th-century New York City with intense faces and dark tones.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Gangs_of_New_York"
+    "title": "The Lives of Others",
+    "poster": "A somber poster featuring a man in shadow against a backdrop of surveillance, capturing the essence of paranoia and intrigue.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lives_of_Others"
   },
   {
-    "title": "The Irishman",
-    "poster": "A vintage-style poster featuring an aging mobster, set against a backdrop of muted colors and shadows.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Irishman"
+    "title": "The Great Beauty",
+    "poster": "A visually stunning poster showcasing breathtaking views of Rome with vibrant colors, encapsulating themes of beauty and existentialism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Beauty"
   },
   {
-    "title": "Cape Fear",
-    "poster": "A chilling image of a menacing figure emerging from the shadows against a backdrop of dark waters.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Cape_Fear_(1991_film)"
+    "title": "Contempt",
+    "poster": "A stylish poster featuring Brigitte Bardot in a striking pose amidst a cinematic backdrop, conveying a sense of art and disillusionment.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Contempt_(film)"
   },
   {
-    "title": "Mean Streets",
-    "poster": "A gritty urban scene capturing the essence of New York City, featuring a young man caught in a turbulent life.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Mean_Streets"
+    "title": "The Killing of a Sacred Deer",
+    "poster": "A haunting and eerie poster highlighting the psychological tension between the characters with stark lighting and dramatic poses.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Killing_of_a_Sacred_Deer"
   },
   {
-    "title": "The Aviator",
-    "poster": "An elegant portrayal of Howard Hughes in a vintage aircraft against a backdrop of early aviation.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Aviator"
+    "title": "Andrei Rublev",
+    "poster": "A majestic poster showcasing the beauty of medieval Russia with an emphasis on artistic creation and spirituality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Andrei_Rublev"
   },
   {
-    "title": "Silence",
-    "poster": "A somber image of a Jesuit missionary against a stark and haunting landscape, emphasizing faith and struggle.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Silence_(2016_film)"
+    "title": "Eyes Wide Shut",
+    "poster": "An enigmatic poster featuring Tom Cruise and Nicole Kidman in a dreamlike setting, capturing themes of desire and hidden truths.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eyes_Wide_Shut"
   },
   {
-    "title": "Hugo",
-    "poster": "A whimsical design featuring a young boy in a train station surrounded by gears and a magical atmosphere.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hugo_(film)"
+    "title": "Seventh Seal",
+    "poster": "A somber poster depicting Max von Sydow playing chess with Death, evoking deep existential themes against a bleak backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Seventh_Seal"
   },
   {
-    "title": "Wolf of Wall Street",
-    "poster": "A flashy and exuberant portrayal of excess, featuring a chaotic scene of Wall Street life.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street"
+    "title": "Mulholland Drive",
+    "poster": "A mysterious poster with dark tones featuring the two main characters against a backdrop of Los Angeles at night, hinting at intrigue.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mulholland_Drive"
   },
   {
-    "title": "The Age of Innocence",
-    "poster": "An elegant depiction of upper-class society, with rich colors and intricate period costumes.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Age_of_Innocence_(film)"
+    "title": "Wild Strawberries",
+    "poster": "A reflective poster showcasing an elderly man surrounded by visions of his past, capturing themes of nostalgia and regret.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wild_Strawberries"
   },
   {
-    "title": "Bringing Out the Dead",
-    "poster": "A haunting image of a paramedic amidst bright city lights, capturing the chaos of night shifts.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bringing_Out_the_Dead"
+    "title": "Fight Club",
+    "poster": "A provocative poster featuring Edward Norton and Brad Pitt, with a minimalist design that reflects chaos and anarchy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fight_Club_(film)"
   },
   {
-    "title": "Alice Doesn't Live Here Anymore",
-    "poster": "A poignant portrayal of a woman on a road trip, with a desert backdrop symbolizing her journey.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Alice_Doesn%27t_Live_Here_Anymore"
+    "title": "Trainspotting",
+    "poster": "A vibrant and edgy poster showcasing the main cast in a gritty urban setting, capturing the essence of youth and addiction.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trainspotting_(film)"
   },
   {
-    "title": "The Last Temptation of Christ",
-    "poster": "A dramatic depiction of Christ, expressing internal conflict against a vivid biblical backdrop.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Temptation_of_Christ_(film)"
+    "title": "Gone Girl",
+    "poster": "A chilling poster featuring Rosamund Pike in a mysterious pose, set against a backdrop of intrigue and suspense.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gone_Girl_(film)"
   },
   {
-    "title": "The Color of Money",
-    "poster": "A vibrant and dynamic image of pool tables and players in motion, highlighting competition.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Color_of_Money"
+    "title": "Her",
+    "poster": "An intimate poster featuring Joaquin Phoenix with a vintage feel, emphasizing the themes of love and technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Her_(film)"
   },
   {
-    "title": "After Hours",
-    "poster": "A surreal nighttime image of New York City, depicting the chaotic and unpredictable nature of the evening.",
-    "wikipedia": "https://en.wikipedia.org/wiki/After_Hours_(film)"
+    "title": "The Graduate",
+    "poster": "A classic poster featuring Dustin Hoffman with a bewildered expression, set against a backdrop of 1960s suburban life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Graduate"
   },
   {
-    "title": "Kundun",
-    "poster": "A serene and colorful portrait of the Dalai Lama against a striking backdrop of Tibet.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Kundun"
+    "title": "Paris, Texas",
+    "poster": "An evocative poster showcasing Harry Dean Stanton with a vast desert landscape in the background, capturing isolation and searching.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paris,_Texas"
   },
   {
-    "title": "Vincent & Theo",
-    "poster": "A contemplative image of Vincent van Gogh with his brother, set against an impressionistic background.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Vincent_%26_Theo"
+    "title": "Dogville",
+    "poster": "A unique minimalist poster depicting a town layout with characters represented as silhouettes, emphasizing theatrical elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dogville"
   },
   {
-    "title": "Boxcar Bertha",
-    "poster": "A vintage-style poster depicting a woman and a train, symbolizing freedom and rebellion.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Boxcar_Bertha"
+    "title": "In the Mood for Love",
+    "poster": "A beautifully composed poster featuring Tony Leung and Maggie Cheung in a tender embrace, with rich colors reflecting love and longing.",
+    "wikipedia": "https://en.wikipedia.org/wiki/In_the_Mood_for_Love"
   },
   {
-    "title": "The King of Comedy",
-    "poster": "A comedic yet dark portrayal of an aspiring comedian with a haunting expression amidst bright lights.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_King_of_Comedy"
+    "title": "The Passion of Joan of Arc",
+    "poster": "An iconic silent film poster featuring Renée Jeanne Falconetti's intense expression, set against dark, stark backgrounds.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Passion_of_Joan_of_Arc"
   },
   {
-    "title": "New York, New York",
-    "poster": "A vibrant musical poster with a classic 1940s style, featuring dancers against a city skyline.",
-    "wikipedia": "https://en.wikipedia.org/wiki/New_York,_New_York_(film)"
+    "title": "Mother!",
+    "poster": "A surreal and chaotic poster displaying Jennifer Lawrence amidst a crumbling home, capturing themes of creation and destruction.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mother!"
   },
   {
-    "title": "The Last Waltz",
-    "poster": "An iconic concert scene with musicians performing in front of a cheering crowd, capturing the essence of rock music.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Waltz"
+    "title": "The Master",
+    "poster": "A compelling poster featuring Joaquin Phoenix and Philip Seymour Hoffman against a textured backdrop, hinting at complex relationships.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Master_(film)"
   },
   {
-    "title": "Alice in Wonderland",
-    "poster": "A whimsical and colorful portrayal of Alice surrounded by fantastical creatures in a dreamlike landscape.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Alice_in_Wonderland_(film)"
+    "title": "Annihilation",
+    "poster": "A visually stunning poster with Natalie Portman surrounded by a mysterious, alien landscape that evokes a sense of wonder and terror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Annihilation_(film)"
   },
   {
-    "title": "The Great Gatsby",
-    "poster": "An opulent and glamorous design showcasing the lavish lifestyle of the 1920s, with a striking color palette.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Gatsby_(2013_film)"
+    "title": "The Fall",
+    "poster": "A colorful and fantastical poster showcasing breathtaking visuals, with a young girl embarking on a surreal adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fall_(2006_film)"
   },
   {
-    "title": "The Science of Sleep",
-    "poster": "A surreal and colorful poster combining dreamlike elements with real-life scenarios, creating a whimsical feel.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Science_of_Sleep"
+    "title": "Midsommar",
+    "poster": "A striking, bright poster featuring a group of people in a flower-filled landscape, hinting at the unsettling nature of the story.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Midsommar"
   },
   {
-    "title": "Lost in Translation",
-    "poster": "A minimalist and muted image of two figures in a bright Tokyo backdrop, evoking a sense of isolation.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Lost_in_Translation"
+    "title": "A Ghost Story",
+    "poster": "A hauntingly simple poster featuring a sheeted ghost against an urban backdrop, evoking themes of time and loss.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Ghost_Story"
   },
   {
-    "title": "The Virgin Suicides",
-    "poster": "A dreamlike portrayal of five sisters in a nostalgic setting, using soft colors and ethereal imagery.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Virgin_Suicides_(film)"
+    "title": "Birdman",
+    "poster": "A vibrant artistic poster showcasing Michael Keaton in a modern theatrical setting, surrounded by dynamic visual elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Birdman_(film)"
   },
   {
-    "title": "Somewhere",
-    "poster": "A minimalist image of a lone figure in a luxurious yet empty environment, symbolizing isolation.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Somewhere_(2010_film)"
+    "title": "The Shape of Water",
+    "poster": "A visually enchanting poster featuring Sally Hawkins and a mysterious creature in a magical underwater world.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Shape_of_Water"
   },
   {
-    "title": "Under the Volcano",
-    "poster": "A dramatic image of a man amid tropical elements, capturing a sense of internal turmoil.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Under_the_Volcano_(film)"
+    "title": "Prisoners",
+    "poster": "A dark and atmospheric poster featuring Hugh Jackman with an intense expression, surrounded by shadows and mystery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Prisoners_(film)"
   },
   {
-    "title": "The Road",
-    "poster": "A bleak landscape of a post-apocalyptic world featuring a father and son, embodying survival and despair.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Road_(film)"
+    "title": "Atonement",
+    "poster": "An elegant poster showcasing Keira Knightley in a picturesque setting, capturing themes of love and regret amidst a war backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Atonement_(film)"
   },
   {
-    "title": "A Streetcar Named Desire",
-    "poster": "A classic theatrical poster featuring the iconic characters amidst a New Orleans backdrop.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Streetcar_Named_Desire_(film)"
+    "title": "The Lobster",
+    "poster": "A surreal and bizarre poster featuring Colin Farrell in a strange, dystopian setting with a focus on absurdity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lobster"
   },
   {
-    "title": "The Godfather Coda: The Death of Michael Corleone",
-    "poster": "A somber and mature image of Michael Corleone, reflecting on a life of power and loss.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Godfather_Coda:_The_Death_of_Michael_Corleone"
+    "title": "The Favourite",
+    "poster": "A colorful and stylish poster featuring the three main actresses in a period setting, highlighting rivalry and ambition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Favourite_(film)"
   },
   {
-    "title": "The Aviator",
-    "poster": "A dynamic depiction of Howard Hughes, surrounded by vintage aviation elements, showcasing ambition.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Aviator"
+    "title": "Shame",
+    "poster": "A stark poster featuring Michael Fassbender with a pained expression, against a minimalist backdrop emphasizing isolation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shame_(film)"
   },
   {
-    "title": "American Hustle",
-    "poster": "A flashy 1970s-themed poster, filled with colorful characters dressed in period attire and bold fonts.",
-    "wikipedia": "https://en.wikipedia.org/wiki/American_Hustle"
+    "title": "Your Name",
+    "poster": "A beautifully animated poster featuring the two main characters against a backdrop of vibrant landscape and skies.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Your_Name"
   },
   {
-    "title": "The Crew",
-    "poster": "An ensemble of characters in stylish outfits reflecting a crime caper vibe set in a luxurious environment.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Crew_(film)"
+    "title": "Gravity",
+    "poster": "A visually stunning poster showcasing Sandra Bullock floating in space, surrounded by vast cosmic visuals.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gravity_(2013_film)"
   },
   {
-    "title": "An American Crime",
-    "poster": "A dark and chilling image emphasizing the true crime story with shadowy figures and muted tones.",
-    "wikipedia": "https://en.wikipedia.org/wiki/An_American_Crime"
+    "title": "The Babadook",
+    "poster": "A haunting poster featuring a mother and her son in a dark room, with ominous shadows hinting at fear and anxiety.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Babadook"
+  },
+  {
+    "title": "Everything Everywhere All at Once",
+    "poster": "A colorful and chaotic poster showcasing multiple versions of the main character amidst a universe of possibilities.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Everything_Everywhere_All_at_Once"
+  },
+  {
+    "title": "The Handmaiden",
+    "poster": "An intricately designed poster featuring the two main characters in an elegant yet mysterious setting, hinting at deception and romance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Handmaiden"
+  },
+  {
+    "title": "Oldboy",
+    "poster": "A dark and intense poster featuring the protagonist in a solitary setting, encapsulating themes of vengeance and mystery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oldboy"
+  },
+  {
+    "title": "The Graduate",
+    "poster": "An iconic poster featuring Dustin Hoffman with a bewildered expression, set against a backdrop of 1960s suburban life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Graduate"
+  },
+  {
+    "title": "Some Like It Hot",
+    "poster": "A colorful, light-hearted poster featuring Tony Curtis and Jack Lemmon in feminine attire, hinting at comedy and disguise.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Some_Like_It_Hot"
+  },
+  {
+    "title": "12 Angry Men",
+    "poster": "A minimalist poster portraying the jurors in a tense deliberation room, highlighting themes of justice and morality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/12_Angry_Men"
+  },
+  {
+    "title": "Gladiator",
+    "poster": "An epic poster featuring Russell Crowe in armor, set against a backdrop of the Roman Colosseum, evoking a sense of grandeur and battle.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gladiator_(film)"
+  },
+  {
+    "title": "Scarface",
+    "poster": "An iconic poster featuring Al Pacino with a menacing glare, set against a backdrop of Miami’s nightlife, portraying ambition and crime.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scarface_(1983_film)"
+  },
+  {
+    "title": "Psycho",
+    "poster": "A classic horror poster featuring the iconic Bates Motel, with dark and foreboding imagery surrounding it.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Psycho_(1960_film)"
   },
   {
     "title": "Casino Royale",
-    "poster": "A sleek and elegant design featuring a dramatic poker game and the iconic James Bond silhouette.",
+    "poster": "A stylish poster featuring Daniel Craig as James Bond, with a sleek design that highlights the espionage theme.",
     "wikipedia": "https://en.wikipedia.org/wiki/Casino_Royale_(2006_film)"
-  },
-  {
-    "title": "Ocean's Eleven",
-    "poster": "A stylish poster featuring a group of suave thieves against a backdrop of bright Las Vegas lights.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Ocean%27s_Eleven_(2001_film)"
   }
 ]

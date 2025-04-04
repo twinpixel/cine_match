@@ -1,237 +1,277 @@
 [
   {
-    "title": "The Good, the Bad and the Ugly",
-    "poster": "A striking poster featuring three main characters, each with distinct attire: a cowboy with a poncho, a scruffy bandit, and a gunslinger. The vast desert landscape and a dramatic sky create an intense atmosphere.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Good,_the_Bad_and_the_Ugly"
+    "title": "They Call Me Jeeg",
+    "poster": "A vibrant and dynamic poster featuring the protagonist in a superhero costume, set against a backdrop of modern Rome, with bold colors conveying action and intensity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/They_Call_Me_Jeeg"
   },
   {
-    "title": "Once Upon a Time in the West",
-    "poster": "A moody poster showcasing a desolate train station with a lone figure silhouetted against the sunset, evoking a sense of nostalgia and tension.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_the_West"
+    "title": "Freaks Out",
+    "poster": "An eye-catching poster showcasing a circus atmosphere, with a colorful array of characters including a strongman and a bearded lady, all set in a vintage carnival style.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Freaks_Out"
   },
   {
-    "title": "A Fistful of Dollars",
-    "poster": "An iconic poster featuring a solitary gunslinger with a serious expression, holding a revolver, surrounded by dust and tumbleweeds, embodying the essence of the spaghetti western.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Fistful_of_Dollars"
+    "title": "Sicilian Ghost Story",
+    "poster": "A hauntingly beautiful poster that highlights the eerie landscape of Sicily, with an ethereal figure blending into the shadows and a sense of mystery in the air.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sicilian_Ghost_Story"
   },
   {
-    "title": "For a Few Dollars More",
-    "poster": "A dramatic poster showing two bounty hunters facing off against a notorious bandit, with a dusty landscape and a clock tower in the background symbolizing the passage of time.",
-    "wikipedia": "https://en.wikipedia.org/wiki/For_a_Few_Dollars_More"
+    "title": "The Great Beauty",
+    "poster": "A stunning poster featuring a view of Rome's iconic skyline at sunset, with a reflective look at life and beauty through an artful lens.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Beauty"
   },
   {
-    "title": "Duck, You Sucker!",
-    "poster": "A stylized poster featuring a revolutionary and a bandit, with fire and explosions in the background, capturing the chaos and camaraderie of the story.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Duck,_You_Sucker!"
+    "title": "Dogman",
+    "poster": "A gritty and emotional poster showing the relationship between a man and his dogs, with raw and powerful imagery reflecting themes of loyalty and survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dogman"
   },
   {
-    "title": "The Howling",
-    "poster": "A chilling poster depicting a lone figure in the woods, with ominous shadows and a full moon overhead, hinting at the horror that unfolds.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Howling"
+    "title": "Gomorrah",
+    "poster": "A dark and intense poster that captures the grim reality of Naples, featuring stark contrasts and a gritty urban landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gomorrah_(film)"
   },
   {
-    "title": "Once Upon a Time in America",
-    "poster": "An evocative poster featuring a skyline at dusk, with two main characters in the foreground, looking contemplative and reflecting on their past.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_America"
+    "title": "The Boxer's Son",
+    "poster": "A vibrant poster depicting the struggles of a young boxer, with a focus on determination and resilience, set against a backdrop of the ring.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Boxer%27s_Son"
   },
   {
-    "title": "The Colossus of Rhodes",
-    "poster": "A grand poster showcasing the massive statue of Rhodes, with ancient warriors in battle, highlighting the epic scale of the film.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Colossus_of_Rhodes"
+    "title": "The First Beautiful Thing",
+    "poster": "A colorful and warm poster that evokes nostalgia, featuring a mother and son in a loving embrace amidst a summer backdrop of Tuscany.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_First_Beautiful_Thing"
   },
   {
-    "title": "The Last Movie",
-    "poster": "A colorful poster featuring a vintage cinema marquee and characters in 1970s attire, capturing the nostalgic era of filmmaking.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Movie"
+    "title": "Mediterranea",
+    "poster": "A poignant poster that showcases the journey of migrants across the sea, with a dramatic seascape in the background and expressions of hope and despair.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mediterranea_(film)"
   },
   {
-    "title": "My Name Is Nobody",
-    "poster": "A whimsical poster showcasing a nonchalant gunslinger with a playful grin, set against a vibrant landscape of the Old West.",
-    "wikipedia": "https://en.wikipedia.org/wiki/My_Name_Is_Nobody"
+    "title": "The Last Battalion",
+    "poster": "A historical poster that highlights the valor of soldiers, with a stark battlefield scene and dramatic lighting emphasizing bravery and sacrifice.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Battalion"
   },
   {
-    "title": "Sacco e Vanzetti",
-    "poster": "A somber poster featuring two men in jail, with a dark and gritty atmosphere, emphasizing the themes of injustice and tragedy.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Sacco_e_Vanzetti"
+    "title": "The Best of Youth",
+    "poster": "An epic poster depicting the intertwined lives of two brothers against the backdrop of Italy’s tumultuous history, filled with emotional depth and wide landscapes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Best_of_Youth"
   },
   {
-    "title": "A Field in England",
-    "poster": "An abstract poster depicting a field under a cloudy sky, with figures wandering, suggesting a mix of historical drama and surrealism.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Field_in_England"
+    "title": "La Bellezza",
+    "poster": "A visually striking poster capturing the essence of beauty in simplicity, with a rich color palette and serene imagery of nature in Italy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/La_Bellezza"
   },
   {
-    "title": "Stagecoach",
-    "poster": "A classic poster featuring the iconic stagecoach surrounded by cowboys and outlaws, set against a dramatic landscape.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Stagecoach_(1939_film)"
+    "title": "A Ciambra",
+    "poster": "A vibrant poster that reflects the life of a young Romani boy in Calabria, with colorful street scenes and a sense of community.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Ciambra"
   },
   {
-    "title": "The Big Gundown",
-    "poster": "A gripping poster showcasing a showdown between a lone hero and a menacing bounty hunter, set in a dusty town.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Big_Gundown"
+    "title": "Loro",
+    "poster": "A glamorous poster showcasing the extravagant lifestyle of Italian politics, with bright, bold colors and images of lavish parties and iconic figures.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Loro_(film)"
   },
   {
-    "title": "The Great Silence",
-    "poster": "A haunting poster featuring a mute gunslinger in the snow, with barren landscapes and a sense of foreboding.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Silence"
+    "title": "The Invisible Man",
+    "poster": "A mysterious poster that plays with shadows and light, showing the outline of a figure obscured in the darkness, creating an aura of suspense.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Invisible_Man_(2020_film)"
   },
   {
-    "title": "A Pistol for Ringo",
-    "poster": "An action-packed poster showcasing a dashing cowboy with a revolver, amidst a backdrop of gunfire and chaos.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Pistol_for_Ringo"
+    "title": "Rome, Open City",
+    "poster": "A classic black and white poster that captures the resilience of the human spirit during WWII, with iconic imagery of the city and its people.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rome,_Open_City"
   },
   {
-    "title": "They Call Me Trinity",
-    "poster": "A lighthearted poster featuring two brothers embracing in the wild west, with a colorful sky and playful elements.",
-    "wikipedia": "https://en.wikipedia.org/wiki/They_Call_Me_Trinity"
+    "title": "Life Is Beautiful",
+    "poster": "A poignant poster featuring a father and son sharing a warm moment, against the backdrop of a stark and somber historical context, with a sense of love prevailing.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Life_Is_Beautiful"
   },
   {
-    "title": "The Return of Ringo",
-    "poster": "A dramatic poster showcasing a lone gunslinger returning home, with a gritty atmosphere and a vibrant sunset.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Return_of_Ringo"
+    "title": "Cinema Paradiso",
+    "poster": "A nostalgic poster that brings back memories of childhood and cinema, featuring a young boy gazing at a large screen illuminated by a warm glow of movie magic.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cinema_Paradiso"
   },
   {
-    "title": "The Mercenary",
-    "poster": "An intense poster featuring a mercenary in a dynamic pose, surrounded by chaos and a desolate landscape.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Mercenary_(film)"
+    "title": "The Talented Mr. Ripley",
+    "poster": "A stylish poster with a mysterious atmosphere, featuring a suave protagonist amidst a luxurious Italian backdrop with shades of intrigue and deception.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Talented_Mr._Ripley"
   },
   {
-    "title": "The Hateful Eight",
-    "poster": "A mysterious poster featuring a snow-covered cabin with various characters gathered around, hinting at tension and betrayal.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Hateful_Eight"
+    "title": "The Great War",
+    "poster": "An action-packed poster showcasing the bravery of soldiers during World War I, with images of battle and camaraderie in a dramatic setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_War_(1959_film)"
   },
   {
-    "title": "The Last Temptation of Christ",
-    "poster": "A contemplative poster featuring Jesus in a desert landscape, with a sense of spirituality and introspection.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Temptation_of_Christ"
+    "title": "Il Divo",
+    "poster": "A striking and artistic poster featuring the enigmatic figure of Giulio Andreotti, with bold colors and a mix of political imagery and theatrical flair.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Il_Divo"
   },
   {
-    "title": "The Wild Bunch",
-    "poster": "A gritty poster showcasing an aging gang of outlaws amidst the chaos of a Mexican revolution, highlighting themes of loyalty and sacrifice.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Wild_Bunch"
+    "title": "Tangerines",
+    "poster": "An evocative poster highlighting the beauty of rural landscapes and human connection during conflict, with warm oranges and peaceful imagery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tangerines"
   },
   {
-    "title": "No Country for Old Men",
-    "poster": "A stark poster featuring a desolate landscape with a lone figure, conveying tension and the inevitability of fate.",
-    "wikipedia": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men"
+    "title": "The Son's Room",
+    "poster": "A contemplative poster showing a family grappling with loss, with serene colors and intimate imagery of their home life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Son%27s_Room"
   },
   {
-    "title": "The Searchers",
-    "poster": "A classic poster showcasing a lone cowboy on horseback, set against a sprawling landscape of the American West.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Searchers"
+    "title": "The Girl with the Dragon Tattoo",
+    "poster": "A gripping poster with dark tones and sharp contrasts, featuring the iconic dragon tattoo and a mysterious figure poised for action.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Girl_with_the_Dragon_Tattoo_(2009_film)"
   },
   {
-    "title": "The Outlaw Josey Wales",
-    "poster": "A powerful poster featuring a weary outlaw against a fiery backdrop, embodying themes of revenge and redemption.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Outlaw_Josey_Wales"
+    "title": "Rocco and His Brothers",
+    "poster": "A powerful poster showcasing the struggles of a family, with deep emotions portrayed through striking imagery and a muted color palette.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rocco_and_His_Brothers"
   },
   {
-    "title": "High Noon",
-    "poster": "A tense poster showcasing a sheriff awaiting a duel at noon, with a clock tower looming in the background, symbolizing time running out.",
-    "wikipedia": "https://en.wikipedia.org/wiki/High_Noon"
+    "title": "The Conformist",
+    "poster": "An artistic poster with surreal imagery and a haunting atmosphere, featuring stark contrasts that reflect the moral conflicts of the main character.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Conformist"
   },
   {
-    "title": "Tombstone",
-    "poster": "An action-filled poster featuring the iconic Wyatt Earp and Doc Holliday, with gunfight imagery and dramatic skies.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tombstone_(film)"
+    "title": "A Room with a View",
+    "poster": "A romantic poster depicting the charm of Florence with lush landscapes and lovers amidst a dreamy Italian backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Room_with_a_View"
   },
   {
-    "title": "The Assassination of Jesse James by the Coward Robert Ford",
-    "poster": "A contemplative poster showcasing Jesse James in a pensive pose, set against a moody landscape.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Assassination_of_Jesse_James_by_the_Coward_Robert_Ford"
+    "title": "Boyhood",
+    "poster": "A nostalgic poster that captures the essence of growing up, with a series of images showcasing different stages of childhood across a time span.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Boyhood"
   },
   {
-    "title": "Rango",
-    "poster": "A colorful animated poster featuring a chameleon in a cowboy hat, evoking a fun and adventurous spirit.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Rango"
+    "title": "Call Me by Your Name",
+    "poster": "A beautifully crafted poster featuring a stunning Italian landscape, with a focus on youthful love and romance enveloped in warm sunlight.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Call_Me_by_Your_Name"
   },
   {
-    "title": "Bandidas",
-    "poster": "A lively poster featuring two female bandits in Western attire, with dynamic poses and a vibrant backdrop, emphasizing girl power.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bandidas"
+    "title": "The Bicycle Thief",
+    "poster": "A classic poster depicting the struggles of a father and son in post-war Italy, with an emphasis on human emotion and poverty.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Bicycle_Thief"
   },
   {
-    "title": "The Magnificent Seven",
-    "poster": "A classic action poster showcasing a diverse group of gunslingers, ready for battle amidst a dusty town.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Magnificent_Seven_(1960_film)"
+    "title": "The Italian Job",
+    "poster": "An action-packed poster filled with dynamic car chases and heists, showcasing a group of stylish thieves against the backdrop of Venice.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Italian_Job"
   },
   {
-    "title": "Young Guns",
-    "poster": "A vibrant poster showcasing a young group of outlaws with guns drawn, set against a dramatic sunset.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Young_Guns"
+    "title": "The Passion of the Christ",
+    "poster": "A somber yet powerful poster depicting the final days of Jesus, with stark imagery and a focus on emotional resonance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Passion_of_the_Christ"
   },
   {
-    "title": "The Ballad of Buster Scruggs",
-    "poster": "An eclectic poster featuring different vignettes from the film, with a combination of Western and whimsical elements.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Ballad_of_Buster_Scruggs"
+    "title": "The Last Emperor",
+    "poster": "An epic poster featuring the grandiosity of the Forbidden City, symbolizing the journey of an emperor with rich colors and historical symbols.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Emperor"
   },
   {
-    "title": "3:10 to Yuma",
-    "poster": "An intense poster featuring a confrontation between a lawman and an outlaw, with a train in the distance symbolizing urgency.",
-    "wikipedia": "https://en.wikipedia.org/wiki/3:10_to_Yuma_(2007_film)"
+    "title": "Midsommar",
+    "poster": "A vibrant and surreal poster that captures the essence of a midsummer festival, filled with bright colors and floral imagery intermingled with darkness.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Midsommar"
   },
   {
-    "title": "The Revenant",
-    "poster": "A haunting poster featuring a frontiersman in the wilderness, against a backdrop of snow and pine trees, embodying survival.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Revenant_(film)"
+    "title": "Under the Tuscan Sun",
+    "poster": "A warm and inviting poster depicting the idyllic landscapes of Tuscany, with a focus on rejuvenation and new beginnings.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Under_the_Tuscan_Sun"
   },
   {
-    "title": "Deadwood: The Movie",
-    "poster": "A dark poster showcasing the characters of Deadwood, with a gritty atmosphere and a sense of conclusion.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Deadwood:_The_Movie"
+    "title": "Il Postino",
+    "poster": "A charming poster featuring a postman and a poet amidst the scenic beauty of a southern Italian island, evoking themes of love and creativity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Il_Postino"
   },
   {
-    "title": "The Proposition",
-    "poster": "A stark poster featuring a rough landscape with a lone rider, capturing the brutal essence of the film.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Proposition_(film)"
+    "title": "A Bigger Splash",
+    "poster": "An artistic poster that captures a luxurious yet tense atmosphere, featuring bright, bold colors against a serene Mediterranean backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Bigger_Splash_(film)"
   },
   {
-    "title": "The Homesman",
-    "poster": "A somber poster featuring a woman on horseback against a vast plain, evoking themes of hardship and resilience.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Homesman"
+    "title": "The Wonders",
+    "poster": "A dreamy poster showcasing the beauty of the Italian countryside, with whimsical imagery that captures the essence of childhood and family.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Wonders_(film)"
   },
   {
-    "title": "The Sisters Brothers",
-    "poster": "A vibrant poster showcasing two brothers on a journey, set against a colorful backdrop of the Old West.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Sisters_Brothers"
+    "title": "Gomorrah (TV series)",
+    "poster": "An intense poster displaying the raw reality of organized crime in Naples, with dark undertones and a gritty urban feel.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gomorrah_(TV_series)"
   },
   {
-    "title": "Bone Tomahawk",
-    "poster": "A gripping poster featuring a group of men facing off against a mysterious threat, with a desolate landscape in the background.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bone_Tomahawk"
+    "title": "The Girl on the Train",
+    "poster": "A suspenseful poster featuring a mysterious woman, set against a backdrop of dark and moody urban landscapes with a sense of intrigue.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Girl_on_the_Train_(2016_film)"
   },
   {
-    "title": "The Harder They Fall",
-    "poster": "An action-packed poster featuring a group of outlaws with guns drawn, set against a vibrant sunset.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Harder_They_Fall"
+    "title": "The Skin I Live In",
+    "poster": "A hauntingly intense poster featuring a mysterious figure in a distorted state, reflecting themes of identity and transformation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Skin_I_Live_In"
   },
   {
-    "title": "Wind River",
-    "poster": "A haunting poster featuring a snowy landscape with a solitary figure, emphasizing themes of mystery and survival.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Wind_River_(film)"
+    "title": "Hunger",
+    "poster": "A powerful and stark poster highlighting the brutality of a hunger strike, with striking imagery that evokes a sense of desperation and change.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hunger_(2008_film)"
   },
   {
-    "title": "The Open Road",
-    "poster": "A colorful poster showcasing a road stretching into the horizon, hinting at adventure and exploration.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Open_Road_(film)"
+    "title": "The White Lotus",
+    "poster": "A captivating poster filled with tropical imagery, showcasing the contrast between luxury and the underlying tensions within a vacation resort.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_White_Lotus"
   },
   {
-    "title": "The Ballad of Little Jo",
-    "poster": "A poignant poster featuring a woman in a rugged landscape, embodying strength and determination in a male-dominated world.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Ballad_of_Little_Jo"
+    "title": "Tutto il mio folle amore",
+    "poster": "A heartwarming poster featuring a father and son journeying together, capturing themes of love, adventure, and acceptance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tutto_il_mio_folle_amore"
   },
   {
-    "title": "Jeremiah Johnson",
-    "poster": "A rugged poster featuring a lone man in the wilderness, capturing the essence of survival and self-discovery.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Jeremiah_Johnson"
+    "title": "Perfect Strangers",
+    "poster": "A witty and vibrant poster showcasing a group of friends engaged in a game that reveals hidden truths, filled with humor and tension.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Perfect_Strangers_(2016_film)"
   },
   {
-    "title": "Hannah and Her Sisters",
-    "poster": "A lighthearted poster featuring a group of friends in a whimsical setting, encapsulating themes of love and family.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Hannah_and_Her_Sisters"
+    "title": "The Eternal City",
+    "poster": "A sweeping poster featuring the timeless beauty of Rome with scenic views and historic landmarks, evoking a sense of wonder and history.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Eternal_City"
   },
   {
-    "title": "The Cowboy Way",
-    "poster": "A fun poster featuring two modern cowboys in sunglasses with a backdrop of the rustic west, emphasizing camaraderie.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Cowboy_Way"
+    "title": "The Kite Runner",
+    "poster": "An emotionally charged poster showcasing the bond between two friends, set against the backdrop of Afghanistan’s landscapes and rich culture.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Kite_Runner_(film)"
+  },
+  {
+    "title": "Summer of '42",
+    "poster": "A nostalgic poster reflecting on youthful love during a summer in the 1940s, with soft colors and an idyllic beach setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Summer_of_%2742"
+  },
+  {
+    "title": "The Diving Bell and the Butterfly",
+    "poster": "A visually striking poster depicting surreal and liberated imagery of the human spirit, representing resilience against physical limitations.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Diving_Bell_and_the_Butterfly"
+  },
+  {
+    "title": "A Prophet",
+    "poster": "A gritty poster illustrating the journey of a young inmate, with dark tones and a visually engaging portrayal of crime and survival in prison.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Prophet"
+  },
+  {
+    "title": "The Secret in Their Eyes",
+    "poster": "A captivating poster showcasing a tense investigation with a backdrop of intense emotions and a rich color palette, highlighting the narrative's depth.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Secret_in_Their_Eyes"
+  },
+  {
+    "title": "The Last Days of Ptolemy Grey",
+    "poster": "A poignant poster that captures the essence of memory and loss, with warm colors and images reflecting the fleeting nature of time.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Days_of_Ptolemy_Grey"
+  },
+  {
+    "title": "Amour",
+    "poster": "An emotional and intimate poster portraying the profound connection between an elderly couple, with soft tones and a focus on love and aging.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amour_(2012_film)"
+  },
+  {
+    "title": "The Artist",
+    "poster": "A stylish black and white poster reminiscent of silent films, featuring the main character in a pose that evokes a sense of nostalgia and charm.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Artist"
+  },
+  {
+    "title": "Youth",
+    "poster": "A visually rich poster capturing the contrast between youth and age, with serene landscapes and intimate moments between characters.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Youth_(2015_film)"
   }
 ]

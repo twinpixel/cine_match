@@ -1,277 +1,232 @@
 [
   {
-    "title": "Eternal Sunshine of the Spotless Mind",
-    "poster": "A surreal poster featuring a couple floating amongst clouds, with vibrant colors and dreamlike imagery.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind"
+    "title": "Nosferatu",
+    "poster": "A haunting image featuring a shadowy figure with elongated fingers looming over a desolate landscape, with the moon casting an eerie glow.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nosferatu"
   },
   {
-    "title": "Adaptation",
-    "poster": "A minimalist poster with a background of lush green foliage, featuring a lone figure in contemplative pose.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Adaptation_(film)"
+    "title": "The Cabinet of Dr. Caligari",
+    "poster": "A visually striking poster with distorted shapes and angular designs, showcasing a mysterious figure in a top hat standing next to a somber street.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Cabinet_of_Dr_Caligari"
   },
   {
-    "title": "Being John Malkovich",
-    "poster": "A quirky poster showcasing John Malkovich's face morphing into different expressions, with whimsical typography.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Being_John_Malkovich"
+    "title": "Metropolis",
+    "poster": "A futuristic city skyline filled with towering skyscrapers, with a gleaming robot and a woman reaching out towards a sprawling urban landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Metropolis_(1927_film)"
   },
   {
-    "title": "Synecdoche, New York",
-    "poster": "A thought-provoking poster with a fragmented cityscape and a figure gazing into the distance, reflecting existential themes.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Synecdoche,_New_York"
+    "title": "The Phantom of the Opera",
+    "poster": "A dramatic depiction of a masked figure holding a rose in a dark setting with a grand chandelier above, evoking a sense of mystery and romance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(1925_film)"
   },
   {
-    "title": "Anomalisa",
-    "poster": "A striking poster featuring a lone man surrounded by faceless individuals, capturing a sense of isolation in a muted color palette.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Anomalisa"
+    "title": "Sunrise: A Song of Two Humans",
+    "poster": "A vibrant image showcasing a couple standing on a bridge against a beautiful sunrise, with elements of nature and urban life intertwining.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sunrise:_A_Song_of_Two_Humans"
   },
   {
-    "title": "The Master",
-    "poster": "An intense poster with a close-up of two men locked in a gaze, set against a backdrop of hazy, dramatic lighting.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Master_(2012_film)"
+    "title": "The Golem",
+    "poster": "A stark black and white poster featuring a massive clay figure with a haunting expression, amidst a backdrop of an ancient city.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Golem_(1920_film)"
   },
   {
-    "title": "Her",
-    "poster": "A visually stunning poster featuring a close-up of a man's face with a warm, pinkish hue, conveying a sense of intimacy.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Her_(film)"
+    "title": "Dr. Jekyll and Mr. Hyde",
+    "poster": "A split image contrasting a refined man in a suit with a monstrous figure, symbolizing the duality of human nature.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dr._Jekyll_and_Mr._Hyde_(1920_film)"
   },
   {
-    "title": "Adaptation",
-    "poster": "An abstract poster that resembles a twisted tree with a man caught in its branches, symbolizing the complexity of storytelling.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Adaptation_(film)"
+    "title": "The Unknown",
+    "poster": "An eerie poster showing a man with outstretched arms amidst a circus setting, with shadows lurking in the background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Unknown_(1927_film)"
   },
   {
-    "title": "Milk",
-    "poster": "A bold poster featuring Sean Penn as Harvey Milk with a rainbow backdrop, representing LGBTQ pride and activism.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Milk_(film)"
+    "title": "The Lodger: A Story of the London Fog",
+    "poster": "A suspenseful image featuring a shadowy figure beneath a streetlamp, with a foggy London backdrop that adds to the mystery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lodger:_A_Story_of_the_London_Fog"
   },
   {
-    "title": "The Talented Mr. Ripley",
-    "poster": "A stylish poster with a split image of Matt Damon's character against a sunlit Italian landscape, reflecting duality and deception.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Talented_Mr._Ripley_(film)"
+    "title": "Faust",
+    "poster": "A dramatic poster with a figure making a pact with a demonic presence, surrounded by swirling clouds and ethereal light.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Faust_(1926_film)"
   },
   {
-    "title": "Call Me by Your Name",
-    "poster": "A romantic poster showcasing two young men sitting under a tree, bathed in warm sunlight, capturing the essence of summer love.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Call_Me_by_Your_Name_(film)"
+    "title": "The Passion of Joan of Arc",
+    "poster": "A stark, emotional close-up of a woman in distress, set against a backdrop of medieval architecture.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Passion_of_Joan_of_Arc"
   },
   {
-    "title": "Brokeback Mountain",
-    "poster": "A poignant poster featuring two cowboys against a vast landscape, highlighting themes of love and longing.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Brokeback_Mountain"
+    "title": "Haxan",
+    "poster": "A provocative image depicting witches and demonic symbols, set in a dark, stylized medieval background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Häxan"
   },
   {
-    "title": "A Bigger Splash",
-    "poster": "A vibrant poster depicting a sun-soaked villa and a group of friends lounging by the pool, hinting at underlying tensions.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Bigger_Splash_(film)"
+    "title": "A Page of Madness",
+    "poster": "An abstract and surreal composition that highlights the haunting nature of madness, with distorted faces and shadowy figures.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Page_of_Madness"
   },
   {
-    "title": "The Leopard",
-    "poster": "A majestic poster showcasing a grand, historical landscape with rich colors, embodying the themes of change and tradition.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Leopard_(film)"
+    "title": "Bloody Mama",
+    "poster": "A bold and violent depiction of a matriarch surrounded by her criminal sons, with an edge of retro exploitation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bloody_Mama"
   },
   {
-    "title": "Death in Venice",
-    "poster": "An evocative poster featuring a lone figure on a Venetian canal, with a sense of melancholy and beauty.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Death_in_Venice_(film)"
+    "title": "The Cabinet of Caligari",
+    "poster": "An expressionistic poster featuring jagged shadows and a figure in a somber posture, reflecting psychological disturbance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Cabinet_of_Caligari"
   },
   {
-    "title": "The Damned",
-    "poster": "A striking poster featuring a dramatic clash of colors symbolizing chaos and conflict in a historical context.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Damned_(film)"
+    "title": "Vampyr",
+    "poster": "A mysterious and atmospheric poster showing a ghostly figure in a fog-laden graveyard, creating a chilling sense of dread.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vampyr"
   },
   {
-    "title": "The Age of Innocence",
-    "poster": "An elegant poster depicting a fashionable couple in 19th-century attire surrounded by opulent decor.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Age_of_Innocence_(film)"
+    "title": "The Blood of a Poet",
+    "poster": "A surreal image of a poet in disarray, with strange abstract shapes and scenes depicting existential themes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Blood_of_a_Poet"
   },
   {
-    "title": "The Conversation",
-    "poster": "A mysterious poster featuring a lone figure in shadows, suggesting themes of surveillance and paranoia.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Conversation"
+    "title": "The Man Who Laughs",
+    "poster": "A haunting portrayal of a man with a grotesque smile, surrounded by darkly romantic elements of a Victorian setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Man_Who_Laughs_(1928_film)"
   },
   {
-    "title": "Memento",
-    "poster": "A gripping poster with fragmented images representing memory and disorientation, creating a sense of intrigue.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Memento"
+    "title": "The Witchfinder General",
+    "poster": "A dark and foreboding depiction of a witch trial scene with intense expressions and a strong sense of persecution.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Witchfinder_General"
   },
   {
-    "title": "The Tree of Life",
-    "poster": "A visually stunning poster featuring cosmic imagery and natural elements, evoking themes of existence and time.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Tree_of_Life_(film)"
+    "title": "The Haunting",
+    "poster": "A chilling image of an eerie mansion shrouded in darkness, with fog creeping through the windows and a sense of foreboding.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Haunting_(1963_film)"
   },
   {
-    "title": "Blue is the Warmest Color",
-    "poster": "An intimate poster featuring two women embracing amidst a backdrop of deep blues, illustrating a passionate relationship.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Blue_Is_the_Warmest_Colour"
+    "title": "Cabaret",
+    "poster": "A vibrant and energetic poster capturing the essence of 1930s Berlin nightlife featuring performers in dramatic costumes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cabaret_(film)"
   },
   {
-    "title": "The Virgin Suicides",
-    "poster": "A dreamy poster featuring ethereal images of five sisters against a pastel sky, capturing a sense of nostalgia and tragedy.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Virgin_Suicides"
+    "title": "The Ring",
+    "poster": "An atmospheric depiction of a young girl holding an ominous object, surrounded by dark shadows, hinting at supernatural themes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Ring_(2002_film)"
   },
   {
-    "title": "Lost in Translation",
-    "poster": "A serene poster showcasing silhouettes of two characters against a neon-lit Tokyo skyline, illustrating a connection amid loneliness.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Lost_in_Translation"
+    "title": "Dracula",
+    "poster": "A claustrophobic image of a vampire shrouded in darkness, with crimson red highlights suggesting danger and horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dracula_(1931_film)"
   },
   {
-    "title": "A Ghost Story",
-    "poster": "An atmospheric poster with a ghostly figure draped in white, standing in a stark landscape, evoking themes of time and memory.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Ghost_Story"
+    "title": "The Seventh Seal",
+    "poster": "A profound image of a knight playing chess against Death, set against a haunting, stark landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Seventh_Seal"
   },
   {
-    "title": "A Serious Man",
-    "poster": "A quirky poster depicting a suburban landscape with a central figure looking bewildered, reflecting absurdity in life.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Serious_Man"
+    "title": "Eyes Without a Face",
+    "poster": "A striking, unsettling image of a masked woman gazing out with a haunting expression, capturing themes of identity and horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eyes_Without_a_Face"
   },
   {
-    "title": "The Lobster",
-    "poster": "A surreal poster featuring a couple surrounded by abstract shapes and a stark color palette, hinting at unconventional romance.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Lobster"
+    "title": "Spiritualism",
+    "poster": "A mystical representation with ghostly figures and ethereal lights that evoke themes of the supernatural and the afterlife.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spiritualism_(film)"
+  },
+  {
+    "title": "Carrie",
+    "poster": "An iconic image of a girl covered in blood, standing in a dramatic pose surrounded by chaos, symbolizing revenge and transformation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carrie_(1976_film)"
+  },
+  {
+    "title": "The Others",
+    "poster": "A suspenseful and eerie poster featuring a shadowy figure in a dimly lit room, suggesting themes of isolation and ghostly presence.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Others"
+  },
+  {
+    "title": "The Evil Dead",
+    "poster": "A bold image showcasing a cabin in the woods surrounded by swirling darkness, hinting at the horrors that await within.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Evil_Dead"
   },
   {
     "title": "Psycho",
-    "poster": "A classic, chilling poster depicting a silhouette of a woman and a looming house, symbolizing horror and suspense.",
+    "poster": "An iconic image of a woman screaming in a shower, with a looming figure in the background, encapsulating themes of horror and suspense.",
     "wikipedia": "https://en.wikipedia.org/wiki/Psycho_(1960_film)"
   },
   {
-    "title": "Spencer",
-    "poster": "A haunting poster showcasing Kristen Stewart as Princess Diana in a contemplative pose, set against a dark background.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Spencer_(film)"
-  },
-  {
-    "title": "The Lighthouse",
-    "poster": "A stark poster featuring a solitary lighthouse on a rocky shore, enveloped in mist, evoking isolation and madness.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Lighthouse_(film)"
-  },
-  {
-    "title": "First Reformed",
-    "poster": "A visually arresting poster with a close-up of a conflicted face, embodying themes of faith and existential crisis.",
-    "wikipedia": "https://en.wikipedia.org/wiki/First_Reformed"
-  },
-  {
-    "title": "The Shape of Water",
-    "poster": "A dreamy poster featuring a woman and a mysterious creature intertwined in an aquatic setting, illustrating themes of love and acceptance.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Shape_of_Water"
-  },
-  {
-    "title": "The Favourite",
-    "poster": "A lavish poster featuring three women in opulent dresses, set against a backdrop of intricate baroque patterns.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Favourite_(film)"
+    "title": "The Shining",
+    "poster": "A chilling depiction of a deserted hotel with ominous shadows, featuring a figure holding an axe, evoking terror and madness.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Shining_(film)"
   },
   {
     "title": "Hereditary",
-    "poster": "A chilling poster with a dark, shadowy figure looming over a family home, suggesting horror and foreboding.",
+    "poster": "A haunting image of a family shrouded in sorrow set against a backdrop of unsettling family secrets.",
     "wikipedia": "https://en.wikipedia.org/wiki/Hereditary_(film)"
   },
   {
-    "title": "The Florida Project",
-    "poster": "A vibrant poster featuring a young girl playing in front of colorful motels, capturing a sense of innocence and joy amidst hardship.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Florida_Project"
+    "title": "The Witch",
+    "poster": "A dark and atmospheric poster depicting a family in a secluded forest, evoking themes of fear and superstition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Witch_(film)"
   },
   {
-    "title": "Under the Skin",
-    "poster": "A hauntingly beautiful poster featuring Scarlett Johansson's enigmatic face against a cosmic background, evoking themes of identity.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Under_the_Skin_(film)"
-  },
-  {
-    "title": "A Star is Born",
-    "poster": "A romantic poster showcasing Lady Gaga and Bradley Cooper on stage, illuminated by bright lights, conveying passion and ambition.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Star_Is_Born_(2018_film)"
-  },
-  {
-    "title": "Birdman",
-    "poster": "An artistic poster with a close-up of a man's face, fragmented by shadows and light, representing inner turmoil and creativity.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Birdman_(film)"
-  },
-  {
-    "title": "Doubt",
-    "poster": "A thought-provoking poster depicting two characters in a tense stare-down, set against a muted color palette, illustrating conflict.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Doubt_(film)"
-  },
-  {
-    "title": "The Handmaiden",
-    "poster": "An intricate poster with lush colors and detailed costumes, reflecting themes of love, deception, and identity.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Handmaiden"
-  },
-  {
-    "title": "The Hunt",
-    "poster": "A somber poster featuring a lone man in a snowy landscape, suggesting themes of isolation and injustice.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Hunt_(2012_film)"
-  },
-  {
-    "title": "Room",
-    "poster": "A heart-wrenching poster featuring a mother and son in an intimate embrace, symbolizing love and resilience.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Room_(film)"
-  },
-  {
-    "title": "The Great Beauty",
-    "poster": "An extravagant poster depicting a stunning Roman landscape filled with vibrant colors, showcasing a celebration of life.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Beauty"
-  },
-  {
-    "title": "Joker",
-    "poster": "A striking poster featuring Joaquin Phoenix's intense gaze amidst a backdrop of chaotic colors, embodying madness and despair.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Joker_(film)"
-  },
-  {
-    "title": "Parasite",
-    "poster": "An intriguing poster showcasing two families, with contrasting visuals symbolizing class struggle and societal commentary.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Parasite_(2019_film)"
-  },
-  {
-    "title": "The Irishman",
-    "poster": "A dramatic poster featuring a silhouette of three men against a backdrop of city lights, symbolizing crime and loyalty.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Irishman"
-  },
-  {
-    "title": "1917",
-    "poster": "An intense poster depicting soldiers in a war-torn landscape, highlighting themes of courage and sacrifice.",
-    "wikipedia": "https://en.wikipedia.org/wiki/1917_(film)"
-  },
-  {
-    "title": "The Revenant",
-    "poster": "A breathtaking poster showcasing a lone figure amidst a harsh winter landscape, conveying themes of survival and revenge.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Revenant_(film)"
-  },
-  {
-    "title": "No Country for Old Men",
-    "poster": "A stark poster featuring a shadowy figure in a barren landscape, embodying themes of fate and morality.",
-    "wikipedia": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men_(film)"
-  },
-  {
-    "title": "A Ghost Story",
-    "poster": "An atmospheric poster featuring a ghostly figure draped in white, standing still in a minimalist setting, conveying solitude.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Ghost_Story"
+    "title": "Get Out",
+    "poster": "An unsettling image of a man in a trance-like state surrounded by a dark, ominous atmosphere, hinting at underlying horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Get_Out"
   },
   {
     "title": "The Babadook",
-    "poster": "An eerie poster depicting a shadowy creature emerging from a dark corner, symbolizing grief and fear.",
+    "poster": "A stark, dark image featuring a shadowy creature looming over a mother and son, encapsulating themes of grief and fear.",
     "wikipedia": "https://en.wikipedia.org/wiki/The_Babadook"
   },
   {
-    "title": "The Killing of a Sacred Deer",
-    "poster": "A chilling poster featuring a young boy in a serious demeanor, set against muted tones that evoke dread.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Killing_of_a_Sacred_Deer"
+    "title": "The Lighthouse",
+    "poster": "An eerie depiction of two men in a remote lighthouse, surrounded by stormy seas and elements of madness.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lighthouse_(2019_film)"
   },
   {
-    "title": "A Beautiful Mind",
-    "poster": "An inspiring poster showcasing a mathematician amidst abstract equations, symbolizing genius and struggle.",
-    "wikipedia": "https://en.wikipedia.org/wiki/A_Beautiful_Mind"
+    "title": "Midsommar",
+    "poster": "An unsettling bright image set in a flower-filled landscape, with a sense of foreboding creeping into the idyllic scene.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Midsommar"
   },
   {
-    "title": "In the Mood for Love",
-    "poster": "A stylish poster depicting two lovers in 1960s Hong Kong, surrounded by striking patterns and colors, capturing longing.",
-    "wikipedia": "https://en.wikipedia.org/wiki/In_the_Mood_for_Love"
+    "title": "It Follows",
+    "poster": "An ominous image of a figure walking in the distance, creating a sense of dread in a suburban setting during twilight.",
+    "wikipedia": "https://en.wikipedia.org/wiki/It_Follows"
   },
   {
-    "title": "The Pianist",
-    "poster": "A poignant poster featuring a solitary pianist in a ravaged city, visually representing resilience amidst despair.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Pianist_(film)"
+    "title": "The Sixth Sense",
+    "poster": "A haunting image of a boy with a distant look, surrounded by shadowy figures, encapsulating the theme of unseen dangers.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Sixth_Sense"
   },
   {
-    "title": "Requiem for a Dream",
-    "poster": "A haunting poster showcasing a series of spiraling images that depict addiction and its consequences.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Requiem_for_a_Dream_(film)"
+    "title": "The Conjuring",
+    "poster": "An intense image of a haunted house set against a dark, stormy backdrop, creating a sense of suspense and horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Conjuring"
+  },
+  {
+    "title": "An American Werewolf in London",
+    "poster": "A dramatic depiction of a man transforming into a werewolf under a full moon in a dark, eerie setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/An_American_Werewolf_in_London"
+  },
+  {
+    "title": "The Exorcist",
+    "poster": "A chilling image of a girl in a darkened room, with a silhouette of a figure lurking behind her, symbolizing possession and fear.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Exorcist_(film)"
+  },
+  {
+    "title": "The Omen",
+    "poster": "A sinister image featuring a child in a dark setting with a menacing expression, hinting at themes of evil and foreboding.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Omen"
+  },
+  {
+    "title": "Rosemary's Baby",
+    "poster": "A haunting image of a woman looking frightened, with an almost surreal atmosphere surrounding her, suggesting themes of paranoia and dread.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rosemary%27s_Baby"
+  },
+  {
+    "title": "Scream",
+    "poster": "A stark image featuring the iconic ghostface mask against a backdrop of chaos, symbolizing horror in modern society.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scream_(1996_film)"
+  },
+  {
+    "title": "The Ring",
+    "poster": "An unsettling image of a girl crawling out of a television screen, capturing the essence of supernatural horror in a modern context.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Ring_(2002_film)"
   }
 ]

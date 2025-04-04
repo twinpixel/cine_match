@@ -44,7 +44,7 @@ function executeCurlCommand(systemContent, dettagli) {
     const result = execSync(curlCommand);
     const stringResult = result.toString();
   
-    console.log('Risultato del comando curl:\n'+stringResult);
+  //  console.log('Risultato del comando curl:\n'+stringResult);
     return stringResult;
   } catch (error) {
     console.error('Errore durante l esecuzione del comando curl:', error);

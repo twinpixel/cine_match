@@ -833,9 +833,10 @@ class _QuizPageState extends State<QuizPage> {
     String exclusionInstruction = _receivedTitles.isNotEmpty
         ? "\nEscludi ASSOLUTAMENTE questi film: ${_receivedTitles.join(', ')}.\n"
         : "";
-    final special = "\n.Produci in ogni caso almeno 4 risultati\n"
+    final special = "\n.Produci in ogni caso almeno 4 risultati.\n"
         "$exclusionInstruction"
-        "Aggiungi anche un film che non c'entra e giustificane la scelta nel campo \"why_recomended\".\n"
+    "Nel campo \"why_reccomended\" scrivi testi lungghi e articolato\n."
+        "Aggiungi anche un film che non c'entra e giustificane in modo arzigogolato la scelta nel campo \"why_recomended\".\n"
         "Ordina i risultati in ordine decrescente di score.\n"
         "Includi solo film realmente esistenti.\n"
         "Usa il corretto encoding per le lettere accentate e i carateri speciali per la lingua italiana."
