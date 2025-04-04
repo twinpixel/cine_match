@@ -1,8 +1,11 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'generated/l10n.dart';
+import 'dart:convert';
+import 'package:flutter/services.dart' show rootBundle;
 
 import 'package:cine_match/firebase_options.dart';
 import 'package:image/image.dart' as img;
@@ -21,9 +24,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_vertexai/firebase_vertexai.dart';
 import 'package:intl/intl.dart';
 import 'package:cine_match/generated/l10n.dart';
-var critico = '01';
+var selectedCritic = '01';
 var model;
-const numeroCritici = 5;
+const criticsNumber = 4;
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initFirebase();
@@ -50,7 +53,7 @@ Future<void> initFirebase() async {
       options: DefaultFirebaseOptions.currentPlatform,
     );
   } catch (e) {
-    print('Errore  $e');
+    print('Error  $e');
   }
 }
 
@@ -60,7 +63,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "cineMAtch",
+      title: "CineMatch",
       localizationsDelegates: const [
         S.delegate,
         GlobalMaterialLocalizations.delegate,
@@ -68,40 +71,73 @@ class MyApp extends StatelessWidget {
         GlobalCupertinoLocalizations.delegate,
       ],
       supportedLocales: S.delegate.supportedLocales,
-      theme: ThemeData(
-        iconTheme: IconThemeData(
-          color: Colors.amber.shade600,
-          size: 40,
-        ),
-        colorScheme: ColorScheme.dark(
-          primary: Colors.red.shade900,
-          secondary: Colors.amber.shade600,
-          surface: const Color(0xFF2A2A2A),
-          onPrimary: Colors.white,
-        ),
-        useMaterial3: true,
-        textTheme: TextTheme(
-          displayLarge: TextStyle(
-            fontFamily: 'Vintage',
-            fontSize: 32,
-            color: Colors.amber.shade600,
-          ),
-          bodyLarge: const TextStyle(color: Colors.white70),
-          bodyMedium: TextStyle(
-            color: Colors.grey.shade400,
-            height: 1.4,
-          ),
-        ),
-        cardTheme: CardTheme(
-          color: const Color(0xFF1E1E1E),
-          elevation: 8,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(15),
-            side: BorderSide(color: Colors.red.shade900, width: 1),
-          ),
-        ),
-      ),
+      theme: _buildAppTheme(),
       home: const ImageSelectionScreen(),
+    );
+  }
+
+  ThemeData _buildAppTheme() {
+    const surfaceColor = Color(0xFF2A2A2A);
+    final amberShade600 = Colors.amber.shade600;
+    final redShade900 = Colors.red.shade900;
+
+    return ThemeData(
+      appBarTheme: _buildAppBarTheme(),
+      iconTheme: _buildIconTheme(amberShade600),
+      colorScheme: _buildColorScheme(redShade900, amberShade600, surfaceColor),
+      useMaterial3: true,
+      textTheme: _buildTextTheme(amberShade600),
+      cardTheme: _buildCardTheme(redShade900),
+    );
+  }
+
+  AppBarTheme _buildAppBarTheme() {
+    return const AppBarTheme(
+      centerTitle: true,
+      elevation: 0,
+      scrolledUnderElevation: 4,
+    );
+  }
+
+  IconThemeData _buildIconTheme(Color iconColor) {
+    return IconThemeData(
+      color: iconColor,
+      size: 40,
+    );
+  }
+
+  ColorScheme _buildColorScheme(Color primaryColor, Color secondaryColor, Color surfaceColor) {
+    return ColorScheme.dark(
+      primary: primaryColor,
+      secondary: secondaryColor,
+      surface: surfaceColor,
+      onPrimary: Colors.white,
+    );
+  }
+
+  TextTheme _buildTextTheme(Color amberShade600) {
+    return TextTheme(
+      displayLarge: TextStyle(
+        fontFamily: 'Vintage',
+        fontSize: 32,
+        color: amberShade600,
+      ),
+      bodyLarge: const TextStyle(color: Colors.white70),
+      bodyMedium: TextStyle(
+        color: Colors.grey.shade400,
+        height: 1.4,
+      ),
+    );
+  }
+
+  CardTheme _buildCardTheme(Color borderColor) {
+    return CardTheme(
+      color: const Color(0xFF1E1E1E),
+      elevation: 8,
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(15),
+        side: BorderSide(color: borderColor, width: 1),
+      ),
     );
   }
 }
@@ -117,6 +153,178 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
   String? _selectedImageNumber;
   late Future<List<String>>
       _imageDescriptionsFuture; // Nuovo Future per le descrizioni
+
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        body: BackgroundWidget(
+        child: FutureBuilder<List<String>>(
+        future: _imageDescriptionsFuture,
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return _buildLoadingIndicator();
+          }
+
+          if (snapshot.hasError || !snapshot.hasData) {
+            return _buildErrorState();
+          }
+
+          final descriptions = snapshot.data!;
+          return _buildMainContent(descriptions);
+        },
+      ),),
+    );
+  }
+
+  Widget _buildMainContent(List<String> descriptions) {
+    return Column(
+      children: [
+        const Padding(
+          padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        ),
+        Expanded(
+          child: Column(
+            children: [
+              Expanded(
+                child: GridView.builder(
+                  padding: const EdgeInsets.all(12),
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 2,
+                    crossAxisSpacing: 12,
+                    mainAxisSpacing: 12,
+                    childAspectRatio: 0.7, // Modificato per meglio adattarsi ai ritratti
+                  ),
+                  itemCount: criticsNumber,
+                  itemBuilder: (context, index) {
+                    final imageNumber = (index + 1).toString().padLeft(2, '0');
+                    final imagePath = 'assets/images/$imageNumber.png';
+                    return _buildCriticoCard(imagePath, index, descriptions);
+                  },
+                )
+              ),
+              // Pulsante per il critico personalizzato
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                child: SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      selectedCritic = '05'; // Assume che il 5° critico sia il personalizzato
+                      setState(() => _selectedImageNumber = selectedCritic);
+                      _navigateToQuiz();
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.black.withOpacity(0.7),
+                      padding: const EdgeInsets.symmetric(vertical: 16),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(15),
+                        side: BorderSide(
+                          color: Colors.amber.shade600,
+                          width: 2,
+                        ),
+                      ),
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.person_search_rounded,
+                          color: Colors.amber.shade600,
+                          size: 28,
+                        ),
+                        const SizedBox(width: 12),
+                        Text(
+                          'Critico personalizzato',
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.amber.shade600,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildCriticoCard(String imagePath, int index, List<String> descriptions) {
+    return Container(
+      decoration: BoxDecoration(
+        color: Colors.black26,
+        borderRadius: BorderRadius.circular(15),
+        border: Border.all(
+          color: _selectedImageNumber == imagePath.split('/').last.split('.').first
+              ? Colors.amber.shade600
+              : Colors.transparent,
+          width: 2,
+        ),
+      ),
+      child: InkWell(
+        onTap: () {
+          selectedCritic = imagePath.split('/').last.split('.').first;
+          setState(() => _selectedImageNumber = selectedCritic);
+          _navigateToQuiz();
+        },
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            // Nome del critico
+            Padding(
+              padding: const EdgeInsets.only(top: 8.0),
+              child: Text(
+                descriptions[index],
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.amber.shade600,
+                ),
+                textAlign: TextAlign.center,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+            const SizedBox(height: 4),
+            // Immagine con crop centrato
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.4),
+                        blurRadius: 6,
+                        spreadRadius: 2,
+                      ),
+                    ],
+                  ),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(10),
+                    child: AspectRatio(
+                      aspectRatio: 0.75, // Proporzioni tipiche di un ritratto
+                      child: Image.asset(
+                        imagePath,
+                        fit: BoxFit.cover, // Crop centrato che riempie lo spazio
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
   void _navigateToQuiz() {
     if (_selectedImageNumber != null) {
       Navigator.pushReplacement(
@@ -141,215 +349,20 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
 
   Future<List<String>> _loadImageDescriptions() async {
     List<String> descriptions = [];
-    for (int i = 1; i <= numeroCritici; i++) {
+    for (int i = 1; i <= criticsNumber; i++) {
       final fileNumber = i.toString().padLeft(2, '0');
       try {
-        final jsonData = await getPErsonaData(fileNumber);
+        final jsonData = await getPersonaData(fileNumber);
         descriptions
             .add(jsonData['name'] ?? '?');
       } catch (e) {
-        print('Errore nel caricamento del persona $fileNumber: $e');
+        print('Error loading del persona $fileNumber: $e');
         descriptions.add('?');
       }
     }
     return descriptions;
   }
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: FutureBuilder<List<String>>(
-        future: _imageDescriptionsFuture,
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return _buildLoadingIndicator();
-          }
-
-          if (snapshot.hasError || !snapshot.hasData) {
-            return _buildErrorState();
-          }
-
-          final descriptions = snapshot.data!;
-          return _buildMainContent(descriptions);
-        },
-      ),
-    );
-  }
-// Modifica nel metodo _buildMainContent all'interno della classe _ImageSelectionScreenState
-  Widget _buildMainContent(List<String> descriptions) {
-    return Column(
-      children: [
-        const Padding(
-          padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-        ),
-        Expanded(
-          child: GridView.builder(
-            padding: const EdgeInsets.all(12),
-            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-              crossAxisCount: 2, // 2 elementi per riga
-              crossAxisSpacing: 12,
-              mainAxisSpacing: 12,
-              childAspectRatio: 0.8, // Regola questo valore per modificare l'altezza rispetto alla larghezza
-            ),
-            itemCount: numeroCritici,
-            itemBuilder: (context, index) {
-              final imageNumber = (index + 1).toString().padLeft(2, '0');
-              final imagePath = 'assets/images/$imageNumber.png';
-              return _buildCriticoCard(imagePath, index, descriptions);
-            },
-          ),
-        ),
-      ],
-    );
-  }
-
-// Nuovo metodo per costruire la card di ogni critico
-  Widget _buildCriticoCard(String imagePath, int index, List<String> descriptions) {
-    return Container(
-      decoration: BoxDecoration(
-        color: Colors.black26,
-        borderRadius: BorderRadius.circular(15),
-        border: Border.all(
-          color: _selectedImageNumber == imagePath.split('/').last.split('.').first
-              ? Colors.amber.shade600
-              : Colors.transparent,
-          width: 2,
-        ),
-      ),
-      child: InkWell(
-        onTap: () {
-          critico = imagePath.split('/').last.split('.').first;
-          setState(() => _selectedImageNumber = critico);
-          _navigateToQuiz();
-        },
-        child: Padding(
-          padding: const EdgeInsets.all(12),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              // Nome del critico
-              Text(
-                descriptions[index],
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.amber.shade600,
-                ),
-                textAlign: TextAlign.center,
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-              ),
-              const SizedBox(height: 8),
-              // Immagine
-              Expanded(
-                child: Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withOpacity(0.4),
-                        blurRadius: 6,
-                        spreadRadius: 2,
-                      ),
-                    ],
-                  ),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(10),
-                    child: Image.asset(imagePath, fit: BoxFit.cover),
-                  ),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-
-// Elimina i metodi _buildVerticalLayout e _buildHorizontalLayout poiché non sono più necessari
-
-  // Modifica nel metodo _buildVerticalLayout
-  Widget _buildVerticalLayout(String imagePath, int index, List<String> descriptions) {
-    return Padding(
-      padding: const EdgeInsets.all(12),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          // Nome del critico sopra l'immagine
-          Text(
-            descriptions[index],
-            style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              color: Colors.amber.shade600,
-            ),
-            textAlign: TextAlign.center,
-          ),
-          const SizedBox(height: 8),
-          // Immagine
-          Container(
-            height: 150,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black.withOpacity(0.4),
-                  blurRadius: 6,
-                  spreadRadius: 2,
-                ),
-              ],
-            ),
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(10),
-              child: Image.asset(imagePath, fit: BoxFit.cover),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-// Modifica nel metodo _buildHorizontalLayout
-  Widget _buildHorizontalLayout(String imagePath, int index, List<String> descriptions) {
-    return Padding(
-      padding: const EdgeInsets.all(12),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          // Nome del critico sopra l'immagine
-          Text(
-            descriptions[index],
-            style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              color: Colors.amber.shade600,
-            ),
-            textAlign: TextAlign.center,
-          ),
-          const SizedBox(height: 8),
-          // Immagine
-          Container(
-            width: 120,
-            height: 120,
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(10),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black.withOpacity(0.4),
-                  blurRadius: 6,
-                  spreadRadius: 2,
-                ),
-              ],
-            ),
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(10),
-              child: Image.asset(imagePath, fit: BoxFit.cover),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
   Widget _buildLoadingIndicator() {
     return Container();
   }
@@ -423,7 +436,7 @@ class _QuizPageState extends State<QuizPage> {
         //print('Selezionate ${_questions.length} domande casuali');
       });
     } catch (error) {
-      print('Errore CRITICO: $error');
+      print('Error CRITICO: $error');
       setState(() {
         _questions = _createFallbackQuestions();
       });
@@ -475,22 +488,27 @@ class _QuizPageState extends State<QuizPage> {
       final String prompt = await _buildRecommendationPrompt(answers);
       final String role = await _buildRecommendationRole();
       List<dynamic> movieList = [];
+
       if (movieList.isEmpty || movieList.length < 4) {
-        //print('Asking gemini:...');
+        print('Asking gemini:...');
         List<dynamic> movieList2 = await askGemini(role + prompt);
         movieList.addAll(movieList2);
       }
 
       if (movieList.isEmpty || movieList.length < 4) {
-        //print('Asking mistral:...');
-        List<dynamic> movieList2 = await askMistral(role, prompt);
-        movieList.addAll(movieList2);
-      }
-      if (movieList.isEmpty || movieList.length < 4) {
-        //print('Asking pollination:...');
+        print('Asking pollination:...');
         List<dynamic> movieList2 = await askPollination(role, prompt);
         movieList.addAll(movieList2);
       }
+
+      if (movieList.isEmpty || movieList.length < 4) {
+        print('Asking mistral:...');
+        List<dynamic> movieList2 =await askMistral(role, answers);
+        movieList.addAll(movieList2);
+      }
+
+
+
       //print('$movieList');
 
       _navigateToMovieList(context, movieList);
@@ -532,21 +550,62 @@ class _QuizPageState extends State<QuizPage> {
 
         return movieList;
       } else {
-        print('Errore nella risposta: ${response.statusCode}');
+        print('Error nella risposta: ${response.statusCode}');
         return [];
       }
     } catch (e) {
-      print('Errore durante la richiesta a Pollinations: $e');
+      print('Error durante la richiesta a Pollinations: $e');
       return [];
     }
   }
 
-  Future<List<dynamic>> askMistral(String role, String prompt) async {
+  Future<List<dynamic>> askMistral(String role, List<Map<String, String>> answers) async {
     try {
       const keyMistral = String.fromEnvironment('KEY_MISTRAL');
       if (keyMistral.isEmpty) {
         throw AssertionError('KEY_MISTRAL is not set');
       }
+
+      // Costruisci la conversazione
+      final List<Map<String, String>> messages = [
+        {"role": "system", "content": role},
+      ];
+
+      // Aggiungi ogni domanda e risposta come turni di conversazione
+      for (final answer in answers) {
+        messages.add({
+          "role": "assistant",
+          "content": answer['question'] ?? 'Domanda non disponibile'
+        });
+        messages.add({
+          "role": "user",
+          "content": answer['answer'] ?? 'Risposta non disponibile'
+        });
+      }
+
+      // Aggiungi l'ultimo prompt con le istruzioni specifiche
+      messages.add({
+        "role": "user",
+        "content": """
+      Ora genera  una lista di film raccomandati in base alle tue risposte. 
+      Il formato di ritorno sarà un array JSON con i seguenti campi per ogni film:
+      - title: Titolo del film (edizione italiana)
+      - english_title: Titolo originale
+      - wikipedia: Link Wikipedia
+      - description: Breve sinossi
+      - score: Punteggio 1-10
+      - genre: Genere principale scelto tra [action, horror, adventure,musical, comedy ,science-fiction ,crime ,war ,drama ,western, historical]
+      - why_recommended: Lunga e argomentata motivazione della raccomandazione e dei legami con le risposte dell'utente. in questo attributo il critico riversa la sua personalita
+      - poster_prompt: Descrizione per generare la locandina
+
+      ***IMPORTANTE***:
+      - Produci almeno 4 risultati
+      - Ordina per score decrescente
+      - Includi solo film realmente esistenti
+      - Usa encoding corretto per caratteri italiani
+      - Ritorna SOLO il JSON valido, senza commenti o markdown
+      """
+      });
 
       final url = Uri.parse('https://api.mistral.ai/v1/chat/completions');
       final headers = {
@@ -557,11 +616,9 @@ class _QuizPageState extends State<QuizPage> {
 
       final body = jsonEncode({
         "model": "mistral-small-latest",
-        "messages": [
-          {"role": "system", "content": role},
-          {"role": "user", "content": prompt}
-        ],
+        "messages": messages,
         "temperature": 0.7,
+        "response_format": {"type": "json_object"}, // Specifica il return type
         "max_tokens": 8000
       });
 
@@ -569,9 +626,9 @@ class _QuizPageState extends State<QuizPage> {
 
       if (response.statusCode == 200) {
         final responseJson = jsonDecode(response.body);
-        final content =
-            responseJson['choices'][0]['message']['content'] as String;
-        //print('content: $content');
+        final content = responseJson['choices'][0]['message']['content'] as String;
+
+        // Pulizia e parsing del JSON
         final cleanedContent = content
             .replaceAll('```json', '')
             .replaceAll('```', '')
@@ -586,19 +643,16 @@ class _QuizPageState extends State<QuizPage> {
             .trim();
 
         final movieList = jsonDecode(cleanedContent) as List<dynamic>;
-
         return movieList;
       } else {
-        print(
-            'Errore nella risposta: ${response.statusCode} - ${response.body}');
+        print('Error nella risposta: ${response.statusCode} - ${response.body}');
         return [];
       }
     } catch (e) {
-      print('Errore durante la richiesta a Mistral: $e');
+      print('Error durante la richiesta a Mistral: $e');
       return [];
     }
   }
-
   Future<List<dynamic>> askGemini(String prompt) async {
     try {
       final promptG = [Content.text(prompt)];
@@ -607,23 +661,22 @@ class _QuizPageState extends State<QuizPage> {
           processResponseText(responseAI.text.toString());
       return movieList;
     } catch (e) {
-      print('Errore durante la richiesta a Gemini: $e');
+      print('Error durante la richiesta a Gemini: $e');
       return [];
     }
   }
 
   void _showLoadingScreen(BuildContext context) {
-    final message = _getRandomInspirationalMessage();
-
     Navigator.push(
       context,
       MaterialPageRoute(
         builder: (context) => Scaffold(
-          body: _buildLoadingScreenBody(message),
+          body: _AnimatedLoadingScreen(),
         ),
       ),
     );
   }
+
 
   String _getRandomInspirationalMessage() {
     const List<String> inspirationalMessages = [
@@ -655,65 +708,8 @@ class _QuizPageState extends State<QuizPage> {
         Random().nextInt(inspirationalMessages.length)];
   }
 
-  Widget _buildLoadingScreenBody(String message) {
-    return Container(
-      width: double.infinity,
-      height: double.infinity,
-      decoration: _createLoadingScreenDecoration(),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Expanded(
-            child: Center(
-              child: AspectRatio(
-                aspectRatio: 1,
-                child: Image.asset(
-                  'assets/videos/wait3.gif',
-                  fit: BoxFit.contain,
-                ),
-              ),
-            ),
-          ),
-          _buildLoadingMessage(message),
-        ],
-      ),
-    );
-  }
 
-  BoxDecoration _createLoadingScreenDecoration() {
-    return BoxDecoration(
-      gradient: LinearGradient(
-        begin: Alignment.topCenter,
-        end: Alignment.bottomCenter,
-        colors: [
-          Colors.black.withOpacity(0.9),
-          const Color(0xFF1A1A1A),
-        ],
-        stops: const [0.3, 1.0],
-      ),
-    );
-  }
 
-  Widget _buildLoadingMessage(String message) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 5.0),
-      child: Text(
-        message,
-        style: TextStyle(
-          fontSize: 20,
-          fontWeight: FontWeight.bold,
-          color: Colors.amber.shade600,
-          shadows: [
-            Shadow(
-              color: Colors.black.withOpacity(0.5),
-              blurRadius: 10,
-            )
-          ],
-        ),
-        textAlign: TextAlign.center,
-      ),
-    );
-  }
 
   Future<String> _buildRecommendationPrompt(
       List<Map<String, String>> answers) async {
@@ -722,17 +718,18 @@ class _QuizPageState extends State<QuizPage> {
             'Domanda: ${answer['question']}\nRisposta: ${answer['answer']}\n')
         .join();
     final String fileNumber = widget.selectedImage;
-    Map<String, dynamic> personaData = await getPErsonaData(fileNumber);
-    String postContent = personaData['post'] ?? '';
+
+
     String exampleContent = _defaultExampleContent();
-    postContent = postContent.isNotEmpty ? postContent : _defaultPostContent();
+    String  postContent = _defaultPostContent();
     if (_receivedTitles.length > 100) _receivedTitles.removeRange(0, 5);
     String exclusionInstruction = _receivedTitles.isNotEmpty
         ? "\nEscludi ASSOLUTAMENTE questi film: ${_receivedTitles.join(', ')}.\n"
         : "";
-    final special = "\n.Produci in ogni caso almeno 4 risultati\n"
+    final special = "\n.Produci in ogni caso almeno 4 risultati.\n"
         "$exclusionInstruction"
-        "Aggiungi anche un film che non c'entra e giustificane la scelta nel campo \"why_recomended\".\n"
+    "Nel campo \"why_reccomended\" scrivi testi lungghi e articolato\n."
+        "Aggiungi anche un film che non c'entra e giustificane in modo arzigogolato la scelta nel campo \"why_recomended\".\n"
         "Ordina i risultati in ordine decrescente di score.\n"
         "Includi solo film realmente esistenti.\n"
         "Usa il corretto encoding per le lettere accentate e i carateri speciali per la lingua italiana."
@@ -746,7 +743,8 @@ class _QuizPageState extends State<QuizPage> {
         "'wikipedia': Link corretto alla pagina wikipedia del film,\n"
         "'description': Brevissima sinossi del film, in tono formale e distaccato. molto breve. Se possibile in una frase,\n"
         "'score': punteggio che indica quanto il film è vicino ai gusti dell'utente in una scala da 1 a 10,\n"
-        "'genre': un solo genere  a cui appartiene il film scelto tra [action, horror, adventure,musical, comedy ,science-fiction ,crime ,war ,drama ,western, historical]\n";
+        "'genre': un solo genere  a cui appartiene il film scelto tra [action, horror, adventure,musical, comedy ,science-fiction ,crime ,war ,drama ,western, historical]\n"
+        "‘why_recommended’: spiegazione argomentata dei pregi del film e della sua attinenza con le riposte dell'utente‘";
 
     final res =
         "\n$summary\n$jsonDesc\n$postContent$exampleContent\n\n$special";
@@ -756,10 +754,10 @@ class _QuizPageState extends State<QuizPage> {
 
   Future<String> _buildRecommendationRole() async {
     final String fileNumber = widget.selectedImage;
-    Map<String, dynamic> personaData = await getPErsonaData(fileNumber);
+    Map<String, dynamic> personaData = await getPersonaData(fileNumber);
 
     // Estrazione dei contenuti dal JSON
-    String preContent = personaData['pre'] ?? '';
+    String preContent = personaData['role'] ?? '';
 
     preContent = preContent.isNotEmpty ? preContent : _defaultPreContent();
 
@@ -788,13 +786,13 @@ class _QuizPageState extends State<QuizPage> {
       " },\n"
       " ...\n"
       "]\n"
-      "***ISTRUZIONI SPECIALI:  deve essere prodotto solo il json finale, senza altri comenti senza carateri speciali e apici o doppi apici";
+      "***ISTRUZIONI SPECIALI:  deve essere prodotto solo il json finale, senza altri comment senza caraterai speciali e apici o doppi apici";
 
   Future<String> _loadAssetFile(String path) async {
     try {
       return await rootBundle.loadString(path);
     } catch (e) {
-      print('Errore nel caricamento del file $path: $e');
+      print('Error loading del file $path: $e');
       return '';
     }
   }
@@ -837,10 +835,10 @@ class _QuizPageState extends State<QuizPage> {
   }
 
   void _handleRecommendationError(BuildContext context, dynamic error) {
-    print('Errore durante la generazione delle raccomandazioni: $error');
+    print('Error durante la generazione delle raccomandazioni: $error');
 
     ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('Errore nel generare raccomandazioni.')),
+      const SnackBar(content: Text('Error nel generare raccomandazioni.')),
     );
 
     Navigator.pop(context); // Torna alla schermata precedente
@@ -851,12 +849,13 @@ class _QuizPageState extends State<QuizPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: _buildAppBar(),
-      body: Stack(
+    body: BackgroundWidget(
+    child:Stack(
         children: [
           _buildBackground(),
           _buildMainContent(),
         ],
-      ),
+      ),),
     );
   }
 
@@ -864,36 +863,47 @@ class _QuizPageState extends State<QuizPage> {
     return AppBar(
       automaticallyImplyLeading: false,
       backgroundColor: Theme.of(context).colorScheme.surface,
+      leading: IconButton(
+        icon: Icon(
+          Icons.arrow_back_rounded,
+          color: Colors.amber.shade600,
+          size: 28,
+        ),
+        onPressed: () => _handleBackAction(),
+        tooltip: 'Indietro',
+      ),
       title: FutureBuilder<Map<String, dynamic>>(
-          future: getPErsonaData(widget.selectedImage),
-          builder: (context, snapshot) {
-            final name = snapshot.hasData
-                ? snapshot.data!['name'] ?? 'Critico'
-                : 'Critico';
+        future: getPersonaData(widget.selectedImage),
+        builder: (context, snapshot) {
+          final name = snapshot.hasData
+              ? snapshot.data!['name'] ?? 'Critico'
+              : 'Critico';
 
-            return Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Container(
-                  width: 40,
-                  height: 40,
-                  margin: const EdgeInsets.only(right: 12),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(8),
-                    border: Border.all(
-                      color: Colors.amber.shade600,
-                      width: 1.5,
-                    ),
-                  ),
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(6),
-                    child: Image.asset(
-                      'assets/images/${widget.selectedImage}.png',
-                      fit: BoxFit.cover,
-                    ),
+          return Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                width: 40,
+                height: 40,
+                margin: const EdgeInsets.only(right: 12),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(8),
+                  border: Border.all(
+                    color: Colors.amber.shade600,
+                    width: 1.5,
                   ),
                 ),
-                Row(
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(6),
+                  child: Image.asset(
+                    'assets/images/${widget.selectedImage}.png',
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+              InkWell(
+                onTap: () => _showCriticDescription(context),
+                child: Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
@@ -913,9 +923,11 @@ class _QuizPageState extends State<QuizPage> {
                     ),
                   ],
                 ),
-              ],
-            );
-          }),
+              ),
+            ],
+          );
+        },
+      ),
     );
   }
 
@@ -943,7 +955,26 @@ class _QuizPageState extends State<QuizPage> {
               : _buildQuestionnaire(),
     );
   }
-
+  void _handleBackAction() {
+    if (_currentQuestionIndex > 0) {
+      // Torna alla domanda precedente
+      setState(() {
+        _currentQuestionIndex--;
+        _selectedAnswer = null;
+        // Rimuovi l'ultima risposta se esiste
+        if (_answers.length > _currentQuestionIndex) {
+          _answers.removeLast();
+        }
+      });
+    } else {
+      // Torna alla schermata di selezione dei critici
+      Navigator.pushAndRemoveUntil(
+        context,
+        MaterialPageRoute(builder: (context) => const ImageSelectionScreen()),
+            (route) => false,
+      );
+    }
+  }
   Widget _buildInitialLoading() {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
@@ -1104,30 +1135,6 @@ class _QuizPageState extends State<QuizPage> {
     );
   }
 
-  Widget _buildLoadingOverlay() {
-    return Container(
-      color: Colors.black,
-      child: Column(
-        children: [
-          Expanded(child: _buildFullScreenLoader()),
-          _buildBottomLoadingMessage(),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildFullScreenLoader() {
-    return SizedBox(
-      width: double.infinity,
-      height: double.infinity,
-      child: Image.asset(
-        'assets/videos/wait3.gif',
-        fit: BoxFit.fitHeight,
-        filterQuality: FilterQuality.high,
-      ),
-    );
-  }
-
   Widget _buildBottomLoadingMessage() {
     return Padding(
       padding: const EdgeInsets.only(bottom: 40.0),
@@ -1184,7 +1191,7 @@ class MovieListPage extends StatelessWidget {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(6),
                   child: Image.asset(
-                    'assets/images/$critico.png',
+                    'assets/images/$selectedCritic.png',
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -1220,11 +1227,12 @@ class MovieListPage extends StatelessWidget {
             ),
           ),
         ),
-        body: ListView.builder(
+        body: BackgroundWidget(
+          child: ListView.builder(
           padding: const EdgeInsets.all(16.0),
           itemCount: movies.length,
           itemBuilder: (context, index) => _buildMovieItem(context, index),
-        ),
+        ),),
       ),
     );
   }
@@ -1535,20 +1543,6 @@ class MovieListPage extends StatelessWidget {
     );
   }
 
-  Widget _buildDivider() {
-    return Container(
-      height: 2,
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [
-            Colors.transparent,
-            Colors.amber.shade600.withOpacity(0.5),
-            Colors.transparent,
-          ],
-        ),
-      ),
-    );
-  }
 
   void _handleMovieTap(BuildContext context, dynamic movie) async {
     final String movieLink =
@@ -1581,111 +1575,9 @@ class MovieListPage extends StatelessWidget {
   }
 }
 
-class _CachedImageLoader extends StatelessWidget {
-  final String imageUrl;
-  final int? placeholderIndex;
 
-  const _CachedImageLoader({
-    required this.imageUrl,
-    this.placeholderIndex,
-  });
 
-  @override
-  Widget build(BuildContext context) {
-    if (_shouldUseWebPlaceholder) {
-      return _buildWebPlaceholder();
-    }
-    return _buildNetworkImage();
-  }
 
-  // Controllo condizione per placeholder web
-  bool get _shouldUseWebPlaceholder => kIsWeb && placeholderIndex != null;
-
-  // Costruzione placeholder per web
-  Widget _buildWebPlaceholder() {
-    final calculatedIndex = (placeholderIndex! % 5) + 1;
-    return placeHolderImage("X");
-  }
-
-  // Costruzione immagine con caching
-  Widget _buildNetworkImage() {
-    return CachedNetworkImage(
-      imageUrl: imageUrl,
-      imageBuilder: _imageBuilder,
-      placeholder: _loadingPlaceholder,
-      errorWidget: _errorPlaceholder,
-      fadeInDuration: const Duration(milliseconds: 10),
-      fadeOutDuration: Duration.zero,
-    );
-  }
-
-  // Builder per l'immagine caricata
-  Widget _imageBuilder(BuildContext context, ImageProvider imageProvider) {
-    return Container(
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: imageProvider,
-          fit: BoxFit.cover,
-        ),
-      ),
-    );
-  }
-
-  // Placeholder durante il loading
-  Widget _loadingPlaceholder(BuildContext context, String url) {
-    return _defaultPlaceholder();
-  }
-
-  // Placeholder per errori
-  Widget _errorPlaceholder(BuildContext context, String url, dynamic error) {
-    return _defaultPlaceholder();
-  }
-
-  // Placeholder generico di default
-  Widget _defaultPlaceholder() {
-    return placeHolderImage("X");
-  }
-}
-
-Future<String> _getWikipediaImageUrl(String? wikipediaUrl) async {
-  try {
-    final response = await http.get(Uri.parse(wikipediaUrl!));
-    if (response.statusCode == 200) {
-      dom.Document document = html_parser.parse(response.body);
-      dom.Element? imageElement = document.querySelector('.infobox img');
-
-      if (imageElement != null) {
-        String? imageUrl = imageElement.attributes['src'];
-        if (imageUrl != null) {
-          if (imageUrl.startsWith('//')) {
-            return 'https:$imageUrl';
-          }
-          return imageUrl;
-        }
-      }
-    }
-  } catch (e) {
-    print('Errore scraping Wikipedia: $e');
-  }
-  return '';
-}
-
-Future<String> _getMoviePosterUrl(String? wikipediaUrl) async {
-  try {
-    // Fallback a Wikipedia
-    if (wikipediaUrl != null && wikipediaUrl.isNotEmpty && !(kIsWeb)) {
-      final String wikipediaImage = await _getWikipediaImageUrl(wikipediaUrl);
-      if (wikipediaImage.isNotEmpty) {
-        return wikipediaImage;
-      }
-    }
-
-    return "";
-  } catch (e) {
-    print('Errore durante lo scraping combinato: $e');
-    return "";
-  }
-}
 
 class Question {
   final String question;
@@ -1701,68 +1593,30 @@ class Question {
   }
 }
 
-final Set<String> _failedImageTitles = {};
-Future<Widget?> loadCheap(String movieTitle, String posterPrompt) async {
-  try {
-    final encodedPrompt = Uri.encodeComponent(posterPrompt);
-    final url = "https://image.pollinations.ai/prompt/$encodedPrompt"
-        "?width=240&height=400&seed=628256599"
-        "&model=flux&negative_prompt=worst%20quality,%20blurry";
 
-    final response = await http.get(
-      Uri.parse(url),
-      headers: {'Accept': 'image/jpeg'},
-    ).timeout(const Duration(seconds: 5));
-
-    if (response.statusCode == 200 && response.bodyBytes.isNotEmpty) {
-      //print('LoadCheap per $movieTitle');
-      final bytes = response.bodyBytes;
-      await saveImageToCache(movieTitle, bytes);
-      return Image.memory(bytes, fit: BoxFit.cover);
-    }
-  } catch (e) {
-    _failedImageTitles.add(movieTitle);
-    print('Errore loadCheap per $movieTitle: $e');
-  }
-  return null;
-}
-
-Future<Widget> generateImage(
-    String movieTitle, String posterPrompt, String genre) async {
-  if (_failedImageTitles.contains(movieTitle)) {
-    return placeHolderImage(movieTitle, genre);
-  }
-  try {
-    final cachedImage = await loadFromCache(movieTitle);
-    if (cachedImage != null) {
-      //print('Immagine ottenuta dalla cache per: $movieTitle');
-      return cachedImage;
-    }
-    final cheapImage = await loadCheap(movieTitle, posterPrompt);
-    if (cheapImage != null) {
-      //print('Immagine ottenuta tramite loadCheap per: $movieTitle');
-      return cheapImage;
-    }
-    return placeHolderImage(movieTitle, genre);
-  } catch (e) {
-    _failedImageTitles.add(movieTitle);
-    //print('Exception generando immagine per: $movieTitle - $e');
-    return placeHolderImage(movieTitle, genre);
-  }
-}
 
 Image placeHolderImage(String movieTitle, [String? genre]) {
-  if (genre != null && genre.isNotEmpty) {
-    return Image.asset(
-      'assets/genres/${genre.toLowerCase()}.jpg',
-      fit: BoxFit.cover,
-    );
-  } else {
-    return Image.asset('assets/genres/genre.jpg', fit: BoxFit.cover);
-  }
-}
+  // Se non c'è un genere specificato o il file non esiste, usa l'immagine generica
+  final String assetPath;
 
-final Map<String, Widget> _imageCache = {}; // Stores Widget directly
+  if (genre != null && genre.isNotEmpty) {
+    assetPath = 'assets/genres/${genre.toLowerCase()}.jpg';
+  } else {
+    assetPath = 'assets/genres/genre.jpg';
+  }
+
+  return Image.asset(
+    assetPath,
+    fit: BoxFit.cover,
+    errorBuilder: (context, error, stackTrace) {
+      // Se l'immagine specifica non esiste, usa quella generica
+      return Image.asset(
+        'assets/genres/genre.jpg',
+        fit: BoxFit.cover,
+      );
+    },
+  );
+}
 
 
 
@@ -1777,24 +1631,6 @@ Future<bool> _checkAssetExists(String assetPath) async {
   }
 }
 
-Widget _buildPosterFallback(int index, dynamic movie, String? wikipediaUrl) {
-  return FutureBuilder<Widget>(
-    future: generateImage(
-        movie['title'] as String? ?? 'film',
-        movie['poster_prompt'] as String? ??
-            'Generica locandina cinematografica',
-        movie['genre'] as String? ?? 'genre'),
-    builder: (context, snapshot) {
-      if (snapshot.hasData) {
-        return snapshot.data!;
-      } else if (snapshot.hasError) {
-        return placeHolderImage(movie['title']);
-      } else {
-        return const Center(child: CircularProgressIndicator());
-      }
-    },
-  );
-}
 
 // Funzione per ottenere la directory di cache persistente
 Future<String> _getCacheDirectory() async {
@@ -1818,12 +1654,11 @@ Future<bool> saveImageToCache(String movieTitle, Uint8List imageBytes) async {
       return await saveImageToCacheMobile(movieTitle, imageBytes);
     }
   } catch (e) {
-    print('Errore nel salvataggio in cache: $e');
+    print('Error nel salvataggio in cache: $e');
     return false;
   }
 }
 
-// Implementazione mobile
 Future<bool> saveImageToCacheMobile(
     String movieTitle, Uint8List imageBytes) async {
   try {
@@ -1835,53 +1670,16 @@ Future<bool> saveImageToCacheMobile(
     //print('Immagine salvata in cache mobile per: $movieTitle');
     return true;
   } catch (e) {
-    print('Errore salvataggio mobile: $e');
+    print('Error salvataggio mobile: $e');
     return false;
   }
 }
 
-// Funzione per caricare l'immagine generata dal disco (solo per mobile)
-Future<File?> _loadGeneratedImageMobile(String movieTitle) async {
-  final cacheDir = await _getCacheDirectory();
-  try {
-    final filename =
-        '${movieTitle.replaceAll(RegExp(r'[^a-zA-Z0-9]'), '_')}.png';
-    final file = File('$cacheDir/$filename');
-    if (await file.exists()) {
-      return file;
-    }
-    return null;
-  } catch (e) {
-    print(
-        'Errore durante il caricamento dell\'immagine generata su mobile: $e');
-    return null;
-  }
-}
 
-Future<Widget?> loadFromCache(String movieTitle) async {
-  try {
-    // Check in-memory cache first
-    if (_inMemoryCache.containsKey(movieTitle)) {
-      //print('Restituisco immagine dalla cache in memoria per: $movieTitle');
-      return Image.memory(_inMemoryCache[movieTitle]!, fit: BoxFit.cover);
-    }
 
-    // If not found in memory, check storage
-    if (kIsWeb) {
-      final bytes = await _loadGeneratedImageWeb(movieTitle);
-      return bytes != null ? Image.memory(bytes, fit: BoxFit.cover) : null;
-    } else {
-      final file = await _loadGeneratedImageMobile(movieTitle);
-      return file != null ? Image.file(file, fit: BoxFit.cover) : null;
-    }
-  } catch (e) {
-    print('Errore nel caricamento dalla cache: $e');
-    return null;
-  }
-}
 
 final Map<String, Uint8List> _inMemoryCache = {}; // In-memory cache for images
-// Aggiungi queste costanti in cima al file
+
 const int _maxWebCacheItems = 20;
 const int _maxWebCacheSizeMB = 50;
 
@@ -1913,7 +1711,7 @@ Future<bool> saveImageToCacheWeb(
     //print('Salvato in cache: $cacheKey');
     return true;
   } catch (e) {
-    print('Errore salvataggio web: $e');
+    print('Error salvataggio web: $e');
     return false;
   }
 }
@@ -1935,7 +1733,7 @@ Future<Uint8List> _compressImage(Uint8List bytes) async {
       img.encodeJpg(resized, quality: 80),
     );
   } catch (e) {
-    print('Errore compressione immagine: $e');
+    print('Error compressione immagine: $e');
     return bytes;
   }
 }
@@ -1969,33 +1767,14 @@ Future<void> _cleanWebCache() async {
       //print('Rimosso dalla cache: ${oldest['key']}');
     }
   } catch (e) {
-    print('Errore pulizia cache: $e');
+    print('Error pulizia cache: $e');
   }
 }
 
-// Modifica il metodo di caricamento
-Future<Uint8List?> _loadGeneratedImageWeb(String movieTitle) async {
-  final cacheKey = 'generated_image_$movieTitle';
-  final cachedData = html.window.localStorage[cacheKey];
-
-  if (cachedData != null) {
-    try {
-      final data = jsonDecode(cachedData);
-      // Aggiorna timestamp per LRU
-      data['timestamp'] = DateTime.now().millisecondsSinceEpoch;
-      html.window.localStorage[cacheKey] = jsonEncode(data);
-      //print('Letto da  cache: $cacheKey');
-      return base64Decode(data['data']);
-    } catch (e) {
-      html.window.localStorage.remove(cacheKey);
-    }
-  }
-  return null;
-}
 
 final Map<String, Map<String, dynamic>> _personaDataCache = {};
 
-Future<Map<String, dynamic>> getPErsonaData(String fileNumber) async {
+Future<Map<String, dynamic>> getPersonaData(String fileNumber) async {
   // Controlla se i dati sono già in cache
   if (_personaDataCache.containsKey(fileNumber)) {
     return _personaDataCache[fileNumber]!;
@@ -2010,7 +1789,7 @@ Future<Map<String, dynamic>> getPErsonaData(String fileNumber) async {
 
     return personaData;
   } catch (e) {
-    print('Errore nel caricamento del persona $fileNumber: $e');
+    print('Error loading del persona $fileNumber: $e');
     return {}; // Restituisce un oggetto vuoto invece di lanciare eccezione
   }
 }
@@ -2019,7 +1798,7 @@ Future<String> _loadPersonaJson(String fileNumber) async {
   try {
     return await rootBundle.loadString('assets/personas/$fileNumber.json');
   } catch (e) {
-    print('Errore nel caricamento del persona $fileNumber: $e');
+    print('Error loading del persona $fileNumber: $e');
     return '{}'; // Restituisce un JSON vuoto come fallback
   }
 }
@@ -2047,6 +1826,7 @@ Future<String> getWikipediaThumbnailUrl(String movieTitle) async {
         final queryResponse = await http.get(queryApiUrl);
 
         if (queryResponse.statusCode == 200) {
+
           final queryData = jsonDecode(queryResponse.body);
 
           if (queryData['query'] != null && queryData['query']['pages'] != null) {
@@ -2076,7 +1856,7 @@ Future<String> getWikipediaThumbnailUrl(String movieTitle) async {
           }
         } else {
           print(
-              'Errore nella chiamata API di query per "$movieTitle": ${queryResponse.statusCode}');
+              'Error nella chiamata API di query per "$movieTitle": ${queryResponse.statusCode}');
           return '';
         }
       } else {
@@ -2085,69 +1865,348 @@ Future<String> getWikipediaThumbnailUrl(String movieTitle) async {
       }
     } else {
       print(
-          'Errore nella chiamata API di ricerca per "$movieTitle": ${searchResponse.statusCode}');
+          'Error nella chiamata API di ricerca per "$movieTitle": ${searchResponse.statusCode}');
       return '';
     }
   } catch (error) {
-    print('Errore durante l\'ottenimento della miniatura per "$movieTitle": $error');
+    print('Error durante l\'ottenimento della miniatura per "$movieTitle": $error');
     return '';
   }
 }
 
 
-class PosterCache {
-  static final Map<String, Widget> _cache = {};
-
-  static Widget getPoster(String movieTitle, String genre) {
-    return _cache.putIfAbsent(movieTitle, () => _buildPoster(movieTitle, genre));
+class loadPosterCached {
+  static Widget getPoster(String movieTitle, String genre, String desc) {
+    return _buildPosterWithFallback(movieTitle, genre, desc);
   }
 
-  static Widget _buildPoster(String movieTitle, String genre) {
-    final imageName = movieTitle
-        .toLowerCase()
-        .replaceAll(RegExp(r'[^a-z0-9]+'), '_')
-        .replaceAll('.', '_')
-        .replaceAll(RegExp(r'^_|_$'), '')
-        .trim() + '.jpg';
-
+  static Widget _buildPosterWithFallback(String movieTitle, String genre, String desc) {
+    // 1. Cerca prima negli asset locali
+    final imageName = _generateImageName(movieTitle);
     final imagePath = 'assets/posters/$imageName';
 
     return FutureBuilder<bool>(
       future: _checkAssetExists(imagePath),
       builder: (context, snapshot) {
-        if (snapshot.connectionState == ConnectionState.done && snapshot.data == true) {
-          return Image.asset(
-            imagePath,
+        if (snapshot.connectionState == ConnectionState.done) {
+          if (snapshot.data == true) {
+            return Image.asset(
+              imagePath,
+              fit: BoxFit.cover,
+            );
+          } else {
+            // 2. Se non trovato negli asset, cerca su Wikipedia (solo per app mobile)
+            if (!kIsWeb) {
+              return _buildWikipediaPoster(movieTitle, genre, desc);
+            }
+            // 3. Per web o se Wikipedia fallisce, genera l'immagine
+            return _buildGeneratedPoster(movieTitle, genre, desc);
+          }
+        }
+        // Mostra placeholder durante il caricamento
+        return placeHolderImage(movieTitle, genre);
+      },
+    );
+  }
+
+  static Widget _buildWikipediaPoster(String movieTitle, String genre, String desc) {
+    return FutureBuilder<String>(
+      future: getWikipediaThumbnailUrl(movieTitle),
+      builder: (context, snapshot) {
+        if (snapshot.hasData && snapshot.data!.isNotEmpty) {
+          return CachedNetworkImage(
+            imageUrl: snapshot.data!,
             fit: BoxFit.cover,
-            errorBuilder: (context, error, stackTrace) {
-              return placeHolderImage(movieTitle, genre);
-            },
+            placeholder: (context, url) => placeHolderImage(movieTitle, genre),
+            errorWidget: (context, url, error) =>
+           _buildGeneratedPoster(movieTitle, genre, desc)
           );
+        } else if (snapshot.hasError) {
+          return _buildGeneratedPoster(movieTitle, genre, desc);
         }
         return placeHolderImage(movieTitle, genre);
       },
     );
   }
+
+  static Widget _buildGeneratedPoster(String movieTitle, String genre, String? desc) {
+    var prompt = 'Poster for the movie: $movieTitle of genre $genre:  $desc. No text';
+
+    final encodedPrompt = Uri.encodeComponent(prompt);
+    final imageUrl = 'https://image.pollinations.ai/prompt/$encodedPrompt'
+        '?width=240&height=400&seed=${movieTitle.hashCode}'
+        '&model=flux&negative_prompt=worst%20quality,%20blurry';
+
+    return FutureBuilder<Uint8List>(
+      future: _downloadImage(imageUrl),
+      builder: (context, snapshot) {
+        if (snapshot.hasData) {
+          return Image.memory(
+            snapshot.data!,
+            fit: BoxFit.cover,
+            errorBuilder: (context, error, stackTrace) =>
+                placeHolderImage(movieTitle, genre),
+          );
+        } else if (snapshot.hasError) {
+          return placeHolderImage(movieTitle, genre);
+        }
+        return Center(
+          child: CircularProgressIndicator(
+            color: Colors.amber.shade600,
+          ),
+        );
+      },
+    );
+  }
+
+  static String _generateImageName(String movieTitle) {
+    return movieTitle
+        .toLowerCase()
+        .replaceAll(RegExp(r'[^a-z0-9]+'), '_')
+        .replaceAll('.', '_')
+        .replaceAll(RegExp(r'^_|_$'), '')
+        .trim() + '.jpg';
+  }
+
+  static Future<Uint8List> _downloadImage(String url) async {
+    try {
+      final response = await http.get(Uri.parse(url))
+          .timeout(const Duration(seconds: 10));
+
+      if (response.statusCode == 200 && response.bodyBytes.isNotEmpty) {
+        return response.bodyBytes;
+      }
+      throw Exception('Failed to load image');
+    } catch (e) {
+      throw Exception('Download error: $e');
+    }
+  }
 }
 
-// Utilizzo nella tua buildPosterWeb
+// Cache in memoria per i poster
+final Map<String, Widget> _posterCache = {};
+const int _maxCacheSize = 50;
+
 Widget buildPosterWeb(int index, dynamic movie) {
   final movieTitle = movie['title'] as String? ?? 'film';
   final genre = movie['genre'] as String? ?? 'genre';
+  final desc  = movie['poster_prompt'] as String? ?? '';
 
-  return PosterCache.getPoster(movieTitle, genre);
+  // Creiamo una chiave unica combinando titolo e genere
+  final cacheKey = '${movieTitle}_$genre';
+
+  // Se presente in cache, restituiamo il widget memorizzato
+  if (_posterCache.containsKey(cacheKey)) {
+    return _posterCache[cacheKey]!;
+  }
+
+  // Se la cache è piena, rimuoviamo l'elemento più vecchio
+  if (_posterCache.length >= _maxCacheSize) {
+    _posterCache.remove(_posterCache.keys.first);
+  }
+
+  // Generiamo il nuovo poster e lo memorizziamo in cache
+  final poster = loadPosterCached.getPoster(movieTitle, genre,desc);
+  _posterCache[cacheKey] = poster;
+
+  return poster;
 }
 
-Future<Uint8List> _downloadImage(String url) async {
+void _showCriticDescription(BuildContext context) async {
   try {
-    final response = await http.get(Uri.parse(url))
-        .timeout(const Duration(seconds: 10));
+    final personaData = await getPersonaData(selectedCritic);
+    final description = personaData['description'] ?? 'Nessuna descrizione disponibile';
 
-    if (response.statusCode == 200) {
-      return response.bodyBytes;
-    }
-    throw Exception('Failed to load image');
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        backgroundColor: Colors.black.withOpacity(0.9),
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(15),
+          side: BorderSide(color: Colors.amber.shade600, width: 1.5),
+        ),
+        title: Text(
+          personaData['name'] ?? 'Critico',
+          style: TextStyle(
+            color: Colors.amber.shade600,
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+          ),
+          textAlign: TextAlign.center,
+        ),
+        content: SingleChildScrollView(
+          child: Text(
+            description,
+            style: TextStyle(
+              color: Colors.amber.shade100,
+              fontSize: 16,
+              height: 1.4,
+            ),
+            textAlign: TextAlign.center,
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context),
+            child: Text(
+              'CHIUDI',
+              style: TextStyle(
+                color: Colors.amber.shade600,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
   } catch (e) {
-    throw Exception('Download error: $e');
+    print('Error nel mostrare la descrizione: $e');
   }
+}
+
+class BackgroundWidget extends StatelessWidget {
+  final Widget child;
+
+  const BackgroundWidget({super.key, required this.child});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          image: const AssetImage('assets/images/background.png'),
+          fit: BoxFit.cover,
+          colorFilter: ColorFilter.mode(
+            Colors.black.withOpacity(0.7),
+            BlendMode.darken,
+          ),
+        ),
+      ),
+      child: child,
+    );
+  }
+}
+
+class _AnimatedLoadingScreen extends StatefulWidget {
+  @override
+  __AnimatedLoadingScreenState createState() => __AnimatedLoadingScreenState();
+}
+
+
+
+String? _getRandomInspirationalMessage() {
+  const List<String> inspirationalMessages = [
+    "Accendiamo i proiettori...🍿",
+    "Scegliendo la colonna sonora perfetta...🎬",
+    "Allestiamo il tuo divano cinematografico...🍿",
+    "Controlliamo la lista degli Oscar...🎬",
+    "Preparando i popcorn... 🍿",
+    "Regolazione della luce ambientale...🎬",
+    "Selezionando da film cult a nuove uscite...🍿",
+    "Reticulating splines...🎬",
+    "Calibrazione volume anti-vicini...🔇",
+    "Scongelamento pellicola vintage...🎞️",
+    "Ottimizzazione angolo cuscino...🛋️",
+    "Ricarica batterie telecomando...🔋",
+    "Download effetti speciali...💥",
+    "Allineamento stelle del cinema...🌟",
+    "Ricerca sottotitoli sgrammaticati...🤌",
+    "All your base are belong to us...📺",
+    "Deframmentazione hard disk emotivo...💾",
+    "Installazione pacchetto lacrime per drammi...😭",
+    "Formattazione pregiudizi sui musical...🕺",
+    "Ottimizza-azione del divano...⚡",
+    "Controllo scorte di tisana serale...☕",
+    "Rendering della perfetta inquadratura...🎥"
+  ];
+  return inspirationalMessages[
+  Random().nextInt(inspirationalMessages.length)];
+}
+
+class __AnimatedLoadingScreenState extends State<_AnimatedLoadingScreen> {
+  late String _currentMessage;
+  late Timer _timer;
+
+  @override
+  void initState() {
+    super.initState();
+    _currentMessage = _getRandomInspirationalMessage()!;
+    _timer = Timer.periodic(const Duration(seconds: 2), (timer) {
+      setState(() {
+        _currentMessage = _getRandomInspirationalMessage()!;
+      });
+    });
+  }
+
+  @override
+  void dispose() {
+    _timer.cancel();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return _buildLoadingScreenBody(_currentMessage);
+  }
+}
+
+Widget _buildLoadingScreenBody(String message) {
+  return Container(
+    width: double.infinity,
+    height: double.infinity,
+    decoration: _createLoadingScreenDecoration(),
+    child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Expanded(
+          child: Center(
+            child: AspectRatio(
+              aspectRatio: 1,
+              child: Image.asset(
+                'assets/videos/wait3.gif',
+                fit: BoxFit.contain,
+              ),
+            ),
+          ),
+        ),
+        _buildLoadingMessage(message),
+      ],
+    ),
+  );
+}
+
+
+BoxDecoration _createLoadingScreenDecoration() {
+  return BoxDecoration(
+    gradient: LinearGradient(
+      begin: Alignment.topCenter,
+      end: Alignment.bottomCenter,
+      colors: [
+        Colors.black.withOpacity(0.9),
+        const Color(0xFF1A1A1A),
+      ],
+      stops: const [0.3, 1.0],
+    ),
+  );
+}
+
+Widget _buildLoadingMessage(String message) {
+  return Padding(
+    padding: const EdgeInsets.only(bottom: 5.0),
+    child: Text(
+      message,
+      style: TextStyle(
+        fontSize: 20,
+        fontWeight: FontWeight.bold,
+        color: Colors.amber.shade600,
+        shadows: [
+          Shadow(
+            color: Colors.black.withOpacity(0.5),
+            blurRadius: 10,
+          )
+        ],
+      ),
+      textAlign: TextAlign.center,
+    ),
+  );
 }
