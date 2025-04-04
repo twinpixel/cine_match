@@ -1,8 +1,11 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'generated/l10n.dart';
+import 'dart:convert';
+import 'package:flutter/services.dart' show rootBundle;
 
 import 'package:cine_match/firebase_options.dart';
 import 'package:image/image.dart' as img;
@@ -32,16 +35,6 @@ void main() async {
   runApp(const MyApp());
 }
 
-/*
-String get appName {
-  return Intl.message(
-    'Cine Match',
-    name: 'appName',
-    desc: 'The title of the application',
-  );
-}
-
-*/
 
 
 Future<void> initFirebase() async {
@@ -664,17 +657,16 @@ class _QuizPageState extends State<QuizPage> {
   }
 
   void _showLoadingScreen(BuildContext context) {
-    final message = _getRandomInspirationalMessage();
-
     Navigator.push(
       context,
       MaterialPageRoute(
         builder: (context) => Scaffold(
-          body: _buildLoadingScreenBody(message),
+          body: _AnimatedLoadingScreen(),
         ),
       ),
     );
   }
+
 
   String _getRandomInspirationalMessage() {
     const List<String> inspirationalMessages = [
@@ -706,65 +698,8 @@ class _QuizPageState extends State<QuizPage> {
         Random().nextInt(inspirationalMessages.length)];
   }
 
-  Widget _buildLoadingScreenBody(String message) {
-    return Container(
-      width: double.infinity,
-      height: double.infinity,
-      decoration: _createLoadingScreenDecoration(),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Expanded(
-            child: Center(
-              child: AspectRatio(
-                aspectRatio: 1,
-                child: Image.asset(
-                  'assets/videos/wait3.gif',
-                  fit: BoxFit.contain,
-                ),
-              ),
-            ),
-          ),
-          _buildLoadingMessage(message),
-        ],
-      ),
-    );
-  }
 
-  BoxDecoration _createLoadingScreenDecoration() {
-    return BoxDecoration(
-      gradient: LinearGradient(
-        begin: Alignment.topCenter,
-        end: Alignment.bottomCenter,
-        colors: [
-          Colors.black.withOpacity(0.9),
-          const Color(0xFF1A1A1A),
-        ],
-        stops: const [0.3, 1.0],
-      ),
-    );
-  }
 
-  Widget _buildLoadingMessage(String message) {
-    return Padding(
-      padding: const EdgeInsets.only(bottom: 5.0),
-      child: Text(
-        message,
-        style: TextStyle(
-          fontSize: 20,
-          fontWeight: FontWeight.bold,
-          color: Colors.amber.shade600,
-          shadows: [
-            Shadow(
-              color: Colors.black.withOpacity(0.5),
-              blurRadius: 10,
-            )
-          ],
-        ),
-        textAlign: TextAlign.center,
-      ),
-    );
-  }
 
   Future<String> _buildRecommendationPrompt(
       List<Map<String, String>> answers) async {
@@ -2140,4 +2075,206 @@ class BackgroundWidget extends StatelessWidget {
       child: child,
     );
   }
+}
+
+class _AnimatedLoadingScreen extends StatefulWidget {
+  @override
+  _AnimatedLoadingScreenState createState() => _AnimatedLoadingScreenState();
+}
+
+class _AnimatedLoadingScreenState extends State<_AnimatedLoadingScreen> {
+  String _currentMessage = "";
+  late Timer _timer;
+  List<String> _filmTitles = []; // List to store film titles
+
+  @override
+  void initState() {
+    super.initState();
+    _loadFilmTitles(); // Load titles when the widget initializes
+    _timer = Timer.periodic(const Duration(milliseconds: 100), (Timer timer) {
+      setState(() {
+        _currentMessage = _getRandomFilmTitle();
+      });
+    });
+  }
+
+  // Function to load film titles from assets/films.json
+  Future<void> _loadFilmTitles() async {
+    final String jsonString = await rootBundle.loadString('assets/films.json');
+    final List<dynamic> jsonList = jsonDecode(jsonString);
+    _filmTitles = jsonList.map((item) => item['title'].toString()).toList();
+    _currentMessage = _getRandomFilmTitle(); // Set initial message
+    setState(() {});
+  }
+
+  @override
+  void dispose() {
+    _timer.cancel();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return _buildLoadingScreenBody(_currentMessage);
+  }
+
+  Widget _buildLoadingScreenBody(String message) {
+    return Container(
+      width: double.infinity,
+      height: double.infinity,
+      decoration: _createLoadingScreenDecoration(),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Expanded(
+            child: Center(
+              child: AspectRatio(
+                aspectRatio: 1,
+                child: Image.asset(
+                  'assets/videos/wait3.gif',
+                  fit: BoxFit.contain,
+                ),
+              ),
+            ),
+          ),
+          _buildLoadingMessage(message),
+        ],
+      ),
+    );
+  }
+
+  BoxDecoration _createLoadingScreenDecoration() {
+    return BoxDecoration(
+      gradient: LinearGradient(
+        begin: Alignment.topCenter,
+        end: Alignment.bottomCenter,
+        colors: [
+          Colors.black.withOpacity(0.9),
+          const Color(0xFF1A1A1A),
+        ],
+        stops: const [0.3, 1.0],
+      ),
+    );
+  }
+
+  Widget _buildLoadingMessage(String message) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 5.0),
+      child: Text(
+        message,
+        style: TextStyle(
+          fontSize: 20,
+          fontWeight: FontWeight.bold,
+          color: Colors.amber.shade600,
+          shadows: [
+            Shadow(
+              color: Colors.black.withOpacity(0.5),
+              blurRadius: 5,
+              offset: const Offset(1, 1),
+            ),
+          ],
+        ),
+        textAlign: TextAlign.center,
+      ),
+    );
+  }
+
+  String _getRandomFilmTitle() {
+    if (_filmTitles.isEmpty) {
+      return "Loading films..."; // Or a default message
+    }
+    return _filmTitles[Random().nextInt(_filmTitles.length)];
+  }
+}
+
+
+String? _getRandomInspirationalMessage() {
+  const List<String> inspirationalMessages = [
+    "Accendiamo i proiettori...🍿",
+    "Scegliendo la colonna sonora perfetta...🎬",
+    "Allestiamo il tuo divano cinematografico...🍿",
+    "Controlliamo la lista degli Oscar...🎬",
+    "Preparando i popcorn... 🍿",
+    "Regolazione della luce ambientale...🎬",
+    "Selezionando da film cult a nuove uscite...🍿",
+    "Reticulating splines...🎬",
+    "Calibrazione volume anti-vicini...🔇",
+    "Scongelamento pellicola vintage...🎞️",
+    "Ottimizzazione angolo cuscino...🛋️",
+    "Ricarica batterie telecomando...🔋",
+    "Download effetti speciali...💥",
+    "Allineamento stelle del cinema...🌟",
+    "Ricerca sottotitoli sgrammaticati...🤌",
+    "All your base are belong to us...📺",
+    "Deframmentazione hard disk emotivo...💾",
+    "Installazione pacchetto lacrime per drammi...😭",
+    "Formattazione pregiudizi sui musical...🕺",
+    "Ottimizza-azione del divano...⚡",
+    "Controllo scorte di tisana serale...☕",
+    "Rendering della perfetta inquadratura...🎥"
+  ];
+  return inspirationalMessages[
+  Random().nextInt(inspirationalMessages.length)];
+}
+
+
+Widget _buildLoadingScreenBody(String message) {
+  return Container(
+    width: double.infinity,
+    height: double.infinity,
+    decoration: _createLoadingScreenDecoration(),
+    child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Expanded(
+          child: Center(
+            child: AspectRatio(
+              aspectRatio: 1,
+              child: Image.asset(
+                'assets/videos/wait3.gif',
+                fit: BoxFit.contain,
+              ),
+            ),
+          ),
+        ),
+        _buildLoadingMessage(message),
+      ],
+    ),
+  );
+}
+
+
+BoxDecoration _createLoadingScreenDecoration() {
+  return BoxDecoration(
+    gradient: LinearGradient(
+      begin: Alignment.topCenter,
+      end: Alignment.bottomCenter,
+      colors: [
+        Colors.black.withOpacity(0.9),
+        const Color(0xFF1A1A1A),
+      ],
+      stops: const [0.3, 1.0],
+    ),
+  );
+}
+
+Widget _buildLoadingMessage(String message) {
+  return Padding(
+    padding: const EdgeInsets.only(bottom: 5.0),
+    child: Text(
+      message,
+      style: TextStyle(
+        fontSize: 20,
+        fontWeight: FontWeight.bold,
+        color: Colors.amber.shade600,
+        shadows: [
+          Shadow(
+            color: Colors.black.withOpacity(0.5),
+            blurRadius: 10,
+          )
+        ],
+      ),
+      textAlign: TextAlign.center,
+    ),
+  );
 }

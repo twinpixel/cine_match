@@ -1,252 +1,282 @@
 [
   {
-    "title": "Locke",
-    "poster": "A minimalist poster featuring a lone car driving down a dark highway, illuminated by headlights, with a somber tone.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Locke_(film)"
+    "title": "A Ghost Story",
+    "poster": "A haunting image of a ghost draped in a white sheet, standing in a desolate, muted landscape with a faint glow in the background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Ghost_Story"
   },
   {
-    "title": "Peaky Blinders",
-    "poster": "A gritty, atmospheric poster showcasing a group of men in 1920s attire with an urban backdrop, emphasizing their intensity.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Peaky_Blinders"
+    "title": "Good Time",
+    "poster": "A neon-drenched cityscape at night with a blurred figure in the foreground, embodying a sense of urgency and anxiety.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Good_Time_(film)"
   },
   {
-    "title": "Dirty Pretty Things",
-    "poster": "A captivating poster with a close-up of a young woman looking mysterious, overlaid with shades of blue and gray representing the film's tone.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Dirty_Pretty_Things"
+    "title": "The Lobster",
+    "poster": "A surreal image of a man in a suit standing in a stark, dystopian setting with oversized animal icons, evoking a sense of absurdity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lobster"
   },
   {
-    "title": "Eastern Promises",
-    "poster": "A stark poster featuring a tattooed man in a suit, partially shrouded in shadows, conveying a sense of danger.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Eastern_Promises"
+    "title": "The Florida Project",
+    "poster": "A vibrant, colorful representation of a small girl and her friends playing in front of a pastel-colored motel, capturing the essence of childhood.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Florida_Project"
   },
   {
-    "title": "Atonement",
-    "poster": "An evocative poster with a romantic scene set against a picturesque English landscape, capturing a sense of longing.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Atonement_(film)"
+    "title": "Ex Machina",
+    "poster": "A sleek, modern design showcasing a humanoid robot with a transparent head and digital elements, set against a stark, minimalist background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ex_Machina"
   },
   {
-    "title": "The Hundred-Foot Journey",
-    "poster": "A warm, inviting poster showcasing a vibrant outdoor restaurant scene, highlighting the fusion of cultures through food.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Hundred-Foot_Journey_(film)"
+    "title": "Wild Strawberries",
+    "poster": "A reflective image of an elderly man's face merging with a field of wild strawberries, symbolizing nostalgia and memory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wild_Strawberries"
   },
   {
-    "title": "The Marine",
-    "poster": "An action-packed poster displaying a muscular soldier in combat gear, ready for a fight, with explosions in the background.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Marine_(film)"
+    "title": "The Farewell",
+    "poster": "A warm family gathering set against a scenic backdrop, with a heartfelt expression on a woman's face, conveying love and cultural tradition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Farewell_(film)"
   },
   {
-    "title": "Taboo",
-    "poster": "A mysterious and dark poster with a shadowy figure in Victorian attire surrounded by fog, hinting at the show's complex narrative.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Taboo_(TV_series)"
+    "title": "Under the Skin",
+    "poster": "An abstract, otherworldly image featuring a woman against a surreal landscape, enveloped in dark hues and mysterious light.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Under_the_Skin_(film)"
   },
   {
-    "title": "Learned Behaviors",
-    "poster": "An abstract poster with interconnected shapes and bright colors representing relationships and psychological themes.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Learned_Behaviors"
+    "title": "Tangerine",
+    "poster": "A bold, vibrant depiction of two women on a bustling street, with bright colors and contrasting urban elements, reflecting energy and resilience.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tangerine_(film)"
   },
   {
-    "title": "The Last Duel",
-    "poster": "A dramatic poster featuring two knights in armor facing off, with a medieval backdrop that evokes a sense of historical gravity.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Duel_(film)"
+    "title": "Her",
+    "poster": "An intimate close-up of a man with headphones, lost in thought with soft, pastel colors creating a dreamy atmosphere.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Her_(film)"
   },
   {
-    "title": "The Godfather",
-    "poster": "An iconic poster featuring a puppet hand manipulating strings, symbolizing power and control within the mafia.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Godfather"
+    "title": "Synecdoche, New York",
+    "poster": "A complex, layered design representing a cityscape within a human head, symbolizing the intertwining of life and art.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Synecdoche,_New_York"
   },
   {
-    "title": "Apocalypse Now",
-    "poster": "A haunting poster showcasing a helicopter with flames in the background, reflecting the chaos of war.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Apocalypse_Now"
+    "title": "The Master",
+    "poster": "A stark image of a man in a military-style jacket against a backdrop of tumultuous waves, evoking themes of power and control.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Master_(film)"
   },
   {
-    "title": "The Conversation",
-    "poster": "A minimalist poster featuring a man with headphones, surrounded by sound waves, emphasizing a theme of surveillance and paranoia.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Conversation"
+    "title": "Moonlight",
+    "poster": "A striking image of a young man surrounded by vibrant blues and purples, capturing intimacy and the search for identity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moonlight_(film)"
   },
   {
-    "title": "The Outsiders",
-    "poster": "A nostalgic poster showcasing the silhouettes of a group of teenage boys against a sunset, capturing the essence of youth and rebellion.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Outsiders_(film)"
+    "title": "A Fantastic Woman",
+    "poster": "A powerful image of a woman in a flowing dress surrounded by bold colors and soft light, representing strength and vulnerability.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Fantastic_Woman"
   },
   {
-    "title": "Bram Stoker's Dracula",
-    "poster": "A gothic poster featuring a haunting image of Dracula with an ominous castle in the background, enriched with dark reds and blacks.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bram_Stoker%27s_Dracula"
+    "title": "Mother!",
+    "poster": "A surreal, chaotic image featuring a woman surrounded by elements of nature and chaos, hinting at themes of creation and destruction.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mother!"
   },
   {
-    "title": "Rumble Fish",
-    "poster": "A moody poster with black and white imagery of two brothers, symbolizing themes of violence and identity in a gritty urban setting.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Rumble_Fish"
+    "title": "A Separation",
+    "poster": "A minimalist, introspective design focusing on a couple in a divided room, reflecting themes of conflict and emotional distance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Separation"
   },
   {
-    "title": "The Brave One",
-    "poster": "A poignant poster featuring a woman holding a gun, set against a dark urban background, conveying themes of vengeance and justice.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Brave_One"
+    "title": "The Handmaiden",
+    "poster": "An intricate design featuring two women in elegant attire against a backdrop of lush greenery, embodying themes of desire and deception.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Handmaiden"
   },
   {
-    "title": "Tucker: The Man and His Dream",
-    "poster": "An inspirational poster showcasing a vintage car against a sunlit backdrop, symbolizing innovation and ambition.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tucker:_The_Man_and_His_Dream"
+    "title": "Frances Ha",
+    "poster": "A black-and-white photo of a young woman in motion, set against the backdrop of a bustling city, capturing spontaneity and youth.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frances_Ha"
   },
   {
-    "title": "Twixt",
-    "poster": "A surreal poster featuring a haunted mansion surrounded by fog with a ghostly figure, hinting at mystery and supernatural elements.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Twixt"
+    "title": "Blue is the Warmest Color",
+    "poster": "An intimate close-up of two women's faces, their expressions conveying love and struggle, against a soft, blurred background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blue_Is_the_Warmest_Colour"
   },
   {
-    "title": "The Cotton Club",
-    "poster": "A vibrant poster depicting 1920s jazz musicians and dancers, capturing the lively spirit of the era.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Cotton_Club"
+    "title": "Shoplifters",
+    "poster": "A warm yet gritty image of a family huddled together in an urban setting, reflecting themes of love and survival amidst hardship.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shoplifters"
   },
   {
-    "title": "The Conversation",
-    "poster": "A minimalist poster featuring a man with headphones and a worried expression, hinting at themes of surveillance.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Conversation"
-  },
-  {
-    "title": "Youth Without Youth",
-    "poster": "An ethereal poster featuring an elderly man surrounded by a surreal landscape, capturing the film's exploration of time and youth.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Youth_Without_Youth"
-  },
-  {
-    "title": "The Godfather Part II",
-    "poster": "An iconic poster featuring the split images of a young Vito Corleone and Michael Corleone, symbolizing the duality of power.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Godfather_Part_II"
-  },
-  {
-    "title": "The Godfather Part III",
-    "poster": "A striking poster featuring Michael Corleone in a tuxedo, with a dark, foreboding background, suggesting the weight of legacy.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Godfather_Part_III"
-  },
-  {
-    "title": "Bram Stoker's Dracula",
-    "poster": "A dark and moody poster featuring the iconic Dracula cape and a haunting castle in the background.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Bram_Stoker%27s_Dracula"
-  },
-  {
-    "title": "The Talented Mr. Ripley",
-    "poster": "A stylish poster featuring a young man in 1960s attire with a glamorous Italian backdrop, hinting at deceit and ambition.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Talented_Mr._Ripley"
-  },
-  {
-    "title": "Marie Antoinette",
-    "poster": "A colorful poster filled with lavish visuals of court life, featuring a young queen surrounded by opulence.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Marie_Antoinette_(film)"
-  },
-  {
-    "title": "The Virgin Suicides",
-    "poster": "A dreamlike poster featuring ethereal images of five sisters in soft pastels, capturing the film's themes of youth and melancholy.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Virgin_Suicides_(film)"
-  },
-  {
-    "title": "Lost in Translation",
-    "poster": "A minimalist poster showcasing two main characters silhouetted against a neon-lit cityscape, reflecting their isolation.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Lost_in_Translation"
-  },
-  {
-    "title": "The Bling Ring",
-    "poster": "A stylish poster depicting a group of glamorous teens against a backdrop of luxury, hinting at themes of fame and excess.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Bling_Ring"
-  },
-  {
-    "title": "The Rainmaker",
-    "poster": "A compelling poster featuring Matt Damon in a courtroom scene, symbolizing justice and determination.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Rainmaker_(film)"
-  },
-  {
-    "title": "The Outsiders",
-    "poster": "A nostalgic poster featuring a group of young men against a backdrop of a sunset, symbolizing youth and rebellion.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Outsiders_(film)"
-  },
-  {
-    "title": "Tomboy",
-    "poster": "A tender poster featuring a young girl dressed in tomboyish attire playing outside, capturing the essence of childhood exploration.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Tomboy_(2011_film)"
+    "title": "I Am Not a Witch",
+    "poster": "A striking image of a young girl in a white dress standing against a harsh desert background, symbolizing isolation and resilience.",
+    "wikipedia": "https://en.wikipedia.org/wiki/I_Am_Not_a_Witch"
   },
   {
     "title": "The Fall",
-    "poster": "A visually striking poster featuring a fantastical dreamscape with colorful and surreal elements representing the story's narrative.",
+    "poster": "An imaginative, colorful illustration with fantastical elements and characters, evoking a sense of wonder and escapism.",
     "wikipedia": "https://en.wikipedia.org/wiki/The_Fall_(2006_film)"
   },
   {
-    "title": "Lost River",
-    "poster": "A captivating poster depicting a haunting underwater scene, merging beauty with darkness to reflect the film's themes.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Lost_River"
+    "title": "The Square",
+    "poster": "A thought-provoking image of a modern art installation with people interacting, reflecting themes of society and privilege.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Square_(2017_film)"
   },
   {
-    "title": "The Good Father",
-    "poster": "A somber poster featuring a man holding a child against a stormy backdrop, conveying themes of love and sacrifice.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Good_Father_(film)"
+    "title": "Mandy",
+    "poster": "A psychedelic artwork featuring a woman in a fiery landscape, embodying themes of revenge and love, with vibrant reds and blacks.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mandy_(2018_film)"
   },
   {
-    "title": "Dracula",
-    "poster": "A dark and gothic poster featuring the iconic Dracula silhouette against a blood-red moon, hinting at horror.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Dracula_(1992_film)"
+    "title": "Enemy",
+    "poster": "A split image of a man’s face mirrored against a bright yellow background, symbolizing duality and confusion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Enemy_(film)"
   },
   {
-    "title": "Girl with a Pearl Earring",
-    "poster": "An elegant poster featuring a young girl in period attire with a large pearl earring, set against a muted background.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring_(film)"
+    "title": "Birdman",
+    "poster": "A dramatic image of a man in a bird costume soaring above a city skyline at dusk, capturing themes of ambition and existentialism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Birdman_(film)"
   },
   {
-    "title": "The Age of Innocence",
-    "poster": "A romantic poster depicting a couple in 19th-century attire, surrounded by soft colors and intricate patterns, suggesting love and society.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Age_of_Innocence_(film)"
+    "title": "The Killing of a Sacred Deer",
+    "poster": "An eerie, minimalist portrayal of a young boy standing in the woods, hinting at psychological tension and moral dilemmas.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Killing_of_a_Sacred_Deer"
   },
   {
-    "title": "The Great Gatsby",
-    "poster": "A glamorous poster featuring Leonardo DiCaprio surrounded by lavish party scenes, symbolizing wealth and excess.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Gatsby_(2013_film)"
+    "title": "The Lighthouse",
+    "poster": "A stark, black-and-white image of two men in a foggy coastal setting, evoking madness and isolation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lighthouse_(2019_film)"
   },
   {
-    "title": "The Godfather Trilogy",
-    "poster": "An iconic poster featuring the three films combined, highlighting the trilogy's significance in cinematic history.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Godfather_III"
+    "title": "The Last Black Man in San Francisco",
+    "poster": "A poignant image of a young man gazing at a Victorian house, surrounded by pastel colors, reflecting themes of belonging and identity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Black_Man_in_San_Francisco"
   },
   {
-    "title": "Youth Without Youth",
-    "poster": "A surrealistic poster featuring an older man surrounded by dreamlike imagery, exploring themes of time and existence.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Youth_Without_Youth"
+    "title": "Paterson",
+    "poster": "A serene, contemplative image of a bus driver writing poetry in a notebook, surrounded by New Jersey's urban landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paterson_(film)"
   },
   {
-    "title": "The Unbearable Lightness of Being",
-    "poster": "A romantic yet complicated poster showcasing two lovers in an intimate embrace with a dreamy backdrop.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Unbearable_Lightness_of_Being_(film)"
+    "title": "The Tree of Life",
+    "poster": "An ethereal image of a child looking up at the cosmos, surrounded by nature, symbolizing life, growth, and existence.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Tree_of_Life"
   },
   {
-    "title": "Somewhere",
-    "poster": "A sparse poster featuring an empty hotel room, symbolizing the loneliness and emptiness of the protagonist's life.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Somewhere_(film)"
+    "title": "All About My Mother",
+    "poster": "A vibrant image showcasing a group of strong women, set against a dramatic backdrop, conveying themes of love and loss.",
+    "wikipedia": "https://en.wikipedia.org/wiki/All_About_My_Mother"
   },
   {
-    "title": "Distant Sky: Nick Cave and The Bad Seeds",
-    "poster": "A moody poster featuring Nick Cave in a dramatic stage light, capturing the essence of performance and music.",
-    "wikipedia": "https://en.wikipedia.org/wiki/Distant_Sky:_Nick_Cave_and_the_Bad_Seeds"
+    "title": "Leave No Trace",
+    "poster": "A serene, nature-filled image of a father and daughter camping in the woods, capturing themes of survival and family bonds.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Leave_No_Trace_(film)"
   },
   {
-    "title": "The Virgin Suicides",
-    "poster": "A beautiful and nostalgic poster with soft pastel colors capturing the essence of adolescence and mystery.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Virgin_Suicides_(film)"
+    "title": "The Great Beauty",
+    "poster": "A luxurious image of a man in formal attire against the backdrop of stunning Roman architecture, embodying beauty, art, and loneliness.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Beauty"
   },
   {
-    "title": "The Devil's Advocate",
-    "poster": "A bold poster showing Al Pacino with a menacing expression against a dark city skyline, hinting at supernatural elements.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Devil%27s_Advocate"
+    "title": "Dogtooth",
+    "poster": "A disturbing, minimal design illustrating a family in a confined yard, symbolizing control and isolation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dogtooth"
   },
   {
-    "title": "The Godfather Part IV",
-    "poster": "A dramatic poster featuring a family portrait of the Corleone family against a backdrop of New York City.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Godfather"
+    "title": "The Death of Stalin",
+    "poster": "A comedic yet dark portrayal of political figures in absurd situations, against a backdrop of Soviet-era decor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Death_of_Stalin"
   },
   {
-    "title": "The Open Road",
-    "poster": "A heartwarming poster showcasing a father-son duo on a road trip, with scenic views symbolizing their journey.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Open_Road"
+    "title": "The Babadook",
+    "poster": "An ominous silhouette of a monster looming over a mother and child, set against a dark, textured background, evoking fear and grief.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Babadook"
   },
   {
-    "title": "The Virgin Suicides",
-    "poster": "A dreamy poster with soft pastel colors showcasing five sisters, reflecting themes of youth and isolation.",
-    "wikipedia": "https://en.wikipedia.org/wiki/The_Virgin_Suicides_(film)"
+    "title": "Annihilation",
+    "poster": "A surreal, otherworldly image of a group of women exploring a mysterious, brightly colored environment, symbolizing exploration and transformation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Annihilation_(film)"
+  },
+  {
+    "title": "The Killing of Two Lovers",
+    "poster": "A tense image of a man standing alone in the street, with a blurred city background, capturing themes of desperation and love.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Killing_of_Two_Lovers"
+  },
+  {
+    "title": "The Breadwinner",
+    "poster": "A vibrant animation depicting a young girl in Afghanistan, surrounded by cultural elements, embodying strength and perseverance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Breadwinner_(film)"
+  },
+  {
+    "title": "Capernaum",
+    "poster": "A poignant image of a young boy standing amidst urban chaos, symbolizing struggles of childhood and survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Capernaum"
+  },
+  {
+    "title": "Portrait of a Lady on Fire",
+    "poster": "A beautifully composed image of two women in a serene setting, surrounded by soft light, conveying intimacy and passion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Portrait_of_a_Lady_on_Fire"
+  },
+  {
+    "title": "The Last Jedi",
+    "poster": "A bold image featuring Rey wielding a lightsaber against a backdrop of space, reflecting themes of legacy and rebellion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Star_Wars:_The_Last_Jedi"
+  },
+  {
+    "title": "A Beautiful Day in the Neighborhood",
+    "poster": "A warm, inviting image of Mr. Rogers surrounded by children, evoking themes of kindness and compassion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Beautiful_Day_in_the_Neighborhood"
+  },
+  {
+    "title": "The Irishman",
+    "poster": "A somber image of three elderly men in suits against a dark backdrop, symbolizing time, loyalty, and regret.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Irishman"
+  },
+  {
+    "title": "Roma",
+    "poster": "A visually striking black-and-white image of a woman gazing out a window, embodying themes of memory and identity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Roma_(film)"
+  },
+  {
+    "title": "Parasite",
+    "poster": "A stark contrast between a luxury house and a dilapidated one, illustrating class struggle, with figures positioned in both.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Parasite_(2019_film)"
+  },
+  {
+    "title": "Shoplifters",
+    "poster": "A heartwarming image of a makeshift family in an urban setting, reflecting love and the struggles of poverty.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shoplifters"
+  },
+  {
+    "title": "Crouching Tiger, Hidden Dragon",
+    "poster": "A mystical image of two warriors in mid-air amidst a breathtaking natural landscape, symbolizing freedom and honor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Crouching_Tiger,_Hidden_Dragon"
+  },
+  {
+    "title": "Blue Valentine",
+    "poster": "A raw, emotional image of a couple sharing an intimate moment, contrasted against colder, darker tones, reflecting love and despair.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blue_Valentine"
+  },
+  {
+    "title": "The Favourite",
+    "poster": "A lavish, historical image of three women in elegant dresses, surrounded by opulence, hinting at rivalry and ambition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Favourite"
+  },
+  {
+    "title": "Snowpiercer",
+    "poster": "A dystopian image of a train slicing through a snowy landscape, symbolizing class struggle and survival in a post-apocalyptic world.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Snowpiercer"
+  },
+  {
+    "title": "Your Name",
+    "poster": "A beautifully animated image of a boy and girl surrounded by stunning landscapes and cosmic elements, capturing themes of connection.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Your_Name"
+  },
+  {
+    "title": "The Road",
+    "poster": "A haunting image of a father and son walking through a desolate landscape, conveying themes of survival and hope.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Road_(film)"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "poster": "A dark and moody image featuring a young woman with a dragon tattoo against a cold, gray backdrop, suggesting mystery and intrigue.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Girl_with_the_Dragon_Tattoo_(film)"
+  },
+  {
+    "title": "Frida",
+    "poster": "A vibrant, artistic depiction of the artist Frida Kahlo surrounded by colors and flowers, reflecting her passion and pain.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frida_(film)"
   }
 ]
