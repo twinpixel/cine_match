@@ -2,6 +2,10 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
+
+
+const crypto = require('crypto'); // Aggiunto per generare nomi di file casuali
+
 // Funzione per leggere il contenuto del file JSON
 function readFileContent(filePath) {
   try {
@@ -30,12 +34,12 @@ function executeCurlCommand(systemContent, dettagli) {
     },
     {
       "role": "user",
-      "content": "Generate a list of 80 films ${dettagli} in JSON format. For each film, provide the original title and a description of the poster as a prompt for an LLM. Example of the content to generate: [{title: Title1 , poster : colorful poster, wikipedia : link to the Wikipedia page of the film }]. Generate only the JSON, without comments and control characters."
+      "content": "Generate a list of 200 films ${dettagli} in JSON format. For each film, provide the original title and a description of the poster as a prompt for an LLM. Example of the content to generate: [{title: Title1 , poster : colorful poster, wikipedia : link to the Wikipedia page of the film }]. Generate only the JSON, without comments and control characters."
     }
   ],
   "seed": 42,
   "temperature": 0.9,
-  "max_tokens": 5000
+  "max_tokens": 10000
 }'`;
   console.log('Eseguo il comando curl:');
   console.log(curlCommand);
@@ -43,7 +47,7 @@ function executeCurlCommand(systemContent, dettagli) {
   try {
     const result = execSync(curlCommand);
     const stringResult = result.toString();
-  
+
   //  console.log('Risultato del comando curl:\n'+stringResult);
     return stringResult;
   } catch (error) {
@@ -61,6 +65,9 @@ function extractJson(response) {
     return extractedJson;
   } catch (error) {
     console.error('Errore nell estrazione del JSON:', error);
+     console.error('******************');
+      console.error(response);
+      console.error('******************');
     return null;
   }
 }
@@ -119,8 +126,9 @@ if (!filePath) {
   if (curlResult) {
     const extractedJson = extractJson(curlResult);
     if (extractedJson) {
+     const randomFileName = `${crypto.randomBytes(16).toString('hex')}.json`;
       // Dato che non c'è un file di input, usiamo un nome predefinito per il file di output
-      saveResultToFile('default_output.json', extractedJson);
+      saveResultToFile(randomFileName, extractedJson);
     }
   }
 } else {

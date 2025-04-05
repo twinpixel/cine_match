@@ -18,22 +18,25 @@ import 'package:path_provider/path_provider.dart'; // Import path_provider
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:url_launcher/url_launcher.dart';
+
 var selectedCritic = '01';
 const String _languageCodeKey = 'selectedLanguageCode';
 var model;
 const criticsNumber = 4;
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  final prefs = await SharedPreferences.getInstance();
-  languageCode = prefs.getString(_languageCodeKey) ??
-      WidgetsBinding.instance.platformDispatcher.locale.languageCode;
+
+  String? langParam=(Uri.base.queryParameters['lang']); // 3.14
+
+    final prefs = await SharedPreferences.getInstance();
+    languageCode = prefs.getString(_languageCodeKey) ??
+        WidgetsBinding.instance.platformDispatcher.locale.languageCode;
+
   await initFirebase();
   await _QuizPageState.loadReceivedTitles(); // Carica i titoli salvati
 
   runApp(const MyApp());
 }
-
-
 
 Future<void> initFirebase() async {
   try {
@@ -44,6 +47,7 @@ Future<void> initFirebase() async {
     print('Error  $e');
   }
 }
+
 var languageCode = 'en';
 
 class MyApp extends StatelessWidget {
@@ -82,7 +86,6 @@ class MyApp extends StatelessWidget {
     );
   }
 
-
   IconThemeData _buildIconTheme(Color iconColor) {
     return IconThemeData(
       color: iconColor,
@@ -90,7 +93,8 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  ColorScheme _buildColorScheme(Color primaryColor, Color secondaryColor, Color surfaceColor) {
+  ColorScheme _buildColorScheme(
+      Color primaryColor, Color secondaryColor, Color surfaceColor) {
     return ColorScheme.dark(
       primary: primaryColor,
       secondary: secondaryColor,
@@ -151,19 +155,17 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
           ),
         ),
         leading: IconButton(
-          icon: Icon(
-            Icons.language,
+          icon: Image.asset(
+            'assets/images/language.png',
             color: Colors.amber.shade600,
-            size: 28,
           ),
           onPressed: _showLanguageDialog,
         ),
         actions: [
           IconButton(
-            icon: Icon(
-              Icons.info_outline,
+            icon: Image.asset(
+              'assets/images/about.png',
               color: Colors.amber.shade600,
-              size: 28,
             ),
             onPressed: () => _showInfoDialog(context),
           ),
@@ -195,11 +197,10 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
       builder: (BuildContext context) {
         return AlertDialog(
           backgroundColor: Colors.black.withOpacity(0.9),
-          title:Icon(
+          title: Icon(
             Icons.language,
             color: Colors.amber.shade600,
             size: 28,
-
           ),
           content: Column(
             mainAxisSize: MainAxisSize.min,
@@ -224,17 +225,15 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
       });
     });
   }
+
   Widget _buildLanguageOption(String languageName, String code) {
     return ListTile(
       title: Text(
         languageName,
         style: TextStyle(
-          color: languageCode == code
-              ? Colors.amber.shade600
-              : Colors.white,
-          fontWeight: languageCode == code
-              ? FontWeight.bold
-              : FontWeight.normal,
+          color: languageCode == code ? Colors.amber.shade600 : Colors.white,
+          fontWeight:
+              languageCode == code ? FontWeight.bold : FontWeight.normal,
         ),
       ),
       onTap: () async {
@@ -258,30 +257,32 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
           child: Column(
             children: [
               Expanded(
-                child: GridView.builder(
-                  padding: const EdgeInsets.all(12),
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
-                    crossAxisSpacing: 12,
-                    mainAxisSpacing: 12,
-                    childAspectRatio: 0.7, // Modificato per meglio adattarsi ai ritratti
-                  ),
-                  itemCount: criticsNumber,
-                  itemBuilder: (context, index) {
-                    final imageNumber = (index + 1).toString().padLeft(2, '0');
-                    final imagePath = 'assets/images/$imageNumber.png';
-                    return _buildCriticoCard(imagePath, index, descriptions);
-                  },
-                )
-              ),
+                  child: GridView.builder(
+                padding: const EdgeInsets.all(12),
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  crossAxisSpacing: 12,
+                  mainAxisSpacing: 12,
+                  childAspectRatio:
+                      0.7, // Modificato per meglio adattarsi ai ritratti
+                ),
+                itemCount: criticsNumber,
+                itemBuilder: (context, index) {
+                  final imageNumber = (index + 1).toString().padLeft(2, '0');
+                  final imagePath = 'assets/images/$imageNumber.png';
+                  return _buildCriticoCard(imagePath, index, descriptions);
+                },
+              )),
               // Pulsante per il critico personalizzato
               Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 child: SizedBox(
                   width: double.infinity,
                   child: ElevatedButton(
                     onPressed: () {
-                      selectedCritic = '05'; // Assume che il 5° critico sia il personalizzato
+                      selectedCritic =
+                          '05'; // Assume che il 5° critico sia il personalizzato
                       setState(() => _selectedImageNumber = selectedCritic);
                       _navigateToQuiz();
                     },
@@ -317,15 +318,17 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
     );
   }
 
-  Widget _buildCriticoCard(String imagePath, int index, List<String> descriptions) {
+  Widget _buildCriticoCard(
+      String imagePath, int index, List<String> descriptions) {
     return Container(
       decoration: BoxDecoration(
         color: Colors.black26,
         borderRadius: BorderRadius.circular(15),
         border: Border.all(
-          color: _selectedImageNumber == imagePath.split('/').last.split('.').first
-              ? Colors.amber.shade600
-              : Colors.transparent,
+          color:
+              _selectedImageNumber == imagePath.split('/').last.split('.').first
+                  ? Colors.amber.shade600
+                  : Colors.transparent,
           width: 2,
         ),
       ),
@@ -375,7 +378,8 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
                       aspectRatio: 0.75, // Proporzioni tipiche di un ritratto
                       child: Image.asset(
                         imagePath,
-                        fit: BoxFit.cover, // Crop centrato che riempie lo spazio
+                        fit:
+                            BoxFit.cover, // Crop centrato che riempie lo spazio
                       ),
                     ),
                   ),
@@ -416,8 +420,7 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
       final fileNumber = i.toString().padLeft(2, '0');
       try {
         final jsonData = await getPersonaData(fileNumber);
-        descriptions
-            .add(jsonData['name'] ?? '?');
+        descriptions.add(jsonData['name'] ?? '?');
       } catch (e) {
         print('Error loading del persona $fileNumber: $e');
         descriptions.add('?');
@@ -566,11 +569,9 @@ class _QuizPageState extends State<QuizPage> {
 
       if (movieList.isEmpty || movieList.length < 4) {
         print('Asking mistral:...');
-        List<dynamic> movieList2 =await askMistral(role, answers);
+        List<dynamic> movieList2 = await askMistral(role, answers);
         movieList.addAll(movieList2);
       }
-
-
 
       //print('$movieList');
 
@@ -622,7 +623,8 @@ class _QuizPageState extends State<QuizPage> {
     }
   }
 
-  Future<List<dynamic>> askMistral(String role, List<Map<String, String>> answers) async {
+  Future<List<dynamic>> askMistral(
+      String role, List<Map<String, String>> answers) async {
     try {
       const keyMistral = String.fromEnvironment('KEY_MISTRAL');
       if (keyMistral.isEmpty) {
@@ -689,7 +691,8 @@ class _QuizPageState extends State<QuizPage> {
 
       if (response.statusCode == 200) {
         final responseJson = jsonDecode(response.body);
-        final content = responseJson['choices'][0]['message']['content'] as String;
+        final content =
+            responseJson['choices'][0]['message']['content'] as String;
 
         // Pulizia e parsing del JSON
         final cleanedContent = content
@@ -708,7 +711,8 @@ class _QuizPageState extends State<QuizPage> {
         final movieList = jsonDecode(cleanedContent) as List<dynamic>;
         return movieList;
       } else {
-        print('Error nella risposta: ${response.statusCode} - ${response.body}');
+        print(
+            'Error nella risposta: ${response.statusCode} - ${response.body}');
         return [];
       }
     } catch (e) {
@@ -716,12 +720,14 @@ class _QuizPageState extends State<QuizPage> {
       return [];
     }
   }
+
   Future<List<dynamic>> askGemini(String prompt) async {
     try {
       final promptG = [Content.text(prompt)];
       final responseAI = await model.generateContent(promptG);
 
-      final jsonString = responseAI.text.toString()
+      final jsonString = responseAI.text
+          .toString()
           .replaceAll('``````', '')
           .replaceAll('```json', '')
           .replaceAll('```', '');
@@ -730,7 +736,7 @@ class _QuizPageState extends State<QuizPage> {
 
       // Aggiungi i titoli al set
       for (final movie in movieList2) {
-        final title = movie['title']?.toString();
+        final title = movie['english_title']?.toString();
         if (title != null && title.isNotEmpty) {
           _QuizPageState._receivedTitles.add(title);
         }
@@ -739,8 +745,7 @@ class _QuizPageState extends State<QuizPage> {
         _QuizPageState._receivedTitles.removeRange(0, 10);
       }
       _QuizPageState.saveReceivedTitles();
-      final List<dynamic> movieList =
-          movieList2;
+      final List<dynamic> movieList = movieList2;
 
       return movieList;
     } catch (e) {
@@ -760,11 +765,6 @@ class _QuizPageState extends State<QuizPage> {
     );
   }
 
-
-
-
-
-
   Future<String> _buildRecommendationPrompt(
       List<Map<String, String>> answers) async {
     final String summary = answers
@@ -773,37 +773,41 @@ class _QuizPageState extends State<QuizPage> {
         .join();
     final String fileNumber = widget.selectedImage;
 
-
     String exampleContent = _defaultExampleContent();
-    String  postContent = _defaultPostContent();
+    String postContent = _defaultPostContent();
     if (_receivedTitles.length > 100) _receivedTitles.removeRange(0, 5);
     String exclusionInstruction = _receivedTitles.isNotEmpty
         ? "\nAvoid the following movies film: ${_receivedTitles.join(', ')}.\n"
         : "";
     final special = "\n.Always produce at least 4 results.\n"
-        "$exclusionInstruction"
-        "In the \"why_reccomended\" field, write long and detailed texts.\n"
-        "Also add a film that is not relevant and justify the choice in a convoluted way in the \"why_recomended\" field.\n"
-        "Order the results in descending order of score.\n"
-        "Include only actually existing films.\n"
-        "Use the correct encoding for accented letters and special characters for the Italian language."
-        "***IMPORTANT*** ALWAYS PRODUCE A VALID JSON. Double-check the result. \n"
-        "Produce description and why_reccomended in the language  "+_getLanguageName(languageCode);
-    final jsonDesc =
-        "Output JSON\n'poster_prompt':'Brief description for LLM that will generate the movie poster',\n"
+            "$exclusionInstruction"
+            "In the \"why_reccomended\" field, write long and detailed texts.\n"
+            "Also add a film that is not relevant and justify the choice in a convoluted way in the \"why_recomended\" field.\n"
+            "Order the results in descending order of score.\n"
+            "Include only actually existing films.\n"
+            "Use the correct encoding for accented letters and special characters for the Italian language."
+            "***IMPORTANT*** ALWAYS PRODUCE A VALID JSON. Double-check the result. \n"
+            "Produce description and why_reccomended in the language  " +
+        _getLanguageName(languageCode);
+    final jsonDesc = "Output JSON\n'poster_prompt':'Brief description for LLM that will generate the movie poster',\n"
             "Generate a JSON array with the following information for each film:,\n"
-            "'title': Title of the film in the "+_getLanguageName(languageCode)+" edition,\n"
+            "'title': Title of the film in the " +
+        _getLanguageName(languageCode) +
+        " edition,\n"
             "'english_title': Original title of the film\n"
             "'wikipedia': Correct link to the film's Wikipedia page,\n"
             "'description': Very brief synopsis of the film, in a formal and detached tone. Very short. If possible, in one sentence,\n"
             "'score': score indicating how close the film is to the user's tastes on a scale from 1 to 10,\n"
             "'genre': only one genre to which the film belongs chosen from [action, horror, adventure,musical, comedy ,science-fiction ,crime ,war ,drama ,western, historical]\n"
-            "‘why_recommended’: detailed explanation of the merits of the film and its relevance to the user's answers‘ in  "+_getLanguageName(languageCode)+"\n";
+            "‘why_recommended’: detailed explanation of the merits of the film and its relevance to the user's answers‘ in  " +
+        _getLanguageName(languageCode) +
+        "\n";
     final res =
         "\n$summary\n$jsonDesc\n$postContent$exampleContent\n\n$special";
 
     return res;
   }
+
   String _getLanguageName(String languageCode) {
     switch (languageCode.toLowerCase()) {
       case 'it':
@@ -822,6 +826,7 @@ class _QuizPageState extends State<QuizPage> {
         return 'English';
     }
   }
+
   Future<String> _buildRecommendationRole() async {
     final String fileNumber = widget.selectedImage;
     Map<String, dynamic> personaData = await getPersonaData(fileNumber);
@@ -839,8 +844,7 @@ class _QuizPageState extends State<QuizPage> {
       "Sei un esperto critico cinematografico. In base alle seguenti risposte consiglia 5 film all'utente"; // Mantieni il vecchio contenuto
   String _defaultPostContent() => "Cerca di evitare film troppo comuni.";
 
-  String _defaultExampleContent() =>
-      "\nExample of required json:\n"
+  String _defaultExampleContent() => "\nExample of required json:\n"
       "```json\n"
       "[\n"
       " {\n"
@@ -892,13 +896,14 @@ class _QuizPageState extends State<QuizPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: _buildAppBar(),
-    body: BackgroundWidget(
-    child:Stack(
-        children: [
-          _buildBackground(),
-          _buildMainContent(),
-        ],
-      ),),
+      body: BackgroundWidget(
+        child: Stack(
+          children: [
+            _buildBackground(),
+            _buildMainContent(),
+          ],
+        ),
+      ),
     );
   }
 
@@ -998,6 +1003,7 @@ class _QuizPageState extends State<QuizPage> {
               : _buildQuestionnaire(),
     );
   }
+
   void _handleBackAction() {
     if (_currentQuestionIndex > 0) {
       // Torna alla domanda precedente
@@ -1014,10 +1020,11 @@ class _QuizPageState extends State<QuizPage> {
       Navigator.pushAndRemoveUntil(
         context,
         MaterialPageRoute(builder: (context) => const ImageSelectionScreen()),
-            (route) => false,
+        (route) => false,
       );
     }
   }
+
   Widget _buildInitialLoading() {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
@@ -1272,10 +1279,11 @@ class MovieListPage extends StatelessWidget {
         ),
         body: BackgroundWidget(
           child: ListView.builder(
-          padding: const EdgeInsets.all(16.0),
-          itemCount: movies.length,
-          itemBuilder: (context, index) => _buildMovieItem(context, index),
-        ),),
+            padding: const EdgeInsets.all(16.0),
+            itemCount: movies.length,
+            itemBuilder: (context, index) => _buildMovieItem(context, index),
+          ),
+        ),
       ),
     );
   }
@@ -1586,7 +1594,6 @@ class MovieListPage extends StatelessWidget {
     );
   }
 
-
   void _handleMovieTap(BuildContext context, dynamic movie) async {
     final String movieLink =
         "https://www.google.com/search?q=streaming+film+${movie['title']}+-+${movie['english_title']}";
@@ -1618,10 +1625,6 @@ class MovieListPage extends StatelessWidget {
   }
 }
 
-
-
-
-
 class Question {
   final String question;
   final List<String> answers;
@@ -1635,8 +1638,6 @@ class Question {
     );
   }
 }
-
-
 
 Image placeHolderImage(String movieTitle, [String? genre]) {
   // Se non c'è un genere specificato o il file non esiste, usa l'immagine generica
@@ -1661,9 +1662,6 @@ Image placeHolderImage(String movieTitle, [String? genre]) {
   );
 }
 
-
-
-
 Future<bool> _checkAssetExists(String assetPath) async {
   try {
     await rootBundle.load(assetPath);
@@ -1673,7 +1671,6 @@ Future<bool> _checkAssetExists(String assetPath) async {
     return false;
   }
 }
-
 
 // Funzione per ottenere la directory di cache persistente
 Future<String> _getCacheDirectory() async {
@@ -1717,9 +1714,6 @@ Future<bool> saveImageToCacheMobile(
     return false;
   }
 }
-
-
-
 
 final Map<String, Uint8List> _inMemoryCache = {}; // In-memory cache for images
 
@@ -1814,11 +1808,11 @@ Future<void> _cleanWebCache() async {
   }
 }
 
-
 final Map<String, Map<String, dynamic>> _personaDataCache = {};
 
 Future<Map<String, dynamic>> getPersonaData(String fileNumber) async {
-  final cacheKey = '${fileNumber}_$languageCode'; // Aggiorna la cache key con la lingua
+  final cacheKey =
+      '${fileNumber}_$languageCode'; // Aggiorna la cache key con la lingua
 
   if (_personaDataCache.containsKey(cacheKey)) {
     return _personaDataCache[cacheKey]!;
@@ -1835,13 +1829,15 @@ Future<Map<String, dynamic>> getPersonaData(String fileNumber) async {
     return {};
   }
 }
+
 Future<String> _loadPersonaJson(String fileNumber) async {
   // Prima prova a caricare la versione localizzata
   final localizedPath = 'assets/personas/$fileNumber\_$languageCode.json';
   try {
     return await rootBundle.loadString(localizedPath);
   } catch (e) {
-    print('Localized persona $fileNumber\_$languageCode.json not found, falling back to default');
+    print(
+        'Localized persona $fileNumber\_$languageCode.json not found, falling back to default');
   }
 
   // Se non trova la versione localizzata, carica quella default
@@ -1853,7 +1849,6 @@ Future<String> _loadPersonaJson(String fileNumber) async {
     return '{}';
   }
 }
-
 
 Future<String> getWikipediaThumbnailUrl(String movieTitle) async {
   try {
@@ -1877,16 +1872,15 @@ Future<String> getWikipediaThumbnailUrl(String movieTitle) async {
         final queryResponse = await http.get(queryApiUrl);
 
         if (queryResponse.statusCode == 200) {
-
           final queryData = jsonDecode(queryResponse.body);
 
-          if (queryData['query'] != null && queryData['query']['pages'] != null) {
+          if (queryData['query'] != null &&
+              queryData['query']['pages'] != null) {
             final pages = queryData['query']['pages'];
             if (pages.isNotEmpty) {
               final pageInfo = pages.values.first;
               if (pageInfo['thumbnail'] != null &&
                   pageInfo['thumbnail']['source'] != null) {
-
                 var res = pageInfo['thumbnail']['source'];
                 print('Found  $res');
                 return res;
@@ -1911,7 +1905,8 @@ Future<String> getWikipediaThumbnailUrl(String movieTitle) async {
           return '';
         }
       } else {
-        print('Nessun risultato di ricerca trovato per "$movieTitle" su Wikipedia.');
+        print(
+            'Nessun risultato di ricerca trovato per "$movieTitle" su Wikipedia.');
         return '';
       }
     } else {
@@ -1920,18 +1915,19 @@ Future<String> getWikipediaThumbnailUrl(String movieTitle) async {
       return '';
     }
   } catch (error) {
-    print('Error durante l\'ottenimento della miniatura per "$movieTitle": $error');
+    print(
+        'Error durante l\'ottenimento della miniatura per "$movieTitle": $error');
     return '';
   }
 }
-
 
 class loadPosterCached {
   static Widget getPoster(String movieTitle, String genre, String desc) {
     return _buildPosterWithFallback(movieTitle, genre, desc);
   }
 
-  static Widget _buildPosterWithFallback(String movieTitle, String genre, String desc) {
+  static Widget _buildPosterWithFallback(
+      String movieTitle, String genre, String desc) {
     // 1. Cerca prima negli asset locali
     final imageName = _generateImageName(movieTitle);
     final imagePath = 'assets/posters/$imageName';
@@ -1960,18 +1956,19 @@ class loadPosterCached {
     );
   }
 
-  static Widget _buildWikipediaPoster(String movieTitle, String genre, String desc) {
+  static Widget _buildWikipediaPoster(
+      String movieTitle, String genre, String desc) {
     return FutureBuilder<String>(
       future: getWikipediaThumbnailUrl(movieTitle),
       builder: (context, snapshot) {
         if (snapshot.hasData && snapshot.data!.isNotEmpty) {
           return CachedNetworkImage(
-            imageUrl: snapshot.data!,
-            fit: BoxFit.cover,
-            placeholder: (context, url) => placeHolderImage(movieTitle, genre),
-            errorWidget: (context, url, error) =>
-           _buildGeneratedPoster(movieTitle, genre, desc)
-          );
+              imageUrl: snapshot.data!,
+              fit: BoxFit.cover,
+              placeholder: (context, url) =>
+                  placeHolderImage(movieTitle, genre),
+              errorWidget: (context, url, error) =>
+                  _buildGeneratedPoster(movieTitle, genre, desc));
         } else if (snapshot.hasError) {
           return _buildGeneratedPoster(movieTitle, genre, desc);
         }
@@ -1980,8 +1977,10 @@ class loadPosterCached {
     );
   }
 
-  static Widget _buildGeneratedPoster(String movieTitle, String genre, String? desc) {
-    var prompt = 'Poster for the movie: $movieTitle of genre $genre:  $desc. No text';
+  static Widget _buildGeneratedPoster(
+      String movieTitle, String genre, String? desc) {
+    var prompt =
+        'Poster for the movie: $movieTitle of genre $genre:  $desc. No text';
 
     final encodedPrompt = Uri.encodeComponent(prompt);
     final imageUrl = 'https://image.pollinations.ai/prompt/$encodedPrompt'
@@ -2012,17 +2011,18 @@ class loadPosterCached {
 
   static String _generateImageName(String movieTitle) {
     return movieTitle
-        .toLowerCase()
-        .replaceAll(RegExp(r'[^a-z0-9]+'), '_')
-        .replaceAll('.', '_')
-        .replaceAll(RegExp(r'^_|_$'), '')
-        .trim() + '.jpg';
+            .toLowerCase()
+            .replaceAll(RegExp(r'[^a-z0-9]+'), '_')
+            .replaceAll('.', '_')
+            .replaceAll(RegExp(r'^_|_$'), '')
+            .trim() +
+        '.jpg';
   }
 
   static Future<Uint8List> _downloadImage(String url) async {
     try {
-      final response = await http.get(Uri.parse(url))
-          .timeout(const Duration(seconds: 10));
+      final response =
+          await http.get(Uri.parse(url)).timeout(const Duration(seconds: 10));
 
       if (response.statusCode == 200 && response.bodyBytes.isNotEmpty) {
         return response.bodyBytes;
@@ -2041,7 +2041,7 @@ const int _maxCacheSize = 50;
 Widget buildPosterWeb(int index, dynamic movie) {
   final movieTitle = movie['title'] as String? ?? 'film';
   final genre = movie['genre'] as String? ?? 'genre';
-  final desc  = movie['poster_prompt'] as String? ?? '';
+  final desc = movie['poster_prompt'] as String? ?? '';
 
   // Creiamo una chiave unica combinando titolo e genere
   final cacheKey = '${movieTitle}_$genre';
@@ -2057,7 +2057,7 @@ Widget buildPosterWeb(int index, dynamic movie) {
   }
 
   // Generiamo il nuovo poster e lo memorizziamo in cache
-  final poster = loadPosterCached.getPoster(movieTitle, genre,desc);
+  final poster = loadPosterCached.getPoster(movieTitle, genre, desc);
   _posterCache[cacheKey] = poster;
 
   return poster;
@@ -2066,7 +2066,8 @@ Widget buildPosterWeb(int index, dynamic movie) {
 void _showCriticDescription(BuildContext context) async {
   try {
     final personaData = await getPersonaData(selectedCritic);
-    final description = personaData['description'] ?? 'Nessuna descrizione disponibile';
+    final description =
+        personaData['description'] ?? 'Nessuna descrizione disponibile';
 
     showDialog(
       context: context,
@@ -2248,7 +2249,6 @@ class _AnimatedLoadingScreenState extends State<_AnimatedLoadingScreen> {
   }
 }
 
-
 void _showInfoDialog(BuildContext context) {
   showDialog(
     context: context,
@@ -2267,8 +2267,8 @@ void _showInfoDialog(BuildContext context) {
         children: [
           Text(
             'This app is licensed under BSD-3-Clause license\n\n'
-                'Created by Andrea Poltronieri\n\n'
-                'For more information visit:',
+            'Created by Andrea Poltronieri\n\n'
+            'For more information visit:',
             style: TextStyle(
               color: Colors.amber.shade100,
               fontSize: 16,

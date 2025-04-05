@@ -57,6 +57,7 @@ dependencies:
   intl: any
   flutter_svg: any
   flutter_widget_from_html: any
+  flutter_launcher_icons: any
 
 
 dev_dependencies:
@@ -130,7 +131,8 @@ flutter:
       fonts:
         - asset: assets/fonts/cinema.ttf
 
-
-flutter_intl:
-  enabled: true
+flutter_icons:
+  image_path: "assets/icon.png"
+  android: true
+  ios: true
 

@@ -1,0 +1,552 @@
+[
+  {
+    "title": "Fight Club",
+    "poster": "A dark and gritty poster featuring a bar of soap with the iconic 'Fight Club' text",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fight_Club"
+  },
+  {
+    "title": "Pulp Fiction",
+    "poster": "A stylized poster with an artistic collage of characters, prominently featuring Uma Thurman and John Travolta",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pulp_Fiction"
+  },
+  {
+    "title": "The Big Lebowski",
+    "poster": "A colorful poster showcasing Jeff Bridges as 'The Dude' with a white Russian and a bowling alley background",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Big_Lebowski"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "poster": "A striking poster featuring a menacing figure, with a single eye prominently highlighted and a stark color contrast",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Clockwork_Orange_(film)"
+  },
+  {
+    "title": "Natural Born Killers",
+    "poster": "A chaotic poster filled with bold colors and fragmented images of the lead characters, reflecting the film's wild nature",
+    "wikipedia": "https://en.wikipedia.org/wiki/Natural_Born_Killers"
+  },
+  {
+    "title": "Requiem for a Dream",
+    "poster": "An intense poster depicting four characters' faces intertwined with dramatic, abstract imagery",
+    "wikipedia": "https://en.wikipedia.org/wiki/Requiem_for_a_Dream"
+  },
+  {
+    "title": "Donnie Darko",
+    "poster": "A surreal poster featuring a dark, eerie rabbit figure with a stylized depiction of the lead character",
+    "wikipedia": "https://en.wikipedia.org/wiki/Donnie_Darko"
+  },
+  {
+    "title": "Reservoir Dogs",
+    "poster": "A minimalist poster with silhouettes of the main characters against a stark background, emphasizing the film's tension",
+    "wikipedia": "https://en.wikipedia.org/wiki/Reservoir_Dogs"
+  },
+  {
+    "title": "The Blair Witch Project",
+    "poster": "An enigmatic poster featuring a shadowy figure in a dark forest, with a distressed and worn look",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Blair_Witch_Project"
+  },
+  {
+    "title": "Trainspotting",
+    "poster": "A vibrant poster featuring a group of young adults in an urban setting, with a drug-related theme",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trainspotting_(film)"
+  },
+  {
+    "title": "American Psycho",
+    "poster": "A slick poster with a close-up of Christian Bale's character, juxtaposed with blood and luxury symbols",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Psycho_(film)"
+  },
+  {
+    "title": "Oldboy",
+    "poster": "A dark and intense poster featuring the protagonist with a hammer, set against a gritty urban backdrop",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oldboy"
+  },
+  {
+    "title": "Salo, or the 120 Days of Sodom",
+    "poster": "A provocative poster with stark imagery and a minimalist design, evoking the film's controversial themes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Salo,_or_the_120_Days_of_Sodom"
+  },
+  {
+    "title": "The Passion of the Christ",
+    "poster": "A somber poster depicting the lead character's face in deep shadow, conveying emotional intensity",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Passion_of_the_Christ"
+  },
+  {
+    "title": "Blade Runner",
+    "poster": "A neon-lit poster showcasing a futuristic cityscape with rain and flying cars, emphasizing the film's sci-fi aesthetic",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blade_Runner"
+  },
+  {
+    "title": "Blue Velvet",
+    "poster": "A striking poster featuring a close-up of a flower with a mystery tone, hinting at the film's themes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blue_Velvet"
+  },
+  {
+    "title": "The Tree of Life",
+    "poster": "A poetic poster featuring a celestial backdrop with ethereal imagery representing nature and existence",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Tree_of_Life"
+  },
+  {
+    "title": "Mulholland Drive",
+    "poster": "A mysterious poster featuring a shadowy city street scene with a focus on neon lights and enigmas",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mulholland_Drive"
+  },
+  {
+    "title": "The Fountain",
+    "poster": "A visually striking poster with a surreal blend of images depicting love, death, and rebirth across time",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fountain"
+  },
+  {
+    "title": "Her",
+    "poster": "A vibrant poster featuring Joaquin Phoenix with a warm color palette representing a futuristic love story",
+    "wikipedia": "https://en.wikipedia.org/wiki/Her_(film)"
+  },
+  {
+    "title": "The Holy Mountain",
+    "poster": "A kaleidoscopic poster filled with surreal imagery and vibrant colors reflecting the film's avant-garde style",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Holy_Mountain"
+  },
+  {
+    "title": "Snowpiercer",
+    "poster": "A gripping poster showcasing the train set against a frozen wasteland, with characters poised for conflict",
+    "wikipedia": "https://en.wikipedia.org/wiki/Snowpiercer_(film)"
+  },
+  {
+    "title": "Mother!",
+    "poster": "An unsettling poster featuring a disintegrating house with an atmospheric and eerie feel",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mother!"
+  },
+  {
+    "title": "Funny Games",
+    "poster": "A stark and minimalist poster with chilling imagery of a game-like scenario in a suburban setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/Funny_Games"
+  },
+  {
+    "title": "Pink Flamingos",
+    "poster": "A bold and outrageous poster featuring the main characters in vibrant colors and shocking poses",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pink_Flamingos"
+  },
+  {
+    "title": "Dogville",
+    "poster": "A conceptual poster depicting an empty stage with outlines of buildings, symbolizing the film's unique style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dogville"
+  },
+  {
+    "title": "Nymphomaniac",
+    "poster": "A provocative poster showcasing a female figure with evocative imagery that hints at the film's themes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nymphomaniac"
+  },
+  {
+    "title": "The Last House on the Left",
+    "poster": "A terrifying poster featuring dark woods and shadowy characters, evoking horror and tension",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_House_on_the_Left_(1972_film)"
+  },
+  {
+    "title": "Videodrome",
+    "poster": "A graphic poster incorporating themes of technology and horror, featuring surreal imagery of television and flesh",
+    "wikipedia": "https://en.wikipedia.org/wiki/Videodrome"
+  },
+  {
+    "title": "Network",
+    "poster": "A bold poster featuring a news anchor with intense expression, emphasizing the media's impact",
+    "wikipedia": "https://en.wikipedia.org/wiki/Network_(film)"
+  },
+  {
+    "title": "Eraserhead",
+    "poster": "A haunting poster with dark, abstract imagery representing industrial themes and isolation",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eraserhead"
+  },
+  {
+    "title": "Lost Highway",
+    "poster": "A surreal and atmospheric poster featuring a desolate highway at night with a play on shadows",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lost_Highway"
+  },
+  {
+    "title": "City of God",
+    "poster": "A dynamic poster showcasing a vibrant slum environment with characters in action, reflecting the film's energy",
+    "wikipedia": "https://en.wikipedia.org/wiki/City_of_God"
+  },
+  {
+    "title": "The Dreamers",
+    "poster": "A provocative poster featuring the three main characters in an intimate pose against a backdrop of Paris",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Dreamers"
+  },
+  {
+    "title": "Secretary",
+    "poster": "A playful poster featuring the two main characters in a playful but intense dynamic, hinting at the film's themes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Secretary_(film)"
+  },
+  {
+    "title": "Dogtooth",
+    "poster": "A stark poster featuring a family in a confined space, alluding to the film's themes of control and isolation",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dogtooth"
+  },
+  {
+    "title": "The Killing of a Sacred Deer",
+    "poster": "A striking and eerie poster focusing on the lead characters set against a haunting backdrop",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Killing_of_a_Sacred_Deer"
+  },
+  {
+    "title": "Antichrist",
+    "poster": "A dark and abstract poster with a haunting image of nature and despair, hinting at the film's themes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antichrist_(film)"
+  },
+  {
+    "title": "In the Company of Men",
+    "poster": "A minimalist poster featuring corporate-like imagery with a dark undertone reflecting the film's themes",
+    "wikipedia": "https://en.wikipedia.org/wiki/In_the_Company_of_Men"
+  },
+  {
+    "title": "The Act of Killing",
+    "poster": "A provocative poster featuring faces and imagery related to genocide and haunting memories",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Act_of_Killing"
+  },
+  {
+    "title": "Come and See",
+    "poster": "A powerful and haunting poster depicting a child's face against war-torn backgrounds, evoking emotion",
+    "wikipedia": "https://en.wikipedia.org/wiki/Come_and_See"
+  },
+  {
+    "title": "Irréversible",
+    "poster": "A gritty and unsettling poster with abstract elements hinting at the film's nonlinear narrative and violence",
+    "wikipedia": "https://en.wikipedia.org/wiki/Irr%C3%A9versible"
+  },
+  {
+    "title": "Enter the Void",
+    "poster": "A vibrant poster with neon colors, depicting the Tokyo nightlife and a psychedelic visual style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Enter_the_Void"
+  },
+  {
+    "title": "A Serbian Film",
+    "poster": "A controversial and graphic poster featuring stark imagery reflecting the film's themes of brutality",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Serbian_Film"
+  },
+  {
+    "title": "The House That Jack Built",
+    "poster": "An unsettling poster focusing on the protagonist against a backdrop of disturbing imagery",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_House_That_Jack_Built"
+  },
+  {
+    "title": "Kids",
+    "poster": "A raw and striking poster featuring young characters in urban settings, highlighting their rebellious spirit",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kids_(film)"
+  },
+  {
+    "title": "Crash",
+    "poster": "A provocative poster portraying intertwined bodies spotlighting themes of lust and car crashes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Crash_(1996_film)"
+  },
+  {
+    "title": "American History X",
+    "poster": "A haunting poster featuring Edward Norton with a stark backdrop that showcases the film's themes of racism",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_History_X"
+  },
+  {
+    "title": "The Witch",
+    "poster": "A chilling poster featuring a dark forest and a solitary figure, embodying the film's unsettling atmosphere",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Witch_(film)"
+  },
+  {
+    "title": "Good Time",
+    "poster": "A stylized poster with vibrant colors capturing the frantic energy of New York City at night",
+    "wikipedia": "https://en.wikipedia.org/wiki/Good_Time_(film)"
+  },
+  {
+    "title": "Midsommar",
+    "poster": "A colorful and unsettling poster showcasing a group of friends at a festival, highlighting eerie floral motifs",
+    "wikipedia": "https://en.wikipedia.org/wiki/Midsommar"
+  },
+  {
+    "title": "Mother! (2017)",
+    "poster": "An atmospheric poster featuring a house surrounded by nature, hinting at chaos underneath the surface",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mother!"
+  },
+  {
+    "title": "The Lighthouse",
+    "poster": "A dramatic black-and-white poster with the lighthouse looming ominously against a stormy sky",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lighthouse"
+  },
+  {
+    "title": "Us",
+    "poster": "A striking poster featuring duplicated characters facing each other, hinting at themes of duality and horror",
+    "wikipedia": "https://en.wikipedia.org/wiki/Us_(film)"
+  },
+  {
+    "title": "The Killing of a Sacred Deer",
+    "poster": "A haunting poster featuring the lead characters with a surreal and eerie atmosphere surrounding them",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Killing_of_a_Sacred_Deer"
+  },
+  {
+    "title": "Funny Games",
+    "poster": "A stark and minimalist poster with chilling imagery of a game-like scenario in a suburban setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/Funny_Games"
+  },
+  {
+    "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+    "poster": "A comedic poster featuring Sacha Baron Cohen in a distinctive suit and tie against a colorful background",
+    "wikipedia": "https://en.wikipedia.org/wiki/Borat:_Cultural_Learnings_of_America_for_Make_Benefit_Glorious_Nation_of_Kazakhstan"
+  },
+  {
+    "title": "Dancer in the Dark",
+    "poster": "A dramatic poster featuring Björk in a poignant expression set against a shadowy background",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dancer_in_the_Dark"
+  },
+  {
+    "title": "Killer Joe",
+    "poster": "A bold poster featuring Matthew McConaughey with a menacing smile, hinting at the film's dark themes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Killer_Joe"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "poster": "A stylish poster featuring the lead character with a striking tattoo and a dark atmosphere",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Girl_with_the_Dragon_Tattoo_(2011_film)"
+  },
+  {
+    "title": "The Beloved",
+    "poster": "A haunting poster depicting a woman with surreal imagery surrounding her, hinting at deeper themes",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Beloved_(1995_film)"
+  },
+  {
+    "title": "Antichrist",
+    "poster": "A dark and abstract poster with a haunting image of nature and despair, hinting at the film's themes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antichrist_(film)"
+  },
+  {
+    "title": "Dogtooth",
+    "poster": "A stark poster featuring a family in a confined space, alluding to the film's themes of control and isolation",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dogtooth"
+  },
+  {
+    "title": "Enter the Void",
+    "poster": "A vibrant poster with neon colors, depicting the Tokyo nightlife and a psychedelic visual style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Enter_the_Void"
+  },
+  {
+    "title": "Irréversible",
+    "poster": "A gritty and unsettling poster with abstract elements hinting at the film's nonlinear narrative and violence",
+    "wikipedia": "https://en.wikipedia.org/wiki/Irr%C3%A9versible"
+  },
+  {
+    "title": "A Serbian Film",
+    "poster": "A controversial and graphic poster featuring stark imagery reflecting the film's themes of brutality",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Serbian_Film"
+  },
+  {
+    "title": "Kids",
+    "poster": "A raw and striking poster featuring young characters in urban settings, highlighting their rebellious spirit",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kids_(film)"
+  },
+  {
+    "title": "Requiem for a Dream",
+    "poster": "An intense poster depicting four characters' faces intertwined with dramatic, abstract imagery",
+    "wikipedia": "https://en.wikipedia.org/wiki/Requiem_for_a_Dream"
+  },
+  {
+    "title": "American Psycho",
+    "poster": "A slick poster with a close-up of Christian Bale's character, juxtaposed with blood and luxury symbols",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Psycho_(film)"
+  },
+  {
+    "title": "Funny Games",
+    "poster": "A stark and minimalist poster with chilling imagery of a game-like scenario in a suburban setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/Funny_Games"
+  },
+  {
+    "title": "Dogville",
+    "poster": "A conceptual poster depicting an empty stage with outlines of buildings, symbolizing the film's unique style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dogville"
+  },
+  {
+    "title": "The Blair Witch Project",
+    "poster": "An enigmatic poster featuring a shadowy figure in a dark forest, with a distressed and worn look",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Blair_Witch_Project"
+  },
+  {
+    "title": "A Last House on the Left",
+    "poster": "A terrifying poster featuring dark woods and shadowy characters, evoking horror and tension",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_House_on_the_Left_(1972_film)"
+  },
+  {
+    "title": "The Killing of a Sacred Deer",
+    "poster": "A haunting poster featuring the lead characters with a surreal and eerie atmosphere surrounding them",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Killing_of_a_Sacred_Deer"
+  },
+  {
+    "title": "The House That Jack Built",
+    "poster": "An unsettling poster focusing on the protagonist against a backdrop of disturbing imagery",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_House_That_Jack_Built"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "poster": "A stylish poster featuring the lead character with a striking tattoo and a dark atmosphere",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Girl_with_the_Dragon_Tattoo_(2011_film)"
+  },
+  {
+    "title": "Enter the Void",
+    "poster": "A vibrant poster with neon colors, depicting the Tokyo nightlife and a psychedelic visual style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Enter_the_Void"
+  },
+  {
+    "title": "The Act of Killing",
+    "poster": "A provocative poster featuring faces and imagery related to genocide and haunting memories",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Act_of_Killing"
+  },
+  {
+    "title": "Midsommar",
+    "poster": "A colorful and unsettling poster showcasing a group of friends at a festival, highlighting eerie floral motifs",
+    "wikipedia": "https://en.wikipedia.org/wiki/Midsommar"
+  },
+  {
+    "title": "Mother!",
+    "poster": "An atmospheric poster featuring a house surrounded by nature, hinting at chaos underneath the surface",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mother!"
+  },
+  {
+    "title": "The Lighthouse",
+    "poster": "A dramatic black-and-white poster with the lighthouse looming ominously against a stormy sky",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lighthouse"
+  },
+  {
+    "title": "Us",
+    "poster": "A striking poster featuring duplicated characters facing each other, hinting at themes of duality and horror",
+    "wikipedia": "https://en.wikipedia.org/wiki/Us_(film)"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "poster": "A striking poster featuring a menacing figure, with a single eye prominently highlighted and a stark color contrast",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Clockwork_Orange_(film)"
+  },
+  {
+    "title": "Tree of Life",
+    "poster": "A poetic poster featuring a celestial backdrop with ethereal imagery representing nature and existence",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Tree_of_Life"
+  },
+  {
+    "title": "The Dreamers",
+    "poster": "A provocative poster featuring the three main characters in an intimate pose against a backdrop of Paris",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Dreamers"
+  },
+  {
+    "title": "Pink Flamingos",
+    "poster": "A bold and outrageous poster featuring the main characters in vibrant colors and shocking poses",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pink_Flamingos"
+  },
+  {
+    "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
+    "poster": "A comedic poster featuring Sacha Baron Cohen in a distinctive suit and tie against a colorful background",
+    "wikipedia": "https://en.wikipedia.org/wiki/Borat:_Cultural_Learnings_of_America_for_Make_Benefit_Glorious_Nation_of_Kazakhstan"
+  },
+  {
+    "title": "Dancer in the Dark",
+    "poster": "A dramatic poster featuring Björk in a poignant expression set against a shadowy background",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dancer_in_the_Dark"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "poster": "A stylish poster featuring the lead character with a striking tattoo and a dark atmosphere",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Girl_with_the_Dragon_Tattoo_(2011_film)"
+  },
+  {
+    "title": "Enter the Void",
+    "poster": "A vibrant poster with neon colors, depicting the Tokyo nightlife and a psychedelic visual style",
+    "wikipedia": "https://en.wikipedia.org/wiki/Enter_the_Void"
+  },
+  {
+    "title": "A Last House on the Left",
+    "poster": "A terrifying poster featuring dark woods and shadowy characters, evoking horror and tension",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_House_on_the_Left_(1972_film)"
+  },
+  {
+    "title": "Antichrist",
+    "poster": "A dark and abstract poster with a haunting image of nature and despair, hinting at the film's themes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antichrist_(film)"
+  },
+  {
+    "title": "The Killing of a Sacred Deer",
+    "poster": "A haunting poster featuring the lead characters with a surreal and eerie atmosphere surrounding them",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Killing_of_a_Sacred_Deer"
+  },
+  {
+    "title": "Dogtooth",
+    "poster": "A stark poster featuring a family in a confined space, alluding to the film's themes of control and isolation",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dogtooth"
+  },
+  {
+    "title": "Good Time",
+    "poster": "A stylized poster with vibrant colors capturing the frantic energy of New York City at night",
+    "wikipedia": "https://en.wikipedia.org/wiki/Good_Time_(film)"
+  },
+  {
+    "title": "The Lighthouse",
+    "poster": "A dramatic black-and-white poster with the lighthouse looming ominously against a stormy sky",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lighthouse"
+  },
+  {
+    "title": "Us",
+    "poster": "A striking poster featuring duplicated characters facing each other, hinting at themes of duality and horror",
+    "wikipedia": "https://en.wikipedia.org/wiki/Us_(film)"
+  },
+  {
+    "title": "Eraserhead",
+    "poster": "A haunting poster with dark, abstract imagery representing industrial themes and isolation",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eraserhead"
+  },
+  {
+    "title": "Lost Highway",
+    "poster": "A surreal and atmospheric poster featuring a desolate highway at night with a play on shadows",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lost_Highway"
+  },
+  {
+    "title": "The Dead Don’t Die",
+    "poster": "A quirky poster featuring an ensemble cast with a comedic tone, hinting at the film's satirical approach to zombies",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Dead_Don%27t_Die"
+  },
+  {
+    "title": "Under the Skin",
+    "poster": "A visually striking poster featuring a close-up of Scarlett Johansson's face, shrouded in ethereal colors",
+    "wikipedia": "https://en.wikipedia.org/wiki/Under_the_Skin_(film)"
+  },
+  {
+    "title": "Silence",
+    "poster": "A haunting poster featuring a lone figure in a stark landscape, capturing the film's themes of isolation",
+    "wikipedia": "https://en.wikipedia.org/wiki/Silence_(2016_film)"
+  },
+  {
+    "title": "What We Do in the Shadows",
+    "poster": "A comedic poster showcasing a group of vampires in a modern setting, with playful and humorous elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/What_We_Do_in_the_Shadows_(film)"
+  },
+  {
+    "title": "Tusk",
+    "poster": "A bizarre poster featuring a walrus and human body parts, reflecting the film's dark humor and horror elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tusk_(film)"
+  },
+  {
+    "title": "Mother!",
+    "poster": "An atmospheric poster featuring a house surrounded by nature, hinting at chaos underneath the surface",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mother!"
+  },
+  {
+    "title": "Silent Hill",
+    "poster": "A dark and haunting poster featuring ominous imagery of fog and twisted landscapes, evoking horror",
+    "wikipedia": "https://en.wikipedia.org/wiki/Silent_Hill_(film)"
+  },
+  {
+    "title": "Zodiac",
+    "poster": "A chilling poster featuring a cryptic symbol and a dark city skyline, hinting at the film's mystery and suspense",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zodiac_(film)"
+  },
+  {
+    "title": "The Skin I Live In",
+    "poster": "A striking poster featuring the lead character with a haunting expression against a stark background",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Skin_I_Live_In"
+  },
+  {
+    "title": "Hereditary",
+    "poster": "A haunting poster featuring a shadowy figure in a darkened room, hinting at family secrets and horror",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hereditary"
+  },
+  {
+    "title": "Justine",
+    "poster": "A provocative poster depicting sensual and bold imagery that reflects the film's themes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Justine_(2019_film)"
+  }
+]

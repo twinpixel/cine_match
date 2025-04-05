@@ -19,17 +19,11 @@ function jsonToMarkdown(jsonData) {
     markdownContent += `# ${jsonData.name}\n\n`;
   }
 
-  if (jsonData.pre) {
-    markdownContent += `${jsonData.pre}\n\n`;
-  }
 
   if (jsonData.description) {
     markdownContent += `## Descrizione\n\n${jsonData.description}\n\n`;
   }
 
-  if (jsonData.post) {
-    markdownContent += `${jsonData.post}\n\n`;
-  }
 
   if (jsonData.questions && Array.isArray(jsonData.questions)) {
     questionsMarkdown += `## Domande e Risposte\n\n`;
