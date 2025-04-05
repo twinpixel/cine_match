@@ -1,0 +1,407 @@
+[
+  {
+    "title": "The Sweet Hereafter",
+    "poster": "A somber and reflective poster featuring a snowy landscape and a lone figure walking, evoking feelings of loss and community.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Sweet_Hereafter"
+  },
+  {
+    "title": "Away from Her",
+    "poster": "A poignant poster showcasing an elderly couple holding hands in a serene setting, symbolizing love and memory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Away_from_Her"
+  },
+  {
+    "title": "Room",
+    "poster": "A stark, minimalist poster highlighting a small room with a single window, conveying themes of confinement and hope.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Room_(2015_film)"
+  },
+  {
+    "title": "The Barbarian Invasions",
+    "poster": "A vibrant poster displaying a gathering of friends in a warm setting, filled with laughter and emotional moments.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Barbarian_Invasions"
+  },
+  {
+    "title": "Incendies",
+    "poster": "A dramatic poster featuring an intense landscape with a broken family photo, hinting at themes of war and identity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Incendies"
+  },
+  {
+    "title": "Stories We Tell",
+    "poster": "A creative poster with overlapping faces and voices, suggesting a collage of stories and perspectives.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stories_We_Tell"
+  },
+  {
+    "title": "The Kids Are All Right",
+    "poster": "A lively poster with a colorful family scene, emphasizing the dynamics and love within a modern family.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Kids_Are_All_Right"
+  },
+  {
+    "title": "Shivers",
+    "poster": "A chilling poster featuring a close-up of a woman's terrified face with shadowy figures looming behind her.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shivers"
+  },
+  {
+    "title": "My Winnipeg",
+    "poster": "An artistic poster showcasing the city landscape of Winnipeg, blending dreamlike and surreal imagery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/My_Winnipeg"
+  },
+  {
+    "title": "The Fountain",
+    "poster": "A mystical poster highlighting a man and a tree against a starry night background, symbolizing the quest for immortality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fountain"
+  },
+  {
+    "title": "Black Christmas",
+    "poster": "A haunting poster featuring a dark silhouette against a Christmas backdrop, hinting at suspense and horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Christmas_(1974_film)"
+  },
+  {
+    "title": "Goin' Down the Road",
+    "poster": "A nostalgic poster with two young men in a car, reflecting hopes and dreams against a backdrop of rural Canada.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Goin%27_Down_the_Road"
+  },
+  {
+    "title": "The Apprenticeship of Duddy Kravitz",
+    "poster": "A bright, colorful poster featuring a young man's ambitious gaze, reflecting his dreams and the struggle for success.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Apprenticeship_of_Duddy_Kravitz"
+  },
+  {
+    "title": "C.R.A.Z.Y.",
+    "poster": "A vibrant poster showcasing a young man in a colorful jacket, embodying themes of family and self-acceptance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/C.R.A.Z.Y."
+  },
+  {
+    "title": "The Chase",
+    "poster": "An action-packed poster showing a high-speed car chase through a dramatic urban landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Chase_(1994_film)"
+  },
+  {
+    "title": "Hobo with a Shotgun",
+    "poster": "A gritty, bold poster featuring a rough-looking hobo wielding a shotgun, set against a backdrop of urban decay.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hobo_with_a_Shotgun"
+  },
+  {
+    "title": "The Strain",
+    "poster": "An eerie poster featuring a city skyline shrouded in darkness, hinting at looming danger and supernatural elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Strain"
+  },
+  {
+    "title": "The Other Side of the Mirror",
+    "poster": "A reflective poster featuring a serene lake surrounded by trees, suggesting themes of introspection and nature.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Other_Side_of_the_Mirror"
+  },
+  {
+    "title": "The Rocket",
+    "poster": "An inspirational poster of a young boy playing hockey with determination against a snowy Canadian backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Rocket_(film)"
+  },
+  {
+    "title": "Let Me Survive",
+    "poster": "A compelling poster featuring a woman climbing a steep rock face, symbolizing resilience and struggle.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Let_Me_Survive"
+  },
+  {
+    "title": "Death Dream",
+    "poster": "A chilling poster showcasing a pale figure emerging from darkness, hinting at supernatural horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Death_Dream"
+  },
+  {
+    "title": "One Week",
+    "poster": "A serene poster featuring a man on a motorcycle in a picturesque landscape, representing a journey of self-discovery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/One_Week"
+  },
+  {
+    "title": "The Five Senses",
+    "poster": "A colorful poster displaying various sensory elements, reflecting the interconnectedness of human experiences.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Five_Senses"
+  },
+  {
+    "title": "The Cat Returns",
+    "poster": "A whimsical poster featuring a cat in a fantastical landscape, symbolizing adventure and imagination.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Cat_Returns"
+  },
+  {
+    "title": "Maudie",
+    "poster": "A warm poster showing a woman painting in a sunlit room, highlighting creativity and perseverance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Maudie"
+  },
+  {
+    "title": "Indian Horse",
+    "poster": "A powerful poster featuring a young boy on a frozen landscape, emphasizing themes of cultural identity and resilience.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Indian_Horse"
+  },
+  {
+    "title": "The War Between Us",
+    "poster": "An intense poster depicting two people in a confrontational pose, representing conflict and emotional turmoil.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_War_Between_Us"
+  },
+  {
+    "title": "Polytechnique",
+    "poster": "A stark poster showing a shadowy figure in a stark environment, symbolizing tragedy and reflection.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Polytechnique_(film)"
+  },
+  {
+    "title": "Chloe",
+    "poster": "A seductive poster featuring a woman gazing mysteriously, suggesting themes of desire and betrayal.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chloe_(2009_film)"
+  },
+  {
+    "title": "The Edge",
+    "poster": "A dramatic poster showcasing a rugged mountain landscape with a lone figure standing at its peak, representing survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Edge_(1997_film)"
+  },
+  {
+    "title": "Shall We Dance?",
+    "poster": "A lively poster featuring a couple dancing passionately, evoking love and celebration.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shall_We_Dance?"
+  },
+  {
+    "title": "Happy Place",
+    "poster": "A relaxed poster showcasing a group of friends enjoying a sunny day at the beach, symbolizing joy and friendship.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Happy_Place_(film)"
+  },
+  {
+    "title": "The Love Witch",
+    "poster": "A retro-inspired poster featuring a glamorous witch in a lush garden, capturing a blend of romance and horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Love_Witch"
+  },
+  {
+    "title": "Antichrist",
+    "poster": "A provocative poster featuring dark, unsettling imagery that conjures themes of grief and psychological horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antichrist_(film)"
+  },
+  {
+    "title": "Ego",
+    "poster": "A striking poster showcasing a solitary figure against a bustling cityscape, hinting at themes of isolation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ego_(film)"
+  },
+  {
+    "title": "Firecrackers",
+    "poster": "A vibrant poster featuring two young women in a defiant pose, representing youthful rebellion and friendship.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Firecrackers_(film)"
+  },
+  {
+    "title": "The Silent Partner",
+    "poster": "A tense poster showcasing a man in shadowy light, emphasizing themes of crime and deceit.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Silent_Partner"
+  },
+  {
+    "title": "A History of Violence",
+    "poster": "A gritty poster featuring a man with a conflicted expression, hinting at dark themes of violence and morality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_History_of_Violence"
+  },
+  {
+    "title": "Jesse Stone: Night Passage",
+    "poster": "A mysterious poster featuring a detective in a foggy landscape, suggesting suspense and intrigue.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jesse_Stone:_Night_Passage"
+  },
+  {
+    "title": "Siberia",
+    "poster": "A stark poster with a snow-covered landscape and a solitary figure, focusing on themes of isolation and survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Siberia_(film)"
+  },
+  {
+    "title": "The Last Exorcism Part II",
+    "poster": "A chilling poster featuring a woman in a darkened room, hinting at horror and supernatural elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Exorcism_Part_II"
+  },
+  {
+    "title": "The Decline",
+    "poster": "A dramatic poster showcasing a group of people preparing for survival in a post-apocalyptic world, emphasizing tension and readiness.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Decline"
+  },
+  {
+    "title": "The Grizzlies",
+    "poster": "An inspiring poster featuring a group of young athletes on a hockey rink, showcasing teamwork and determination.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Grizzlies"
+  },
+  {
+    "title": "Gunless",
+    "poster": "A humorous poster featuring a man in cowboy attire in a Canadian landscape, suggesting a blend of comedy and Western themes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gunless"
+  },
+  {
+    "title": "The Red Violin",
+    "poster": "A visually stunning poster showcasing a beautifully crafted violin surrounded by historical imagery, emphasizing artistry and legacy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Red_Violin"
+  },
+  {
+    "title": "How She Move",
+    "poster": "A dynamic poster featuring a young woman in motion during a dance, highlighting energy and ambition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/How_She_Move"
+  },
+  {
+    "title": "The Trotsky",
+    "poster": "A quirky poster showcasing a young man with a protest sign, hinting at themes of rebellion and political satire.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Trotsky"
+  },
+  {
+    "title": "Behold My Heart",
+    "poster": "A tender poster featuring a young boy surrounded by a warm glow, symbolizing innocence and family love.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Behold_My_Heart"
+  },
+  {
+    "title": "Into the Forest",
+    "poster": "A haunting poster featuring two women standing in a dark, dense forest, evoking themes of survival and uncertainty.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Into_the_Forest"
+  },
+  {
+    "title": "The Snowman",
+    "poster": "A chilling poster featuring a snowman with haunting eyes, hinting at a mix of mystery and horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Snowman_(film)"
+  },
+  {
+    "title": "The Great Bear",
+    "poster": "A visually stunning poster showcasing a vast forest with a majestic bear at its center, symbolizing nature's magnificence.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Great_Bear_(film)"
+  },
+  {
+    "title": "The Moth Diaries",
+    "poster": "A darkly atmospheric poster featuring a young girl surrounded by moths, hinting at themes of friendship and obsession.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Moth_Diaries"
+  },
+  {
+    "title": "Mommy",
+    "poster": "A visually striking poster featuring a mother and son in an intense embrace, symbolizing love and chaos.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mommy_(film)"
+  },
+  {
+    "title": "Allure",
+    "poster": "A haunting poster featuring a woman looking into a mirror with a troubled expression, representing themes of obsession.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Allure_(film)"
+  },
+  {
+    "title": "Antigone",
+    "poster": "A powerful poster featuring a young woman with a determined gaze, hinting at themes of justice and defiance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antigone_(2019_film)"
+  },
+  {
+    "title": "Weirdos",
+    "poster": "A colorful poster featuring two teenagers in a vehicle filled with eclectic decorations, suggesting a road trip of self-discovery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Weirdos"
+  },
+  {
+    "title": "The Breadwinner",
+    "poster": "An animated poster showcasing a young girl in a vibrant Afghan landscape, symbolizing bravery and resilience.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Breadwinner_(film)"
+  },
+  {
+    "title": "The Good Lie",
+    "poster": "A heartfelt poster featuring a group of young refugees with hopeful expressions, hinting at themes of survival and new beginnings.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Good_Lie"
+  },
+  {
+    "title": "Shut In",
+    "poster": "A suspenseful poster showing a woman looking worriedly out a window, suggesting themes of isolation and terror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shut_In_(film)"
+  },
+  {
+    "title": "The Wishing Tree",
+    "poster": "A magical poster featuring a mystical tree surrounded by children's dreams, symbolizing hope and imagination.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Wishing_Tree"
+  },
+  {
+    "title": "I’m Not a Hero",
+    "poster": "A bold poster featuring a lone figure standing defiantly against a stormy backdrop, representing themes of courage and struggle.",
+    "wikipedia": "https://en.wikipedia.org/wiki/I%27m_Not_a_Hero"
+  },
+  {
+    "title": "The Girl He Met Online",
+    "poster": "A romantic poster featuring a couple in a warm embrace, symbolizing love found through unexpected means.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Girl_He_Met_Online"
+  },
+  {
+    "title": "The Fall",
+    "poster": "A gripping poster showcasing a climber hanging from a precipice, representing themes of danger and perseverance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fall_(film)"
+  },
+  {
+    "title": "A Simple Wedding",
+    "poster": "A cheerful poster featuring a colorful wedding scene, suggesting themes of love and cultural fusion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Simple_Wedding"
+  },
+  {
+    "title": "Scanners",
+    "poster": "A disturbing poster featuring a human head exploding in a burst of color, suggesting psychological horror and science fiction.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scanners"
+  },
+  {
+    "title": "The Last Face",
+    "poster": "An emotional poster showcasing two individuals in a touching embrace amidst a backdrop of humanitarian crisis.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Face"
+  },
+  {
+    "title": "The New Corporation",
+    "poster": "A thought-provoking poster featuring corporate skyscrapers against a sunset, hinting at social issues and corporate power.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_New_Corporation"
+  },
+  {
+    "title": "Soirée",
+    "poster": "A stylish poster showcasing a glamorous party scene filled with lights and laughter, suggesting celebration and social dynamics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Soirée_(film)"
+  },
+  {
+    "title": "Blackbird",
+    "poster": "A striking poster featuring a lone blackbird flying against a stormy background, symbolizing freedom and struggle.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blackbird_(film)"
+  },
+  {
+    "title": "The Ice Storm",
+    "poster": "A somber poster showing a suburban family in frozen poses, symbolizing emotional disconnect and the coldness of life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Ice_Storm"
+  },
+  {
+    "title": "The Body Remembers When the World Broke Open",
+    "poster": "A striking poster featuring two women in a tense moment, highlighting themes of trauma and connection.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Body_Remembers_When_the_World_Broke_Open"
+  },
+  {
+    "title": "Cloudburst",
+    "poster": "A warm poster featuring an elderly couple sharing a moment in the rain, symbolizing love and resilience.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cloudburst_(film)"
+  },
+  {
+    "title": "The Nature of Things",
+    "poster": "A beautiful poster showcasing the MacKenzie River flowing through a lush landscape, representing the beauty of nature.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Nature_of_Things"
+  },
+  {
+    "title": "The Return",
+    "poster": "An intense poster featuring a woman running through a dark forest, hinting at themes of pursuit and survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Return_(film)"
+  },
+  {
+    "title": "Through Black Spruce",
+    "poster": "A visually striking poster featuring a lone figure in a vast forest, representing themes of isolation and discovery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Through_Black_Spruce"
+  },
+  {
+    "title": "The Tender Bar",
+    "poster": "A warm poster showcasing a boy surrounded by family members in a cozy bar, symbolizing love and community.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Tender_Bar"
+  },
+  {
+    "title": "The Changeover",
+    "poster": "A mystical poster featuring a young girl surrounded by supernatural elements, symbolizing transformation and discovery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Changeover"
+  },
+  {
+    "title": "The Baader Meinhof Complex",
+    "poster": "A gritty poster showcasing revolutionary figures against a backdrop of urban upheaval, hinting at political tensions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Baader_Meinhof_Complex"
+  },
+  {
+    "title": "The House of the Dead",
+    "poster": "A shocking poster depicting a haunted house with ghostly figures, suggesting horror and mystery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_House_of_the_Dead_(film)"
+  },
+  {
+    "title": "The Dinner",
+    "poster": "A sophisticated poster featuring a lavish dinner setting with an air of tension, hinting at dark family secrets.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Dinner_(film)"
+  },
+  {
+    "title": "Suck",
+    "poster": "A quirky poster showcasing a group of musicians surrounded by supernatural elements, suggesting a blend of comedy and horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Suck_(film)"
+  }
+]

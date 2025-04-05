@@ -30,6 +30,11 @@ function jsonToMarkdown(jsonData) {
     markdownContent += `## Descrizione\n\n${jsonData.description}\n\n`;
   }
 
+      if (jsonData.role) {
+        markdownContent += `## Impersonificazione\n\n${jsonData.role}\n\n`;
+      }
+
+
   if (jsonData.questions && Array.isArray(jsonData.questions)) {
     questionsMarkdown += `## Domande e Risposte\n\n`;
     jsonData.questions.forEach((questionData, index) => {

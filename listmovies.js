@@ -34,7 +34,7 @@ function executeCurlCommand(systemContent, dettagli) {
     },
     {
       "role": "user",
-      "content": "Generate a list of 200 films ${dettagli} in JSON format. For each film, provide the original title and a description of the poster as a prompt for an LLM. Example of the content to generate: [{title: Title1 , poster : colorful poster, wikipedia : link to the Wikipedia page of the film }]. Generate only the JSON, without comments and control characters."
+      "content": "Generate a list of 100 films ${dettagli} in JSON format. For each film, provide the english title and a description of the poster as a prompt for an LLM. Example of the content to generate: [{title: Title1 , poster : colorful poster, wikipedia : link to the Wikipedia page of the film }]. Generate only the JSON, without comments and control characters."
     }
   ],
   "seed": 42,

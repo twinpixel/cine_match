@@ -3,7 +3,10 @@ const fs = require('node:fs/promises');
 const path = require('node:path');
 const axios = require('axios');
 const cheerio = require('cheerio');
-
+function extractTitleWithoutYear(title) {
+     const match = title.match(/^(.*?) \(\d{4}\)$/);
+     return match ? match[1].trim() : title;
+ }
 async function getWikipediaImageUrlFromApi(movieTitle) {
     try {
         const fetch = await import('node-fetch');
@@ -142,8 +145,10 @@ async function processMovies(filePath) {
         }
 
         for (const movie of movies) {
-            if (movie && movie.title) {
-                const filename = `${sanitizeFilename(movie.title)}.jpg`;
+            const cleanMovieTitle = extractTitleWithoutYear(movie.title);
+
+            if (movie && cleanMovieTitle) {
+                const filename = `${sanitizeFilename(cleanMovieTitle)}.jpg`;
                 const filePath = path.join(postersDir, filename);
 
                 try {
@@ -151,23 +156,23 @@ async function processMovies(filePath) {
                     console.log(`Il file "${filename}" esiste già. API Wikipedia non interrogata.`);
                 } catch (error) {
                     if (error.code === 'ENOENT') {
-                        const thumbnailUrl = await getWikipediaImageUrl(movie.title);
+                        const thumbnailUrl = await getWikipediaImageUrl(cleanMovieTitle);
                         let downloadSuccess = false;
                         if (thumbnailUrl) {
                             downloadSuccess = await downloadImage(thumbnailUrl, filename);
-                            console.log(`Scaricata per "${movie.title}".`);
+                            console.log(`Scaricata per "${cleanMovieTitle}".`);
                         } else {
-                           // console.log(`Nessuna miniatura trovata per "${movie.title}" su Wikipedia.`);
+                           // console.log(`Nessuna miniatura trovata per "${cleanMovieTitle}" su Wikipedia.`);
                         }
 
                         if (!downloadSuccess) {
-                            const fallbackImageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent('Poster for the movie: ' + movie.title + '.  Visually, the poster should feature ' + movie.poster)}?width=240&height=400&seed=628256599&model=flux&negative_prompt=worst%20quality,%20blurry`;
-                            //console.log(`Tentativo di scaricare l'immagine di fallback per "${movie.title}" da: ${fallbackImageUrl}`);
+                            const fallbackImageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent('Poster for the movie: ' + cleanMovieTitle + '.  Visually, the poster should feature ' + movie.poster)}?width=240&height=400&seed=628256599&model=flux&negative_prompt=worst%20quality,%20blurry`;
+                            //console.log(`Tentativo di scaricare l'immagine di fallback per "${cleanMovieTitle}" da: ${fallbackImageUrl}`);
                             const fallbackDownloadSuccess = await downloadImage(fallbackImageUrl, filename);
                             if (fallbackDownloadSuccess) {
-                                console.log(`Generata per "${movie.title}".`);
+                                console.log(`Generata per "${cleanMovieTitle}".`);
                             } else {
-                                console.error(`Fallito "${movie.title}".`);
+                                console.error(`Fallito "${cleanMovieTitle}".`);
                             }
                         }
                     } else {

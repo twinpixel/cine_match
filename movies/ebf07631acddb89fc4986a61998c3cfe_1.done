@@ -1,0 +1,332 @@
+[
+  {
+    "title": "Inception",
+    "poster": "A surreal image showcasing a city bending upon itself with a dreamlike quality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inception"
+  },
+  {
+    "title": "Sound of Metal",
+    "poster": "An intense close-up of a drummer's face, with the background fading into a blur, emphasizing sound and silence.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sound_of_Metal"
+  },
+  {
+    "title": "A Quiet Place",
+    "poster": "A tense imagery of a family in a desolate landscape, with a finger to the lips signaling silence.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Quiet_Place"
+  },
+  {
+    "title": "Gravity",
+    "poster": "A breathtaking depiction of Earth from space with a solitary astronaut floating in the cosmos.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gravity_(2013_film)"
+  },
+  {
+    "title": "Dunkirk",
+    "poster": "A dramatic image of soldiers on a beach surrounded by chaos, with planes in the sky showcasing the enormity of war.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dunkirk_(film)"
+  },
+  {
+    "title": "Whiplash",
+    "poster": "An intense moment of a drummer in action, with dramatic lighting focusing on his emotional expression.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Whiplash_(film)"
+  },
+  {
+    "title": "The Matrix",
+    "poster": "An iconic depiction of the green digital rain of code, featuring Neo in a powerful pose.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Matrix"
+  },
+  {
+    "title": "Interstellar",
+    "poster": "A stunning cosmic landscape with a spacecraft traveling through a wormhole, hinting at both beauty and danger.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Interstellar"
+  },
+  {
+    "title": "Star Wars: A New Hope",
+    "poster": "A classic image of Luke Skywalker with lightsaber in hand, against a backdrop of space battles and starships.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_IV_-_A_New_Hope"
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "poster": "A vibrant and chaotic scene of cars racing through a desert landscape, filled with action and intensity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road"
+  },
+  {
+    "title": "Blade Runner 2049",
+    "poster": "A moody, neon-lit cityscape with a lone figure walking through the rain-soaked streets, embodying the film's themes of isolation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blade_Runner_2049"
+  },
+  {
+    "title": "1408",
+    "poster": "A haunting image of a hotel room with unsettling visuals, emphasizing the psychological horror elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/1408_(film)"
+  },
+  {
+    "title": "The Social Network",
+    "poster": "A minimalist yet striking poster featuring the dark side of success and betrayal, with a digital backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Social_Network"
+  },
+  {
+    "title": "The Graduate",
+    "poster": "A classic image of Dustin Hoffman in a suit, looking contemplative against a backdrop of a swimming pool, capturing the essence of youth.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Graduate"
+  },
+  {
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "poster": "An epic depiction of the fellowship standing together against a backdrop of Middle-Earth, capturing themes of adventure and camaraderie.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Fellowship_of_the_Ring"
+  },
+  {
+    "title": "Saving Private Ryan",
+    "poster": "A powerful image depicting the chaos of war with soldiers in battle, emphasizing the struggle and bravery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saving_Private_Ryan"
+  },
+  {
+    "title": "Her",
+    "poster": "A soft, pastel-colored portrayal of a man in contemplation, representing a deep emotional connection to technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Her_(film)"
+  },
+  {
+    "title": "Arrival",
+    "poster": "A striking visual of a mysterious alien spacecraft against a backdrop of an otherworldly landscape, exploring themes of communication.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arrival_(film)"
+  },
+  {
+    "title": "Birdman",
+    "poster": "A unique poster featuring a man in a bird costume, set against an urban backdrop, symbolizing struggle and artistic ambition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Birdman_(film)"
+  },
+  {
+    "title": "The Shape of Water",
+    "poster": "A dreamy, aquatic-themed image highlighting the romance between a woman and a creature in a surreal environment.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Shape_of_Water"
+  },
+  {
+    "title": "Black Swan",
+    "poster": "An intense close-up of a ballerina with a stark contrast of light and shadow, reflecting psychological turmoil.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Black_Swan_(film)"
+  },
+  {
+    "title": "Zodiac",
+    "poster": "A dark, atmospheric poster with cryptic symbols and shadows, alluding to mystery and crime.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zodiac_(film)"
+  },
+  {
+    "title": "No Country for Old Men",
+    "poster": "A stark visual of a desolate landscape, emphasizing the film's themes of tension and inevitability.",
+    "wikipedia": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men"
+  },
+  {
+    "title": "The Revenant",
+    "poster": "An intense image of Leonardo DiCaprio covered in snow, evoking the struggle for survival in a harsh wilderness.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Revenant"
+  },
+  {
+    "title": "Jurassic Park",
+    "poster": "An iconic image of a roaring T-Rex against a vibrant island background, highlighting the thrill of discovery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jurassic_Park"
+  },
+  {
+    "title": "The Dark Knight",
+    "poster": "A haunting image of the Joker amidst a dark cityscape, conveying chaos and moral ambiguity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Dark_Knight"
+  },
+  {
+    "title": "The Prestige",
+    "poster": "A mysterious image featuring two magicians locked in a fierce rivalry, set against a backdrop of illusion and secrets.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Prestige_(film)"
+  },
+  {
+    "title": "The Lion King",
+    "poster": "A vibrant depiction of a young lion standing confidently on a cliff, representing themes of courage and legacy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lion_King"
+  },
+  {
+    "title": "Toy Story",
+    "poster": "A colorful, playful image of animated toys coming to life, capturing the essence of childhood wonder.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Toy_Story"
+  },
+  {
+    "title": "The Truman Show",
+    "poster": "A surreal image showcasing a man in a perfect suburban setting, representing the illusion of reality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Truman_Show"
+  },
+  {
+    "title": "The Silence of the Lambs",
+    "poster": "A chilling close-up of Anthony Hopkins with piercing eyes, hinting at suspense and psychological depth.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Silence_of_the_Lambs"
+  },
+  {
+    "title": "Moonlight",
+    "poster": "A beautifully shot image of a young boy looking out into the ocean, capturing themes of identity and growth.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moonlight_(film)"
+  },
+  {
+    "title": "Once Upon a Time in Hollywood",
+    "poster": "A vibrant portrayal of the golden age of Hollywood, featuring iconic cars and nostalgic imagery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood"
+  },
+  {
+    "title": "La La Land",
+    "poster": "A colorful depiction of a couple dancing under the stars in Los Angeles, embodying dreams and aspirations.",
+    "wikipedia": "https://en.wikipedia.org/wiki/La_La_Land"
+  },
+  {
+    "title": "The Big Lebowski",
+    "poster": "A quirky and colorful image showcasing the main character lounging with a bowling ball and drink, representing the film's humor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Big_Lebowski"
+  },
+  {
+    "title": "Fargo",
+    "poster": "A stark, snowy landscape with a lone figure in the distance, hinting at a blend of crime and dark comedy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fargo_(film)"
+  },
+  {
+    "title": "Psycho",
+    "poster": "A classic horror image of a woman in the shower, with the iconic knife silhouette, evoking suspense.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Psycho_(1960_film)"
+  },
+  {
+    "title": "The Shining",
+    "poster": "A haunting image of a deserted hotel with a child riding a tricycle, symbolizing isolation and horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Shining_(film)"
+  },
+  {
+    "title": "The Witch",
+    "poster": "An atmospheric, dark landscape featuring a silhouette of a family in a forest, evoking themes of fear and folklore.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Witch"
+  },
+  {
+    "title": "Get Out",
+    "poster": "A striking visual of a man in a trance-like state, framed by contrasting light and dark, symbolizing horror and awakening.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Get_Out"
+  },
+  {
+    "title": "The Godfather",
+    "poster": "An iconic image of Marlon Brando as Don Corleone, sitting under a dim light, representing power and family.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Godfather"
+  },
+  {
+    "title": "Scarface",
+    "poster": "A bold portrayal of Al Pacino holding a gun with a defiant expression, against a backdrop of intense colors.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scarface_(1983_film)"
+  },
+  {
+    "title": "Fight Club",
+    "poster": "A gritty image featuring the silhouette of a man against a backdrop of a cityscape, hinting at chaos and rebellion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fight_Club"
+  },
+  {
+    "title": "Eternal Sunshine of the Spotless Mind",
+    "poster": "A whimsical image of a couple lost in a snowy landscape, symbolizing love and memories.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind"
+  },
+  {
+    "title": "Oldboy",
+    "poster": "A striking image of a man trapped in a confined space, symbolizing captivity and revenge.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Oldboy"
+  },
+  {
+    "title": "The Exorcist",
+    "poster": "A haunting image of a girl with eerie lighting, representing the themes of horror and possession.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Exorcist_(film)"
+  },
+  {
+    "title": "The Graduate",
+    "poster": "A classic image of Dustin Hoffman in a contemplative pose against a vibrant backdrop, symbolizing youth and uncertainty.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Graduate"
+  },
+  {
+    "title": "Shutter Island",
+    "poster": "A dark, moody image of a prison island with an eerie sky, capturing the film's psychological tension.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shutter_Island"
+  },
+  {
+    "title": "Trainspotting",
+    "poster": "A bold and colorful image of a group of friends against a gritty urban backdrop, symbolizing youth and addiction.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trainspotting_(film)"
+  },
+  {
+    "title": "Pulp Fiction",
+    "poster": "A stylized image of characters with guns set against a bold background, representing crime and pop culture.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pulp_Fiction"
+  },
+  {
+    "title": "The Wolf of Wall Street",
+    "poster": "A vibrant and chaotic image of Leonardo DiCaprio amidst a world of excess and greed.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Wolf_of_Wall_Street_(film)"
+  },
+  {
+    "title": "Spirited Away",
+    "poster": "A beautifully illustrated poster featuring a young girl in a fantastical world, showcasing vibrant colors.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Spirited_Away"
+  },
+  {
+    "title": "Crouching Tiger, Hidden Dragon",
+    "poster": "A stunning image of two warriors gracefully fighting in a bamboo forest, emphasizing beauty and strength.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Crouching_Tiger,_Hidden_Dragon"
+  },
+  {
+    "title": "The Usual Suspects",
+    "poster": "A minimalist yet striking image of five characters, shrouded in mystery, hinting at deception.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Usual_Suspects"
+  },
+  {
+    "title": "Toy Story 3",
+    "poster": "A colorful and emotional image of toys facing their biggest challenge yet, symbolizing friendship and change.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Toy_Story_3"
+  },
+  {
+    "title": "The Irishman",
+    "poster": "A somber image of an elderly man reflecting on his past, set against an urban backdrop, representing aging and regret.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Irishman"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "poster": "A whimsical and colorful image of a hotel surrounded by mountains, embodying adventure and nostalgia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Grand_Budapest_Hotel"
+  },
+  {
+    "title": "The Hateful Eight",
+    "poster": "A tense and moody image of eight characters in a snowy landscape, representing themes of betrayal and survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Hateful_Eight"
+  },
+  {
+    "title": "Finding Nemo",
+    "poster": "A bright and animated image of a clownfish exploring a vibrant underwater world filled with colorful sea creatures.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Finding_Nemo"
+  },
+  {
+    "title": "The Departed",
+    "poster": "A gritty and intense image of two men facing off against a backdrop of Boston cityscape, representing crime and tension.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Departed"
+  },
+  {
+    "title": "Inside Out",
+    "poster": "A colorful and imaginative depiction of emotions personified as characters, capturing the essence of feelings.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inside_Out"
+  },
+  {
+    "title": "The Social Network",
+    "poster": "A minimalist yet striking depiction of a young entrepreneur against the backdrop of technology and ambition.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Social_Network"
+  },
+  {
+    "title": "Midsommar",
+    "poster": "A bright yet eerie image of a seemingly idyllic village, hinting at dark traditions beneath the surface.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Midsommar"
+  },
+  {
+    "title": "A Star Is Born",
+    "poster": "A romantic and emotional image of two singers under the spotlight, capturing the highs and lows of fame.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Star_Is_Born_(2018_film)"
+  },
+  {
+    "title": "Avatar",
+    "poster": "A vibrant and colorful depiction of an alien world with blue-skinned inhabitants, symbolizing beauty and conflict.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Avatar_(2009_film)"
+  },
+  {
+    "title": "The Curious Case of Benjamin Button",
+    "poster": "A whimsical image showcasing a man aging backwards, set against a vintage backdrop, hinting at time and love.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Curious_Case_of_Benjamin_Button"
+  }
+]

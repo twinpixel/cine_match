@@ -1,0 +1,347 @@
+[
+  {
+    "title": "Jaws",
+    "poster": "A dark water surface with a giant shark's fin cutting through, featuring a terrified swimmer above",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jaws"
+  },
+  {
+    "title": "E.T. the Extra-Terrestrial",
+    "poster": "A night sky with a silhouette of a boy on a bicycle flying over a full moon, with a small alien in the basket",
+    "wikipedia": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial"
+  },
+  {
+    "title": "Jurassic Park",
+    "poster": "A massive dinosaur roaring amid lush greenery, with the iconic park logo featured prominently",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jurassic_Park"
+  },
+  {
+    "title": "Back to the Future",
+    "poster": "A time-traveling DeLorean with lightning bolts surrounding it, set against a colorful sky",
+    "wikipedia": "https://en.wikipedia.org/wiki/Back_to_the_Future"
+  },
+  {
+    "title": "The Breakfast Club",
+    "poster": "A group of five high school students sitting together in an empty school library, each representing a different clique",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Breakfast_Club"
+  },
+  {
+    "title": "Despicable Me",
+    "poster": "A whimsical background showcasing a villain's lair filled with minions, with a playful and mischievous vibe",
+    "wikipedia": "https://en.wikipedia.org/wiki/Despicable_Me"
+  },
+  {
+    "title": "The Mummy",
+    "poster": "A dark and ominous scene with a mummy emerging from ancient ruins under a full moon",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Mummy_(1999_film)"
+  },
+  {
+    "title": "Only the Brave",
+    "poster": "A group of firefighters in action against a raging wildfire, showcasing courage and teamwork",
+    "wikipedia": "https://en.wikipedia.org/wiki/Only_the_Brave_(film)"
+  },
+  {
+    "title": "Furious 7",
+    "poster": "High-octane action scene with cars flying through the air, set against an urban landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Furious_7"
+  },
+  {
+    "title": "Fast & Furious 6",
+    "poster": "A dramatic race scene with cars speeding on a runway, showcasing excitement and adrenaline",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fast_%26_Furious_6"
+  },
+  {
+    "title": "The Invisible Man",
+    "poster": "An eerie silhouette of a man obscured by fog and darkness, giving a chilling atmosphere",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Invisible_Man_(2020_film)"
+  },
+  {
+    "title": "Bridesmaids",
+    "poster": "A group of bridesmaids in mismatched dresses posing in funny and awkward ways, showcasing friendship",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bridesmaids_(film)"
+  },
+  {
+    "title": "Sisters",
+    "poster": "Two middle-aged sisters throwing a wild party in their empty childhood home, with colorful decorations",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sisters_(film)"
+  },
+  {
+    "title": "The Secret Life of Pets",
+    "poster": "A group of pets having a great time in a city park, with colorful and playful visuals",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Secret_Life_of_Pets"
+  },
+  {
+    "title": "Get Out",
+    "poster": "A tense atmosphere with a man looking back in fear, surrounded by an unsettling suburban environment",
+    "wikipedia": "https://en.wikipedia.org/wiki/Get_Out"
+  },
+  {
+    "title": "The Purge",
+    "poster": "A dark, urban setting with masked individuals celebrating a nefarious event, creating a sense of dread",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Purge"
+  },
+  {
+    "title": "The Nut Job",
+    "poster": "A colorful cityscape with animated animals planning a heist, featuring a clever squirrel in the foreground",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Nut_Job"
+  },
+  {
+    "title": "Pitch Perfect",
+    "poster": "A group of young singers in a dramatic performance pose, celebrating music and camaraderie",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pitch_Perfect"
+  },
+  {
+    "title": "Happy Death Day",
+    "poster": "A young woman looking alarmed as she stands at the center of a clock face, suggesting a time loop",
+    "wikipedia": "https://en.wikipedia.org/wiki/Happy_Death_Day"
+  },
+  {
+    "title": "Les Misérables",
+    "poster": "A dramatic portrayal of the struggles of the characters with a somber color palette",
+    "wikipedia": "https://en.wikipedia.org/wiki/Les_Mis%C3%A9rables_(2012_film)"
+  },
+  {
+    "title": "Trolls",
+    "poster": "Brightly colored trolls dancing and singing in a vibrant, enchanting forest",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trolls_(film)"
+  },
+  {
+    "title": "Ted",
+    "poster": "A talking teddy bear sitting on a couch with a sarcastic expression, surrounded by a messy living room",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ted_(film)"
+  },
+  {
+    "title": "Once Upon a Time in Hollywood",
+    "poster": "A nostalgic depiction of 1960s Hollywood with iconic celebrities and vibrant colors",
+    "wikipedia": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood"
+  },
+  {
+    "title": "The Fate of the Furious",
+    "poster": "A dynamic scene with cars racing and crashing through a snowy landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fate_of_the_Furious"
+  },
+  {
+    "title": "The Croods",
+    "poster": "A prehistoric family exploring a colorful and wild landscape, filled with vibrant creatures",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Croods"
+  },
+  {
+    "title": "The Boss Baby",
+    "poster": "A baby in a suit with an intense expression, surrounded by whimsical toys and a fun background",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Boss_Baby"
+  },
+  {
+    "title": "Pacific Rim",
+    "poster": "Giant robots battling monstrous creatures in a dramatic cityscape, with fiery explosions",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pacific_Rim_(film)"
+  },
+  {
+    "title": "Trainwreck",
+    "poster": "A woman looking confidently into the camera, surrounded by lively urban nightlife",
+    "wikipedia": "https://en.wikipedia.org/wiki/Trainwreck_(film)"
+  },
+  {
+    "title": "Skyscraper",
+    "poster": "A massive skyscraper on fire with a heroic figure clinging to the side in a dramatic pose",
+    "wikipedia": "https://en.wikipedia.org/wiki/Skyscraper_(film)"
+  },
+  {
+    "title": "The Grinch",
+    "poster": "The Grinch with a mischievous smile, surrounded by snow-covered trees and colorful Christmas decorations",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Grinch_(2018_film)"
+  },
+  {
+    "title": "The Thing",
+    "poster": "A mysterious, icy landscape with a shadowy figure lurking, creating a sense of horror",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Thing_(1982_film)"
+  },
+  {
+    "title": "Snow Day",
+    "poster": "Children joyfully playing in the snow with snowmen and winter activities in the background",
+    "wikipedia": "https://en.wikipedia.org/wiki/Snow_Day"
+  },
+  {
+    "title": "Cinderela",
+    "poster": "A beautiful glass slipper resting on a colorful background filled with magical elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cinderella_(2015_film)"
+  },
+  {
+    "title": "Secret Life of Pets 2",
+    "poster": "A lively scene of pets enjoying their day with colorful urban settings",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Secret_Life_of_Pets_2"
+  },
+  {
+    "title": "The Hunt",
+    "poster": "A tense scene in a dense forest with shadowy figures and a sense of danger",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Hunt_(2020_film)"
+  },
+  {
+    "title": "The Purge: Election Year",
+    "poster": "A gritty urban setting with political symbols, masked individuals, and an intense atmosphere",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Purge:_Election_Year"
+  },
+  {
+    "title": "Wonder",
+    "poster": "A heartwarming image of a young boy with facial differences smiling amidst a supportive environment",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wonder_(2017_film)"
+  },
+  {
+    "title": "The Hitman's Bodyguard",
+    "poster": "A tense but comedic scene with two characters in a car surrounded by chaos",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Hitman's_Bodyguard"
+  },
+  {
+    "title": "The Boss Baby: Family Business",
+    "poster": "A playful baby in a business suit presenting a confident smirk with whimsical background elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Boss_Baby:_Family_Business"
+  },
+  {
+    "title": "Bourne Ultimatum",
+    "poster": "A gritty urban chase scene with a determined agent in the forefront, portraying action and suspense",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Bourne_Ultimatum"
+  },
+  {
+    "title": "American Graffiti",
+    "poster": "A nostalgic view of classic cars cruising a lively street scene with vibrant colors",
+    "wikipedia": "https://en.wikipedia.org/wiki/American_Graffiti"
+  },
+  {
+    "title": "Outlaws",
+    "poster": "A team of rugged individuals standing together against a backdrop of wild landscapes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Outlaws"
+  },
+  {
+    "title": "47 Meters Down",
+    "poster": "A chilling underwater scene with a diver surrounded by dark shadows suggesting danger",
+    "wikipedia": "https://en.wikipedia.org/wiki/47_Meters_Down"
+  },
+  {
+    "title": "A Wrinkle in Time",
+    "poster": "A colorful, whimsical universe with a young girl surrounded by enchanting light and figures",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Wrinkle_in_Time_(2018_film)"
+  },
+  {
+    "title": "Happy Feet",
+    "poster": "A delightful scene of dancing penguins on an icy landscape with a bright blue sky",
+    "wikipedia": "https://en.wikipedia.org/wiki/Happy_Feet"
+  },
+  {
+    "title": "The Fast and the Furious",
+    "poster": "A thrilling street racing scene with flashy cars and a high-energy atmosphere",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Fast_and_the_Furious"
+  },
+  {
+    "title": "Pitch Perfect 2",
+    "poster": "A group of acapella singers in mid-performance, full of vibrant colors and energy",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pitch_Perfect_2"
+  },
+  {
+    "title": "The Boss Baby 2",
+    "poster": "A determined baby in a business suit with a playful yet serious expression, set against a colorful backdrop",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Boss_Baby:_Family_Business"
+  },
+  {
+    "title": "Doomsday",
+    "poster": "A post-apocalyptic landscape with a lone figure standing against a backdrop of chaos",
+    "wikipedia": "https://en.wikipedia.org/wiki/Doomsday_(film)"
+  },
+  {
+    "title": "The Last Witch Hunter",
+    "poster": "A dark, mystical setting with a warrior in armor surrounded by magical elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Witch_Hunter"
+  },
+  {
+    "title": "How to Train Your Dragon",
+    "poster": "A young Viking and a dragon soaring through the sky with a picturesque landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon"
+  },
+  {
+    "title": "Hobbs & Shaw",
+    "poster": "An action-packed scene with two central figures amidst explosive chaos",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hobbs_%26_Shaw"
+  },
+  {
+    "title": "Nerve",
+    "poster": "A digitally interactive cityscape at night, filled with players engaged in a dangerous game",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nerve_(film)"
+  },
+  {
+    "title": "Peter Rabbit",
+    "poster": "A lively and colorful garden scene with a mischievous rabbit and playful friends",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peter_Rabbit_(film)"
+  },
+  {
+    "title": "The Scorpion King",
+    "poster": "An epic scene depicting a warrior in ancient attire standing strong amidst desert landscapes",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Scorpion_King"
+  },
+  {
+    "title": "Ted 2",
+    "poster": "A fun and mischievous teddy bear character engaging in humorous antics with friends",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ted_2"
+  },
+  {
+    "title": "The Kill Team",
+    "poster": "A tense military scene showcasing troubled soldiers dealing with moral dilemmas",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Kill_Team"
+  },
+  {
+    "title": "Sicario",
+    "poster": "A dark, gritty scene with a woman soldier determinedly focused, set against a tense background",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sicario_(film)"
+  },
+  {
+    "title": "Burying the Ex",
+    "poster": "A quirky horror-comedy film featuring a man looking confused amidst a graveyard setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/Burying_the_Ex"
+  },
+  {
+    "title": "Curious George",
+    "poster": "A mischievous little monkey in a playful scene set against a bright and colorful background",
+    "wikipedia": "https://en.wikipedia.org/wiki/Curious_George_(film)"
+  },
+  {
+    "title": "How to Train Your Dragon 2",
+    "poster": "A dramatic scene of a dragon soaring through the clouds with a determined Viking riding",
+    "wikipedia": "https://en.wikipedia.org/wiki/How_to_Train_Your_Dragon_2"
+  },
+  {
+    "title": "Love & Mercy",
+    "poster": "A reflective portrait of a troubled musician amidst vibrant musical elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/Love_%26_Mercy"
+  },
+  {
+    "title": "The Secret Garden",
+    "poster": "A lush, vibrant garden filled with blooming flowers and a sense of magic",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Secret_Garden_(2020_film)"
+  },
+  {
+    "title": "Dark Universe",
+    "poster": "A shadowy figure representing universal horror monsters in a gothic setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dark_Universe_(cinematic_universe)"
+  },
+  {
+    "title": "Sing",
+    "poster": "A colorful scene with a variety of animals singing on stage, showcasing their talents",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sing_(film)"
+  },
+  {
+    "title": "The Girl on the Train",
+    "poster": "A tense, mysterious scene of a woman looking out a train window with a dark atmosphere",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Girl_on_the_Train_(film)"
+  },
+  {
+    "title": "Skylines",
+    "poster": "An intense, action-packed scene with futuristic battles amidst urban landscapes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Skylines"
+  },
+  {
+    "title": "The Last Duel",
+    "poster": "A medieval duel scene showcasing two knights in full armor, depicting courage and honor",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Duel_(film)"
+  },
+  {
+    "title": "Sisters in Arms",
+    "poster": "A powerful scene of women soldiers standing together, showcasing strength and resilience",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sisters_in_Arms_(film)"
+  }
+]

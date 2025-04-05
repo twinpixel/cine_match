@@ -1,0 +1,327 @@
+[
+  {
+    "title": "Dracula (1931)",
+    "poster": "Black and white poster featuring a shadowy figure of Count Dracula with piercing eyes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dracula_(1931_film)"
+  },
+  {
+    "title": "Nosferatu (1922)",
+    "poster": "Classic expressionist poster showcasing Count Orlok with elongated fingers and a haunting castle",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nosferatu"
+  },
+  {
+    "title": "Blade II (2002)",
+    "poster": "Dynamic poster with Blade wielding his sword, surrounded by a dark and ominous cityscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blade_II"
+  },
+  {
+    "title": "Interview with the Vampire (1994)",
+    "poster": "Moody poster featuring Tom Cruise and Brad Pitt in period costumes, with a dark, haunting backdrop",
+    "wikipedia": "https://en.wikipedia.org/wiki/Interview_with_the_Vampire_(film)"
+  },
+  {
+    "title": "What We Do in the Shadows (2014)",
+    "poster": "Humorous poster featuring a group of vampires in modern clothing, with comical expressions",
+    "wikipedia": "https://en.wikipedia.org/wiki/What_We_Do_in_the_Shadows_(film)"
+  },
+  {
+    "title": "Let the Right One In (2008)",
+    "poster": "Dark and atmospheric poster with a young girl in vintage clothing, surrounded by snow",
+    "wikipedia": "https://en.wikipedia.org/wiki/Let_the_Right_One_In"
+  },
+  {
+    "title": "The Lost Boys (1987)",
+    "poster": "Vibrant poster featuring a group of teens with sunglasses and a tagline about vampires",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lost_Boys"
+  },
+  {
+    "title": "Twilight (2008)",
+    "poster": "Romantic poster showcasing Kristen Stewart and Robert Pattinson in a misty forest",
+    "wikipedia": "https://en.wikipedia.org/wiki/Twilight_(2008_film)"
+  },
+  {
+    "title": "30 Days of Night (2007)",
+    "poster": "Chilling poster with a dark landscape and blood-red sky, featuring vampires lurking",
+    "wikipedia": "https://en.wikipedia.org/wiki/30_Days_of_Night"
+  },
+  {
+    "title": "Underworld (2003)",
+    "poster": "Action-packed poster featuring Kate Beckinsale in black leather amidst a gothic backdrop",
+    "wikipedia": "https://en.wikipedia.org/wiki/Underworld_(film)"
+  },
+  {
+    "title": "Byzantium (2012)",
+    "poster": "Elegant poster showing two women with a mysterious air, set against a gothic backdrop",
+    "wikipedia": "https://en.wikipedia.org/wiki/Byzantium_(film)"
+  },
+  {
+    "title": "Only Lovers Left Alive (2013)",
+    "poster": "Stylish poster featuring Tilda Swinton and Tom Hiddleston in a smoky, vintage setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/Only_Lovers_Left_Alive"
+  },
+  {
+    "title": "Vampire's Kiss (1988)",
+    "poster": "Quirky poster with Nicolas Cage looking manic, surrounded by surreal imagery",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vampire%27s_Kiss"
+  },
+  {
+    "title": "Fright Night (1985)",
+    "poster": "Classic horror poster with a menacing vampire looming over a suburban setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fright_Night_(1985_film)"
+  },
+  {
+    "title": "The Hunger (1983)",
+    "poster": "Stylish poster featuring Catherine Deneuve and David Bowie in a seductive embrace",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Hunger_(film)"
+  },
+  {
+    "title": "Day Watch (2006)",
+    "poster": "Dramatic poster showing the conflict between light and dark forces with vibrant colors",
+    "wikipedia": "https://en.wikipedia.org/wiki/Day_Watch"
+  },
+  {
+    "title": "Blood for Dracula (1974)",
+    "poster": "Artistic poster with a dramatic representation of Dracula surrounded by blood-red tones",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blood_for_Dracula"
+  },
+  {
+    "title": "Hotel Transylvania (2012)",
+    "poster": "Colorful animated poster featuring Dracula alongside various comedic monsters",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hotel_Transylvania"
+  },
+  {
+    "title": "A Girl Walks Home Alone at Night (2014)",
+    "poster": "Artistic poster showcasing a ghostly female figure in a hijab, set against a haunting backdrop",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Girl_Walks_Home_Alone_at_Night"
+  },
+  {
+    "title": "Shadow of the Vampire (2000)",
+    "poster": "Intriguing poster showing Max Schreck as Nosferatu in a shadowy, film-like context",
+    "wikipedia": "https://en.wikipedia.org/wiki/Shadow_of_the_Vampire"
+  },
+  {
+    "title": "Thirst (2009)",
+    "poster": "Provocative poster with a blood-red background and an intense gaze from the lead character",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thirst_(2009_film)"
+  },
+  {
+    "title": "Dark Shadows (2012)",
+    "poster": "Whimsical poster featuring Johnny Depp as Barnabas Collins in an old mansion",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dark_Shadows_(film)"
+  },
+  {
+    "title": "Vampires (1998)",
+    "poster": "Action-packed poster with a team of vampire hunters facing off against supernatural foes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vampires_(film)"
+  },
+  {
+    "title": "Ravenous (1999)",
+    "poster": "Eerie poster showcasing a dark, misty landscape with a silhouette of a figure",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ravenous"
+  },
+  {
+    "title": "The Addiction (1995)",
+    "poster": "Philosophical poster featuring a woman in a dark alley, with an enigmatic expression",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Addiction"
+  },
+  {
+    "title": "From Dusk Till Dawn (1996)",
+    "poster": "Dynamic poster featuring George Clooney and Quentin Tarantino in a desert setting with vampires",
+    "wikipedia": "https://en.wikipedia.org/wiki/From_Dusk_till_Dawn"
+  },
+  {
+    "title": "Kiss of the Damned (2012)",
+    "poster": "Stylish poster featuring two beautiful women with a dreamy, romantic atmosphere",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kiss_of_the_Damned"
+  },
+  {
+    "title": "Love at First Bite (1979)",
+    "poster": "Comedic poster with George Hamilton as Dracula, posing with a heart symbol",
+    "wikipedia": "https://en.wikipedia.org/wiki/Love_at_First_Bite"
+  },
+  {
+    "title": "The Night Stalker (1972)",
+    "poster": "Classic TV movie poster showcasing a detective in pursuit of a vampire fiend",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Night_Stalker"
+  },
+  {
+    "title": "The Last Man on Earth (1964)",
+    "poster": "Creepy poster featuring Vincent Price in a desolate landscape with ominous shadows",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Man_on_Earth_(film)"
+  },
+  {
+    "title": "What We Do in the Shadows: Summer (2019)",
+    "poster": "Light-hearted poster showcasing the comedic vampires in beach attire",
+    "wikipedia": "https://en.wikipedia.org/wiki/What_We_Do_in_the_Shadows"
+  },
+  {
+    "title": "The Omega Man (1971)",
+    "poster": "Dystopian poster with Charlton Heston in a deserted city, facing off against zombie-like creatures",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Omega_Man"
+  },
+  {
+    "title": "I Am Legend (2007)",
+    "poster": "Dramatic poster featuring Will Smith in a post-apocalyptic landscape filled with shadows",
+    "wikipedia": "https://en.wikipedia.org/wiki/I_Am_Legend_(film)"
+  },
+  {
+    "title": "Stake Land (2010)",
+    "poster": "Grim poster showcasing a survivor fighting against vampire-like creatures in a desolate landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stake_Land"
+  },
+  {
+    "title": "Vampire Academy (2014)",
+    "poster": "Colorful poster depicting teenage vampires in a school setting with action elements",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vampire_Academy_(film)"
+  },
+  {
+    "title": "The Forsaken (2001)",
+    "poster": "Thrilling poster featuring a group of friends amidst a dark desert landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Forsaken"
+  },
+  {
+    "title": "The Twilight Saga: New Moon (2009)",
+    "poster": "Romantic poster with Kristen Stewart and Taylor Lautner in a dramatic forest scene",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Twilight_Saga:_New_Moon"
+  },
+  {
+    "title": "The Twilight Saga: Eclipse (2010)",
+    "poster": "Dark and dramatic poster highlighting the love triangle between Bella, Edward, and Jacob",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Twilight_Saga:_Eclipse"
+  },
+  {
+    "title": "The Twilight Saga: Breaking Dawn – Part 1 (2011)",
+    "poster": "Intense poster featuring Bella and Edward in a romantic setting, with an air of mystery",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Twilight_Saga:_Breaking_Dawn_%E2%80%93_Part_1"
+  },
+  {
+    "title": "The Twilight Saga: Breaking Dawn – Part 2 (2012)",
+    "poster": "Epic poster with a battle between vampires and their foes, featuring the main characters",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Twilight_Saga:_Breaking_Dawn_%E2%80%93_Part_2"
+  },
+  {
+    "title": "Scars of Dracula (1970)",
+    "poster": "Gothic poster showcasing Christopher Lee as Dracula, with a sinister castle in the background",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scars_of_Dracula"
+  },
+  {
+    "title": "Dracula: Dead and Loving It (1995)",
+    "poster": "Comedic poster featuring Leslie Nielsen in a portrayal of Dracula, against a humorous backdrop",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dracula:_Dead_and_Loving_It"
+  },
+  {
+    "title": "Eraserhead (1977)",
+    "poster": "Surreal poster with a nightmarish image of a man surrounded by bizarre and dark imagery",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eraserhead"
+  },
+  {
+    "title": "Goke, Body Snatcher from Hell (1968)",
+    "poster": "Avant-garde poster featuring distorted imagery of a creature invading a plane",
+    "wikipedia": "https://en.wikipedia.org/wiki/Goke,_Body_Snatcher_from_Hell"
+  },
+  {
+    "title": "Blade: Trinity (2004)",
+    "poster": "Action-packed poster showcasing Blade surrounded by an ensemble of vampire hunters",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blade:_Trinity"
+  },
+  {
+    "title": "Sundown: The Vampire in Retreat (1989)",
+    "poster": "Unique poster featuring a comedic twist on vampire lore, set in the Wild West",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sundown:_The_Vampire_in_Retreat"
+  },
+  {
+    "title": "The Lair of the White Worm (1988)",
+    "poster": "Artistic poster featuring a seductive woman in a gothic setting with an otherworldly serpent",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lair_of_the_White_Worm"
+  },
+  {
+    "title": "Countess Dracula (1971)",
+    "poster": "Dramatic poster showcasing a regal figure with a dark, brooding castle in the background",
+    "wikipedia": "https://en.wikipedia.org/wiki/Countess_Dracula"
+  },
+  {
+    "title": "Bloodsucking Bastards (2015)",
+    "poster": "Comical poster with a group of office workers facing off against vampire co-workers",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bloodsucking_Bastards"
+  },
+  {
+    "title": "My Best Friend's a Vampire (1987)",
+    "poster": "Light-hearted poster featuring a young man and a girl, with vampire elements integrated humorously",
+    "wikipedia": "https://en.wikipedia.org/wiki/My_Best_Friend%27s_a_Vampire"
+  },
+  {
+    "title": "Cursed (2005)",
+    "poster": "Creepy poster featuring a werewolf-like creature in a dark forest setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cursed_(film)"
+  },
+  {
+    "title": "The Little Vampire (2000)",
+    "poster": "Family-friendly poster featuring a young vampire boy in a whimsical landscape",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Little_Vampire_(film)"
+  },
+  {
+    "title": "The Night Flier (1997)",
+    "poster": "Mysterious poster with a journalist confronting a menacing figure in an airport",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Night_Flier"
+  },
+  {
+    "title": "Subspecies (1991)",
+    "poster": "Horror-themed poster featuring a vampire emerging from the shadows with eerie lighting",
+    "wikipedia": "https://en.wikipedia.org/wiki/Subspecies"
+  },
+  {
+    "title": "The Forsaken (2001)",
+    "poster": "Action-oriented poster featuring a group of friends in fear of a vampire threat",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Forsaken"
+  },
+  {
+    "title": "Dark Shadows (2012)",
+    "poster": "Interesting poster with Johnny Depp as a charming vampire in a gothic mansion",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dark_Shadows_(film)"
+  },
+  {
+    "title": "A Vampyre Story (2008)",
+    "poster": "Animated poster showcasing a singing vampire in a whimsical world",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Vampyre_Story"
+  },
+  {
+    "title": "Vampire Circus (1972)",
+    "poster": "Mystical poster featuring a circus with dark and eerie characters portraying vampires",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vampire_Circus"
+  },
+  {
+    "title": "Immortality (1998)",
+    "poster": "Surreal poster featuring an ethereal woman amidst dreamlike landscapes",
+    "wikipedia": "https://en.wikipedia.org/wiki/Immortality_(film)"
+  },
+  {
+    "title": "The Legend of the 7 Golden Vampires (1974)",
+    "poster": "Action poster blending martial arts with vampire lore, featuring a group of heroes",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Legend_of_the_7_Golden_Vampires"
+  },
+  {
+    "title": "I Am Not a Serial Killer (2016)",
+    "poster": "Intriguing poster with a young man holding a knife against a dark background",
+    "wikipedia": "https://en.wikipedia.org/wiki/I_Am_Not_a_Serial_Killer"
+  },
+  {
+    "title": "The Keep (1983)",
+    "poster": "Dark and ominous poster featuring an imposing fortress with eerie light",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Keep"
+  },
+  {
+    "title": "Fright Night (2011)",
+    "poster": "Modern poster showcasing a young man confronting a vampire in a suburban setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fright_Night_(2011_film)"
+  },
+  {
+    "title": "Vampires vs. Bronx (2020)",
+    "poster": "Energetic poster featuring teens fighting vampires in a vibrant urban setting",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vampires_vs._Bronx"
+  },
+  {
+    "title": "Blood and Roses (1960)",
+    "poster": "Eerie poster showcasing a woman in a haunted setting with vampiric implications",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blood_and_Roses_(film)"
+  }
+]
