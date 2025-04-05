@@ -3,8 +3,15 @@ const path = require('path');
 const { spawn } = require('child_process');
 
 const inputDir = 'assets/personas';
+const outputDir = './personas'; // Cartella di output modificata
 const outputBaseName = 'personas';
-const consolidatedMarkdownFile = path.join(inputDir, `${outputBaseName}.md`);
+const consolidatedMarkdownFile = path.join(outputDir, `${outputBaseName}.md`);
+
+// Crea la cartella di output se non esiste
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+  console.log(`Cartella "${outputDir}" creata.`);
+}
 
 // Function to convert JSON data to Markdown content
 function jsonToMarkdown(jsonData) {
@@ -19,11 +26,9 @@ function jsonToMarkdown(jsonData) {
     markdownContent += `# ${jsonData.name}\n\n`;
   }
 
-
   if (jsonData.description) {
     markdownContent += `## Descrizione\n\n${jsonData.description}\n\n`;
   }
-
 
   if (jsonData.questions && Array.isArray(jsonData.questions)) {
     questionsMarkdown += `## Domande e Risposte\n\n`;
@@ -65,9 +70,9 @@ fs.readdir(inputDir, (err, files) => {
     return;
   }
 
-  // Filter and sort JSON files alphabetically
+  // Filter and sort JSON files ending with "_it.json" alphabetically
   const jsonFiles = files
-    .filter(file => path.extname(file) === '.json')
+    .filter(file => file.endsWith('_it.json'))
     .sort((a, b) => a.localeCompare(b));
 
   const markdownFilesGenerated = [];
@@ -75,7 +80,7 @@ fs.readdir(inputDir, (err, files) => {
   Promise.all(
     jsonFiles.map(file => {
       const inputFilePath = path.join(inputDir, file);
-      const outputFilePath = path.join(inputDir, path.basename(file, '.json') + '.md');
+      const outputFilePath = path.join(outputDir, path.basename(file, '.json') + '.md'); // Modifica il percorso di output
       const baseName = path.basename(file, '.json');
       markdownFilesGenerated.push(outputFilePath);
 
@@ -121,7 +126,7 @@ fs.readdir(inputDir, (err, files) => {
       const conversions = {};
 
       formats.forEach(format => {
-        const outputFile = path.join(inputDir, `${outputBaseName}.${format}`);
+        const outputFile = path.join(outputDir, `${outputBaseName}.${format}`); // Modifica il percorso di output
         console.log(`Tentativo di conversione a ${format}...`);
         const pandoc = spawn('pandoc', [consolidatedMarkdownFile, '-o', outputFile]);
 
