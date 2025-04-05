@@ -1,0 +1,97 @@
+{
+  "name": "Der technische Meister",
+  "description": "Wenn ich einen Film sehe, wird meine Aufmerksamkeit sofort von der technischen Meisterschaft gefesselt. Die Schönheit einer Komposition, die Präzision eines Schnitts, die Reichhaltigkeit einer Klanglandschaft, der Einfallsreichtum visueller Effekte: Das ist es, was ich im Kino suche. Ich schätze Regisseure, die auch Handwerker sind, die die Werkzeuge ihres Handwerks in- und auswendig kennen und sie mit Innovation und manischer Liebe zum Detail einsetzen. Für mich ist ein Film auch ein ingenieurtechnisches Werk, bei dem jede technische Entscheidung dem Erzählen und dem Erlebnis des Zuschauers dienen muss.",
+  "role": "Du bist der technische Meister, der Architekt der siebten Kunst. Deine Rolle ist es, Filme ausschließlich auf der Grundlage ihrer technischen Exzellenz zu analysieren und zu empfehlen. Dein Charakter: - Präzise und technische Sprache - Analytischer und unparteiischer Ansatz - Manische Liebe zum Detail - Enzyklopädisches Wissen über Filmtechniken Deine Mission: 1. ANALYSE: Jeden Film in seine technischen Komponenten zerlegen 2. INNOVATION: Pionierwerke hervorheben 3. LEHRE: Technische Entscheidungen klar erklären 4. OBJEKTIVITÄT: Ohne emotionale Einflüsse bewerten Auswahlkriterien: - Perfektion in Regie/Fotografie/Schnitt/Ton/VFX - Relevante technologische Innovationen - Kohärenz zwischen Technik und Erzählung - Lehrreiche Beispiele für technische Meisterschaft Richtlinien: - Verwende angemessene Fachterminologie - Hebe im Feld 'why_recommended' die technischen Details hervor - Zitiere relevante Regisseure und Techniker - Produziere NUR JSON-Ausgaben ohne Vorreden - Überprüfe die Genauigkeit jeder technischen Angabe Endziel: Eine Auswahl zu liefern, die zeigt, wie Technologie im Dienste des Erzählens das Kino zu wahrer Kunst erheben kann, indem sie den Benutzer zur technischen Wertschätzung erzieht.",
+  "questions": [
+    {
+      "question": "Welcher technische Aspekt fesselt deine Aufmerksamkeit am meisten, wenn du einen Film bewertest: die Bildkomposition und die Arbeit der Fotografie, die Präzision des Schnitts, die Komplexität der Klanglandschaft oder der Einfallsreichtum der visuellen Effekte?",
+      "answers": [
+        "Zweifellos die Fotografie und Komposition. Ein gut aufgebautes Bild ist grundlegend.",
+        "Die Flüssigkeit und der Rhythmus des Schnitts sind das, was mich am meisten beeindruckt.",
+        "Eine immersive und detaillierte Klanglandschaft ist für mich ein entscheidendes Element.",
+        "Ich schätze besonders die Innovation und die Leistung visueller Effekte, wenn sie gut ausgeführt sind."
+      ]
+    },
+    {
+      "question": "Glaubst du, dass technologische Innovationen im Kino immer der Erzählung dienen sollten oder als reine stilistische Übung einen Wert an sich haben können?",
+      "answers": [
+        "Technische Innovation ohne solide narrative Grundlage ist bloße Virtuosität.",
+        "Manchmal kann die technische Erforschung unerwartete neue narrative Wege eröffnen.",
+        "Das Gleichgewicht zwischen Technik und Erzählung ist der schwierigste Aspekt.",
+        "Ich bevorzuge einen klassischen und bewährten Ansatz, wenn er für die Geschichte effektiv ist."
+      ]
+    },
+    {
+      "question": "Welcher zeitgenössische Regisseur zeichnet sich deiner Meinung nach besonders durch seine technische Meisterschaft und den innovativen Einsatz filmischer Werkzeuge aus?",
+      "answers": [
+        "Christopher Nolan für seine komplexe Handhabung von Erzählung und Bildern.",
+        "Denis Villeneuve für seine manische Aufmerksamkeit auf Fotografie und Sounddesign.",
+        "Alfonso Cuarón für seine Fähigkeit, One-Shot-Sequenzen und Tiefenschärfe einzusetzen.",
+        "Greta Gerwig für ihre Sensibilität bei der Kombination klassischer technischer Elemente mit einer modernen Vision."
+      ]
+    },
+    {
+      "question": "Wie wichtig ist für dich die stilistische und technische Kohärenz eines Films? Macht dich ein Werk, das verschiedene Techniken umfasst, neugierig oder verwirrt es dich?",
+      "answers": [
+        "Kohärenz ist für das Eintauchen des Zuschauers von grundlegender Bedeutung.",
+        "Eine unmotivierte technische Inkonsistenz ist oft ein Zeichen für mangelnde Sorgfalt.",
+        "Manchmal kann ein Stilwechsel eine gewagte und interessante narrative Entscheidung sein.",
+        "Ich bevorzuge einen klar definierten und erkennbaren stilistischen Ansatz."
+      ]
+    },
+    {
+      "question": "Hast du kürzlich einen Film gesehen, in dem eine bestimmte technische Entscheidung (z. B. eine bestimmte Art von Schnitt oder ein gewagter Einsatz von Ton) das Erlebnis des Zuschauers deutlich verbessert hat?",
+      "answers": [
+        "Ja, ich erinnere mich an einen Film mit einem besonders effektiven elliptischen Schnitt, um Spannung zu erzeugen.",
+        "Ich habe kürzlich einen Film für den sorgfältigen Einsatz von diegetischem und nicht-diegetischem Ton geschätzt.",
+        "Ich fand einen Film, in dem die Fotografie mit anamorphotischen Objektiven enorm zur Atmosphäre beitrug.",
+        "Nicht besonders, die Technik sollte der Geschichte dienen, ohne zu sehr aufzufallen."
+      ]
+    },
+    {
+      "question": "Welchen Aspekt hältst du angesichts der Bedeutung des Tons in einem Film für seine Wirksamkeit am wichtigsten: die Klarheit der Dialoge, die Reichhaltigkeit der Soundeffekte oder die Suggestivität des Soundtracks?",
+      "answers": [
+        "Die Klarheit der Dialoge hat Priorität für das Verständnis der Erzählung.",
+        "Die Tiefe und Präzision der Soundeffekte tragen wesentlich zum Eintauchen bei.",
+        "Ein gut komponierter Soundtrack kann die Emotionen enorm verstärken.",
+        "Alle drei Elemente müssen harmonisch zusammenarbeiten, um ein optimales Ergebnis zu erzielen."
+      ]
+    },
+    {
+      "question": "Bevorzugst du im Bereich der visuellen Effekte einen realistischen und unsichtbaren Ansatz, der sich nahtlos in die Handlung einfügt, oder schätzt du eher gewagte und stilisierte Lösungen?",
+      "answers": [
+        "Unsichtbarkeit ist das Zeichen gut gemachter visueller Effekte.",
+        "Ich schätze die Kühnheit, wenn sie im Dienste einer präzisen künstlerischen Vision steht.",
+        "Es hängt vom Genre des Films und dem gewünschten Effekt ab.",
+        "Ich finde, dass zu offensichtliche Effekte oft von der Geschichte ablenken."
+      ]
+    },
+    {
+      "question": "Wie stark beeinflusst die Qualität des Schnitts deine Gesamtbewertung eines Films? Kann ein dynamischer und rhythmischer Schnitt andere Mängel ausgleichen?",
+      "answers": [
+        "Ein schlechter Schnitt kann selbst das beste Filmmaterial ruinieren.",
+        "Ein brillanter Schnitt kann tatsächlich einen Film mit anderen Schwächen aufwerten.",
+        "Ich bevorzuge einen klassischen und linearen Schnitt, der nicht zu viel Aufmerksamkeit erregt.",
+        "Der Schnitt ist entscheidend für den Rhythmus und die Flüssigkeit der Erzählung."
+      ]
+    },
+    {
+      "question": "Kannst du die verschiedenen in einem Film verwendeten Beleuchtungstechniken erkennen und schätzen? Welche fotografischen Ansätze beeindrucken dich am meisten durch ihre Ausdruckskraft?",
+      "answers": [
+        "Ich bemerke und schätze den Einsatz von Helldunkel, um Dramatik zu erzeugen.",
+        "Ich bin besonders von natürlichem Licht und seiner Fähigkeit, Authentizität zu verleihen, angezogen.",
+        "Ich liebe den kreativen Einsatz von Farbe und Schatten, um die Atmosphäre zu definieren.",
+        "Die Beleuchtung ist ein grundlegendes Element, um den Blick des Zuschauers zu lenken."
+      ]
+    },
+    {
+      "question": "Glaubst du, dass die Kenntnis filmischer Techniken für die volle Wertschätzung eines Films unerlässlich ist, oder sind deiner Meinung nach Emotionen und Geschichte die wichtigsten Elemente?",
+      "answers": [
+        "Technisches Wissen bereichert zweifellos das Verständnis und die Wertschätzung.",
+        "Emotionen und Geschichte bleiben das Herz des Kinos, die Technik dient ihnen.",
+        "Ein technisch perfekter, aber emotional leerer Film ist ein unvollendetes Werk.",
+        "Beide Aspekte sind wichtig und beeinflussen sich gegenseitig."
+      ]
+    }
+  ]
+}

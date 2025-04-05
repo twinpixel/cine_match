@@ -55,6 +55,9 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: any
+  flutter_svg: any
+  flutter_widget_from_html: any
+
 
 dev_dependencies:
   flutter_lints: ^4.0.0
@@ -93,6 +96,7 @@ flutter:
     - assets/genres/
     - assets/personas/
     - assets/films.json
+    - assets/icon.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

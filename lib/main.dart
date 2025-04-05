@@ -2,8 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
-import 'package:flutter_localizations/flutter_localizations.dart';
-import 'generated/l10n.dart';
+
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 
@@ -46,21 +45,14 @@ Future<void> initFirebase() async {
     print('Error  $e');
   }
 }
+var languageCode = 'it';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "CineMatch",
-      localizationsDelegates: const [
-        S.delegate,
-        GlobalMaterialLocalizations.delegate,
-        GlobalWidgetsLocalizations.delegate,
-        GlobalCupertinoLocalizations.delegate,
-      ],
-      supportedLocales: S.delegate.supportedLocales,
       theme: _buildAppTheme(),
       home: const ImageSelectionScreen(),
     );
@@ -72,7 +64,17 @@ class MyApp extends StatelessWidget {
     final redShade900 = Colors.red.shade900;
 
     return ThemeData(
-      appBarTheme: _buildAppBarTheme(),
+      appBarTheme: AppBarTheme(
+        centerTitle: true,
+        elevation: 0,
+        scrolledUnderElevation: 4,
+        backgroundColor: surfaceColor,
+        titleTextStyle: TextStyle(
+          color: amberShade600,
+          fontFamily: 'Vintage',
+          fontSize: 24,
+        ),
+      ),
       iconTheme: _buildIconTheme(amberShade600),
       colorScheme: _buildColorScheme(redShade900, amberShade600, surfaceColor),
       useMaterial3: true,
@@ -81,13 +83,6 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  AppBarTheme _buildAppBarTheme() {
-    return const AppBarTheme(
-      centerTitle: true,
-      elevation: 0,
-      scrolledUnderElevation: 4,
-    );
-  }
 
   IconThemeData _buildIconTheme(Color iconColor) {
     return IconThemeData(
@@ -141,29 +136,105 @@ class ImageSelectionScreen extends StatefulWidget {
 
 class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
   String? _selectedImageNumber;
-  late Future<List<String>>
-      _imageDescriptionsFuture; // Nuovo Future per le descrizioni
-
+  late Future<List<String>> _imageDescriptionsFuture;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: BackgroundWidget(
+      appBar: AppBar(
+        backgroundColor: Theme.of(context).colorScheme.surface,
+        title: Text(
+          "CineMatch",
+          style: TextStyle(
+            color: Colors.amber.shade600,
+            fontFamily: 'Vintage',
+            fontSize: 24,
+          ),
+        ),
+        leading: IconButton(
+          icon: Icon(
+            Icons.language,
+            color: Colors.amber.shade600,
+            size: 28,
+          ),
+          onPressed: _showLanguageDialog,
+        ),
+      ),
+      body: BackgroundWidget(
         child: FutureBuilder<List<String>>(
-        future: _imageDescriptionsFuture,
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.waiting) {
-            return _buildLoadingIndicator();
-          }
+          future: _imageDescriptionsFuture,
+          builder: (context, snapshot) {
+            if (snapshot.connectionState == ConnectionState.waiting) {
+              return _buildLoadingIndicator();
+            }
 
-          if (snapshot.hasError || !snapshot.hasData) {
-            return _buildErrorState();
-          }
+            if (snapshot.hasError || !snapshot.hasData) {
+              return _buildErrorState();
+            }
 
-          final descriptions = snapshot.data!;
-          return _buildMainContent(descriptions);
-        },
-      ),),
+            final descriptions = snapshot.data!;
+            return _buildMainContent(descriptions);
+          },
+        ),
+      ),
+    );
+  }
+
+  void _showLanguageDialog() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          backgroundColor: Colors.black.withOpacity(0.9),
+          title: Text(
+            'Seleziona Lingua',
+            style: TextStyle(
+              color: Colors.amber.shade600,
+              fontSize: 20,
+            ),
+          ),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              _buildLanguageOption('🇮🇹Italiano', 'it'),
+              _buildLanguageOption('🇬🇧English', 'en'),
+              _buildLanguageOption('🇪🇸Español', 'es'),
+              _buildLanguageOption('🇫🇷Français', 'fr'),
+              _buildLanguageOption('🇷🇺Русский', 'ru'),
+            ],
+          ),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(15),
+            side: BorderSide(color: Colors.amber.shade600, width: 1),
+          ),
+        );
+      },
+    ).then((_) {
+      // Ricarica le descrizioni quando la lingua cambia
+      setState(() {
+        _imageDescriptionsFuture = _loadImageDescriptions();
+      });
+    });
+  }
+  Widget _buildLanguageOption(String languageName, String code) {
+    return ListTile(
+      title: Text(
+        languageName,
+        style: TextStyle(
+          color: languageCode == code
+              ? Colors.amber.shade600
+              : Colors.white,
+          fontWeight: languageCode == code
+              ? FontWeight.bold
+              : FontWeight.normal,
+        ),
+      ),
+      onTap: () {
+        setState(() {
+          languageCode = code;
+        });
+        Navigator.pop(context);
+      },
     );
   }
 
@@ -1765,31 +1836,39 @@ Future<void> _cleanWebCache() async {
 final Map<String, Map<String, dynamic>> _personaDataCache = {};
 
 Future<Map<String, dynamic>> getPersonaData(String fileNumber) async {
-  // Controlla se i dati sono già in cache
-  if (_personaDataCache.containsKey(fileNumber)) {
-    return _personaDataCache[fileNumber]!;
+  final cacheKey = '${fileNumber}_$languageCode'; // Aggiorna la cache key con la lingua
+
+  if (_personaDataCache.containsKey(cacheKey)) {
+    return _personaDataCache[cacheKey]!;
   }
 
   try {
     final personaJson = await _loadPersonaJson(fileNumber);
     final Map<String, dynamic> personaData = jsonDecode(personaJson);
 
-    // Salva nella cache prima di restituire
-    _personaDataCache[fileNumber] = personaData;
-
+    _personaDataCache[cacheKey] = personaData;
     return personaData;
   } catch (e) {
-    print('Error loading del persona $fileNumber: $e');
-    return {}; // Restituisce un oggetto vuoto invece di lanciare eccezione
+    print('Error loading persona $fileNumber: $e');
+    return {};
   }
 }
-
 Future<String> _loadPersonaJson(String fileNumber) async {
+  // Prima prova a caricare la versione localizzata
+  final localizedPath = 'assets/personas/$fileNumber\_$languageCode.json';
   try {
-    return await rootBundle.loadString('assets/personas/$fileNumber.json');
+    return await rootBundle.loadString(localizedPath);
   } catch (e) {
-    print('Error loading del persona $fileNumber: $e');
-    return '{}'; // Restituisce un JSON vuoto come fallback
+    print('Localized persona $fileNumber\_$languageCode.json not found, falling back to default');
+  }
+
+  // Se non trova la versione localizzata, carica quella default
+  final defaultPath = 'assets/personas/$fileNumber.json';
+  try {
+    return await rootBundle.loadString(defaultPath);
+  } catch (e) {
+    print('Error loading persona $fileNumber.json: $e');
+    return '{}';
   }
 }
 

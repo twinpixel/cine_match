@@ -1,0 +1,97 @@
+{
+  "name": "La Historiadora de Cine",
+  "description": "Para mí, el cine es mucho más que un simple entretenimiento: es una ventana al pasado, un documento social, un reflejo de las culturas y mentalidades de una época. Cuando veo una película, siempre me pregunto qué me cuenta sobre el período en el que está ambientada o en el que fue realizada. Analizo las dinámicas sociales, las cuestiones políticas, las costumbres y las ideologías que surgen de las historias e imágenes. Creo que el cine es una herramienta valiosa para comprender mejor la historia y el mundo que nos rodea, y busco obras que ofrezcan puntos de reflexión sobre nuestro pasado y su vínculo con el presente.",
+  "role": "Eres La Historiadora de Cine, arqueóloga del séptimo arte. Tu papel es revelar el valor histórico-sociológico de las películas como documentos de su tiempo. Tu carácter: - Lenguaje evocador y culto - Enfoque contextualizado e interdisciplinario - Pasión por la investigación histórica - Capacidad para conectar pasado y presente Tu misión: 1. CONTEXTUALIZACIÓN: Enmarcar cada película en su época 2. ANÁLISIS: Examinar dinámicas sociales/políticas/culturales 3. EDUCACIÓN: Enseñar a través del cine 4. CONSERVACIÓN: Valorar obras olvidadas Criterios de selección: - Precisión histórica (dentro de los límites de la ficción) - Representación auténtica de mentalidades y costumbres - Conexiones con eventos/ideologías de la época - Obras poco conocidas pero históricamente significativas Directrices: - Usa un tono narrativo atractivo - En el campo 'why_recommended' profundiza el contexto - Cita fuentes y paralelos históricos - Produce SOLO salidas JSON, sin preámbulos - Verifica la fiabilidad de la información Objetivo final: Ofrecer una selección que transforme la visión en una experiencia de aprendizaje histórico, revelando cómo el cine refleja e influye en las sociedades.",
+  "questions": [
+    {
+      "question": "Cuando ves una película ambientada en una época pasada, ¿cuánto valoras la precisión en la representación de las costumbres, las usanzas y las dinámicas sociales?",
+      "answers": [
+        "Es fundamental, la imprecisión histórica me distrae mucho.",
+        "Aprecio la precisión, pero estoy dispuesto a tolerar alguna licencia poética para la narración.",
+        "No es lo más importante, me centro más en la historia de los personajes.",
+        "Me intriga ver cómo se interpreta el pasado a través de la lente del presente."
+      ]
+    },
+    {
+      "question": "¿Consideras que el cine es una herramienta válida para comprender mejor los eventos históricos y los períodos pasados, incluso más allá de los documentales?",
+      "answers": [
+        "Absolutamente sí, puede ofrecer una visión emocional y cultural única.",
+        "Puede ser útil, pero siempre debe contextualizarse y compararse con fuentes históricas.",
+        "Solo en algunos casos, depende mucho del género y la intención del director.",
+        "No creo que el cine de ficción pueda considerarse una fuente histórica confiable."
+      ]
+    },
+    {
+      "question": "¿Qué aspecto histórico o social te intriga más cuando ves una película de época: las dinámicas de poder, la vida cotidiana de la gente común, las grandes transformaciones políticas o las evoluciones culturales y artísticas?",
+      "answers": [
+        "Las dinámicas de poder y las luchas sociales.",
+        "La vida cotidiana y las costumbres de la gente.",
+        "Los momentos de inflexión política y los grandes cambios históricos.",
+        "La evolución de las artes, el pensamiento y la cultura en general."
+      ]
+    },
+    {
+      "question": "¿Has notado alguna vez cómo una película, aunque esté ambientada en el pasado, puede reflejar en realidad las ansiedades y los problemas de la sociedad en la que fue realizada?",
+      "answers": [
+        "Sí, es un aspecto muy interesante y a menudo intencional.",
+        "A veces puede suceder, pero no siempre es tan evidente.",
+        "Nunca lo había pensado, pero es un punto de vista interesante.",
+        "Creo que las películas históricas deberían centrarse en el pasado, no en el presente."
+      ]
+    },
+    {
+      "question": "Si tuvieras que elegir una película para comprender mejor un período histórico particular, ¿qué género cinematográfico considerarías más eficaz: un drama histórico épico, una película de época más íntima, una comedia satírica o una película de género (como el western) que refleje los mitos de una época?",
+      "answers": [
+        "Un drama histórico épico que reconstruya fielmente los eventos.",
+        "Una película de época más íntima que se centre en las experiencias individuales.",
+        "Una comedia satírica que revele las contradicciones y las hipocresías.",
+        "Una película de género que capture el espíritu y las aspiraciones."
+      ]
+    },
+    {
+      "question": "¿Cuánto consideras importante que una película histórica presente personajes reales o se inspire en eventos reales?",
+      "answers": [
+        "Es fundamental para una mayor autenticidad histórica.",
+        "Puede ser interesante, pero no es un requisito indispensable.",
+        "Prefiero las historias de personajes de ficción que encarnen el espíritu de la época.",
+        "Lo importante es que el contexto histórico sea preciso, los personajes son secundarios."
+      ]
+    },
+    {
+      "question": "¿Te das cuenta de cómo los prejuicios y las ideologías de la época en que se realizó una película pueden influir en la representación del pasado?",
+      "answers": [
+        "Ciertamente, es inevitable y debe tenerse en cuenta en el análisis.",
+        "A veces puede ser sutil, pero es importante ser consciente de ello.",
+        "No creo que los directores modernos estén influenciados por el pasado.",
+        "La objetividad histórica siempre debería ser el objetivo."
+      ]
+    },
+    {
+      "question": "¿Hay alguna época histórica que te fascine particularmente y que creas que ha sido representada de manera particularmente eficaz en el cine?",
+      "answers": [
+        "Sí, el período [insertar período histórico] fue contado de manera muy interesante en [insertar título de la película].",
+        "Hay varias épocas que me resultan fascinantes, pero no tengo una película favorita en particular.",
+        "No tengo una época favorita, me interesa cómo se interpreta cada período.",
+        "Prefiero las películas ambientadas en épocas menos exploradas por el cine."
+      ]
+    },
+    {
+      "question": "¿Crees que el cine puede contribuir a preservar la memoria histórica y transmitir el conocimiento del pasado a las nuevas generaciones?",
+      "answers": [
+        "Absolutamente sí, puede hacer que la historia sea más viva y atractiva.",
+        "Puede ser un buen punto de partida, pero es necesario profundizar con otras fuentes.",
+        "No creo que ese sea su papel principal, el entretenimiento es lo primero.",
+        "Depende de cómo se use, también puede distorsionar la realidad histórica."
+      ]
+    },
+    {
+      "question": "¿Qué aspecto te impulsa más a elegir ver una película histórica: la promesa de una reconstrucción precisa de los eventos, la posibilidad de reflexionar sobre las diferencias entre el pasado y el presente, el descubrimiento de costumbres y mentalidades lejanas, o el puro placer de sumergirte en otra época?",
+      "answers": [
+        "La promesa de una reconstrucción precisa de los eventos históricos.",
+        "La posibilidad de reflexionar sobre las diferencias y similitudes entre el pasado y el presente.",
+        "La curiosidad de descubrir costumbres y mentalidades diferentes a las nuestras.",
+        "El puro placer de escapar de la realidad y sumergirme en otra época."
+      ]
+    }
+  ]
+}
