@@ -2,32 +2,29 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
-import 'dart:convert';
-import 'package:flutter/services.dart' show rootBundle;
-
-import 'package:cine_match/firebase_options.dart';
-import 'package:image/image.dart' as img;
 import 'package:cached_network_image/cached_network_image.dart'; // Importa il package
+import 'package:cine_match/firebase_options.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_vertexai/firebase_vertexai.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:html/dom.dart' as dom;
-import 'package:html/parser.dart' as html_parser;
 import 'package:http/http.dart' as http;
+import 'package:image/image.dart' as img;
 import 'package:path_provider/path_provider.dart'; // Import path_provider
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:url_launcher/url_launcher.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_vertexai/firebase_vertexai.dart';
-import 'package:intl/intl.dart';
-import 'package:cine_match/generated/l10n.dart';
 var selectedCritic = '01';
 var model;
 const criticsNumber = 4;
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  final locale = WidgetsBinding.instance.platformDispatcher.locale;
+  languageCode = locale.languageCode;
   await initFirebase();
   await _QuizPageState.loadReceivedTitles(); // Carica i titoli salvati
 
@@ -45,7 +42,7 @@ Future<void> initFirebase() async {
     print('Error  $e');
   }
 }
-var languageCode = 'it';
+var languageCode = 'en';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -694,7 +691,7 @@ class _QuizPageState extends State<QuizPage> {
             .replaceAll('Ã', 'à')
             .replaceAll('Ã¹', 'ù')
             .trim();
-
+        print('\n******\Mistral: $cleanedContent\n**********\n');
         final movieList = jsonDecode(cleanedContent) as List<dynamic>;
         return movieList;
       } else {
@@ -710,8 +707,28 @@ class _QuizPageState extends State<QuizPage> {
     try {
       final promptG = [Content.text(prompt)];
       final responseAI = await model.generateContent(promptG);
+
+      final jsonString = responseAI.text.toString()
+          .replaceAll('``````', '')
+          .replaceAll('```json', '')
+          .replaceAll('```', '');
+      print('\n******\nGEmini: $jsonString\n**********\n');
+      final movieList2 = jsonDecode(jsonString);
+
+      // Aggiungi i titoli al set
+      for (final movie in movieList2) {
+        final title = movie['title']?.toString();
+        if (title != null && title.isNotEmpty) {
+          _QuizPageState._receivedTitles.add(title);
+        }
+      }
+      if (_QuizPageState._receivedTitles.length > 100) {
+        _QuizPageState._receivedTitles.removeRange(0, 10);
+      }
+      _QuizPageState.saveReceivedTitles();
       final List<dynamic> movieList =
-          processResponseText(responseAI.text.toString());
+          movieList2;
+
       return movieList;
     } catch (e) {
       print('Error durante la richiesta a Gemini: $e');
@@ -731,35 +748,6 @@ class _QuizPageState extends State<QuizPage> {
   }
 
 
-  String _getRandomInspirationalMessage() {
-    const List<String> inspirationalMessages = [
-      "Accendiamo i proiettori...🍿",
-      "Scegliendo la colonna sonora perfetta...🎬",
-      "Allestiamo il tuo divano cinematografico...🍿",
-      "Controlliamo la lista degli Oscar...🎬",
-      "Preparando i popcorn... 🍿",
-      "Regolazione della luce ambientale...🎬",
-      "Selezionando da film cult a nuove uscite...🍿",
-      "Reticulating splines...🎬",
-      "Calibrazione volume anti-vicini...🔇",
-      "Scongelamento pellicola vintage...🎞️",
-      "Ottimizzazione angolo cuscino...🛋️",
-      "Ricarica batterie telecomando...🔋",
-      "Download effetti speciali...💥",
-      "Allineamento stelle del cinema...🌟",
-      "Ricerca sottotitoli sgrammaticati...🤌",
-      "All your base are belong to us...📺",
-      "Deframmentazione hard disk emotivo...💾",
-      "Installazione pacchetto lacrime per drammi...😭",
-      "Formattazione pregiudizi sui musical...🕺",
-      "Ottimizza-azione del divano...⚡",
-      "Controllo scorte di tisana serale...☕",
-      "Rendering della perfetta inquadratura...🎥"
-    ];
-
-    return inspirationalMessages[
-        Random().nextInt(inspirationalMessages.length)];
-  }
 
 
 
@@ -866,31 +854,6 @@ class _QuizPageState extends State<QuizPage> {
       print('Error loading del file $path: $e');
       return '';
     }
-  }
-
-  processResponseText(String contentText) {
-    final jsonString = contentText
-        .replaceAll('``````', '')
-        .replaceAll('```json', '')
-        .replaceAll('```', '');
-
-    final movieList = jsonDecode(jsonString);
-
-    // Aggiungi i titoli al set
-    for (final movie in movieList) {
-      final title = movie['title']?.toString();
-      if (title != null && title.isNotEmpty) {
-        _receivedTitles.add(title);
-      }
-    }
-    if (_receivedTitles.length > 100) {
-      _receivedTitles.removeRange(0, 10);
-    }
-    _QuizPageState.saveReceivedTitles(); // Salva dopo l'aggiornamento
-
-    //print('Titoli memorizzati: $_receivedTitles'); // Debug
-
-    return movieList;
   }
 
   void _navigateToMovieList(BuildContext context, List<dynamic> movieList) {
