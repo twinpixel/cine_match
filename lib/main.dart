@@ -19,12 +19,14 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:universal_html/html.dart' as html;
 import 'package:url_launcher/url_launcher.dart';
 var selectedCritic = '01';
+const String _languageCodeKey = 'selectedLanguageCode';
 var model;
 const criticsNumber = 4;
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  final locale = WidgetsBinding.instance.platformDispatcher.locale;
-  languageCode = locale.languageCode;
+  final prefs = await SharedPreferences.getInstance();
+  languageCode = prefs.getString(_languageCodeKey) ??
+      WidgetsBinding.instance.platformDispatcher.locale.languageCode;
   await initFirebase();
   await _QuizPageState.loadReceivedTitles(); // Carica i titoli salvati
 
@@ -156,6 +158,16 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
           ),
           onPressed: _showLanguageDialog,
         ),
+        actions: [
+          IconButton(
+            icon: Icon(
+              Icons.info_outline,
+              color: Colors.amber.shade600,
+              size: 28,
+            ),
+            onPressed: () => _showInfoDialog(context),
+          ),
+        ],
       ),
       body: BackgroundWidget(
         child: FutureBuilder<List<String>>(
@@ -183,12 +195,11 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
       builder: (BuildContext context) {
         return AlertDialog(
           backgroundColor: Colors.black.withOpacity(0.9),
-          title: Text(
-            'Seleziona Lingua',
-            style: TextStyle(
-              color: Colors.amber.shade600,
-              fontSize: 20,
-            ),
+          title:Icon(
+            Icons.language,
+            color: Colors.amber.shade600,
+            size: 28,
+
           ),
           content: Column(
             mainAxisSize: MainAxisSize.min,
@@ -226,7 +237,9 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
               : FontWeight.normal,
         ),
       ),
-      onTap: () {
+      onTap: () async {
+        final prefs = await SharedPreferences.getInstance();
+        await prefs.setString(_languageCodeKey, code);
         setState(() {
           languageCode = code;
         });
@@ -712,7 +725,7 @@ class _QuizPageState extends State<QuizPage> {
           .replaceAll('``````', '')
           .replaceAll('```json', '')
           .replaceAll('```', '');
-      print('\n******\nGEmini: $jsonString\n**********\n');
+
       final movieList2 = jsonDecode(jsonString);
 
       // Aggiungi i titoli al set
@@ -765,32 +778,30 @@ class _QuizPageState extends State<QuizPage> {
     String  postContent = _defaultPostContent();
     if (_receivedTitles.length > 100) _receivedTitles.removeRange(0, 5);
     String exclusionInstruction = _receivedTitles.isNotEmpty
-        ? "\nEscludi ASSOLUTAMENTE questi film: ${_receivedTitles.join(', ')}.\n"
+        ? "\nAvoid the following movies film: ${_receivedTitles.join(', ')}.\n"
         : "";
-    final special = "\n.Produci in ogni caso almeno 4 risultati.\n"
+    final special = "\n.Always produce at least 4 results.\n"
         "$exclusionInstruction"
-        "Nel campo \"why_reccomended\" scrivi testi lungghi e articolato\n."
-        "Aggiungi anche un film che non c'entra e giustificane in modo arzigogolato la scelta nel campo \"why_recomended\".\n"
-        "Ordina i risultati in ordine decrescente di score.\n"
-        "Includi solo film realmente esistenti.\n"
-        "Usa il corretto encoding per le lettere accentate e i carateri speciali per la lingua italiana."
-        "***IMPORTANTE*** PRODUCI IN OGNI CASO UN JSON VALIDO. Verifica il risultato due volte. \n"
-        "Produci description e why_reccomended nella lingua  "+_getLanguageName(languageCode);
-
+        "In the \"why_reccomended\" field, write long and detailed texts.\n"
+        "Also add a film that is not relevant and justify the choice in a convoluted way in the \"why_recomended\" field.\n"
+        "Order the results in descending order of score.\n"
+        "Include only actually existing films.\n"
+        "Use the correct encoding for accented letters and special characters for the Italian language."
+        "***IMPORTANT*** ALWAYS PRODUCE A VALID JSON. Double-check the result. \n"
+        "Produce description and why_reccomended in the language  "+_getLanguageName(languageCode);
     final jsonDesc =
-        "Output JSON\n'poster_prompt':'Breve descrizione per LLM che dovrà generare la locandina',\n"
-        "Genera un array JSON con le seguenti informazioni per ciascun film:,\n"
-        "'title': Titolo del film nella edizione "+_getLanguageName(languageCode)+",\n"
-        "'english_title': Titolo originale del film\n"
-        "'wikipedia': Link corretto alla pagina wikipedia del film,\n"
-        "'description': Brevissima sinossi del film, in tono formale e distaccato. molto breve. Se possibile in una frase,\n"
-        "'score': punteggio che indica quanto il film è vicino ai gusti dell'utente in una scala da 1 a 10,\n"
-        "'genre': un solo genere  a cui appartiene il film scelto tra [action, horror, adventure,musical, comedy ,science-fiction ,crime ,war ,drama ,western, historical]\n"
-        "‘why_recommended’: spiegazione argomentata dei pregi del film e della sua attinenza con le riposte dell'utente‘";
-
+        "Output JSON\n'poster_prompt':'Brief description for LLM that will generate the movie poster',\n"
+            "Generate a JSON array with the following information for each film:,\n"
+            "'title': Title of the film in the "+_getLanguageName(languageCode)+" edition,\n"
+            "'english_title': Original title of the film\n"
+            "'wikipedia': Correct link to the film's Wikipedia page,\n"
+            "'description': Very brief synopsis of the film, in a formal and detached tone. Very short. If possible, in one sentence,\n"
+            "'score': score indicating how close the film is to the user's tastes on a scale from 1 to 10,\n"
+            "'genre': only one genre to which the film belongs chosen from [action, horror, adventure,musical, comedy ,science-fiction ,crime ,war ,drama ,western, historical]\n"
+            "‘why_recommended’: detailed explanation of the merits of the film and its relevance to the user's answers‘ in  "+_getLanguageName(languageCode)+"\n";
     final res =
         "\n$summary\n$jsonDesc\n$postContent$exampleContent\n\n$special";
-    //print('Prompt:\n $res');
+
     return res;
   }
   String _getLanguageName(String languageCode) {
@@ -806,7 +817,7 @@ class _QuizPageState extends State<QuizPage> {
       case 'de':
         return 'Deutsch';
       case 'ru':
-        return 'Deutsch';
+        return 'Russian';
       default:
         return 'English';
     }
@@ -829,23 +840,21 @@ class _QuizPageState extends State<QuizPage> {
   String _defaultPostContent() => "Cerca di evitare film troppo comuni.";
 
   String _defaultExampleContent() =>
-      "\nEcco un esempio di struttura JSON desiderata:\n"
+      "\nExample of required json:\n"
       "```json\n"
       "[\n"
       " {\n"
       " \"wikipedia\": \"https://it.wikipedia.org/wiki/Forrest_Gump\",\n"
       " \"title\": \"Forrest Gump\",\n"
       " \"english_title\": \"Forrest Gump\",\n"
-      " \"description\": \"La vita di Forrest Gump, un uomo con un basso quoziente intellettivo, ma con un cuore grande e una capacità straordinaria di trovarsi al centro di eventi storici.\",\n"
-      " \"awards\": \"Oscar come miglir film\",\n"
-      " \"why_recommended\": \"Film tocccante e sorprendente\",\n"
+      " \"description\": \"Life of rorest gump.\",\n"
+      " \"why_recommended\": \"Good movie suitable for your needs\",\n"
       "\"score\": 7,\n"
       " \"genre\": \"drama\",\n"
-      "\"poster_prompt\":\"Descrizione per LLM che dovrà generare la locandina\"\n"
+      "\"poster_prompt\":\"Poster showing  forrest gump in the sky\"\n"
       " },\n"
       " ...\n"
-      "]\n"
-      "***ISTRUZIONI SPECIALI:  deve essere prodotto solo il json finale, senza altri comment senza caraterai speciali e apici o doppi apici";
+      "]\n";
 
   Future<String> _loadAssetFile(String path) async {
     try {
@@ -2240,93 +2249,73 @@ class _AnimatedLoadingScreenState extends State<_AnimatedLoadingScreen> {
 }
 
 
-String? _getRandomInspirationalMessage() {
-  const List<String> inspirationalMessages = [
-    "Accendiamo i proiettori...🍿",
-    "Scegliendo la colonna sonora perfetta...🎬",
-    "Allestiamo il tuo divano cinematografico...🍿",
-    "Controlliamo la lista degli Oscar...🎬",
-    "Preparando i popcorn... 🍿",
-    "Regolazione della luce ambientale...🎬",
-    "Selezionando da film cult a nuove uscite...🍿",
-    "Reticulating splines...🎬",
-    "Calibrazione volume anti-vicini...🔇",
-    "Scongelamento pellicola vintage...🎞️",
-    "Ottimizzazione angolo cuscino...🛋️",
-    "Ricarica batterie telecomando...🔋",
-    "Download effetti speciali...💥",
-    "Allineamento stelle del cinema...🌟",
-    "Ricerca sottotitoli sgrammaticati...🤌",
-    "All your base are belong to us...📺",
-    "Deframmentazione hard disk emotivo...💾",
-    "Installazione pacchetto lacrime per drammi...😭",
-    "Formattazione pregiudizi sui musical...🕺",
-    "Ottimizza-azione del divano...⚡",
-    "Controllo scorte di tisana serale...☕",
-    "Rendering della perfetta inquadratura...🎥"
-  ];
-  return inspirationalMessages[
-  Random().nextInt(inspirationalMessages.length)];
-}
-
-
-Widget _buildLoadingScreenBody(String message) {
-  return Container(
-    width: double.infinity,
-    height: double.infinity,
-    decoration: _createLoadingScreenDecoration(),
-    child: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Expanded(
-          child: Center(
-            child: AspectRatio(
-              aspectRatio: 1,
-              child: Image.asset(
-                'assets/videos/wait3.gif',
-                fit: BoxFit.contain,
+void _showInfoDialog(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (context) => AlertDialog(
+      backgroundColor: Colors.black.withOpacity(0.9),
+      title: Text(
+        'About CineMatch',
+        style: TextStyle(
+          color: Colors.amber.shade600,
+          fontSize: 22,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+      content: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(
+            'This app is licensed under BSD-3-Clause license\n\n'
+                'Created by Andrea Poltronieri\n\n'
+                'For more information visit:',
+            style: TextStyle(
+              color: Colors.amber.shade100,
+              fontSize: 16,
+            ),
+          ),
+          const SizedBox(height: 8),
+          GestureDetector(
+            onTap: () async {
+              final url = 'https://github.com/twinpixel/cine_match/';
+              if (await canLaunchUrl(Uri.parse(url))) {
+                await launchUrl(
+                  Uri.parse(url),
+                  mode: LaunchMode.externalApplication,
+                  webOnlyWindowName: '_blank',
+                );
+              }
+            },
+            child: Text(
+              'https://github.com/twinpixel/cine_match/',
+              style: TextStyle(
+                color: Colors.amber.shade600,
+                fontSize: 16,
+                decoration: TextDecoration.underline,
               ),
             ),
           ),
-        ),
-        _buildLoadingMessage(message),
-      ],
-    ),
-  );
-}
-
-
-BoxDecoration _createLoadingScreenDecoration() {
-  return BoxDecoration(
-    gradient: LinearGradient(
-      begin: Alignment.topCenter,
-      end: Alignment.bottomCenter,
-      colors: [
-        Colors.black.withOpacity(0.9),
-        const Color(0xFF1A1A1A),
-      ],
-      stops: const [0.3, 1.0],
-    ),
-  );
-}
-
-Widget _buildLoadingMessage(String message) {
-  return Padding(
-    padding: const EdgeInsets.only(bottom: 5.0),
-    child: Text(
-      message,
-      style: TextStyle(
-        fontSize: 20,
-        fontWeight: FontWeight.bold,
-        color: Colors.amber.shade600,
-        shadows: [
-          Shadow(
-            color: Colors.black.withOpacity(0.5),
-            blurRadius: 10,
-          )
         ],
       ),
-      textAlign: TextAlign.center,
+      actions: [
+        TextButton(
+          onPressed: () => Navigator.pop(context),
+          child: Text(
+            'CLOSE',
+            style: TextStyle(
+              color: Colors.amber.shade600,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+      ],
+      shape: RoundedRectangleBorder(
+        borderRadius: BorderRadius.circular(15),
+        side: BorderSide(
+          color: Colors.amber.shade600,
+          width: 1.5,
+        ),
+      ),
     ),
   );
 }
