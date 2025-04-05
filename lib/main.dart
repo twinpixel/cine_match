@@ -295,14 +295,6 @@ class _ImageSelectionScreenState extends State<ImageSelectionScreen> {
                           size: 28,
                         ),
                         const SizedBox(width: 12),
-                        Text(
-                          'Critico personalizzato',
-                          style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
-                            color: Colors.amber.shade600,
-                          ),
-                        ),
                       ],
                     ),
                   ),
@@ -789,18 +781,19 @@ class _QuizPageState extends State<QuizPage> {
         : "";
     final special = "\n.Produci in ogni caso almeno 4 risultati.\n"
         "$exclusionInstruction"
-    "Nel campo \"why_reccomended\" scrivi testi lungghi e articolato\n."
+        "Nel campo \"why_reccomended\" scrivi testi lungghi e articolato\n."
         "Aggiungi anche un film che non c'entra e giustificane in modo arzigogolato la scelta nel campo \"why_recomended\".\n"
         "Ordina i risultati in ordine decrescente di score.\n"
         "Includi solo film realmente esistenti.\n"
         "Usa il corretto encoding per le lettere accentate e i carateri speciali per la lingua italiana."
-        "***IMPORTANTE*** PRODUCI IN OGNI CASO UN JSON VALIDO. Verifica il risultato due volte. ";
+        "***IMPORTANTE*** PRODUCI IN OGNI CASO UN JSON VALIDO. Verifica il risultato due volte. \n"
+        "Produci description e why_reccomended nella lingua  "+_getLanguageName(languageCode);
 
-    const jsonDesc =
+    final jsonDesc =
         "Output JSON\n'poster_prompt':'Breve descrizione per LLM che dovrà generare la locandina',\n"
         "Genera un array JSON con le seguenti informazioni per ciascun film:,\n"
-        "'title': Titolo del film nella edizione italiana,\n"
-        "'english_title': Titolo orginale del film\n"
+        "'title': Titolo del film nella edizione "+_getLanguageName(languageCode)+",\n"
+        "'english_title': Titolo originale del film\n"
         "'wikipedia': Link corretto alla pagina wikipedia del film,\n"
         "'description': Brevissima sinossi del film, in tono formale e distaccato. molto breve. Se possibile in una frase,\n"
         "'score': punteggio che indica quanto il film è vicino ai gusti dell'utente in una scala da 1 a 10,\n"
@@ -812,7 +805,24 @@ class _QuizPageState extends State<QuizPage> {
     //print('Prompt:\n $res');
     return res;
   }
-
+  String _getLanguageName(String languageCode) {
+    switch (languageCode.toLowerCase()) {
+      case 'it':
+        return 'Italiano';
+      case 'en':
+        return 'English';
+      case 'es':
+        return 'Español';
+      case 'fr':
+        return 'Français';
+      case 'de':
+        return 'Deutsch';
+      case 'ru':
+        return 'Deutsch';
+      default:
+        return 'English';
+    }
+  }
   Future<String> _buildRecommendationRole() async {
     final String fileNumber = widget.selectedImage;
     Map<String, dynamic> personaData = await getPersonaData(fileNumber);
