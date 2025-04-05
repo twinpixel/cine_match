@@ -99,10 +99,10 @@ This repository includes  Node.js scripts located in the project's root director
     * It includes functions to extract movie titles without the year.
     * It handles errors gracefully during API calls and web scraping.
 * `generate_markdown.js`:
-    * This script converts JSON persona data into Markdown files. [cite: 234, 235, 236, 237, 238, 239, 240, 241, 242]
-    * It reads JSON files from the `assets/personas` directory and generates corresponding Markdown files in the `./personas` directory. [cite: 234, 235, 236, 237, 238, 239, 240, 241, 242]
-    * The script formats the Markdown content, including headings, lists, and text styles, based on the JSON data structure. [cite: 234, 235, 236, 237, 238, 239, 240, 241, 242]
-    * It can handle data related to personas, including descriptions, roles, questions, and answers. [cite: 234, 235, 236, 237, 238, 239, 240, 241, 242]
+    * This script converts JSON persona data into Markdown files. 
+    * It reads JSON files from the `assets/personas` directory and generates corresponding Markdown files in the `./personas` directory. 
+    * The script formats the Markdown content, including headings, lists, and text styles, based on the JSON data structure.
+    * It can handle data related to personas, including descriptions, roles, questions, and answers. 
     * The script also attempts to convert the generated Markdown files into other formats (HTML, PDF, DOCX) using Pandoc.
 
 These scripts were written with the help of Large Language Models. You'll need Node.js installed to run them.
