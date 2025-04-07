@@ -2267,7 +2267,7 @@ void _showInfoDialog(BuildContext context) {
         children: [
           Text(
             'This app is licensed under BSD-3-Clause license\n\n'
-            'Created by Andrea Poltronieri\n\n'
+            'Created by Andrea Poltronieri and Simone Rinolfi\n\n'
             'For more information visit:',
             style: TextStyle(
               color: Colors.amber.shade100,
