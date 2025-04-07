@@ -1,0 +1,332 @@
+[
+  {
+    "title": "Saw",
+    "poster": "A monochromatic poster featuring a puppet with a sinister grin, partially obscured by sharp, jagged shapes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Saw_(film)"
+  },
+  {
+    "title": "Insidious",
+    "poster": "A dark, eerie poster showing a house with glowing windows, surrounded by creeping shadows.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Insidious_(film)"
+  },
+  {
+    "title": "Upgrade",
+    "poster": "A futuristic poster with a man in a high-tech exosuit, set against a backdrop of neon lights and urban chaos.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Upgrade_(film)"
+  },
+  {
+    "title": "The Invisible Man",
+    "poster": "A haunting poster featuring a woman in distress, with ghostly hands and a textured background suggesting invisibility.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Invisible_Man_(2020_film)"
+  },
+  {
+    "title": "Dead Silence",
+    "poster": "A chilling poster showcasing a ventriloquist's dummy with a cracked face, set against a dark, misty background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dead_Silence"
+  },
+  {
+    "title": "Cooties",
+    "poster": "A colorful and chaotic poster depicting a school besieged by zombie-like children, with a blend of horror and comedy elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cooties"
+  },
+  {
+    "title": "The Last Shift",
+    "poster": "A somber poster featuring a man in a fast-food uniform, set against the backdrop of a deserted diner.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Shift"
+  },
+  {
+    "title": "The Gift",
+    "poster": "A moody poster with the silhouette of a man lurking in the shadows, with a wrapped gift prominently displayed.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Gift_(2015_film)"
+  },
+  {
+    "title": "The Conjuring",
+    "poster": "A dark and atmospheric poster featuring a family in a haunted house, with spectral figures lurking in the shadows.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Conjuring"
+  },
+  {
+    "title": "The Purge",
+    "poster": "A stark, chilling poster with a masked figure set against a backdrop of urban chaos during a night of lawlessness.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Purge"
+  },
+  {
+    "title": "Happy Death Day",
+    "poster": "A bright yet sinister poster featuring a girl in a hoodie with a masked killer in the background, hinting at a time loop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Happy_Death_Day"
+  },
+  {
+    "title": "A Quiet Place",
+    "poster": "A tense poster featuring a family in a desolate landscape, with a hush of danger lurking in the silence.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Quiet_Place"
+  },
+  {
+    "title": "The Babadook",
+    "poster": "An eerie poster showcasing a dark, monstrous figure emerging from a children's book, with a distressed mother in the foreground.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Babadook"
+  },
+  {
+    "title": "It Follows",
+    "poster": "A haunting poster featuring a young woman looking back in fear as shadows approach her from a dilapidated street.",
+    "wikipedia": "https://en.wikipedia.org/wiki/It_Follows"
+  },
+  {
+    "title": "Get Out",
+    "poster": "A gripping poster showcasing a man struggling to escape, with a stark contrast of light and dark, symbolizing a psychological trap.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Get_Out"
+  },
+  {
+    "title": "Hereditary",
+    "poster": "A dark, unsettling poster featuring a family under the weight of ominous shadows and a haunting atmosphere.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hereditary_(film)"
+  },
+  {
+    "title": "Midsommar",
+    "poster": "A vibrant yet creepy poster showing a sunflower field with a group of festival-goers in traditional dress, contrasting the brightness with underlying horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Midsommar"
+  },
+  {
+    "title": "Train to Busan",
+    "poster": "A gripping poster featuring a train in motion with silhouettes of terrified passengers amid chaos and zombie hordes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Train_to_Busan"
+  },
+  {
+    "title": "The Witch",
+    "poster": "A dark and atmospheric poster portraying a 17th-century family in a foreboding forest, hinting at witchcraft and dread.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Witch_(2015_film)"
+  },
+  {
+    "title": "The Cabin in the Woods",
+    "poster": "A vibrant and meta poster showing a cabin in the woods with various horror tropes represented in the background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Cabin_in_the_Woods"
+  },
+  {
+    "title": "Sinister",
+    "poster": "A chilling poster featuring an old film reel and a menacing dark figure looming in the background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sinister_(film)"
+  },
+  {
+    "title": "The Autopsy of Jane Doe",
+    "poster": "A dark, moody poster showing a mysterious corpse being examined under dim lighting, creating a sense of dread.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Autopsy_of_Jane_Doe"
+  },
+  {
+    "title": "Don't Breathe",
+    "poster": "A tense poster depicting a blind man in his home, surrounded by darkness, suggesting impending danger for intruders.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Don%27t_Breathe"
+  },
+  {
+    "title": "The Strangers",
+    "poster": "A haunting poster featuring masked figures lurking outside a house, hinting at terror and isolation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Strangers"
+  },
+  {
+    "title": "The Nun",
+    "poster": "An ominous poster portraying a dark, brooding nun against the backdrop of a historic abbey, evoking a sense of terror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Nun_(film)"
+  },
+  {
+    "title": "Annabelle",
+    "poster": "A chilling poster featuring a creepy doll in a dimly lit room, surrounded by shadows that suggest horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Annabelle_(film)"
+  },
+  {
+    "title": "Pet Sematary",
+    "poster": "A foreboding poster featuring a cemetery overgrown with grass and dark clouds looming ominously overhead.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pet_Sematary_(film)"
+  },
+  {
+    "title": "Scary Stories to Tell in the Dark",
+    "poster": "A whimsical yet dark poster showcasing children's silhouettes against a backdrop of an eerie, foggy forest.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scary_Stories_to_Tell_in_the_Dark_(film)"
+  },
+  {
+    "title": "Lights Out",
+    "poster": "A dark poster depicting a woman in terror, illuminated by only a single light source, highlighting the horror lurking in the shadows.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lights_Out_(film)"
+  },
+  {
+    "title": "The Grudge",
+    "poster": "A stark, haunting poster featuring an unsettling figure with long black hair, set against a grainy, dark background.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Grudge_(film_series)"
+  },
+  {
+    "title": "The Call",
+    "poster": "A dark and suspenseful poster showing a woman answering a phone in a dim room, hinting at telephonic terror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Call_(film)"
+  },
+  {
+    "title": "Candyman",
+    "poster": "A striking poster depicting a shadowy figure with a hooked hand surrounded by urban decay, evoking urban legend and fear.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Candyman_(film)"
+  },
+  {
+    "title": "Fear Street Trilogy",
+    "poster": "A vibrant poster split into three parts, each depicting different eras of horror, with bold colors and dynamic character poses.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fear_Street_(film_series)"
+  },
+  {
+    "title": "The Possession",
+    "poster": "A chilling poster featuring a girl with a haunted expression, holding a mysterious box, set against a dark, swirling backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Possession_(film)"
+  },
+  {
+    "title": "The Conjuring 2",
+    "poster": "A dark, atmospheric poster depicting the famous ghost hunters in action against a backdrop of a haunted home.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Conjuring_2"
+  },
+  {
+    "title": "Happy Death Day 2U",
+    "poster": "A bright poster filled with colorful elements showing the protagonist in a cycle of death and rebirth, with a playful tone.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Happy_Death_Day_2U"
+  },
+  {
+    "title": "The Exorcist",
+    "poster": "A classic and disturbing poster featuring a girl in bed and an ominous figure looming, hinting at demonic possession.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Exorcist"
+  },
+  {
+    "title": "The Haunting of Hill House",
+    "poster": "An atmospheric poster featuring a decrepit mansion with unsettling shadows and ghostly figures in the windows.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Haunting_of_Hill_House_(2018_miniseries)"
+  },
+  {
+    "title": "The Uninvited",
+    "poster": "A haunting poster featuring a girl in the shadows, surrounded by dark and distorted figures, suggesting paranormal activity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Uninvited_(2009_film)"
+  },
+  {
+    "title": "The Empty Man",
+    "poster": "A dark and mysterious poster featuring an unsettling figure in the distance, amidst an eerie landscape.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Empty_Man_(film)"
+  },
+  {
+    "title": "Sinister 2",
+    "poster": "A chilling poster featuring distorted images of children and dark figures emerging from shadows, hinting at supernatural horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sinister_2"
+  },
+  {
+    "title": "The Grudge 2",
+    "poster": "A dark and eerie poster showcasing a haunted house with ghostly figures lurking within, suggesting inevitable fear.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Grudge_2"
+  },
+  {
+    "title": "The Texas Chainsaw Massacre",
+    "poster": "A gritty and disturbing poster featuring a chainsaw and a shadowy figure, symbolizing raw terror and survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Texas_Chain_Saw_Massacre"
+  },
+  {
+    "title": "Happy Death Day 3",
+    "poster": "A brightly colored poster featuring time loops and playful horror imagery, hinting at the return of the protagonist.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Happy_Death_Day_3"
+  },
+  {
+    "title": "Wrong Turn",
+    "poster": "A dark poster showcasing a forest path with ominous figures lurking behind trees, hinting at a dangerous journey.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wrong_Turn_(2021_film)"
+  },
+  {
+    "title": "Slender Man",
+    "poster": "A haunting poster featuring a tall, slender figure looming in the shadows, with a sense of dread permeating the atmosphere.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Slender_Man_(film)"
+  },
+  {
+    "title": "Come Play",
+    "poster": "A dark poster showcasing a child holding a phone with a sinister figure emerging from it, blurring the lines of reality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Come_Play"
+  },
+  {
+    "title": "The Maze Runner",
+    "poster": "An action-packed poster with a group of teenagers running through a maze, evoking a sense of urgency and survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Maze_Runner_(film)"
+  },
+  {
+    "title": "Scary Movie 5",
+    "poster": "A humorous poster showcasing a parody of various horror films with exaggerated characters and situations.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Scary_Movie_5"
+  },
+  {
+    "title": "The Ring",
+    "poster": "A haunting poster featuring a well and a ghostly girl with long hair, representing supernatural horror and dread.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Ring_(2002_film)"
+  },
+  {
+    "title": "Evil Dead",
+    "poster": "A dark, iconic poster depicting an ominous cabin in the woods surrounded by a blood-red sky, hinting at horror and survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Evil_Dead"
+  },
+  {
+    "title": "Fear Street Part Two: 1978",
+    "poster": "A vibrant poster that captures the essence of summer camp horror with bold colors and a retro aesthetic.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fear_Street_Part_Two:_1978"
+  },
+  {
+    "title": "Fear Street Part Three: 1666",
+    "poster": "A dark poster that portrays a historic setting with ominous figures and witch accusations, evoking deep horror themes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fear_Street_Part_Three:_1666"
+  },
+  {
+    "title": "The Girl with All the Gifts",
+    "poster": "A haunting poster featuring a young girl amidst an apocalyptic landscape, hinting at the survival of humanity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Girl_with_All_the_Gifts_(film)"
+  },
+  {
+    "title": "Little Evil",
+    "poster": "A comedic poster featuring a man with a child at his side with playful horror elements, suggesting a lighthearted take on possession.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Little_Evil"
+  },
+  {
+    "title": "Us",
+    "poster": "A gripping poster showcasing duality with a family facing their doppelgängers in a dark and surreal setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Us_(film)"
+  },
+  {
+    "title": "The Rental",
+    "poster": "A suspenseful poster featuring a couple in an isolated rental property, with ominous overtones suggesting hidden dangers.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Rental"
+  },
+  {
+    "title": "The Night House",
+    "poster": "A chilling poster featuring a woman in a dark house filled with mysterious shadows and secrets lurking just out of sight.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Night_House"
+  },
+  {
+    "title": "Hush",
+    "poster": "A tense poster depicting a woman in a secluded house, hinting at impending danger with minimal light.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hush_(2016_film)"
+  },
+  {
+    "title": "Malignant",
+    "poster": "A striking poster showcasing a woman surrounded by chaotic visuals and dark imagery, suggesting a psychological horror experience.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Malignant_(film)"
+  },
+  {
+    "title": "The Conjuring: The Devil Made Me Do It",
+    "poster": "A tense poster featuring a court trial backdrop with sinister elements hinting at supernatural influences.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Conjuring:_The_Devil_Made_Me_Do_It"
+  },
+  {
+    "title": "The Curse of La Llorona",
+    "poster": "A chilling poster featuring a weeping woman in a dark setting, surrounded by elements of tragedy and horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Curse_of_La_Llorona"
+  },
+  {
+    "title": "The Other Side of the Door",
+    "poster": "A haunting poster featuring a door shrouded in mystery, with glowing elements hinting at the supernatural.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Other_Side_of_the_Door"
+  },
+  {
+    "title": "A Haunted House",
+    "poster": "A comedic take on horror with a colorful poster featuring exaggerated characters amidst a spooky house.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Haunted_House"
+  },
+  {
+    "title": "The Croods",
+    "poster": "A vibrant and funny poster depicting a prehistoric family in whimsical adventure against a colorful backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Croods"
+  },
+  {
+    "title": "Wish Upon",
+    "poster": "A dark, mysterious poster featuring a box with a glowing light, hinting at wishes that may lead to horror.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wish_Upon"
+  }
+]

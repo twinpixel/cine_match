@@ -1,0 +1,317 @@
+[
+  {
+    "title": "Beetlejuice",
+    "poster": "A whimsical poster featuring a striped suit and a ghostly figure with wild hair, surrounded by colorful and surreal elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beetlejuice"
+  },
+  {
+    "title": "Edward Scissorhands",
+    "poster": "A hauntingly beautiful poster showing a man with scissors for hands, juxtaposed against a suburban backdrop with an eerie atmosphere.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Edward_Scissorhands"
+  },
+  {
+    "title": "The Nightmare Before Christmas",
+    "poster": "A dark and enchanting poster showcasing Jack Skellington against a moonlit sky, with Halloween and Christmas themes intertwined.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Nightmare_Before_Christmas"
+  },
+  {
+    "title": "Corpse Bride",
+    "poster": "A gothic poster featuring a beautiful corpse bride with striking blue skin and a veil, surrounded by dark floral elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Corpse_Bride"
+  },
+  {
+    "title": "Alice in Wonderland",
+    "poster": "A colorful and surreal poster depicting Alice surrounded by quirky characters like the Mad Hatter and the Cheshire Cat.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alice_in_Wonderland_(2010_film)"
+  },
+  {
+    "title": "Sweeney Todd: The Demon Barber of Fleet Street",
+    "poster": "A dark poster featuring Johnny Depp as Sweeney Todd, with razor blades and a haunting London backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sweeney_Todd:_The_Demon_Barber_of_Fleet_Street_(film)"
+  },
+  {
+    "title": "Big Fish",
+    "poster": "A whimsical poster filled with vibrant images of fantastical stories, showcasing a larger-than-life character telling tales.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Big_Fish_(film)"
+  },
+  {
+    "title": "Frankenweenie",
+    "poster": "A black-and-white poster with a youthful boy and his reanimated dog, evoking classic monster movie aesthetics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frankenweenie_(2012_film)"
+  },
+  {
+    "title": "Dark Shadows",
+    "poster": "A vintage-style poster featuring Johnny Depp as a vampire, surrounded by gothic elements and a haunted mansion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dark_Shadows_(film)"
+  },
+  {
+    "title": "Miss Peregrine's Home for Peculiar Children",
+    "poster": "An intriguing poster featuring a mysterious mansion and children with unique abilities, set against a surreal backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Miss_Peregrine%27s_Home_for_Peculiar_Children_(film)"
+  },
+  {
+    "title": "Planet of the Apes",
+    "poster": "A gripping poster featuring a menacing ape amidst a dystopian landscape, emphasizing themes of power and survival.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Planet_of_the_Apes_(2001_film)"
+  },
+  {
+    "title": "The Corpse Bride",
+    "poster": "A visually striking poster that highlights the contrast of life and death with the bride in a graveyard setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Corpse_Bride"
+  },
+  {
+    "title": "Charlie and the Chocolate Factory",
+    "poster": "A vibrant poster featuring Charlie with a golden ticket in a whimsical chocolate factory filled with bizarre sweets.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Charlie_and_the_Chocolate_Factory_(film)"
+  },
+  {
+    "title": "The Addams Family",
+    "poster": "A quirky and darkly humorous poster featuring the iconic Addams family in their spooky mansion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Addams_Family_(1991_film)"
+  },
+  {
+    "title": "The Addams Family Values",
+    "poster": "A colorful poster showcasing the eccentric Addams family in a series of comical and spooky situations.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Addams_Family_Values"
+  },
+  {
+    "title": "Sleepy Hollow",
+    "poster": "A moody poster depicting Johnny Depp as Ichabod Crane in a mysterious, fog-laden forest, hinting at the legendary Headless Horseman.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sleepy_Hollow_(film)"
+  },
+  {
+    "title": "Beetlejuice 2",
+    "poster": "A sequel poster featuring the iconic ghostly figure and a blend of vibrant and creepy elements, hinting at new adventures.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beetlejuice_2"
+  },
+  {
+    "title": "Tales from the Crypt: Demon Knight",
+    "poster": "A chilling poster featuring a haunted house and demonic elements, capturing the essence of horror anthology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tales_from_the_Crypt:_Demon_Knight"
+  },
+  {
+    "title": "The Nightmare Before Christmas 2",
+    "poster": "A whimsical poster showcasing Jack Skellington in new adventures with Christmas and Halloween themes intertwining.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Nightmare_Before_Christmas#Sequel"
+  },
+  {
+    "title": "Lemony Snicket's A Series of Unfortunate Events",
+    "poster": "A visually rich poster depicting the three Baudelaire orphans in a darkly comedic and whimsical adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lemony_Snicket%27s_A_Series_of_Unfortunate_Events_(film)"
+  },
+  {
+    "title": "Hotel Transylvania",
+    "poster": "A colorful poster featuring a cartoonish Dracula in his hotel surrounded by various monsters and whimsical designs.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hotel_Transylvania"
+  },
+  {
+    "title": "Hocus Pocus",
+    "poster": "A fun and spooky poster with the three mischievous witches flying on brooms against a full moon backdrop.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hocus_Pocus_(film)"
+  },
+  {
+    "title": "The Brothers Grimm",
+    "poster": "A dark fairytale poster featuring the Brothers Grimm surrounded by mystical creatures and gothic themes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Brothers_Grimm_(film)"
+  },
+  {
+    "title": "Coraline",
+    "poster": "A visually appealing poster depicting a young girl discovering a parallel world filled with strange and eerie characters.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Coraline_(film)"
+  },
+  {
+    "title": "The Boxtrolls",
+    "poster": "A colorful and whimsical poster featuring quirky trolls and a young boy in a fantastical underground setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Boxtrolls"
+  },
+  {
+    "title": "The Spiderwick Chronicles",
+    "poster": "A magical poster featuring children discovering a hidden world filled with fantastical creatures and dark threats.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Spiderwick_Chronicles_(film)"
+  },
+  {
+    "title": "Fantastic Mr. Fox",
+    "poster": "A beautifully animated poster featuring a cunning fox in an idyllic yet chaotic countryside setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fantastic_Mr._Fox"
+  },
+  {
+    "title": "The Witches",
+    "poster": "A darkly whimsical poster featuring witches with sinister smiles and a young boy caught in a magical transformation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Witches_(1990_film)"
+  },
+  {
+    "title": "The Addams Family Reunion",
+    "poster": "A cheerful poster showcasing the Addams Family in humorous antics that highlight their quirky lifestyle.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Addams_Family_Reunion"
+  },
+  {
+    "title": "Nanny McPhee",
+    "poster": "A magical poster featuring a mysterious nanny with a whimsical and enchanting background filled with magical elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nanny_McPhee"
+  },
+  {
+    "title": "Wreck-It Ralph",
+    "poster": "A vibrant poster showcasing the video game character Ralph in a colorful, chaotic arcade environment.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wreck-It_Ralph"
+  },
+  {
+    "title": "The Haunted Mansion",
+    "poster": "A spooky poster featuring Eddie Murphy in a haunted house filled with ghosts and creepy details.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Haunted_Mansion_(film)"
+  },
+  {
+    "title": "Ghostbusters",
+    "poster": "A fun poster featuring the iconic Ghostbusters team with their proton pack, set against a city skyline with ghostly apparitions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ghostbusters"
+  },
+  {
+    "title": "The Secret of NIMH",
+    "poster": "A beautifully animated poster depicting a brave mouse in a mystical and perilous world filled with farm animals and hidden dangers.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Secret_of_NIMH"
+  },
+  {
+    "title": "Zathura: A Space Adventure",
+    "poster": "A colorful poster featuring children on an adventure in space with a magical board game in a whimsical setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zathura:_A_Space_Adventure"
+  },
+  {
+    "title": "The Lego Movie",
+    "poster": "A vibrant poster showcasing Lego characters in a colorful world full of adventures and quirky designs.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lego_Movie"
+  },
+  {
+    "title": "Hotel Transylvania 2",
+    "poster": "A sequel poster featuring Dracula and his family in new comedic and spooky scenarios in the monster hotel.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hotel_Transylvania_2"
+  },
+  {
+    "title": "ParaNorman",
+    "poster": "A vibrant poster featuring a young boy surrounded by ghosts and spooky elements in a colorful town.",
+    "wikipedia": "https://en.wikipedia.org/wiki/ParaNorman"
+  },
+  {
+    "title": "The Little Vampire",
+    "poster": "A charming poster showcasing a young boy befriending a friendly vampire, set in a whimsical and dark setting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Little_Vampire_(2000_film)"
+  },
+  {
+    "title": "The Brothers Bloom",
+    "poster": "An artistic poster featuring con artists in a whimsical adventure filled with charm and intrigue.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Brothers_Bloom"
+  },
+  {
+    "title": "Nine",
+    "poster": "An artistic and darkly striking poster showcasing a man surrounded by seven women in a surreal, moody atmosphere.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nine_(film)"
+  },
+  {
+    "title": "The Goonies",
+    "poster": "A classic adventure poster featuring a group of kids searching for treasure, filled with excitement and nostalgia.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Goonies"
+  },
+  {
+    "title": "The Sorcerer's Apprentice",
+    "poster": "A magical poster featuring a young man training under a powerful sorcerer, with whimsical and adventurous elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Sorcerer%27s_Apprentice_(film)"
+  },
+  {
+    "title": "Percy Jackson & the Olympians: The Lightning Thief",
+    "poster": "An adventurous poster featuring Percy Jackson surrounded by mythological creatures and epic landscapes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Percy_Jackson_%26_the_Olympians:_The_Lightning_Thief"
+  },
+  {
+    "title": "The Last Unicorn",
+    "poster": "A hauntingly beautiful poster depicting a mystical unicorn in a fantasy landscape filled with magical creatures.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Last_Unicorn"
+  },
+  {
+    "title": "Pan's Labyrinth",
+    "poster": "A dark and enchanting poster featuring a young girl in a fantastical world filled with mythical creatures and surreal elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pan%27s_Labyrinth"
+  },
+  {
+    "title": "Monster House",
+    "poster": "A spooky animated poster showcasing a haunted house and the children trying to uncover its secrets.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Monster_House"
+  },
+  {
+    "title": "The Croods",
+    "poster": "A colorful poster featuring a prehistoric family embarking on an adventurous journey filled with whimsical characters.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Croods"
+  },
+  {
+    "title": "Cloudy with a Chance of Meatballs",
+    "poster": "A whimsical poster showcasing a colorful world where food falls from the sky in a hilarious adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cloudy_with_a_Chance_of_Meatballs"
+  },
+  {
+    "title": "Moana",
+    "poster": "A vibrant poster featuring Moana and the demigod Maui on a grand ocean adventure filled with colorful islands.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Moana"
+  },
+  {
+    "title": "Kubo and the Two Strings",
+    "poster": "A visually stunning poster showcasing Kubo on an adventure with magical elements and whimsical characters.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Kubo_and_the_Two_Strings"
+  },
+  {
+    "title": "A Wrinkle in Time",
+    "poster": "A fantastical poster featuring children traveling through space and time with vibrant colors and dreamy visuals.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A_Wrinkle_in_Time_(2018_film)"
+  },
+  {
+    "title": "The Shape of Water",
+    "poster": "A moody and artistic poster showcasing a romantic connection between a woman and a mysterious aquatic creature.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Shape_of_Water"
+  },
+  {
+    "title": "Frozen",
+    "poster": "A magical poster featuring sisters Elsa and Anna in a beautiful winter landscape full of snow and adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frozen_(2013_film)"
+  },
+  {
+    "title": "Coco",
+    "poster": "A vibrant and colorful poster showcasing a young boy in a world of the dead, filled with music and family themes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Coco_(film)"
+  },
+  {
+    "title": "Zootopia",
+    "poster": "A dynamic poster featuring a diverse animal cast in a bustling metropolis, emphasizing themes of inclusion and adventure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Zootopia"
+  },
+  {
+    "title": "The Nightmare Before Christmas: Special Edition",
+    "poster": "A festive poster showcasing scenes from the film with iconic characters celebrating both Halloween and Christmas.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Nightmare_Before_Christmas#Home_media"
+  },
+  {
+    "title": "The Peanuts Movie",
+    "poster": "A charming poster featuring Charlie Brown and his friends in a vibrant and nostalgic animation style.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Peanuts_Movie"
+  },
+  {
+    "title": "Inside Out",
+    "poster": "A colorful poster showcasing colorful emotions personified, depicting the journey inside a young girl's mind.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Inside_Out"
+  },
+  {
+    "title": "The Secret Life of Pets",
+    "poster": "A humorous poster featuring pets exploring their city life, filled with comical expressions and colorful backgrounds.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Secret_Life_of_Pets"
+  },
+  {
+    "title": "Sing",
+    "poster": "A lively poster showcasing anthropomorphic animals participating in a singing competition, with vibrant colors and energy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sing_(2016_film)"
+  },
+  {
+    "title": "The Lego Movie 2: The Second Part",
+    "poster": "A colorful sequel poster showcasing Lego characters on a new adventure filled with creativity and fun.",
+    "wikipedia": "https://en.wikipedia.org/wiki/The_Lego_Movie_2:_The_Second_Part"
+  },
+  {
+    "title": "Toy Story 4",
+    "poster": "A heartwarming poster featuring Woody, Buzz, and new friends embarking on an adventure about friendship and loyalty.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Toy_Story_4"
+  }
+]
