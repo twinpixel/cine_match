@@ -16,8 +16,9 @@ import 'package:http/http.dart' as http;
 import 'package:image/image.dart' as img;
 import 'package:path_provider/path_provider.dart'; // Import path_provider
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:universal_html/html.dart' as html;
+import 'package:universal_html/html.dart' as html_web;
 import 'package:url_launcher/url_launcher.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 
 var selectedCritic = '01';
 const String _languageCodeKey = 'selectedLanguageCode';
@@ -1252,7 +1253,7 @@ class MovieListPage extends StatelessWidget {
                     MainAxisSize.min, // Impedisce l'espansione eccessiva
                 children: [
                   Text(
-                    'Oggi ti consiglio: ',
+                    ':',
                     style: TextStyle(
                       color: Colors.amber.shade600,
                       fontFamily: 'Vintage',
@@ -1647,13 +1648,44 @@ class MovieListPage extends StatelessWidget {
 
       shareText += "https://twinpixel.github.io/cinematch/";
 
-      // Condividi il testo
-      await Share.share(shareText, subject: 'Cine Match');
+      if (kIsWeb) {
+        // Soluzione per il web usando la Clipboard API
+        await _copyToClipboardWeb(shareText);
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Testo copiato negli appunti!')),
+        );
+      }
+
+
+     try  {
+        // Soluzione per mobile
+        await Share.share(shareText, subject: 'I miei film consigliati da CineMatch');
+      } catch (e) {
+
+    }
 
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(content: Text('Errore durante la condivisione: $e')),
       );
+    }
+  }
+
+
+  Future<void> _copyToClipboardWeb(String text) async {
+    if (kIsWeb) {
+      // Metodo moderno usando la Clipboard API
+      try {
+        await html_web.window.navigator.clipboard?.writeText(text);
+      } catch (e) {
+        // Fallback per browser più vecchi
+        final textarea = html_web.TextAreaElement();
+        textarea.value = text;
+        html_web.document.body?.append(textarea);
+        textarea.select();
+        html_web.document.execCommand('copy');
+        textarea.remove();
+      }
     }
   }
 }
@@ -1777,7 +1809,7 @@ Future<bool> saveImageToCacheWeb(
       'size': compressedBytes.lengthInBytes,
     };
 
-    html.window.localStorage[cacheKey] = jsonEncode(cacheData);
+    html_web.window.localStorage[cacheKey] = jsonEncode(cacheData);
     //print('Salvato in cache: $cacheKey');
     return true;
   } catch (e) {
@@ -1810,7 +1842,7 @@ Future<Uint8List> _compressImage(Uint8List bytes) async {
 
 Future<void> _cleanWebCache() async {
   try {
-    final keys = html.window.localStorage.keys
+    final keys = html_web.window.localStorage.keys
         .where((k) => k.startsWith('generated_image_'))
         .toList();
 
@@ -1819,7 +1851,7 @@ Future<void> _cleanWebCache() async {
     final List<Map<String, dynamic>> items = [];
 
     for (final key in keys) {
-      final data = jsonDecode(html.window.localStorage[key]!);
+      final data = jsonDecode(html_web.window.localStorage[key]!);
       items.add(
           {'key': key, 'size': data['size'], 'timestamp': data['timestamp']});
       totalSize += (data['size'] as int).toInt();
@@ -1832,7 +1864,7 @@ Future<void> _cleanWebCache() async {
     while (items.length > _maxWebCacheItems ||
         totalSize > _maxWebCacheSizeMB * 1024 * 1024) {
       final oldest = items.removeAt(0);
-      html.window.localStorage.remove(oldest['key']);
+      html_web.window.localStorage.remove(oldest['key']);
       totalSize += (oldest['size'] as int).toInt();
       //print('Rimosso dalla cache: ${oldest['key']}');
     }
