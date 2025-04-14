@@ -58,6 +58,7 @@ dependencies:
   flutter_svg: any
   flutter_widget_from_html: any
   flutter_launcher_icons: any
+  share_plus: any
 
 
 dev_dependencies:

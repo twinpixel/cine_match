@@ -4,7 +4,7 @@ import 'dart:io';
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
+import 'package:share_plus/share_plus.dart';
 import 'package:cached_network_image/cached_network_image.dart'; // Importa il package
 import 'package:cine_match/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -1276,6 +1276,14 @@ class MovieListPage extends StatelessWidget {
               tooltip: 'Ricomincia',
             ),
           ),
+          actions: [
+            IconButton(
+              icon: Icon(Icons.share_rounded,
+                  size: 28, color: Colors.amber.shade600),
+              onPressed: () => _shareRecommendations(context),
+              tooltip: 'Condividi',
+            ),
+          ],
         ),
         body: BackgroundWidget(
           child: ListView.builder(
@@ -1288,16 +1296,7 @@ class MovieListPage extends StatelessWidget {
     );
   }
 
-  AppBar _buildAppBar(BuildContext context) {
-    return AppBar(
-      title: const Text('Film Consigliati'),
-      backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-      leading: IconButton(
-        icon: const Icon(Icons.arrow_back),
-        onPressed: () => _restartApp(context),
-      ),
-    );
-  }
+
 
   Widget _buildMovieItem(BuildContext context, int index) {
     final movie = movies[index];
@@ -1622,6 +1621,40 @@ class MovieListPage extends StatelessWidget {
       MaterialPageRoute(builder: (context) => const ImageSelectionScreen()),
       (route) => false,
     );
+  }
+  void _shareRecommendations(BuildContext context) async {
+    try {
+      // Costruisci il testo da condividere
+      String shareText = "🎬\n\n";
+
+      for (var movie in movies) {
+        shareText += "⭐ ${movie['title']}";
+        if (movie['year'] != null) {
+          shareText += " (${movie['year']})";
+        }
+        shareText += "\n\n";
+
+        if (movie['description'] != null) {
+          shareText += "📝 ${movie['description']}\n\n";
+        }
+
+        if (movie['why_recommended'] != null) {
+          shareText += "💡 ${movie['why_recommended']}\n\n";
+        }
+
+        shareText += "――――――――――――――――――――\n\n";
+      }
+
+      shareText += "https://twinpixel.github.io/cinematch/";
+
+      // Condividi il testo
+      await Share.share(shareText, subject: 'Cine Match');
+
+    } catch (e) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Errore durante la condivisione: $e')),
+      );
+    }
   }
 }
 
