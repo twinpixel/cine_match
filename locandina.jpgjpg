@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>SyntaxError: Unexpected token &#39; in JSON at position 0<br> &nbsp; &nbsp;at JSON.parse (&lt;anonymous&gt;)<br> &nbsp; &nbsp;at createStrictSyntaxError (C:\java\pers\cine_match\node_modules\body-parser\lib\types\json.js:156:10)<br> &nbsp; &nbsp;at parse (C:\java\pers\cine_match\node_modules\body-parser\lib\types\json.js:71:15)<br> &nbsp; &nbsp;at C:\java\pers\cine_match\node_modules\body-parser\lib\read.js:123:18<br> &nbsp; &nbsp;at AsyncResource.runInAsyncScope (node:async_hooks:203:9)<br> &nbsp; &nbsp;at invokeCallback (C:\java\pers\cine_match\node_modules\raw-body\index.js:238:16)<br> &nbsp; &nbsp;at done (C:\java\pers\cine_match\node_modules\raw-body\index.js:227:7)<br> &nbsp; &nbsp;at IncomingMessage.onEnd (C:\java\pers\cine_match\node_modules\raw-body\index.js:287:7)<br> &nbsp; &nbsp;at IncomingMessage.emit (node:events:513:28)<br> &nbsp; &nbsp;at endReadableNT (node:internal/streams/readable:1359:12)</pre>
+</body>
+</html>
